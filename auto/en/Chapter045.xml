@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="45" ChapterName="The Kneeling">
+	<Verse VerseID="1"><![CDATA[H M .]]></Verse>
+	<Verse VerseID="2"><![CDATA[The Book`s descent from God, the glorious/mighty , the wise/judicious.]]></Verse>
+	<Verse VerseID="3"><![CDATA[That truly in the skies/space and the earth/Planet Earth (are) evidences/signs (E) to the believers.]]></Verse>
+	<Verse VerseID="4"><![CDATA[And in your creation, and what He scatters/distributes from a walker/creeper/crawler (are) evidences/signs to a nation being sure/certain.]]></Verse>
+	<Verse VerseID="5"><![CDATA[And (the) difference (of) the night and the daytime, and what God descended from the sky/space from (a) provision , so He revived with it the Earth/land after its death/lifelessness, and diverting/pushing the winds/breezes (are) evidences/signs to a nation reasoning/comprehending .]]></Verse>
+	<Verse VerseID="6"><![CDATA[Those are God`s evidences/signs/verses, We read/recite it on (to) you with the truth . With which information/speech after God and His verses/evidences/signs (do) they believe?]]></Verse>
+	<Verse VerseID="7"><![CDATA[Calamity/scandal/grief to every/each liar/falsifier, sinner/criminal .]]></Verse>
+	<Verse VerseID="8"><![CDATA[He hears/listens (to) God`s evidences/verses being read/recited on (to) him, then he persists/insists arrogantly as though he did not hear/listen (to) it, so announce good news to him with a painful torture.]]></Verse>
+	<Verse VerseID="9"><![CDATA[And if he knew a thing from Our evidences/verses he took it mockingly/making fun, those for them (is) a humiliating/disgracing torture.]]></Verse>
+	<Verse VerseID="10"><![CDATA[From behind/beyond them (is) Hell , and it does not enrich/suffice from them a thing (from) what they gained/acquired , and nor what they took from other than God (as) guardians/allies , and for them (is) a great torture.]]></Verse>
+	<Verse VerseID="11"><![CDATA[That (is) guidance, and those who disbelieved with their Lord`s verses/evidences , for them (is) a torture from painful filth/torture .]]></Verse>
+	<Verse VerseID="12"><![CDATA[God (is) who manipulated/subjugated for you the sea/ocean for the ship/ships (to) flow/run in it with His order/command, and (for) you to wish/desire from His grace/favour , and maybe/perhaps you thank/be grateful.]]></Verse>
+	<Verse VerseID="13"><![CDATA[And He manipulated/subjugated for you what (is) in the skies/space and the earth/Planet Earth all/all together from Him, that truly in that (are) evidences/signs (E) to a nation thinking.]]></Verse>
+	<Verse VerseID="14"><![CDATA[Say to those who believed: "Forgive to those who do not hope/expect God`s days/times, (it is to Him) to reimburse a nation because (of) what they were gaining/acquiring ."]]></Verse>
+	<Verse VerseID="15"><![CDATA[Who made/did correct/righteous deeds, so (it is) for himself, and who did bad/evil/harm so on (for) it, then to your Lord you are being returned.]]></Verse>
+	<Verse VerseID="16"><![CDATA[And We had (E) given/brought to Israel`s sons and daughters The Book , and the judgment/rule, and the prophethood, and We provided for them from the goodnesses , and We preferred/favoured them over the creations all together/(universes).]]></Verse>
+	<Verse VerseID="17"><![CDATA[And We gave/brought them evidences from the matter/affair/order/command, so they did not differ/disagree/dispute except from after what came to them (from) the knowledge, oppression/transgression between them, that truly your Lord passes judgment/ends between them (on) the Resurrection Day in what they were in it differing/disagreeing .]]></Verse>
+	<Verse VerseID="18"><![CDATA[Then We made/put you on God`s decreed way of life from the order/command so follow it, and do not follow (the) self attractions for desires (of) those who do not know.]]></Verse>
+	<Verse VerseID="19"><![CDATA[That they truly will never/not enrich/avail (help) from you from God a thing, and that truly the unjust/oppressive some of them (are) guardians/allies (of) some, and God (is) guardian/ally (of) the fearing and obeying.]]></Verse>
+	<Verse VerseID="20"><![CDATA[That (is) mental perceptions/evidences to the people, and guidance, and mercy to a nation being sure/certain.]]></Verse>
+	<Verse VerseID="21"><![CDATA[Or (did) those who earned/committed the sins/crimes think/suppose that (E) We make/put them as those who believed and made/did the correct/righteous deeds, equal/alike (in) their life and (in) their death/time of death? It is bad what they judge/rule.]]></Verse>
+	<Verse VerseID="22"><![CDATA[And God created the skies/space and the earth/Planet Earth with the truth , and each/every self (is) to be reimbursed because (of) what it gained/acquired , and they are not being caused injustice to/oppressed.]]></Verse>
+	<Verse VerseID="23"><![CDATA[Did you see/understand who took (idolized) his self attraction for desire (as) his god? And God misguided him on knowledge, and He sealed/stamped on his hearing/listening/sense of hearing and His heart/mind ,and He made/put on his eye sight/understanding a cover, so who guides him from after God? So do you not mention/remember ?]]></Verse>
+	<Verse VerseID="24"><![CDATA[And they said: "It is not except our life the present/worldly life, we die and we live, and nothing makes us die/destroys us except the long time." And (there is) no knowledge with that for them, that truly they are except assuming/supposing .]]></Verse>
+	<Verse VerseID="25"><![CDATA[And if Our evidences/signs/verses are read/recited on (to) them, their argument was not except that (E) they said: "Come/bring with our fathers/forefathers if you were truthful."]]></Verse>
+	<Verse VerseID="26"><![CDATA[Say: "God revives/makes you alive, then He makes you die, then He gathers/collects you to the Resurrection Day, no doubt/suspicion in it, and but most of the people do not know."]]></Verse>
+	<Verse VerseID="27"><![CDATA[And to God (are) the skies`/space`s and the earth`s/Planet Earth`s ownership/possession , and a day/time the Hour/Resurrection starts , that day, the wasters/annulers loose .]]></Verse>
+	<Verse VerseID="28"><![CDATA[And you see every/each nation kneeling/sitting on (its) knees , every/each nation is being called to its Book , (and told): "The day/today you are being reimbursed (for) what you were making/doing ."]]></Verse>
+	<Verse VerseID="29"><![CDATA[That (is) Our Book (it) speaks/clarifies on (to) you with the truth , that We, We were transcribing/duplicating/printing what you were making/doing .]]></Verse>
+	<Verse VerseID="30"><![CDATA[So but those who believed and made/did the correct/righteous deeds, so their Lord enters them in His mercy, that it is the winning/success , the clear/evident .]]></Verse>
+	<Verse VerseID="31"><![CDATA[And but those who disbelieved (were told): "Were not My evidences/verses being read/recited on (to) you, so you became arrogant, and you were a nation (of) criminals/sinners?"367]]></Verse>
+	<Verse VerseID="32"><![CDATA[And if (it) was said: "That truly God`s promise (is) truth , and the Hour/Resurrection (there is) no doubt/suspicion in it." You said: "We do not know what (is) the Hour/Resurrection , that we assume/suppose except thought/assumption , and we (are) not with being sure/certain."]]></Verse>
+	<Verse VerseID="33"><![CDATA[And it appeared to them sins/crimes (of) what they made/did , and what they were with it mocking/making fun (of) surrounded/encircled with them.]]></Verse>
+	<Verse VerseID="34"><![CDATA[And (it) was said: "The day/today We forget you, as/like you forgot meeting this, your day/time, and your shelter/refuge (is) the fire , and (there are) no victoriors/saviors for you."]]></Verse>
+	<Verse VerseID="35"><![CDATA[That (is) with that you, you took/received God`s verses/evidences mockingly/making fun, and the life the present/worldly life has deceived/tempted you. So the day/today they are not brought/driven out from it, and nor they be allowed to offer reconciliation .]]></Verse>
+	<Verse VerseID="36"><![CDATA[So to God (is) the praise/gratitude/thanks, the skies`/space`s Lord and the earth`s/Planet Earth`s Lord, the creations all together`s/(universe`s) Lord.]]></Verse>
+	<Verse VerseID="37"><![CDATA[And for Him (is) the arrogance/greatness in the skies/space and the earth/Planet Earth, and He is the glorious/mighty, the wise/judicious.368]]></Verse>
+</Chapter>

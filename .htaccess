@@ -1,0 +1,534 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www.al-hamdoulillah.com [NC]
+RewriteRule (.*)$ https://www.al-hamdoulillah.com/$1 [L,R=301]
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^(GET|POST|HEAD)\ (/.*)?/index.(htm|html|php|asp)
+RewriteRule ^(.*)index.(htm|html|php|asp)$ /$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{SERVER_PORT} 80
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^(.*)//(.*)$ 
+RewriteRule . %1/%2 [R=301,L]
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/webp "access plus 1 month"
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType text/x-javascript "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType text/javascript "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/javascript "access 1 month"
+ExpiresByType application/x-javascript "access 1 month"
+ExpiresByType application/json "access 1 month" 
+ExpiresDefault "access 2 days"
+</IfModule>
+## EXPIRES CACHING ##
+
+
+
+
+AddHandler fastcgi-script .html
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+
+Options All -Indexes
+
+RedirectPermanent /masculins.html /prenom-musulman/masculin.html
+RedirectPermanent /coran/lire/sourate /coran/lire/
+RedirectPermanent /calendrier-musulman.htmlCalendrier /calendrier-musulman.html
+
+RedirectPermanent /prophetes/adam.html /prophetes/histoires/adam.html
+RedirectPermanent /prophetes/nouh.html /prophetes/histoires/nouh.html
+RedirectPermanent /prophetes/idriss.html /prophetes/histoires/idriss.html
+RedirectPermanent /prophetes/ilyas.html /prophetes/histoires/ilyas.html
+
+RedirectPermanent /ramadan/index.html /piliers-islam/ramadan/	
+RedirectPermanent /ramadan/ /piliers-islam/ramadan/
+RedirectPermanent /piliers-islam/ramadan/objectif-mois-ramadan.html /piliers-islam/ramadan/objectifs.html
+RedirectPermanent /ramadan/jeune-shaabane.html /piliers-islam/ramadan/jeune-shaabane.html
+RedirectPermanent /ramadan/qui-suivre-ramadan.html /piliers-islam/ramadan/qui-suivre.html
+RedirectPermanent /ramadan/objectif-ramadan.html /piliers-islam/ramadan/objectifs.html
+RedirectPermanent /ramadan/objectif-mois-ramadan.html /piliers-islam/ramadan/objectifs.html
+RedirectPermanent /ramadan/nouvelle-lune-ramadan.html /piliers-islam/ramadan/nouvelle-lune.html
+RedirectPermanent /ramadan/jeune-shaabane.html /piliers-islam/ramadan/jeune-shaabane.html
+RedirectPermanent /ramadan/jeune-avant-ramadan.html /piliers-islam/ramadan/jeune-avant.html
+RedirectPermanent /ramadan/accueillir-mois-ramadan.html /piliers-islam/ramadan/accueillir.html
+RedirectPermanent /ramadan/arrivee-mois-ramadan.html /piliers-islam/ramadan/arrivee.html
+RedirectPermanent /ramadan/ramadan-mois-coran.html /piliers-islam/ramadan/mois-coran.html
+RedirectPermanent /ramadan/jeune-mois-ramadan.html /piliers-islam/ramadan/
+
+RedirectPermanent /prenom-musulman/masculin.htm /prenom-musulman/masculin.html	
+RedirectPermanent /en/pillars-islam/prayer/dohr.html /en/pillars-islam/prayer/dhuhr.html
+RedirectPermanent /blog/divers/khoutba-vendredi /sermons-vendredi/
+RedirectPermanent /en/quran/mp3/surah- /en/quran/mp3/
+RedirectPermanent /coran/mp3/mohammed-siddiq-minshawi /coran/mp3/mohammed-siddiq-minshawi.html
+RedirectPermanent /horaires-prieres/monde/afrique/algerie/oran /horaires-prieres/monde/afrique/algerie/oran.html
+RedirectPermanent /horaires-prieres/monde/asie/russia/moscow.html /horaires-prieres/monde/asie/russie/moscou.html
+
+RedirectPermanent /invocations/quand-vente-merites-personne.html /invocations/quand-vante-merites-personne.html
+
+RedirectPermanent /en/prayer-times/worl	/en/prayer-times/world
+RedirectPermanent /en/quran/mp3/surah-72.htmlSurah	/en/quran/mp3/surah-72.html
+RedirectPermanent /en/quran/mp3/yasser-dossari.htmlTo	/en/quran/mp3/yasser-dossari.html
+
+RedirectPermanent /h /
+RedirectPermanent /horaires /horaires-prieres/
+RedirectPermanent /horaires-priere /horaires-prieres/
+RedirectPermanent /horaires-pri /horaires-prieres/
+RedirectPermanent /piliers-islam/priere/fajr /piliers-islam/priere/fajr.html
+RedirectPermanent /horaires-prieres/monde/afrique/reunion/saint-denis.html /horaires-prieres/monde/afrique/reunion/saint-denis-reunion.html
+RedirectPermanent /horaires-prieres/ramadan/afrique/cote-d /horaires-prieres/ramadan/afrique/cote-d'ivoire/
+
+RedirectPermanent /contact.html	/blog/contact
+
+RedirectPermanent /blog/questions-reponses/comportement-morale/musulman-et-menteur-cest-possible-jai-menti-que-dois-je-faire-pour-reparer-un-mensonge.html /blog/questions-reponses/musulman-et-menteur-cest-possible-jai-menti-que-dois-je-faire-pour-reparer-un-mensonge.html
+RedirectPermanent /blog/questions-reponses/fetes/est-il-permis-de-celebrer-le-mawlid-an-nabawi-la-naissance-du-prophete-sallallahou-alayhi-wa-sallam.html /blog/questions-reponses/est-il-permis-de-celebrer-le-mawlid-an-nabawi-la-naissance-du-prophete-sallallahou-alayhi-wa-sallam.html
+RedirectPermanent /blog/questions-reponses/nourriture-boissons/11-questionsreponses-sur-la-nourriture-halal-et-haram.html /blog/questions-reponses/11-questionsreponses-sur-la-nourriture-halal-et-haram.html
+RedirectPermanent /blog/questions-reponses/comportement-morale/les-musulmans-peuvent-ils-etre-amis-avec-les-juifs-et-les-chretiens.html /blog/questions-reponses/les-musulmans-peuvent-ils-etre-amis-avec-les-juifs-et-les-chretiens.html
+RedirectPermanent /blog/questions-reponses/recommander-interdire/denoncer-les-dealers-de-drogue-a-la-police.html /blog/questions-reponses/denoncer-les-dealers-de-drogue-a-la-police.html
+RedirectPermanent /blog/questions-reponses/islam-politique/est-il-permis-aux-musulmans-de-voter-pour-des-non-musulmans.html /blog/questions-reponses/est-il-permis-aux-musulmans-de-voter-pour-des-non-musulmans.html
+RedirectPermanent /blog/questions-reponses/divorce-couple/il-a-dit-a-sa-femme-si-tu-ne-fais-pas-ca-tu-peux-ten-aller-je-nai-pas-besoin-de-toi.html /blog/questions-reponses/il-a-dit-a-sa-femme-si-tu-ne-fais-pas-ca-tu-peux-ten-aller-je-nai-pas-besoin-de-toi.html
+RedirectPermanent /blog/questions-reponses/comportement-morale/elle-a-fornique-il-refuse-de-se-marier-doit-elle-lattendre.html /blog/questions-reponses/elle-a-fornique-il-refuse-de-se-marier-doit-elle-lattendre.html
+RedirectPermanent /blog/questions-reponses/comportement-morale/est-il-permis-de-souhaiter-bonne-chance-ou-dire-malchance.html /blog/questions-reponses/est-il-permis-de-souhaiter-bonne-chance-ou-dire-malchance.html
+RedirectPermanent /blog/questions-reponses/divorce-couple/elle-est-devenue-musulmane-apres-avoir-avorte-allah-lui-pardonnera-t-elle-et-rencontrera-t-elle-son-enfant-au-paradis.html /blog/questions-reponses/elle-est-devenue-musulmane-apres-avoir-avorte-allah-lui-pardonnera-t-elle-et-rencontrera-t-elle-son-enfant-au-paradis.html
+RedirectPermanent /blog/questions-reponses/recommander-interdire/sa-famille-chretienne-commence-le-repas-par-une-invocation-a-jesus.html /blog/questions-reponses/sa-famille-chretienne-commence-le-repas-par-une-invocation-a-jesus.html
+RedirectPermanent /blog/questions-reponses/recommander-interdire/couvrir-une-personne-qui-a-commis-un-mal.html /blog/questions-reponses/couvrir-une-personne-qui-a-commis-un-mal.html
+
+RedirectPermanent /en/prayer /en/prayer-times
+RedirectPermanent /coran/mp3/sourate /coran/mp3/sourates.html
+RedirectPermanent /coran/lire/sourate--1.html /coran/lire/sourate-1.html
+RedirectPermanent /blog/annuaire-professionnel /blog
+RedirectPermanent /blog/soumaya /blog
+
+RedirectPermanent /annuaire/mosquee/index.html	https://www.al-hamdoulillah.com/horaires-prieres/monde/index.html
+RedirectPermanent /annuaire/mosquee/amerique-du-sud	https://www.al-hamdoulillah.com/horaires-prieres/monde/amerique-du-sud
+RedirectPermanent /annuaire/mosquee/amerique-du-nord	https://www.al-hamdoulillah.com/horaires-prieres/monde/amerique-du-nord
+RedirectPermanent /annuaire/mosquee/asie	https://www.al-hamdoulillah.com/horaires-prieres/monde/asie
+RedirectPermanent /annuaire/mosquee/caraibes	https://www.al-hamdoulillah.com/horaires-prieres/monde/caraibes
+RedirectPermanent /annuaire/mosquee/oceanie	https://www.al-hamdoulillah.com/horaires-prieres/monde/oceanie
+RedirectPermanent /annuaire/mosquee/afrique	https://www.al-hamdoulillah.com/horaires-prieres/monde/afrique
+RedirectPermanent /annuaire/mosquee/europe https://www.al-hamdoulillah.com/horaires-prieres/monde/europe
+
+RedirectPermanent /horaires-prieres/monde/asie/russia/	https://www.al-hamdoulillah.com/horaires-prieres/monde/asie/russie/
+RedirectPermanent /horaires-prieres/monde/asie/russia/moscow.html	https://www.al-hamdoulillah.com/horaires-prieres/monde/asie/russie/moscou.html
+RedirectPermanent /horaires-prieres/monde/asie/russia/saint-petersburg.html	https://www.al-hamdoulillah.com/horaires-prieres/monde/asie/russie/saint-petersburg.html
+
+RedirectPermanent /coran/lire/sourate-32.html:4 /coran/lire/sourate-32.html
+RedirectPermanent /coran/lire/sourate-9.htm /coran/lire/sourate-9.html
+RedirectPermanent /horaires-prieres/monde/europe/france/beziers.html:13 /horaires-prieres/monde/europe/france/beziers.html
+RedirectPermanent /horaires-priere/ /horaires-prieres/
+RedirectPermanent /horaires-prieres/test.html /horaires-prieres/
+
+RedirectPermanent /quran/read/ /en/quran/read/
+RedirectPermanent /coran/mp3/function.scandir /coran/mp3/
+
+RedirectPermanent /ar/quran/read/surah-56 /ar/quran/read/surah-56.html
+RedirectPermanent /coran/mp3/sourate-.html /coran/mp3/sourates.html
+
+RedirectPermanent /en/quran/mp3/surah /en/quran/mp3/surahs.html
+RedirectPermanent /en/prayer-times/world/asia/sri-lanka/wattala.htmlhttps:/www.al-hamdoulillah.com/en/prayer-times/world/asia/sri-lanka/wattala.html /en/prayer-times/world/asia/sri-lanka/wattala.html
+RedirectPermanent /en/prayer-times/world/asia/brunei/bandar-seri-begawan.htmlhttps:/www.al-hamdoulillah.com/en/prayer-times/world/asia/brunei/bandar-seri-begawan.html /en/prayer-times/world/asia/brunei/bandar-seri-begawan.html
+
+RedirectPermanent /blog/2016/11/08/porter-le-voile-sur-ses-photos-didentite.html /blog/islamophobie/porter-le-voile-sur-ses-photos-didentite.html
+RedirectPermanent /blog/2016/11/05/un-missile-chiite-envoye-en-direction-de-la-mecque.html /blog/actualite/un-missile-chiite-envoye-en-direction-de-la-mecque.html
+RedirectPermanent /blog/2016/11/03/nouvelle-version-du-site-al-hamdoulillah-com.html /blog/mises-a-jour/nouvelle-version-du-site-al-hamdoulillah-com.html
+RedirectPermanent /blog/2016/10/15/ajout-des-heures-de-prieres-pour-plus-de-23-000-villes.html /blog/mises-a-jour/ajout-des-heures-de-prieres-pour-plus-de-23-000-villes.html
+RedirectPermanent /blog/2016/09/15/en-combien-dannees-le-coran-a-t-il-ete-revele.html /blog/quiz/en-combien-dannees-le-coran-a-t-il-ete-revele.html
+RedirectPermanent /blog/quizz/en-combien-dannees-le-coran-a-t-il-ete-revele.html /blog/quiz/en-combien-dannees-le-coran-a-t-il-ete-revele.html
+RedirectPermanent /blog/2016/09/12/aid-al-adha-2016-1437.html /blog/fetes/aid-al-adha-2016-1437.html
+RedirectPermanent /blog/rappels/5-conseils-pour-acceder-au-bonheur.html /blog/rappels/bonheur/5-conseils-pour-acceder-au-bonheur.html
+RedirectPermanent /blog/rappels/larme-du-musulman-cest-son-cerveau-pour-reflechir.html /blog/rappels/science/larme-du-musulman-cest-son-cerveau-pour-reflechir.html
+RedirectPermanent /blog/annulation-de-la-taxe-omra-2000-ryals-modification.html /blog/actualite/annulation-de-la-taxe-omra-2000-ryals-modification.html
+RedirectPermanent /blog/actualite/jamecore-dz-la-plupart-des-musulmans-ne-sentrainent-pas-ils-sont-en-surpoids-et-adorent-manger.html /blog/actualite/jamcore-dz-la-plupart-des-musulmans-ne-sentrainent-pas-ils-sont-en-surpoids-et-adorent-manger.html
+
+RedirectPermanent /blog/les-desirs-de-lame-est-ce-une-bonne-chose.html /blog/rappels/dounia/les-desirs-de-lame-est-ce-une-bonne-chose.html
+RedirectPermanent /blog/voyez-vous-les-besoins-des-gens-de-cette-facon.html /blog/rappels/dounia/voyez-vous-les-besoins-des-gens-de-cette-facon.html
+RedirectPermanent /blog/reporter-les-choses-au-lendemain.html /blog/rappels/dounia/reporter-les-choses-au-lendemain.html
+
+RedirectPermanent /blog/rappels/les-bonnes-manieres-de-presenter-un-repas-a-ses-freres-et-soeurs.html /blog/rappels/bon-comportement/les-bonnes-manieres-de-presenter-un-repas-a-ses-freres-et-soeurs.html
+RedirectPermanent /blog/rappels/les-regles-du-repas-en-groupe.html /blog/rappels/bon-comportement/les-regles-du-repas-en-groupe.html
+RedirectPermanent /blog/rappels/prendre-la-religion-comme-profession.html /blog/rappels/bon-comportement/prendre-la-religion-comme-profession.html
+RedirectPermanent /blog/rappels/prendre-la-religion-comme-profession.html /blog/rappels/bon-comportement/prendre-la-religion-comme-profession.html
+
+RedirectPermanent /blog/questions-reponses/crimes /blog/questions-reponses
+RedirectPermanent /blog/questions-reponses/crimes/denoncer-les-dealers-de-drogue-a-la-police.html /blog/questions-reponses/recommander-interdire/denoncer-les-dealers-de-drogue-a-la-police.html
+
+RedirectPermanent /blog/category/fetes /blog/questions-reponses/fetes/
+RedirectPermanent /blog/fetes/aid /blog/questions-reponses/fetes/
+RedirectPermanent /blog/category/quiz /blog/quiz/
+RedirectPermanent /blog/quizz /blog/quiz/
+RedirectPermanent /en/prayer-times/wor /en/prayer-times/world
+RedirectPermanent /blog/category/mises-a-jour /blog/mises-a-jour
+
+RedirectPermanent /blog/fetes/ /blog/questions-reponses/fetes/
+RedirectPermanent /blog/fetes/aid-al-adha-2016-1437.html /blog/questions-reponses/fetes/
+RedirectPermanent /blog/fetes/aid-fitr-2017-fin-ramadan-1438.html /blog/questions-reponses/fetes/
+RedirectPermanent /blog/questions-reponses/fetes/aid-fitr-2017-fin-ramadan-1438.html /blog/questions-reponses/fetes/
+RedirectPermanent /blog/questions-reponses/crimes/elle-est-devenue-musulmane-apres-avoir-avorte-allah-lui-pardonnera-t-elle-et-rencontrera-t-elle-son-enfant-au-paradis.html /blog/questions-reponses/divorce-couple/elle-est-devenue-musulmane-apres-avoir-avorte-allah-lui-pardonnera-t-elle-et-rencontrera-t-elle-son-enfant-au-paradis.html
+
+RedirectPermanent /blog/imams-medine /blog/
+RedirectPermanent /blog/imams-monde/arefe /blog/
+RedirectPermanent /blog/adhan/medine /blog/
+RedirectPermanent /blog/adhan/mecque /blog/
+RedirectPermanent /blog/imams-monde/hassan /blog/
+
+RewriteCond %{QUERY_STRING} id=127
+RewriteRule ^forum/viewtopic\.php$ /blog/forum.html? [L,R=301]
+
+RewriteCond %{QUERY_STRING} id=107
+RewriteRule ^forum/viewtopic\.php$ /blog/forum.html? [L,R=301]
+
+RewriteCond %{QUERY_STRING} pid=8
+RewriteRule ^forum/viewtopic\.php$ /blog/forum.html? [L,R=301]
+
+RewriteCond %{QUERY_STRING} pid=15
+RewriteRule ^forum/viewtopic\.php$ /blog/forum.html? [L,R=301]
+
+RewriteCond %{QUERY_STRING} id=7
+RewriteRule ^forum/viewforum\.php$ /blog/forum.html? [L,R=301]
+
+RewriteCond %{QUERY_STRING} id=9
+RewriteRule ^forum/viewforum\.php$ /blog/forum.html? [L,R=301]
+
+RewriteCond %{QUERY_STRING} id=25
+RewriteRule ^forum/viewforum\.php$ /blog/forum.html? [L,R=301]
+
+RedirectPermanent /horaires-prieres/monde/europe/royaume-uni/cite-de-londre.html /horaires-prieres/monde/europe/royaume-uni/londres.html
+RedirectPermanent /horaires-prieres/monde/europe/royaume-uni/cite-de-londres.html /horaires-prieres/monde/europe/royaume-uni/londres.html
+RedirectPermanent /horaires-prieres/monde/afrique/algerie/babor---ville.html /horaires-prieres/monde/afrique/algerie/babor-ville.html
+RedirectPermanent /horaires-prieres/monde/afrique/algerie/boumerdas.html /horaires-prieres/monde/afrique/algerie/boumerdes.html
+RedirectPermanent /horaires-prieres/monde/afrique/reunion/saint-paul.hml /horaires-prieres/monde/afrique/reunion/saint-paul.html
+
+RedirectPermanent /horaires-prieres/monde/afrique/tunisie/sfax	/horaires-prieres/monde/afrique/tunisie/
+
+RedirectPermanent /hadiths/mariage.htm /hadiths/mariage.html
+
+RedirectPermanent /glossaire/talafi /glossaire/talafi.html
+RedirectPermanent /glossaire/dounia /glossaire/dounia.html
+RedirectPermanent /glossaire/inchallah /glossaire/inchallah.html
+RedirectPermanent /glossaire/machallah /glossaire/machallah.html
+
+
+RedirectPermanent /horaires-prieres/belgique.html /horaires-prieres/monde/europe/belgique/
+RedirectPermanent /horaires-prieres/monde/europe/france/namur.html /horaires-prieres/monde/europe/belgique/namur.html
+RedirectPermanent /horaires-prieres/anvers.html /horaires-prieres/monde/europe/belgique/anvers.html
+RedirectPermanent /horaires-prieres/bruges.html /horaires-prieres/monde/europe/belgique/bruges.html
+RedirectPermanent /horaires-prieres/bruxelles.html /horaires-prieres/monde/europe/belgique/bruxelles.html
+RedirectPermanent /horaires-prieres/bruxelles.html.A /horaires-prieres/monde/europe/belgique/bruxelles.html
+RedirectPermanent /horaires-prieres/gand.html /horaires-prieres/monde/europe/belgique/gand.html
+RedirectPermanent /horaires-prieres/charleroi.html /horaires-prieres/monde/europe/belgique/charleroi.html
+RedirectPermanent /horaires-prieres/la-louviere.html /horaires-prieres/monde/europe/belgique/la-louviere.html
+RedirectPermanent /horaires-prieres/liege.html /horaires-prieres/monde/europe/belgique/liege.html
+RedirectPermanent /horaires-prieres/louvain.html /horaires-prieres/monde/europe/belgique/louvain-la-neuve.html
+RedirectPermanent /horaires-prieres/monde/europe/belgique/louvain.html /horaires-prieres/monde/europe/belgique/louvain-la-neuve.html
+RedirectPermanent /horaires-prieres/malines.html /horaires-prieres/monde/europe/belgique/malines.html
+RedirectPermanent /horaires-prieres/mons.html /horaires-prieres/monde/europe/belgique/mons.html
+
+RedirectPermanent /horaires-prieres/arabie-saoudite.html /horaires-prieres/monde/asie/arabie-saoudite/
+RedirectPermanent /horaires-prieres/jeddah.html /horaires-prieres/monde/asie/arabie-saoudite/jeddah.html
+RedirectPermanent /horaires-prieres/medine.html /horaires-prieres/monde/asie/arabie-saoudite/medine.html
+RedirectPermanent /horaires-prieres/la-mecque.html /horaires-prieres/monde/asie/arabie-saoudite/la-mecque.html
+RedirectPermanent /horaires-prieres/http:/www.webstator.com/requete/priere-creil /horaires-prieres/
+
+RedirectPermanent /index.html:8 /
+RedirectPermanent /index.html:9 /
+
+RedirectPermanent /m/ /
+RedirectPermanent /mobile/ /
+
+RedirectPermanent /m/en /en
+RedirectPermanent /mobile/en /en
+
+RedirectPermanent /en/quran/mp3/abdelwadoud-haneef.html /en/quran/mp3/abdulwadud-hanif.html
+RedirectPermanent /ar/quran/mp3/abdelwadoud-haneef.html /ar/quran/mp3/abdulwadud-hanif.html
+RedirectPermanent /en/quran/mp3/abdulbassit-abdussamad.html /en/quran/mp3/abdulbasit-abdussamad.html
+
+RedirectPermanent /en/prayer-times/world/asia/japan/function.file-get-contents /en/prayer-times/world/asia/japan/
+RedirectPermanent /en/prayer-times/world/asia/malaysia/function.file-get-contents /en/prayer-times/world/asia/malaysia/
+RedirectPermanent /horaires-prieres/monde/afrique/togo/function.file-get-contents /horaires-prieres/monde/afrique/togo/
+
+RedirectPermanent /horaires-prieres/saint-priest.html /horaires-prieres/monde/europe/france/saint-priest.html
+RedirectPermanent /horaires-prieres/agen.html /horaires-prieres/monde/europe/france/agen.html
+RedirectPermanent /horaires-prieres/aix-en-provence.html /horaires-prieres/monde/europe/france/aix-en-provence.html
+RedirectPermanent /horaires-prieres/ajaccio.html /horaires-prieres/monde/europe/france/ajaccio.html
+RedirectPermanent /horaires-prieres/albi.html /horaires-prieres/monde/europe/france/albi.html
+RedirectPermanent /horaires-prieres/ales.html /horaires-prieres/monde/europe/france/ales.html
+RedirectPermanent /horaires-prieres/alfortville.html /horaires-prieres/monde/europe/france/alfortville.html
+RedirectPermanent /horaires-prieres/amiens.html /horaires-prieres/monde/europe/france/amiens.html
+RedirectPermanent /horaires-prieres/angers.html /horaires-prieres/monde/europe/france/angers.html
+RedirectPermanent /horaires-prieres/anglet.html /horaires-prieres/monde/europe/france/anglet.html
+RedirectPermanent /horaires-prieres/angouleme.html /horaires-prieres/monde/europe/france/angouleme.html
+RedirectPermanent /horaires-prieres/annecy.html /horaires-prieres/monde/europe/france/annecy.html
+RedirectPermanent /horaires-prieres/antibes.html /horaires-prieres/monde/europe/france/antibes.html
+RedirectPermanent /horaires-prieres/antony.html /horaires-prieres/monde/europe/france/antony.html
+RedirectPermanent /horaires-prieres/argenteuil.html /horaires-prieres/monde/europe/france/argenteuil.html
+RedirectPermanent /horaires-prieres/arles.html /horaires-prieres/monde/europe/france/arles.html
+RedirectPermanent /horaires-prieres/arras.html /horaires-prieres/monde/europe/france/arras.html
+RedirectPermanent /horaires-prieres/asnieres-sur-seine.html /horaires-prieres/monde/europe/france/asnieres-sur-seine.html
+RedirectPermanent /horaires-prieres/athis-mons.html /horaires-prieres/monde/europe/france/athis-mons.html
+RedirectPermanent /horaires-prieres/aubagne.html /horaires-prieres/monde/europe/france/aubagne.html
+RedirectPermanent /horaires-prieres/aubervilliers.html /horaires-prieres/monde/europe/france/aubervilliers.html
+RedirectPermanent /horaires-prieres/aulnay-sous-bois.html /horaires-prieres/monde/europe/france/aulnay-sous-bois.html
+RedirectPermanent /horaires-prieres/auxerre.html /horaires-prieres/monde/europe/france/auxerre.html
+RedirectPermanent /horaires-prieres/avignon.html /horaires-prieres/monde/europe/france/avignon.html
+RedirectPermanent /horaires-prieres/bagneux.html /horaires-prieres/monde/europe/france/bagneux.html
+RedirectPermanent /horaires-prieres/bagnolet.html /horaires-prieres/monde/europe/france/bagnolet.html
+RedirectPermanent /horaires-prieres/bastia.html /horaires-prieres/monde/europe/france/bastia.html
+RedirectPermanent /horaires-prieres/bayonne.html /horaires-prieres/monde/europe/france/bayonne.html
+RedirectPermanent /horaires-prieres/beauvais.html /horaires-prieres/monde/europe/france/beauvais.html
+RedirectPermanent /horaires-prieres/belfort.html /horaires-prieres/monde/europe/france/belfort.html
+RedirectPermanent /horaires-prieres/besancon.html /horaires-prieres/monde/europe/france/besancon.html
+RedirectPermanent /horaires-prieres/beziers.html /horaires-prieres/monde/europe/france/beziers.html
+RedirectPermanent /horaires-prieres/blois.html /horaires-prieres/monde/europe/france/blois.html
+RedirectPermanent /horaires-prieres/bobigny.html /horaires-prieres/monde/europe/france/bobigny.html
+RedirectPermanent /horaires-prieres/bondy.html /horaires-prieres/monde/europe/france/bondy.html
+RedirectPermanent /horaires-prieres/bordeaux.html /horaires-prieres/monde/europe/france/bordeaux.html
+RedirectPermanent /horaires-prieres/boulogne-billancourt.html /horaires-prieres/monde/europe/france/boulogne-billancourt.html
+RedirectPermanent /horaires-prieres/boulogne-sur-mer.html /horaires-prieres/monde/europe/france/boulogne-sur-mer.html
+RedirectPermanent /horaires-prieres/bourg-en-bresse.html /horaires-prieres/monde/europe/france/bourg-en-bresse.html
+RedirectPermanent /horaires-prieres/bourges.html /horaires-prieres/monde/europe/france/bourges.html
+RedirectPermanent /horaires-prieres/brest.html /horaires-prieres/monde/europe/france/brest.html
+RedirectPermanent /horaires-prieres/brive-la-gaillarde.html /horaires-prieres/monde/europe/france/brive-la-gaillarde.html
+RedirectPermanent /horaires-prieres/bron.html /horaires-prieres/monde/europe/france/bron.html
+RedirectPermanent /horaires-prieres/caen.html /horaires-prieres/monde/europe/france/caen.html
+RedirectPermanent /horaires-prieres/cagnes-sur-mer.html /horaires-prieres/monde/europe/france/cagnes-sur-mer.html
+RedirectPermanent /horaires-prieres/calais.html /horaires-prieres/monde/europe/france/calais.html
+RedirectPermanent /horaires-prieres/caluire-et-cuire.html /horaires-prieres/monde/europe/france/caluire-et-cuire.html
+RedirectPermanent /horaires-prieres/cambrai.html /horaires-prieres/monde/europe/france/cambrai.html
+RedirectPermanent /horaires-prieres/cannes.html /horaires-prieres/monde/europe/france/cannes.html
+RedirectPermanent /horaires-prieres/carcassonne.html /horaires-prieres/monde/europe/france/carcassonne.html
+RedirectPermanent /horaires-prieres/castres.html /horaires-prieres/monde/europe/france/castres.html
+RedirectPermanent /horaires-prieres/cergy.html /horaires-prieres/monde/europe/france/cergy.html
+RedirectPermanent /horaires-prieres/chalon-sur-saone.html /horaires-prieres/monde/europe/france/chalon-sur-saone.html
+RedirectPermanent /horaires-prieres/chalons-en-champagne.html /horaires-prieres/monde/europe/france/chalons-en-champagne.html
+RedirectPermanent /horaires-prieres/chambery.html /horaires-prieres/monde/europe/france/chambery.html
+RedirectPermanent /horaires-prieres/champigny-sur-marne.html /horaires-prieres/monde/europe/france/champigny-sur-marne.html
+RedirectPermanent /horaires-prieres/charleville-mezieres.html /horaires-prieres/monde/europe/france/charleville-mezieres.html
+RedirectPermanent /horaires-prieres/chartres.html /horaires-prieres/monde/europe/france/chartres.html
+RedirectPermanent /horaires-prieres/chateauroux.html /horaires-prieres/monde/europe/france/chateauroux.html
+RedirectPermanent /horaires-prieres/chatellerault.html /horaires-prieres/monde/europe/france/chatellerault.html
+RedirectPermanent /horaires-prieres/chatenay-malabry.html /horaires-prieres/monde/europe/france/chatenay-malabry.html
+RedirectPermanent /horaires-prieres/chatillon.html /horaires-prieres/monde/europe/france/chatillon.html
+RedirectPermanent /horaires-prieres/chelles.html /horaires-prieres/monde/europe/france/chelles.html
+RedirectPermanent /horaires-prieres/cherbourg-octeville.html /horaires-prieres/monde/europe/france/cherbourg-octeville.html
+RedirectPermanent /horaires-prieres/choisy-le-roi.html /horaires-prieres/monde/europe/france/choisy-le-roi.html
+RedirectPermanent /horaires-prieres/cholet.html /horaires-prieres/monde/europe/france/cholet.html
+RedirectPermanent /horaires-prieres/clamart.html /horaires-prieres/monde/europe/france/clamart.html
+RedirectPermanent /horaires-prieres/clermont-ferrand.html /horaires-prieres/monde/europe/france/clermont-ferrand.html
+RedirectPermanent /horaires-prieres/clichy.html /horaires-prieres/monde/europe/france/clichy.html
+RedirectPermanent /horaires-prieres/colmar.html /horaires-prieres/monde/europe/france/colmar.html
+RedirectPermanent /horaires-prieres/colombes.html /horaires-prieres/monde/europe/france/colombes.html
+RedirectPermanent /horaires-prieres/colomiers.html /horaires-prieres/monde/europe/france/colomiers.html
+RedirectPermanent /horaires-prieres/compiegne.html /horaires-prieres/monde/europe/france/compiegne.html
+RedirectPermanent /horaires-prieres/conflans-sainte-honorine.html /horaires-prieres/monde/europe/france/conflans-sainte-honorine.html
+RedirectPermanent /horaires-prieres/corbeil-essones.html /horaires-prieres/monde/europe/france/corbeil-essonnes.html
+RedirectPermanent /horaires-prieres/monde/europe/france/corbeil-essones.html /horaires-prieres/monde/europe/france/corbeil-essonnes.html
+RedirectPermanent /horaires-prieres/courbevoie.html /horaires-prieres/monde/europe/france/courbevoie.html
+RedirectPermanent /horaires-prieres/creil.html /horaires-prieres/monde/europe/france/creil.html
+RedirectPermanent /horaires-prieres/creteil.html /horaires-prieres/monde/europe/france/creteil.html
+RedirectPermanent /horaires-prieres/dieppe.html /horaires-prieres/monde/europe/france/dieppe.html
+RedirectPermanent /horaires-prieres/dijon.html /horaires-prieres/monde/europe/france/dijon.html
+RedirectPermanent /horaires-prieres/douai.html /horaires-prieres/monde/europe/france/douai.html
+RedirectPermanent /horaires-prieres/draguignan.html /horaires-prieres/monde/europe/france/draguignan.html
+RedirectPermanent /horaires-prieres/drancy.html /horaires-prieres/monde/europe/france/drancy.html
+RedirectPermanent /horaires-prieres/dreux.html /horaires-prieres/monde/europe/france/dreux.html
+RedirectPermanent /horaires-prieres/dunkerque.html /horaires-prieres/monde/europe/france/dunkerque.html
+RedirectPermanent /horaires-prieres/echirolles.html /horaires-prieres/monde/europe/france/echirolles.html
+RedirectPermanent /horaires-prieres/epinal.html /horaires-prieres/monde/europe/france/epinal.html
+RedirectPermanent /horaires-prieres/epinay-sur-seine.html /horaires-prieres/monde/europe/france/epinay-sur-seine.html
+RedirectPermanent /horaires-prieres/evreux.html /horaires-prieres/monde/europe/france/evreux.html
+RedirectPermanent /horaires-prieres/evry.html /horaires-prieres/monde/europe/france/evry.html
+RedirectPermanent /horaires-prieres/fontenay-sous-bois.html /horaires-prieres/monde/europe/france/fontenay-sous-bois.html
+RedirectPermanent /horaires-prieres/franconville.html /horaires-prieres/monde/europe/france/franconville.html
+RedirectPermanent /horaires-prieres/frejus.html /horaires-prieres/monde/europe/france/frejus.html
+RedirectPermanent /horaires-prieres/gagny.html /horaires-prieres/monde/europe/france/gagny.html
+RedirectPermanent /horaires-prieres/gap.html /horaires-prieres/monde/europe/france/gap.html
+RedirectPermanent /horaires-prieres/garges-les-gonesse.html /horaires-prieres/monde/europe/france/garges-les-gonesse.html
+RedirectPermanent /horaires-prieres/gennevilliers.html /horaires-prieres/monde/europe/france/gennevilliers.html
+RedirectPermanent /horaires-prieres/goussainville.html /horaires-prieres/monde/europe/france/goussainville.html
+RedirectPermanent /horaires-prieres/grasse.html /horaires-prieres/monde/europe/france/grasse.html
+RedirectPermanent /horaires-prieres/grenoble.html /horaires-prieres/monde/europe/france/grenoble.html
+RedirectPermanent /horaires-prieres/haguenau.html /horaires-prieres/monde/europe/france/haguenau.html
+RedirectPermanent /horaires-prieres/houilles.html /horaires-prieres/monde/europe/france/houilles.html
+RedirectPermanent /horaires-prieres/hyeres.html /horaires-prieres/monde/europe/france/hyeres.html
+RedirectPermanent /horaires-prieres/istres.html /horaires-prieres/monde/europe/france/istres.html
+RedirectPermanent /horaires-prieres/issy-les-moulineaux.html /horaires-prieres/monde/europe/france/issy-les-moulineaux.html
+RedirectPermanent /horaires-prieres/monde/europe/france/issy-les-moulineaux-.html /horaires-prieres/monde/europe/france/issy-les-moulineaux.html
+RedirectPermanent /horaires-prieres/poissy.html /horaires-prieres/monde/europe/france/poissy.html
+RedirectPermanent /horaires-prieres/ivry-sur-seine.html /horaires-prieres/monde/europe/france/ivry-sur-seine.html
+RedirectPermanent /horaires-prieres/joue-les-tours.html /horaires-prieres/monde/europe/france/joue-les-tours.html
+RedirectPermanent /horaires-prieres/la-ciotat.html /horaires-prieres/monde/europe/france/la-ciotat.html
+RedirectPermanent /horaires-prieres/la-courneuve.html /horaires-prieres/monde/europe/france/la-courneuve.html
+RedirectPermanent /horaires-prieres/la-roche-sur-yon.html /horaires-prieres/monde/europe/france/la-roche-sur-yon.html
+RedirectPermanent /horaires-prieres/la-rochelle.html /horaires-prieres/monde/europe/france/la-rochelle.html
+RedirectPermanent /horaires-prieres/la-seyne-sur-mer.html /horaires-prieres/monde/europe/france/la-seyne-sur-mer.html
+RedirectPermanent /horaires-prieres/laval.html /horaires-prieres/monde/europe/france/laval.html
+RedirectPermanent /horaires-prieres/le-blanc-mesnil.html /horaires-prieres/monde/europe/france/le-blanc-mesnil.html
+RedirectPermanent /horaires-prieres/le-cannet.html /horaires-prieres/monde/europe/france/le-cannet.html
+RedirectPermanent /horaires-prieres/le-havre.html /horaires-prieres/monde/europe/france/le-havre.html
+RedirectPermanent /horaires-prieres/le-mans.html /horaires-prieres/monde/europe/france/le-mans.html
+RedirectPermanent /horaires-prieres/le-perreux-sur-marne.html /horaires-prieres/monde/europe/france/le-perreux-sur-marne.html
+RedirectPermanent /horaires-prieres/lens.html /horaires-prieres/monde/europe/france/lens.html
+RedirectPermanent /horaires-prieres/les-mureaux.html /horaires-prieres/monde/europe/france/les-mureaux.html
+RedirectPermanent /horaires-prieres/levallois-perret.html /horaires-prieres/monde/europe/france/levallois-perret.html
+RedirectPermanent /horaires-prieres/lievin.html /horaires-prieres/monde/europe/france/lievin.html
+RedirectPermanent /horaires-prieres/lille.html /horaires-prieres/monde/europe/france/lille.html
+RedirectPermanent /horaires-prieres/limoges.html /horaires-prieres/monde/europe/france/limoges.html
+RedirectPermanent /horaires-prieres/livry-gargan.html /horaires-prieres/monde/europe/france/livry-gargan.html
+RedirectPermanent /horaires-prieres/lorient.html /horaires-prieres/monde/europe/france/lorient.html
+RedirectPermanent /horaires-prieres/lyon.html /horaires-prieres/monde/europe/france/lyon.html
+RedirectPermanent /horaires-prieres/macon.html /horaires-prieres/monde/europe/france/macon.html
+RedirectPermanent /horaires-prieres/maison-alfort.html /horaires-prieres/monde/europe/france/maisons-alfort.html
+RedirectPermanent /horaires-prieres/monde/europe/france/maison-alfort.html /horaires-prieres/monde/europe/france/maisons-alfort.html
+RedirectPermanent /horaires-prieres/malakoff.html /horaires-prieres/monde/europe/france/malakoff.html
+RedirectPermanent /horaires-prieres/mantes-la-jolie.html /horaires-prieres/monde/europe/france/mantes-la-jolie.html
+RedirectPermanent /horaires-prieres/marcq-en-baroeuil.html /horaires-prieres/monde/europe/france/marcq-en-baroeul.html
+RedirectPermanent /horaires-prieres/marignane.html /horaires-prieres/monde/europe/france/marignane.html
+RedirectPermanent /horaires-prieres/marseille.html /horaires-prieres/monde/europe/france/marseille.html
+RedirectPermanent /horaires-prieres/martigues.html /horaires-prieres/monde/europe/france/martigues.html
+RedirectPermanent /horaires-prieres/massy.html /horaires-prieres/monde/europe/france/massy.html
+RedirectPermanent /horaires-prieres/maubeuge.html /horaires-prieres/monde/europe/france/maubeuge.html
+RedirectPermanent /horaires-prieres/meaux.html /horaires-prieres/monde/europe/france/meaux.html
+RedirectPermanent /horaires-prieres/melun.html /horaires-prieres/monde/europe/france/melun.html
+RedirectPermanent /horaires-prieres/merignac.html /horaires-prieres/monde/europe/france/merignac.html
+RedirectPermanent /horaires-prieres/metz.html /horaires-prieres/monde/europe/france/metz.html
+RedirectPermanent /horaires-prieres/meudon.html /horaires-prieres/monde/europe/france/meudon.html
+RedirectPermanent /horaires-prieres/mont-de-marsan.html /horaires-prieres/monde/europe/france/mont-de-marsan.html
+RedirectPermanent /horaires-prieres/montauban.html /horaires-prieres/monde/europe/france/montauban.html
+RedirectPermanent /horaires-prieres/montelimar.html /horaires-prieres/monde/europe/france/montelimar.html
+RedirectPermanent /horaires-prieres/montigny-le-bretonneux.html /horaires-prieres/monde/europe/france/montigny-le-bretonneux.html
+RedirectPermanent /horaires-prieres/montlucon.html /horaires-prieres/monde/europe/france/montlucon.html
+RedirectPermanent /horaires-prieres/montpellier.html /horaires-prieres/monde/europe/france/montpellier.html
+RedirectPermanent /horaires-prieres/montreuil.html /horaires-prieres/monde/europe/france/montreuil.html
+RedirectPermanent /horaires-prieres/montrouge.html /horaires-prieres/monde/europe/france/montrouge.html
+RedirectPermanent /horaires-prieres/mulhouse.html /horaires-prieres/monde/europe/france/mulhouse.html
+RedirectPermanent /horaires-prieres/namur.html /horaires-prieres/monde/europe/france/namur.html
+RedirectPermanent /horaires-prieres/nancy.html /horaires-prieres/monde/europe/france/nancy.html
+RedirectPermanent /horaires-prieres/nanterre.html /horaires-prieres/monde/europe/france/nanterre.html
+RedirectPermanent /horaires-prieres/nantes.html /horaires-prieres/monde/europe/france/nantes.html
+RedirectPermanent /horaires-prieres/narbonne.html /horaires-prieres/monde/europe/france/narbonne.html
+RedirectPermanent /horaires-prieres/neuilly-sur-marne.html /horaires-prieres/monde/europe/france/neuilly-sur-seine.html
+RedirectPermanent /horaires-prieres/neuilly-sur-seine.html /horaires-prieres/monde/europe/france/neuilly-sur-marne.html
+RedirectPermanent /horaires-prieres/nevers.html /horaires-prieres/monde/europe/france/nevers.html
+RedirectPermanent /horaires-prieres/nice.html /horaires-prieres/monde/europe/france/nice.html
+RedirectPermanent /horaires-prieres/nimes.html /horaires-prieres/monde/europe/france/nimes.html
+RedirectPermanent /horaires-prieres/niort.html /horaires-prieres/monde/europe/france/niort.html
+RedirectPermanent /horaires-prieres/nogent-sur-marne.html /horaires-prieres/monde/europe/france/nogent-sur-marne.html
+RedirectPermanent /horaires-prieres/noisy-le-grand.html /horaires-prieres/monde/europe/france/noisy-le-grand.html
+RedirectPermanent /horaires-prieres/noisy-le-sec.html /horaires-prieres/monde/europe/france/noisy-le-sec.html
+RedirectPermanent /horaires-prieres/orleans.html /horaires-prieres/monde/europe/france/orleans.html
+RedirectPermanent /horaires-prieres/palaiseau.html /horaires-prieres/monde/europe/france/palaiseau.html
+RedirectPermanent /horaires-prieres/pantin.html /horaires-prieres/monde/europe/france/pantin.html
+RedirectPermanent /horaires-prieres/paris.html /horaires-prieres/monde/europe/france/paris.html
+RedirectPermanent /horaires-prieres/pau.html /horaires-prieres/monde/europe/france/pau.html
+RedirectPermanent /horaires-prieres/perpignan.html /horaires-prieres/monde/europe/france/perpignan.html
+RedirectPermanent /horaires-prieres/pessac.html /horaires-prieres/monde/europe/france/pessac.html
+RedirectPermanent /horaires-prieres/plaisir.html /horaires-prieres/monde/europe/france/plaisir.html
+RedirectPermanent /horaires-prieres/poitiers.html /horaires-prieres/monde/europe/france/poitiers.html
+RedirectPermanent /horaires-prieres/pontault-combault.html /horaires-prieres/monde/europe/france/pontault-combault.html
+RedirectPermanent /horaires-prieres/putaux.html /horaires-prieres/monde/europe/france/puteaux.html
+RedirectPermanent /horaires-prieres/quimper.html /horaires-prieres/monde/europe/france/quimper.html
+RedirectPermanent /horaires-prieres/reims.html /horaires-prieres/monde/europe/france/reims.html
+RedirectPermanent /horaires-prieres/rennes.html /horaires-prieres/monde/europe/france/rennes.html
+RedirectPermanent /horaires-prieres/reze.html /horaires-prieres/monde/europe/france/reze.html
+RedirectPermanent /horaires-prieres/roanne.html /horaires-prieres/monde/europe/france/roanne.html
+RedirectPermanent /horaires-prieres/romans-sur-isere.html /horaires-prieres/monde/europe/france/romans-sur-isere.html
+RedirectPermanent /horaires-prieres/rosny-sous-bois.html /horaires-prieres/monde/europe/france/rosny-sous-bois.html
+RedirectPermanent /horaires-prieres/roubaix.html /horaires-prieres/monde/europe/france/roubaix.html
+RedirectPermanent /horaires-prieres/rouen.html /horaires-prieres/monde/europe/france/rouen.html
+RedirectPermanent /horaires-prieres/rueil-malmaison.html /horaires-prieres/monde/europe/france/rueil-malmaison.html
+RedirectPermanent /horaires-prieres/saint-brieuc.html /horaires-prieres/monde/europe/france/saint-brieuc.html
+RedirectPermanent /horaires-prieres/saint-chamond.html /horaires-prieres/monde/europe/france/saint-chamond.html
+RedirectPermanent /horaires-prieres/saint-denis.html /horaires-prieres/monde/europe/france/saint-denis.html
+RedirectPermanent /horaires-prieres/saint-etienne.html /horaires-prieres/monde/europe/france/saint-etienne.html
+RedirectPermanent /horaires-prieres/saint-genevieve-des-bois.html /horaires-prieres/monde/europe/france/sainte-genevieve-des-bois.html
+RedirectPermanent /horaires-prieres/monde/europe/france/saint-genevieve-des-bois.html /horaires-prieres/monde/europe/france/sainte-genevieve-des-bois.html
+RedirectPermanent /horaires-prieres/saint-germain-en-laye.html /horaires-prieres/monde/europe/france/saint-germain-en-laye.html
+RedirectPermanent /horaires-prieres/saint-ouen.html /horaires-prieres/monde/europe/france/saint-ouen.html
+RedirectPermanent /horaires-prieres/saint-nazaire.html /horaires-prieres/monde/europe/france/saint-nazaire.html
+RedirectPermanent /horaires-prieres/saint-maur-des-fosses.html /horaires-prieres/monde/europe/france/saint-maur-des-fosses.html
+RedirectPermanent /horaires-prieres/saint-martin.html /horaires-prieres/monde/caraibes/saint-martin/
+RedirectPermanent /horaires-prieres/monde/europe/france/saint-martin.html /horaires-prieres/monde/caraibes/saint-martin/
+RedirectPermanent /horaires-prieres/saint-martin-dheres.html /horaires-prieres/monde/europe/france/saint-martin-dheres.html
+RedirectPermanent /horaires-prieres/saint-malo.html /horaires-prieres/monde/europe/france/saint-malo.html
+RedirectPermanent /horaires-prieres/saint-louis.html /horaires-prieres/monde/europe/france/saint-louis.html
+RedirectPermanent /horaires-prieres/saint-laurent-du-var.html /horaires-prieres/monde/europe/france/saint-laurent-du-var.html
+RedirectPermanent /horaires-prieres/saint-herblain.html /horaires-prieres/monde/europe/france/saint-herblain.html
+RedirectPermanent /horaires-prieres/saint-quentin.html /horaires-prieres/monde/europe/france/saint-quentin.html
+RedirectPermanent /horaires-prieres/saint-raphael.html /horaires-prieres/monde/europe/france/saint-raphael.html
+RedirectPermanent /horaires-prieres/sarcelles.html /horaires-prieres/monde/europe/france/sarcelles.html
+RedirectPermanent /horaires-prieres/salon-de-provence.html /horaires-prieres/monde/europe/france/salon-de-provence.html
+RedirectPermanent /horaires-prieres/sartrouville.html /horaires-prieres/monde/europe/france/sartrouville.html
+RedirectPermanent /horaires-prieres/savigny-sur-orge.html /horaires-prieres/monde/europe/france/savigny-sur-orge.html
+RedirectPermanent /horaires-prieres/schiltigheim.html /horaires-prieres/monde/europe/france/schiltigheim.html
+RedirectPermanent /horaires-prieres/sete.html /horaires-prieres/monde/europe/france/sete.html
+RedirectPermanent /horaires-prieres/sevran.html /horaires-prieres/monde/europe/france/sevran.html
+RedirectPermanent /horaires-prieres/six-fours-les-plages.html /horaires-prieres/monde/europe/france/six-fours-les-plages.html
+RedirectPermanent /horaires-prieres/sotteville-les-rouen.html /horaires-prieres/monde/europe/france/sotteville-les-rouen.html
+RedirectPermanent /horaires-prieres/stains.html /horaires-prieres/monde/europe/france/stains.html
+RedirectPermanent /horaires-prieres/strasbourg.html /horaires-prieres/monde/europe/france/strasbourg.html
+RedirectPermanent /horaires-prieres/suresnes.html /horaires-prieres/monde/europe/france/suresnes.html
+RedirectPermanent /horaires-prieres/talence.html /horaires-prieres/monde/europe/france/talence.html
+RedirectPermanent /horaires-prieres/tarbes.html /horaires-prieres/monde/europe/france/tarbes.html
+RedirectPermanent /horaires-prieres/thionville.html /horaires-prieres/monde/europe/france/thionville.html
+RedirectPermanent /horaires-prieres/thonon-les-bains.html /horaires-prieres/monde/europe/france/thonon-les-bains.html
+RedirectPermanent /horaires-prieres/toulon.html /horaires-prieres/monde/europe/france/toulon.html
+RedirectPermanent /horaires-prieres/toulouse.html /horaires-prieres/monde/europe/france/toulouse.html
+RedirectPermanent /horaires-prieres/tourcoing.html /horaires-prieres/monde/europe/france/tourcoing.html
+RedirectPermanent /horaires-prieres/tours.html /horaires-prieres/monde/europe/france/tours.html
+RedirectPermanent /horaires-prieres/tremblay-en-france.html /horaires-prieres/monde/europe/france/tremblay-en-france.html
+RedirectPermanent /horaires-prieres/troyes.html /horaires-prieres/monde/europe/france/troyes.html
+RedirectPermanent /horaires-prieres/valence.html /horaires-prieres/monde/europe/france/valence.html
+RedirectPermanent /horaires-prieres/valenciennes.html /horaires-prieres/monde/europe/france/valenciennes.html
+RedirectPermanent /horaires-prieres/vandoeuvre-les-nancy.html /horaires-prieres/monde/europe/france/vandoeuvre-les-nancy.html
+RedirectPermanent /horaires-prieres/vannes.html /horaires-prieres/monde/europe/france/vannes.html
+RedirectPermanent /horaires-prieres/vaulx-en-velin.html /horaires-prieres/monde/europe/france/vaulx-en-velin.html
+RedirectPermanent /horaires-prieres/venissieux.html /horaires-prieres/monde/europe/france/venissieux.html
+RedirectPermanent /horaires-prieres/versailles.html /horaires-prieres/monde/europe/france/versailles.html
+RedirectPermanent /horaires-prieres/villefranche-sur-saone.html /horaires-prieres/monde/europe/france/villefranche-sur-saone.html
+RedirectPermanent /horaires-prieres/villejuif.html /horaires-prieres/monde/europe/france/villejuif.html
+RedirectPermanent /horaires-prieres/villeneuve-dasq.html /horaires-prieres/monde/europe/france/villeneuve-dascq.html
+RedirectPermanent /horaires-prieres/monde/europe/france/villeneuve-dasq.html /horaires-prieres/monde/europe/france/villeneuve-dascq.html
+RedirectPermanent /horaires-prieres/villeneuve-saint-georges.html /horaires-prieres/monde/europe/france/villeneuve-saint-georges.html
+RedirectPermanent /horaires-prieres/villepinte.html /horaires-prieres/monde/europe/france/villepinte.html
+RedirectPermanent /horaires-prieres/villeurbanne.html /horaires-prieres/monde/europe/france/villeurbanne.html
+RedirectPermanent /horaires-prieres/vincennes.html /horaires-prieres/monde/europe/france/vincennes.html
+RedirectPermanent /horaires-prieres/viry-chatillon.html /horaires-prieres/monde/europe/france/viry-chatillon.html
+RedirectPermanent /horaires-prieres/vitrolles.html /horaires-prieres/monde/europe/france/vitrolles.html
+RedirectPermanent /horaires-prieres/vitry-sur-seine.html /horaires-prieres/monde/europe/france/vitry-sur-seine.html
+RedirectPermanent /horaires-prieres/wattrelos.html /horaires-prieres/monde/europe/france/wattrelos.html
+
+RedirectPermanent /horaires-prieres/cayenne.html /horaires-prieres/monde/amerique-du-sud/guinee-francaise/cayenne.html
+RedirectPermanent /horaires-prieres/saint-pierre.html /horaires-prieres/monde/afrique/reunion/saint-pierre.html
+RedirectPermanent /horaires-prieres/saint-paul.html /horaires-prieres/monde/afrique/reunion/saint-paul.hml
+RedirectPermanent /horaires-prieres/saint-louis.html /horaires-prieres/monde/afrique/reunion/saint-louis.html
+RedirectPermanent /horaires-prieres/sainte-marie.html /horaires-prieres/monde/afrique/reunion/sainte-marie.html
+RedirectPermanent /horaires-prieres/saint-laurent-du-maroni.html /horaires-prieres/monde/amerique-du-sud/guinee-francaise/saint-laurent-du-maroni.html
+RedirectPermanent /horaires-prieres/saint-denis-reunion.html /horaires-prieres/monde/afrique/reunion/saint-denis-reunion.html
+RedirectPermanent /horaires-prieres/saint-andre.html /horaires-prieres/monde/afrique/reunion/saint-andre.html
+RedirectPermanent /horaires-prieres/saint-benoit.html /horaires-prieres/monde/afrique/reunion/saint-benoit.html
+RedirectPermanent /horaires-prieres/le-tampon.html /horaires-prieres/monde/afrique/reunion/le-tampon.html
+RedirectPermanent /horaires-prieres/le-port.html /horaires-prieres/monde/afrique/reunion/le-port.html
+RedirectPermanent /horaires-prieres/les-abymes.html /horaires-prieres/monde/caraibes/guadeloupe/les-abymes.html
+RedirectPermanent /horaires-prieres/le-lamentin.html /horaires-prieres/monde/caraibes/martinique/le-lamentin.html
+RedirectPermanent /horaires-prieres/saint-joseph.html /horaires-prieres/monde/caraibes/martinique/saint-joseph.html
+RedirectPermanent /horaires-prieres/fort-de-france.html /horaires-prieres/monde/caraibes/martinique/fort-de-france.html
+RedirectPermanent /horaires-prieres/monde/afrique/maroc/marrakesh.html /horaires-prieres/monde/afrique/maroc/marrakech.html
+RedirectPermanent /horaires-prieres/monde/afrique/maroc/tangier.html /horaires-prieres/monde/afrique/maroc/tanger.html
+
+RedirectPermanent "/en/prayer-times/world/north america/" /en/prayer-times/world/north-america/
+RedirectPermanent "/en/prayer-times/world/south america/" /en/prayer-times/world/south-america/
+RedirectPermanent "/en/prayer-times/world/central america/" /en/prayer-times/world/central-america/
+RedirectPermanent "/horaires-prieres/monde/amerique du nord/" /horaires-prieres/monde/amerique-du-nord/
+RedirectPermanent "/horaires-prieres/monde/amerique du sud/" /horaires-prieres/monde/amerique-du-sud/

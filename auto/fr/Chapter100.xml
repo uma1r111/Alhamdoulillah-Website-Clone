@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="100" ChapterName="Les coursiers (Al-Adiyate)">
+	<Verse VerseID="1"><![CDATA[Par les coursiers qui halètent, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[qui font jaillir des étincelles, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[qui attaquent au matin. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[et font ainsi voler la poussière, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[et pénètrent au centre de la troupe ennemie. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[L'homme est, certes, ingrat envers son Seigneur ; ]]></Verse>
+	<Verse VerseID="7"><![CDATA[et pourtant, il est certes, témoin de cela ; ]]></Verse>
+	<Verse VerseID="8"><![CDATA[et pour l'amour des richesses il est certes ardent. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Ne sait-il donc pas que lorsque ce qui est dans les tombes sera bouleversé, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[et que sera dévoilé ce qui est dans les poitrines, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[ce jour-là, certes, leur Seigneur sera Parfaitement Connaisseur d'eux ? ]]></Verse>
+</Chapter>

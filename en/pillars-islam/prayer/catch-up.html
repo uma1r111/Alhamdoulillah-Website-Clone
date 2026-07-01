@@ -1,0 +1,133 @@
+<?php
+$theme = "catch-up.html";
+?><!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/en/css/islam.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+  
+  <script>
+$(function() {
+$( "#date_puberte" ).datepicker({
+changeMonth: true,
+changeYear: true,
+});
+$( "#date_salat" ).datepicker({
+changeMonth: true,
+changeYear: true,
+});
+});
+jQuery(function($){
+        $.datepicker.regional['en'] = {
+                closeText: 'Close',
+                prevText: 'Previous',
+                nextText: 'Next',
+                currentText: 'Today',
+                monthNames: ['january', 'february', 'march', 'april', 'may', 'june',
+                        'july', 'august', 'september', 'october', 'november', 'december'],
+                monthNamesShort: ['jan.', 'feb.', 'march', 'april', 'may', 'june',
+                        'july', 'aug.', 'sept.', 'oct.', 'nov.', 'déc.'],
+                dayNames: ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'],
+                dayNamesShort: ['sun.', 'mon.', 'tue.', 'wed.', 'thu.', 'fri.', 'sat.'],
+                dayNamesMin: ['D','L','M','M','J','V','S'],
+                weekHeader: 'Week',
+                dateFormat: 'dd/mm/yy',
+                firstDay: 1,
+                isRTL: false,
+                showMonthAfterYear: false,
+                yearSuffix: ''};
+        $.datepicker.setDefaults($.datepicker.regional['en']);
+		$.datepicker.setDefaults({ yearRange: '1940:2017', defaultDate: -365*20  });
+});
+  </script>
+
+<title>Catching Up His Prayers in Islam - How to Catch a Missed Prayer?</title>
+<meta name="description" content="Can we make up for a prayer that has passed since the day, the day before, or years? How and why should we catch up on a missed or missed prayer?">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9535111-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+<?php include("../../inc/haut.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>Rattraper ses Prières</h1>
+
+<?php include("../../../inc/pub-content.php") ?>
+
+<h2>Should we catch a missed prayer?</h2>
+
+<p>It can never be said enough: <a href="status.html"> prayer is an obligation</a>. Unfortunately, many of us neglect prayer, whether in doing it, in substance or in form. Since the age of puberty, prayer is obligatory for any person of holy spirit. The status of missed prayers is subject to differences. If it is a prayer missed in the day, by forgetfulness or because of sleep, we must catch it before the next prayer, which is known.</p>
+
+<p>The Prophet <span class="respect">(sallallahu 'alayhi wa sallam)</span> said: <span class="hadith">Anyone who has forgotten to pray must do it as soon as he or she remember, this is the only way to expiate it. </span> <span class="isnad">[Bukhari]</span>. Also, what is unanimous is that the Muslim must repent of not having prayed. <a href="/infos/convertir-islam.html"> The converts to Islam </a> do not have any prayers to catch because they were not Muslims. Islam erases all of the above. Also, the woman who has had her menses or lochia does not have to catch up with her prayers.</p>
+
+<p>There are 2 legal opinions on catching up on prayers. The first, adopted by great scholars like Ibn Hazm, Daoud adh-dhahiri, Ibn Taymiyah, Ibn Qayum Al-Djawziya, and among the contemporaries Al-Albani and the Outhaymine, is that a prayer that has been intentionally missed can not be overtaken. . Prayer is valid only in its legal time, neither before nor after. Only those who have forgotten to pray or because they slept can catch up with it, according to the hadith mentioned above. On the other hand, he must sincerely repent, increase his requests for forgiveness, and do much supererogatory prayer.</p>
+
+<p>The second opinion is that any missed prayer must be overtaken. So if we follow this advice, we must calculate all the prayers we have neglected and get organized to catch up. Now that we are aware of the problem, how can we make up for all past prayers? For some, this can be in months or even years. Let us be honest and sincere, this is especially in years, except those to whom Allah has mercy. May Allah forgive us.</p>
+
+<h3>Calculate the Number of Prayers to Catch Up</h3>
+
+<p>To help you catch up with your prayers, we recommend using our tool (see below). It will automatically calculate the number of prayers you need to make up for in the number of years missed. Then you have to define a reasonable catch-up rhythm.</p>
+
+
+<form id="salat">
+<ul style="line-height:300%;"><li>You are:
+  <input type="radio" style="font-size:10pt; font-family:verdana;" name="genre" value="homme">a man
+  <input type="radio" style="font-size:10pt; font-family:verdana;" name="genre" value="femme">a woman
+</li>
+<li>You are pubescent since:<input style="font-size:10pt; font-family:verdana;" type="text" id="date_puberte" name="date_puberte"></li>
+<li>You started to pray on:<input style="font-size:10pt; font-family:verdana;" type="text" id="date_salat" name="date_salat"></li></ul>
+
+<div style="margin-left:20px"><input style="padding:10px; font-family:verdana; font-size:10pt;" class="button" type="submit" value="Start the calculation"></div>
+</form>
+
+<script>
+$(document).ready(function(){
+	$("#salat").submit(function(event){
+	event.preventDefault();
+		$.ajax({type:'POST', data: $(this).serialize(), url: "calcul.php", 
+			success: function(data){
+				$("#resultat").html(data);
+			},
+                        error: function(){
+			        $("#resultat").html('<p>An error has occurred.</p>');
+			}
+		});
+		return false;
+	});
+});
+</script>
+
+
+
+<div id="resultat"></div>
+
+
+<?php include ("pages.php")?>
+
+</td>
+<td id="colonnes"><?php include("../../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../../inc/footer.php") ?>
+</body></html>

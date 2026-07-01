@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="56" ChapterName="L'evénement (Al-Waqi'a)">
+	<Verse VerseID="1"><![CDATA[Quand l'événement (le Jugement) arrivera, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[nul ne traitera sa venue de mensonge. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Il abaissera (les uns), il élèvera (les autres). ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Quand la terre sera secouée violemment, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[et les montagnes seront réduites en miettes, ]]></Verse>
+	<Verse VerseID="6"><![CDATA[et qu'elles deviendront poussière éparpillée ]]></Verse>
+	<Verse VerseID="7"><![CDATA[alors vous serez trois catégories : ]]></Verse>
+	<Verse VerseID="8"><![CDATA[les gens de la droite - que sont les gens de la droite ? ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Et les gens de la gauche - que sont les gens de la gauche ? ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Les premiers (à suivre les ordres d'Allah sur la terre) ce sont eux qui seront les premiers (dans l'au-delà) ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Ce sont ceux-là les plus rapprochés d'Allah ]]></Verse>
+	<Verse VerseID="12"><![CDATA[dans les Jardins des délices, ]]></Verse>
+	<Verse VerseID="13"><![CDATA[une multitude d'élus parmi les premières [générations], ]]></Verse>
+	<Verse VerseID="14"><![CDATA[et un petit nombre parmi les dernières [générations], ]]></Verse>
+	<Verse VerseID="15"><![CDATA[sur des lits ornés [d'or et de pierreries], ]]></Verse>
+	<Verse VerseID="16"><![CDATA[s'y accoudant et se faisant face. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Parmi eux circuleront des garçons éternellement jeunes, ]]></Verse>
+	<Verse VerseID="18"><![CDATA[avec des coupes, des aiguières et un verre [rempli] : d'une liqueur de source ]]></Verse>
+	<Verse VerseID="19"><![CDATA[qui ne leur provoquera ni maux de tête ni étourdissement ; ]]></Verse>
+	<Verse VerseID="20"><![CDATA[et des fruits de leur choix, ]]></Verse>
+	<Verse VerseID="21"><![CDATA[et toute chair d'oiseau qu'ils désireront. ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Et ils auront des houris aux yeux, grands et beaux, ]]></Verse>
+	<Verse VerseID="23"><![CDATA[pareilles à des perles en coquille. ]]></Verse>
+	<Verse VerseID="24"><![CDATA[en récompense pour ce qu'ils faisaient. ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Ils n'y entendront ni futilité ni blasphème ; ]]></Verse>
+	<Verse VerseID="26"><![CDATA[mais seulement les propos : "Salam ! Salam !"... [Paix ! paix !] ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Et les gens de la droite ; que sont les gens de la droite ? ]]></Verse>
+	<Verse VerseID="28"><![CDATA[[Ils seront parmi] : des jujubiers sans épines, ]]></Verse>
+	<Verse VerseID="29"><![CDATA[et parmi des bananiers aux régimes bien fournis, ]]></Verse>
+	<Verse VerseID="30"><![CDATA[dans une ombre étendue ]]></Verse>
+	<Verse VerseID="31"><![CDATA[[près] d'une eau coulant continuellement, ]]></Verse>
+	<Verse VerseID="32"><![CDATA[et des fruits abondants ]]></Verse>
+	<Verse VerseID="33"><![CDATA[ni interrompus ni défendus, ]]></Verse>
+	<Verse VerseID="34"><![CDATA[sur des lits surélevés, ]]></Verse>
+	<Verse VerseID="35"><![CDATA[C'est Nous qui les avons créées à la perfection, ]]></Verse>
+	<Verse VerseID="36"><![CDATA[et Nous les avons faites vierges, ]]></Verse>
+	<Verse VerseID="37"><![CDATA[gracieuses, toutes de même âge, ]]></Verse>
+	<Verse VerseID="38"><![CDATA[pour les gens de la droite, ]]></Verse>
+	<Verse VerseID="39"><![CDATA[une multitude d'élus parmi les premières [générations], ]]></Verse>
+	<Verse VerseID="40"><![CDATA[et une multitude d'élus parmi les dernières [générations], ]]></Verse>
+	<Verse VerseID="41"><![CDATA[Et les gens de la gauche ; que sont les gens de la gauche ? ]]></Verse>
+	<Verse VerseID="42"><![CDATA[ils seront au milieu d'un souffle brûlant et d'une eau bouillante, ]]></Verse>
+	<Verse VerseID="43"><![CDATA[à l'ombre d'une fumée noire ]]></Verse>
+	<Verse VerseID="44"><![CDATA[ni fraîche, ni douce. ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Ils vivaient auparavant dans le luxe. ]]></Verse>
+	<Verse VerseID="46"><![CDATA[Ils persistaient dans le grand péché [le polythéisme] ]]></Verse>
+	<Verse VerseID="47"><![CDATA[et disaient : "Quand nous mourrons et serons poussière et ossements, serons-nous ressuscités ? ]]></Verse>
+	<Verse VerseID="48"><![CDATA[ainsi que nos anciens ancêtres ?..." ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Dis : "En vérité les premiers et les derniers ]]></Verse>
+	<Verse VerseID="50"><![CDATA[seront réunis pour le rendez-vous d'un jour connu". ]]></Verse>
+	<Verse VerseID="51"><![CDATA[Et puis, vous, les égarés, qui traitiez (la Résurrection) de mensonge, ]]></Verse>
+	<Verse VerseID="52"><![CDATA[vous mangerez certainement d'un arbre de Zaqqoum. ]]></Verse>
+	<Verse VerseID="53"><![CDATA[Vous vous en remplirez le ventre, ]]></Verse>
+	<Verse VerseID="54"><![CDATA[puis vous boirez par-dessus cela de l'eau bouillante, ]]></Verse>
+	<Verse VerseID="55"><![CDATA[vous en boirez comme boivent les chameaux assoiffés. ]]></Verse>
+	<Verse VerseID="56"><![CDATA[Voilà le repas d'accueil qui leur sera servi, au jour de la Rétribution. ]]></Verse>
+	<Verse VerseID="57"><![CDATA[C'est Nous qui vous avons créés. Pourquoi ne croiriez-vous donc pas [à la résurrection] ? ]]></Verse>
+	<Verse VerseID="58"><![CDATA[Voyez-vous donc ce que vous éjaculez : ]]></Verse>
+	<Verse VerseID="59"><![CDATA[est-ce vous qui le créez ou [en] : sommes Nous le Créateur ? ]]></Verse>
+	<Verse VerseID="60"><![CDATA[Nous avons prédéterminé la mort parmi vous. Nous ne serons point empêchés ]]></Verse>
+	<Verse VerseID="61"><![CDATA[de vous remplacer par vos semblables, et vous faire renaître dans [un état] que vous ne savez pas. ]]></Verse>
+	<Verse VerseID="62"><![CDATA[Vous avez connu la première création. Ne vous rappelez-vous donc pas ? ]]></Verse>
+	<Verse VerseID="63"><![CDATA[Voyez-vous donc ce que vous labourez ? ]]></Verse>
+	<Verse VerseID="64"><![CDATA[Est-ce vous qui le cultivez ? ou [en] sommes Nous le cultivateur ? ]]></Verse>
+	<Verse VerseID="65"><![CDATA[Si Nous voulions, Nous le réduirions en débris. Et vous ne cesseriez pas de vous étonner et [de crier] : ]]></Verse>
+	<Verse VerseID="66"><![CDATA["Nous voilà endettés ! ]]></Verse>
+	<Verse VerseID="67"><![CDATA[ou plutòt, exposés aux privations". ]]></Verse>
+	<Verse VerseID="68"><![CDATA[Voyez-vous donc l'eau que vous buvez ? ]]></Verse>
+	<Verse VerseID="69"><![CDATA[Est-ce vous qui l'avez fait descendre du nuage ? ou [en] sommes Nous le descendeur ? ]]></Verse>
+	<Verse VerseID="70"><![CDATA[Si Nous voulions, Nous la rendrions salée. Pourquoi n'êtes- vous donc pas reconnaissants ? ]]></Verse>
+	<Verse VerseID="71"><![CDATA[Voyez-vous donc le feu que vous obtenez par frottement ? ]]></Verse>
+	<Verse VerseID="72"><![CDATA[Est-ce vous qui avez créé son arbre ou [en] sommes Nous le Créateur ? ]]></Verse>
+	<Verse VerseID="73"><![CDATA[Nous en avons fait un rappel (de l'Enfer), et un élément utile pour ceux qui en ont besoin. ]]></Verse>
+	<Verse VerseID="74"><![CDATA[Glorifie donc le nom de ton Seigneur, le Très Grand ! ]]></Verse>
+	<Verse VerseID="75"><![CDATA[Non !... Je jure par les positions des étoiles (dans le firmament). ]]></Verse>
+	<Verse VerseID="76"><![CDATA[Et c'est vraiment un serment solennel, si vous saviez. ]]></Verse>
+	<Verse VerseID="77"><![CDATA[Et c'est certainement un Coran noble, ]]></Verse>
+	<Verse VerseID="78"><![CDATA[dans un Livre bien gardé ]]></Verse>
+	<Verse VerseID="79"><![CDATA[que seuls les purifiés touchent ; ]]></Verse>
+	<Verse VerseID="80"><![CDATA[C'est une révélation de la part du Seigneur de l'Univers. ]]></Verse>
+	<Verse VerseID="81"><![CDATA[Est-ce ce discours-là que vous traitez de mensonge ? ]]></Verse>
+	<Verse VerseID="82"><![CDATA[Et est-ce pour vous [une façon d'être reconnaissant] à votre subsistance que de traiter (le Coran) de mensonge ? ]]></Verse>
+	<Verse VerseID="83"><![CDATA[Lorsque le souffle de la vie remonte à la gorge (d'un moribond), ]]></Verse>
+	<Verse VerseID="84"><![CDATA[et qu'à ce moment là vous regardez, ]]></Verse>
+	<Verse VerseID="96"><![CDATA[Glorifie donc le nom de ton Seigneur, le Très Grand ! ]]></Verse>
+</Chapter>

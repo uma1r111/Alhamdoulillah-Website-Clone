@@ -1,0 +1,73 @@
+<?php 
+include ("compute.php");
+include("../inc/doctype.php") ?>
+
+<title>Sermon du Vendredi La Mecque PDF - Ecouter Khotba Imam de La Mecque Mp3</title>
+<meta name="description" content="Ecouter les khotba du vendredi à La Mecque en Mp3. Telecharger les sermons des imams de La Mecque au format PDF.">
+
+</head>
+<body>
+
+<?php include("../inc/menu.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>Sermon Vendredi La Mecque</h1>
+
+<h2>Khotba Joumou'a La Mecque</h2>
+
+<p>Voici l'ensemble des discours du vendredi de la ville sainte de La Mecque (Makkah) depuis l'an 1431 jusqu'à aujourd'hui. Vous pouvez écouter, télécharger ou lire les sermons en arabe. Vous trouverez ci-dessous un total de <?php echo $total;?> khoutab et pdf.</p>
+
+<h3>Sermon du vendredi de la Mecque</h3>
+
+<p> Choix de l'année : <a href="#1431">1431</a> | <a href="#1432">1432</a> | <a href="#1433">1433</a> | <a href="#1434">1434</a> | <a href="#1435">1435</a> | <a href="#1436">1436</a> | <a href="#1437">1437</a> | <a href="#1438">1438</a></p>
+
+<a name="1431"></a>
+<p><b><u>Khotba La Mecque 1431</u></b></p>
+<?php showQari(1)?>
+
+<a name="1432"></a>
+<p><b><u>Khotba La Mecque 1432</u></b></p>
+<?php showQari(2)?>								
+
+<a name="1433"></a>
+<p><b><u>Khotba La Mecque 1433</u></b></p>
+<?php showQari(3)?>								
+
+<a name="1434"></a>
+<p><b><u>Khotba La Mecque 1434</u></b></p>
+<?php showQari(4)?>								
+
+<a name="1435"></a>
+<p><b><u>Khotba La Mecque 1435</u></b></p>
+<?php showQari(5)?>								
+
+<a name="1436"></a>
+<p><b><u>Khotba La Mecque 1436</u></b></p>
+<?php showQari(6)?>								
+
+<a name="1437"></a>
+<p><b><u>Khotba La Mecque 1437</u></b></p>
+<?php showQari(7)?>		
+
+
+<a name="1438"></a>
+<p><b><u>Khotba La Mecque 1438</u></b></p>
+<?php showQari(8)?>							
+
+
+
+<br>
+</td>
+
+
+
+<td id="colonnes"><?php include("../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../inc/footer.php") ?>
+</body></html>

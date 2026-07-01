@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="43" ChapterName="L'ornement (Azzukhruf)">
+	<Verse VerseID="1"><![CDATA[Ha, Mim. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Par le Livre explicite ! ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Nous en avons fait un Coran arabe afin que vous raisonniez. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Il est auprès de Nous, dans l'Ecriture-Mère (l'original du ciel), sublime et rempli de sagesse. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Quoi ! Allons-Nous vous dispenser du Rappel [le Coran] pour la raison que vous êtes des gens outranciers ? ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Que de prophètes avons-Nous envoyés aux Anciens ! ]]></Verse>
+	<Verse VerseID="7"><![CDATA[et pas un prophète ne leur venait qu'ils ne le tournaient en dérision. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Nous avons fait périr de plus redoutables qu'eux ! Et on a déjà cité l'exemple des anciens. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Et si tu leur demandes : "Qui a créé les cieux et la terre ?" Ils diront très certainement : "Le Puissant, l'Omniscient les a créés". ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Celui qui vous a donné la terre pour berceau et vous y a tracé des sentiers afin que vous vous guidiez ; ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Celui qui a fait descendre l'eau du ciel avec mesure et avec laquelle Nous ranimons une cité morte [aride]. Ainsi vous serez ressuscités ; ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Celui qui a créé les couples dans leur totalité et a fait pour vous, des vaisseaux et des bestiaux, des montures, ]]></Verse>
+	<Verse VerseID="13"><![CDATA[afin que vous vous installiez sur leurs dos, et qu'ensuite, après vous y être installés, vous vous rappeliez le bienfait de votre Seigneur et que vous disiez : "Gloire à Celui qui nous a soumis tout cela alors que nous n'étions pas capables de les dominer. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[C'est vers notre Seigneur que nous retournerons". ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Et ils Lui firent de Ses serviteurs une partie [de Lui-Même]. L'homme est vraiment un ingrat déclaré ! ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Ou bien Se serait-Il attribué des filles parmi ce qu'Il crée et accordé à vous par préférence des fils  ? ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Or, quand on annonce à l'un d'eux (la naissance) d'une semblable de ce qu'il attribue au Tout Miséricordieux, son visage s'assombrit d'un chagrin profond. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Quoi ! Cet être (la fille) élevé au milieu des parures et qui, dans la dispute, est incapable de se défendre par une argumentation claire et convaincante  ? ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Et ils firent des Anges qui sont les serviteurs du Tout Miséricordieux des [êtres] féminins ! Etaient-ils témoins de leur création ? Leur témoignage sera alors inscrit ; et ils seront interrogés. ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Et ils dirent : "Si le Tout Miséricordieux avait voulu, nous ne les aurions pas adorés". Ils n'en ont aucune connaissance ; ils ne font que se livrer à des conjectures. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Ou bien, leur avions-Nous donné avant lui [le Coran] un Livre auquel ils seraient fermement attachés ? ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Mais plutòt ils dirent : "Nous avons trouvé nos ancêtres sur une religion, et nous nous guidons sur leurs traces". ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Et c'est ainsi que Nous n'avons pas envoyé avant toi d'avertisseur en une cité sans que ses gens aisés n'aient dit : "Nous avons trouvé nos ancêtres sur une religion et nous suivons leurs traces". ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Il dit : "Même si je viens à vous avec une meilleure direction que celle sur laquelle vous avez trouvé vous ancêtres ?" Ils dirent : "Nous ne croyons pas au message avec lequel vous avez été envoyés". ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Nous Nous vengeâmes d'eux. Regarde ce qu'il est devenu de ceux qui criaient au mensonge. ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Et lorsqu'Abraham dit à son père et à son peuple : "Je désavoue totalement ce que vous adorez, ]]></Verse>
+	<Verse VerseID="27"><![CDATA[à l'exception de Celui qui m'a créé, car c'est Lui en vérité qui me guidera". ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Et il en fit une parole qui devait se perpétuer parmi sa descendance. Peut-être reviendront-ils ? ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Mais à ces gens ainsi à leurs ancêtres, J'ai accordé la jouissance jusqu'à ce que leur vinrent la Vérité (le Coran) et un Messager explicite. ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Et quand la Vérité leur vint, ils dirent : "C'est de la magie et nous n'y croyons pas". ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Et ils dirent : "Pourquoi n'a-t-on pas fait descendre ce Coran sur un haut personnage de l'une des deux cités ?" (la Mecque et Taef). ]]></Verse>
+	<Verse VerseID="32"><![CDATA[Est-ce eux qui distribuent la miséricorde de ton Seigneur ? C'est Nous qui avons réparti entre eux leur subsistance dans la vie présente et qui les avons élevés en grades les uns sur les autres, afin que les uns prennent les autres à leur service. La miséricorde de ton Seigneur vaut mieux, cependant, que ce qu'ils amassent. ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Si les hommes ne devaient pas constituer une seule communauté (mécréante), Nous aurions certes pourvu les maisons de ceux qui ne croient pas au Tout Miséricordieux, de toits d'argent avec des escaliers pour y monter ; ]]></Verse>
+	<Verse VerseID="34"><![CDATA[(Nous aurions pourvu) leurs maisons de portes et de divans où ils s'accouderaient, ]]></Verse>
+	<Verse VerseID="35"><![CDATA[ainsi que des ornements. Et tout cela ne serait que jouissance temporaire de la vie d'ici-bas, alors que l'au-delà, auprès de ton Seigneur, est pour les pieux. ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Et quiconque s'aveugle (et s'écarte) du rappel du Tout Miséricordieux, Nous lui désignons un diable qui devient son compagnon inséparable. ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Ils (Les diables) détournent certes [les hommes] du droit chemin, tandis que ceux-ci s'estiment être bien guidés. ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Lorsque cet [homme] vient à Nous, il dira [à son démon] : "Hélas ! Que n'y a-t-il entre toi et moi la distance entre les deux orients [l'Est et l'Ouest] !" - Quel mauvais compagnon [que tu es] ! ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Il ne vous profitera point ce jour-là - du moment que vous avez été injustes - que vous soyez associés dans le châtiment. ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Est-ce donc toi qui fait entendre les sourds ou qui guide les aveugles et ceux qui sont dans un égarement évident ? ]]></Verse>
+	<Verse VerseID="41"><![CDATA[Soit que Nous t'enlevons [te ferons mourir] et alors Nous Nous vengerons d'eux ; ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Ou bien que Nous te ferons voir ce que Nous leur avons promis [le châtiment] ; car Nous avons sur eux un pouvoir certain. ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Tiens fermement à ce qui t'a été révélé car tu es sur le droit chemin. ]]></Verse>
+	<Verse VerseID="44"><![CDATA[C'est certainement un rappel [le Coran] pour toi et ton peuple. Et vous en serez interrogés. ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Et demande à ceux de Nos messagers que Nous avons envoyés avant toi, si Nous avons institué, en dehors du Tout Miséricordieux, des divinités à adorer ? ]]></Verse>
+	<Verse VerseID="46"><![CDATA[Nous avons effectivement envoyé Moïse avec Nos miracles, à Pharaon et à ses notables. Il dit : "Je suis le Messager du Seigneur de l'univers". ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Puis lorsqu'il vint à eux avec Nos miracles, voilà qu'ils en rirent. ]]></Verse>
+	<Verse VerseID="48"><![CDATA[Chaque miracle que Nous leur montrions était plus probant que son précédent. Et Nous les saisîmes par châtiment, peut-être reviendront-ils [vers Nous]. ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Et ils dirent : "Ô magicien ! Implore pour nous ton Seigneur au nom de l'engagement qu'Il a pris envers toi. Nous suivrons le droit chemin". ]]></Verse>
+	<Verse VerseID="50"><![CDATA[Puis quand Nous eûmes écarté d'eux le châtiment, voilà qu'ils violèrent leurs engagements. ]]></Verse>
+	<Verse VerseID="51"><![CDATA[Et Pharaon fit une proclamation à son peuple et dit : "Ô mon peuple ! Le royaume de Misr [l'Egypte] ne m'appartient-il pas ainsi que ces canaux qui coulent à mes pieds ? N'observez-vous donc pas ? ]]></Verse>
+	<Verse VerseID="52"><![CDATA[Ne suis-je par meilleur que ce misérable qui sait à peine s'exprimer ? ]]></Verse>
+	<Verse VerseID="53"><![CDATA[Pourquoi ne lui a-t-on lancé des bracelets d'or ? Pourquoi les Anges ne l'ont-ils pas accompagné ?" ]]></Verse>
+	<Verse VerseID="54"><![CDATA[Ainsi chercha-t-il à étourdir son peuple et ainsi lui obéirent-ils car ils étaient des gens pervers. ]]></Verse>
+	<Verse VerseID="55"><![CDATA[Puis lorsqu'ils Nous eurent irrité, Nous Nous vengeâmes d'eux et les noyâmes tous ]]></Verse>
+	<Verse VerseID="56"><![CDATA[Nous fîmes d'eux un antécédent et un exemple [une leçon] pour la postérité. ]]></Verse>
+	<Verse VerseID="57"><![CDATA[Quand on cite l'exemple du fils de Marie, ton peuple s'en détourne, ]]></Verse>
+	<Verse VerseID="58"><![CDATA[en disant : "Nos dieux sont-ils meilleurs, ou bien lui ?" Ce n'est que par polémique qu'ils te le citent comme exemple. Ce sont plutòt des gens chicaniers. ]]></Verse>
+	<Verse VerseID="59"><![CDATA[Il (Jésus) n'était qu'un Serviteur que Nous avions comblé de bienfaits et que Nous avions désigné en exemples aux Enfants d'Israël. ]]></Verse>
+	<Verse VerseID="60"><![CDATA[Si Nous voulions, Nous ferions de vous des Anges qui vous succéderaient sur la terre. ]]></Verse>
+	<Verse VerseID="61"><![CDATA[Il sera un signe au sujet de l'Heure. N'en doutez point. Et suivez-moi : voilà un droit chemin. ]]></Verse>
+	<Verse VerseID="62"><![CDATA[Que le Diable ne vous détourne point ! Car il est pour vous un ennemi déclaré. ]]></Verse>
+	<Verse VerseID="63"><![CDATA[Et quand Jésus apporta les preuves, il dit : "Je suis venu à vous avec la sagesse et pour vous expliquer certains de vos sujets de désaccord. Craignez Allah donc et obéissez-moi. ]]></Verse>
+	<Verse VerseID="64"><![CDATA[Allah est en vérité mon Seigneur et votre Seigneur. Adorez- Le donc. Voilà un droit chemin. ]]></Verse>
+	<Verse VerseID="65"><![CDATA[Mais les factions divergèrent entre elles. Malheur donc aux injustes du châtiment d'un jour douloureux ! ]]></Verse>
+	<Verse VerseID="66"><![CDATA[Attendent-ils seulement que l'Heure leur vienne à l'improviste, sans qu'ils ne s'en rendent compte ? ]]></Verse>
+	<Verse VerseID="67"><![CDATA[Les amies, ce jour-là, seront ennemies les uns des autres ; excepté les pieux. ]]></Verse>
+	<Verse VerseID="68"><![CDATA["Ô Mes serviteurs ! Vous ne devez avoir aucune crainte aujourd'hui ; vous ne serez point affligés, ]]></Verse>
+	<Verse VerseID="69"><![CDATA[Ceux qui croient en Nos signe et sont musulmans,, ]]></Verse>
+	<Verse VerseID="70"><![CDATA["Entrez au Paradis, vous et vos épouses, vous y serez fêtés". ]]></Verse>
+	<Verse VerseID="71"><![CDATA[On fera circuler parmi eux des plats d'or et des coupes ; et il y aura là [pour eux] tout ce que les âmes désirent et ce qui réjouit les yeux ; - "et vous y demeurerez éternellement. ]]></Verse>
+	<Verse VerseID="72"><![CDATA[Tel est le Paradis qu'on vous fait hériter pour ce que vous faisiez. ]]></Verse>
+	<Verse VerseID="73"><![CDATA[Il y aura là pour vous beaucoup de fruits dont vous mangerez". ]]></Verse>
+	<Verse VerseID="74"><![CDATA[Quant aux criminels, ils demeureront dans le châtiment de l'Enfer, ]]></Verse>
+	<Verse VerseID="75"><![CDATA[qui ne sera jamais interrompu pour eux et où ils seront en désespoir. ]]></Verse>
+	<Verse VerseID="76"><![CDATA[Nous ne leur avons fait aucun tort, mais c'étaient eux les injustes. ]]></Verse>
+	<Verse VerseID="77"><![CDATA[et ils crieront : "Ô Malik  ! que ton Seigneur nous achève !" Il dira : "En vérité, vous êtes pour y demeurer [éternellement]" ! ]]></Verse>
+	<Verse VerseID="78"><![CDATA["Certes, Nous vous avions apporté la Vérité ; mais la plupart d'entre vous détestaient la Vérité". ]]></Verse>
+	<Verse VerseID="79"><![CDATA[Ont-ils pris quelque décision [entre eux] ? Car c'est Nous qui décidons ! ]]></Verse>
+	<Verse VerseID="80"><![CDATA[Ou bien escomptent-ils que Nous n'entendons pas leur secret ni leurs délibérations ? Mais si ! Nos Anges prennent note auprès d'eux. ]]></Verse>
+	<Verse VerseID="81"><![CDATA[Dis : "Si le Tout Miséricordieux avait un enfant, alors je serais le premier à l'adorer". ]]></Verse>
+	<Verse VerseID="82"><![CDATA[Gloire au Seigneur des cieux et de la terre, Seigneur du Tròne ; Il transcende de ce qu'ils décrivent. ]]></Verse>
+	<Verse VerseID="83"><![CDATA[Laisse-les donc s'enfoncer dans leur fausseté et s'amuser jusqu'à ce qu'ils rencontrent le jour qui leur est promis. ]]></Verse>
+	<Verse VerseID="84"><![CDATA[c'est Lui qui est Dieu dans le ciel et Dieu sur terre ; et c'est Lui le Sage, l'Omniscient ! ]]></Verse>
+	<Verse VerseID="85"><![CDATA[Et béni soit Celui à qui appartient le souveraineté des cieux et de la terre et de ce qui est entre eux. Il détient la science de l'Heure. Et c'est vers Lui que vous serez ramenés. ]]></Verse>
+	<Verse VerseID="86"><![CDATA[Et ceux qu'ils invoquent en dehors de Lui n'ont aucun pouvoir d'intercession, à l'exception de ceux qui auront témoigné de la vérité en pleine connaissance de cause. ]]></Verse>
+	<Verse VerseID="87"><![CDATA[Et si tu leur demandes qui les a créés, ils diront très certainement : "Allah". Comment se fait-il donc qu'ils se détournent ? ]]></Verse>
+	<Verse VerseID="88"><![CDATA[Et sa parole (la parole du Prophète à Allah) : "Seigneur, ce sont là des gens qui ne croient pas". ]]></Verse>
+	<Verse VerseID="89"><![CDATA[Et bien, éloigne-toi d'eux (pardonne-leur) ; et dit : "Salut !" Car ils sauront bientòt. ]]></Verse>
+</Chapter>

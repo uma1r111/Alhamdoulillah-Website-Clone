@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="74" ChapterName="Le revêtu d'un manteau (Al-Muddattir)">
+	<Verse VerseID="1"><![CDATA[Ô, toi (Muhammad) ! Le revêtu d'un manteau ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Lève-toi et avertis. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Et de ton Seigneur, célèbre la grandeur. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Et tes vêtements, purifie-les. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Et de tout péché, écarte-toi.. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Et ne donne pas dans le but de recevoir davantage.. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Et pour ton Seigneur, endure. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Quand on sonnera du Clairon, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[alors, ce jour-là sera un jour difficile, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[pas facile pour les mécréants. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Laisse-Moi avec celui que J'ai créé seul, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[et à qui J'ai donné des biens étendus, ]]></Verse>
+	<Verse VerseID="13"><![CDATA[et des enfants qui lui tiennent toujours compagnie, ]]></Verse>
+	<Verse VerseID="14"><![CDATA[pour qui aussi J'ai aplani toutes difficultés. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Cependant, il convoite [de Moi] que Je lui donne davantage. ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Pas du tout ! Car il reniait nos versets (le Coran) avec entêtement. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Je vais le contraindre à gravir une pente. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Il a réfléchi. Et il a décidé. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Qu'il périsse ! Comme il a décidé ! ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Encore une fois, qu'il périsse ; comme il a décidé ! ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Ensuite, il a regardé. ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Et il s'est renfrogné et a durci son visage. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Ensuite il a tourné le dos et s'est enflé d'orgueil. ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Puis il a dit : "Ceci (le Coran) n'est que magie apprise ]]></Verse>
+	<Verse VerseID="25"><![CDATA[ce n'est là que la parole d'un humain". ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Je vais le brûler dans le Feu intense (Saqar). ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Et qui te dira ce qu'est Saqar ? ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Il ne laisse rien et n'épargne rien ; ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Il brûle la peau et la noircit. ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Ils sont dix neuf à y veiller. ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Nous n'avons assigné comme gardiens du Feu que les Anges. Cependant, Nous n'en avons fixé le nombre que pour éprouver les mécréants, et aussi afin que ceux à qui le Livre a été apporté soient convaincus, et que croisse la foi de ceux qui croient, et que ceux à qui le Livre a été apporté et les croyants n'aient point de doute ; et pour que ceux qui ont au coeur quelque maladie ainsi que les mécréants disent : "Qu'a donc voulu Allah par cette parabole ?" C'est ainsi qu'Allah égare qui Il veut et guide qui Il veut. Nul ne connaît les armées de ton Seigneur, à part Lui. Et ce n'est là qu'un rappel pour les humains. ]]></Verse>
+	<Verse VerseID="32"><![CDATA[Non !... Par la lune ! ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Et par la nuit quand elle se retire ! ]]></Verse>
+	<Verse VerseID="34"><![CDATA[Et par l'aurore quand elle se découvre ! ]]></Verse>
+	<Verse VerseID="35"><![CDATA[[Saqar] est l'un des plus grandes [malheurs] ]]></Verse>
+	<Verse VerseID="36"><![CDATA[un avertissement, pour les humains. ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Pour qui d'entre vous, veut avancer ou reculer. ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Toute âme est l'otage de ce qu'elle a acquis. ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Sauf les gens de la droite (les élus) : ]]></Verse>
+	<Verse VerseID="40"><![CDATA[dans des Jardins, ils s'interrogeront ]]></Verse>
+	<Verse VerseID="41"><![CDATA[au sujet des criminels : ]]></Verse>
+	<Verse VerseID="42"><![CDATA["Qu'est-ce qui vous a acheminés à Saqar ?" ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Ils diront : "Nous n'étions pas de ceux qui faisaient la Salat, ]]></Verse>
+	<Verse VerseID="44"><![CDATA[et nous ne nourrissions pas le pauvre, ]]></Verse>
+	<Verse VerseID="45"><![CDATA[et nous nous associions à ceux qui tenaient des conversations futiles, ]]></Verse>
+	<Verse VerseID="46"><![CDATA[et nous traitions de mensonge le jour de la Rétribution, ]]></Verse>
+	<Verse VerseID="47"><![CDATA[jusqu'à ce que nous vînt la vérité évidente [la mort]". ]]></Verse>
+	<Verse VerseID="48"><![CDATA[Ne leur profitera point donc, l'intercession des intercesseurs. ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Qu'ont-ils à se détourner du Rappel ? ]]></Verse>
+	<Verse VerseID="50"><![CDATA[Ils sont comme des onagres épouvantés, ]]></Verse>
+	<Verse VerseID="51"><![CDATA[s'enfuyant devant un lion. ]]></Verse>
+	<Verse VerseID="52"><![CDATA[Chacun d'eux voudrait plutòt qu'on lui apporte des feuilles tout étalées. ]]></Verse>
+	<Verse VerseID="53"><![CDATA[Ah ! Non ! C'est plutòt qu'ils ne craignent pas l'au-delà. ]]></Verse>
+	<Verse VerseID="54"><![CDATA[Ah ! Non ! Ceci est vraiment un Rappel. ]]></Verse>
+	<Verse VerseID="55"><![CDATA[Quiconque veut, qu'il se le rappelle. ]]></Verse>
+	<Verse VerseID="56"><![CDATA[Mais ils ne se rappelleront que si Allah veut. C'est Lui qui est Le plus digne d'être craint ; et c'est Lui qui détient le pardon. ]]></Verse>
+</Chapter>

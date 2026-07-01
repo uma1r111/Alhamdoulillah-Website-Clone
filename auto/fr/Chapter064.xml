@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="64" ChapterName="La grande perte (At-Tagabun)">
+	<Verse VerseID="1"><![CDATA[Ce qui est dans les cieux et ce qui est sur la terre glorifient Allah. A Lui la royauté et à Lui les louanges. Et Il est Omnipotent. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[C'est Lui qui vous a créés. Parmi vous [il y a] mécréant et croyant. Allah observe parfaitement ce que vous faites. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Il a créé les cieux et la terre en toute vérité et vous a donné votre forme et quelle belle forme Il vous a donnée. Et vers Lui est le devenir. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Il sait ce qui est dans les cieux et la terre, et il sait ce que vous cachez ainsi que ce que vous divulguez. Et Allah connaît bien le contenu des poitrines. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Ne vous est-elle pas parvenue, la nouvelle de ceux qui auparavant ont mécru et qui ont goûté la conséquence néfaste de leur acte ; ils auront en outre un châtiment douloureux. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[il en est ainsi parce que leurs messagers leur venaient avec des preuves évidentes, et qu'ils ont dit : "Sont-ce des hommes qui nous guideront ?" Ils mécrurent alors et se détournèrent et Allah Se passa [d'eux] et Allah Se suffit à Lui-même et Il est Digne de louange. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Ceux qui ont mécru prétendent qu'ils ne seront point ressuscités. Dis : "Mais si ! Par mon Seigneur ! Vous serez très certainement ressuscités ; puis vous serez certes informés de ce que vous faisiez. Et cela est facile pour Allah". ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Croyez en Allah donc et en Son messager, ainsi qu'en la Lumière [le Coran] que Nous avons fait descendre. Et Allah est Parfaitement Connaisseur de ce que vous faites. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Le jour où Il vous réunira pour le jour du Rassemblement, ce sera le jour de la grande perte. Et celui qui croit en Allah et accomplit les bonnes oeuvres, Il lui effacera ses mauvaises actions et fera entrer dans des Jardins sous lesquels coulent les ruisseaux où ils demeureront éternellement. Voilà l'énorme succès ! ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Et ceux qui ont mécru et traité de mensonges Nos versets, ceux-là sont les gens du Feu où ils demeureront éternellement. Et quelle mauvaise destination ! ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Nul malheur n'atteint [l'homme] que par la permission d'Allah. Et quiconque croit en Allah, [Allah] guide son coeur. Allah est Omniscient. ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Obéissez à Allah et obéissez au Messager et si vous vous détournez... il n'incombe à Notre messager que de transmettre en claire (son message). ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Allah, nulle autre divinité que Lui ! Et c'est à Allah que les croyants [doivent] s'en remettre. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Ô vous qui avez cru, vous avez de vos épouses et de vos enfants un ennemi [une tentation]. Prenez-y garde donc. Mais si vous [les] excusez passez sur [leurs] fautes et [leur] pardonnez, sachez qu'Allah est Pardonneur, Très Miséricordieux. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Vos biens et vos enfants ne sont qu'une tentation, alors qu'auprès d'Allah est une énorme récompense. ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Craignez Allah, donc autant que vous pouvez, écoutez, obéissez et faites largesses. Ce sera un bien pour vous. Et quiconque a été protégé contre sa propre avidité... ceux-là sont ceux qui réussissent. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Si vous faites à Allah un prêt sincère, Il multipliera pour vous et vous pardonnera. Allah cependant est très Reconnaissant et Indulgent. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Il est le Connaisseur du monde Invisible et visible, et Il est le Puissant, le Sage. ]]></Verse>
+</Chapter>

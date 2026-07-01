@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="112" ChapterName="Le monothéisme pur (Al-Ihlas)">
+	<Verse VerseID="1"><![CDATA[Dis : "Il est Allah, Unique. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Allah, Le Seul à être imploré pour ce que nous désirons. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Il n'a jamais engendré, n'a pas été engendré non plus. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Et nul n'est égal à Lui". ]]></Verse>
+</Chapter>

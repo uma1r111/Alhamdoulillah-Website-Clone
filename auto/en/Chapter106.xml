@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="106" ChapterName="The Qureaish">
+	<Verse VerseID="1"><![CDATA[To Koreish`s unification/familiarity .]]></Verse>
+	<Verse VerseID="2"><![CDATA[Their unification/familiarization (with) the winter`s and the summer`s travel/journey .]]></Verse>
+	<Verse VerseID="3"><![CDATA[So they should worship this, the House`s/Home`s Lord.]]></Verse>
+	<Verse VerseID="4"><![CDATA[Who fed them from starvation/hunger, and secured them from fear/fright.]]></Verse>
+</Chapter>

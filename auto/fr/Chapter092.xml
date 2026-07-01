@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="92" ChapterName="La nuit (Al-Layl)">
+	<Verse VerseID="1"><![CDATA[Par la nuit quand elle enveloppe tous ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Par le jour quand il éclaire ! ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Et par ce qu'Il a créé, mâle et femelle ! ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Vos efforts sont divergents. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Celui qui donne et craint (Allah) ]]></Verse>
+	<Verse VerseID="6"><![CDATA[et déclare véridique la plus belle récompense ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Nous lui faciliterons la voie au plus grand bonheur. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Et quand à celui qui est avare, se dispense (de l'adoration d'Allah), ]]></Verse>
+	<Verse VerseID="9"><![CDATA[et traite de mensonge la plus belle récompense, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Nous lui faciliterons la voie à la plus grande difficulté, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[et à rien ne lui serviront ses richesses quand il sera jeté (au Feu). ]]></Verse>
+	<Verse VerseID="12"><![CDATA[C'est à Nous, certes, de guider ; ]]></Verse>
+	<Verse VerseID="13"><![CDATA[à Nous appartient, certes, la vie dernière et la vie présente. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Je vous ai donc avertis d'un Feu qui flambe ]]></Verse>
+	<Verse VerseID="15"><![CDATA[où ne brûlera que le damné, ]]></Verse>
+	<Verse VerseID="16"><![CDATA[qui dément et tourne le dos ; ]]></Verse>
+	<Verse VerseID="17"><![CDATA[alors qu'en sera écarté le pieux, ]]></Verse>
+	<Verse VerseID="18"><![CDATA[qui donne ses biens pour se purifier ]]></Verse>
+	<Verse VerseID="19"><![CDATA[et auprès de qui personne ne profite d'un bienfait intéressé, ]]></Verse>
+	<Verse VerseID="20"><![CDATA[mais seulement pour la recherche de La Face de son seigneur le Très- Haut. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Et certes, il sera bientòt satisfait ! ]]></Verse>
+</Chapter>

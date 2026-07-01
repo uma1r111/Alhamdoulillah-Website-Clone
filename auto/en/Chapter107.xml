@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="107" ChapterName="The Daily Necessar">
+	<Verse VerseID="1"><![CDATA[Did you see/understand who lies/denies/falsifies with the religion?]]></Verse>
+	<Verse VerseID="2"><![CDATA[So that (is) who turns down/repels the orphan .]]></Verse>
+	<Verse VerseID="3"><![CDATA[And does not urge/insight/influence on feeding the poorest of poor/poor oppressed.]]></Verse>
+	<Verse VerseID="4"><![CDATA[So calamity/scandal/woe to the prayers (praying people).]]></Verse>
+	<Verse VerseID="5"><![CDATA[Those whom they are about their prayers negligent/inattentive .]]></Verse>
+	<Verse VerseID="6"><![CDATA[Those whom they are pretending/showing off (what they are not).]]></Verse>
+	<Verse VerseID="7"><![CDATA[And they prevent/stop the charity .]]></Verse>
+</Chapter>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="96" ChapterName="The Clot">
+	<Verse VerseID="1"><![CDATA[Read by your Lord`s name who created.]]></Verse>
+	<Verse VerseID="2"><![CDATA[He created the human/mankind from blood clots/sperm .]]></Verse>
+	<Verse VerseID="3"><![CDATA[Read and/by your Lord, the most honoured/generous .]]></Verse>
+	<Verse VerseID="4"><![CDATA[Who taught/instructed by the pen/writing utensil.]]></Verse>
+	<Verse VerseID="5"><![CDATA[He taught/instructed the human/mankind what he did not know.]]></Verse>
+	<Verse VerseID="6"><![CDATA[No but that truly the human/mankind tyrannizes/exceeds the limit (E).]]></Verse>
+	<Verse VerseID="7"><![CDATA[That (E) he saw/understood him(self), he enriched/sufficed (himself).]]></Verse>
+	<Verse VerseID="8"><![CDATA[That truly to your Lord (is) the return.]]></Verse>
+	<Verse VerseID="9"><![CDATA[Did you see/understand who forbids/prevents?]]></Verse>
+	<Verse VerseID="10"><![CDATA[A worshipper/servant/slave when/if he prayed ?]]></Verse>
+	<Verse VerseID="11"><![CDATA[Did you see/understand if he was on the guidance?]]></Verse>
+	<Verse VerseID="12"><![CDATA[Or he ordered/commanded with the fear and obedience of God?]]></Verse>
+	<Verse VerseID="13"><![CDATA[Did you see/understand if he lied/denied/falsified and he turned away?]]></Verse>
+	<Verse VerseID="14"><![CDATA[Does he not know with that (E) God sees/understands?]]></Verse>
+	<Verse VerseID="15"><![CDATA[No but if (E) he does not end/terminate/stop, We will pull and strike (E) by the forehead/forehead`s hair.]]></Verse>
+	<Verse VerseID="16"><![CDATA[A lying/denying/falsifying, sinning/erring/wronging forehead/forehead`s hair.]]></Verse>
+	<Verse VerseID="17"><![CDATA[So he should call his caller.]]></Verse>
+	<Verse VerseID="18"><![CDATA[We will call the strong ones/patrol force/Elzabaneya angels.]]></Verse>
+	<Verse VerseID="19"><![CDATA[No but do not obey him, and prostrate and near/approach (to Me).]]></Verse>
+</Chapter>

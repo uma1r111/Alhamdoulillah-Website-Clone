@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="103" ChapterName="Le temps (Al-Asr)">
+	<Verse VerseID="1"><![CDATA[Par le Temps ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[L'homme est certes, en perdition, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[sauf ceux qui croient et accomplissent les bonnes oeuvres, s'enjoignent mutuellement la vérité et s'enjoignent mutuellement l'endurance ]]></Verse>
+</Chapter>

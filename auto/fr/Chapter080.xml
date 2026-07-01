@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="80" ChapterName="Il s'est renfrogné (Abasa)">
+	<Verse VerseID="1"><![CDATA[Il s'est renfrogn� et il s'est d�tourn ]]></Verse>
+	<Verse VerseID="2"><![CDATA[parce que l'aveugle est venu � lui ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Qui te dit  : peut-�tre [cherche]-t-il � se purifier ]]></Verse>
+	<Verse VerseID="4"><![CDATA[ou � se rappeler en sorte que le rappel lui profite ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Quant � celui qui se compla�t dans sa suffisance (pour sa richesse ]]></Verse>
+	<Verse VerseID="6"><![CDATA[tu vas avec empressement � sa rencontre ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Or, que t'importe qu'il ne se purifie pas ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Et quant � celui qui vient � toi avec empressemen ]]></Verse>
+	<Verse VerseID="9"><![CDATA[tout en ayant la crainte ]]></Verse>
+	<Verse VerseID="10"><![CDATA[tu ne t'en soucies pas ]]></Verse>
+	<Verse VerseID="11"><![CDATA[N'agis plus ainsi  ! Vraiment ceci est un rappel ]]></Verse>
+	<Verse VerseID="12"><![CDATA[quiconque veut, donc, s'en rappelle ]]></Verse>
+	<Verse VerseID="13"><![CDATA[consign� dans des feuilles honor�es ]]></Verse>
+	<Verse VerseID="14"><![CDATA[�lev�es, purifi�es ]]></Verse>
+	<Verse VerseID="15"><![CDATA[entre les mains d'ambassadeur ]]></Verse>
+	<Verse VerseID="16"><![CDATA[nobles, ob�issants ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Que p�risse l'homme  ! Qu'il est ingrat ]]></Verse>
+	<Verse VerseID="18"><![CDATA[De quoi [Dieu] l'a-t-Il cr�� ]]></Verse>
+	<Verse VerseID="19"><![CDATA[D'une goutte de sperme, Il le cr�e et d�termine (son destin) ]]></Verse>
+	<Verse VerseID="20"><![CDATA[puis Il lui facilite le chemin ]]></Verse>
+	<Verse VerseID="21"><![CDATA[puis Il lui donne la mort et le met au tombeau ]]></Verse>
+	<Verse VerseID="22"><![CDATA[puis Il le ressuscitera quand Il voudra ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Eh bien non  ! [L'homme] n'accomplit pas ce qu'Il lui commande ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Que l'homme consid�re donc sa nourriture ]]></Verse>
+	<Verse VerseID="25"><![CDATA[C'est Nous qui versons l'eau abondante ]]></Verse>
+	<Verse VerseID="26"><![CDATA[puis Nous fendons la terre par fissure ]]></Verse>
+	<Verse VerseID="27"><![CDATA[et y faisons pousser grains ]]></Verse>
+	<Verse VerseID="28"><![CDATA[vignobles et l�gumes ]]></Verse>
+	<Verse VerseID="29"><![CDATA[oliviers et palmiers ]]></Verse>
+	<Verse VerseID="30"><![CDATA[jardins touffus ]]></Verse>
+	<Verse VerseID="31"><![CDATA[fruits et herbages ]]></Verse>
+	<Verse VerseID="32"><![CDATA[pour votre jouissance vous et vos bestiaux ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Puis quand viendra le Fracas ]]></Verse>
+	<Verse VerseID="34"><![CDATA[le jour o� l'homme s'enfuira de son fr�re ]]></Verse>
+	<Verse VerseID="35"><![CDATA[de sa m�re, de son p�re ]]></Verse>
+	<Verse VerseID="36"><![CDATA[de sa compagne et de ses enfants ]]></Verse>
+	<Verse VerseID="37"><![CDATA[car chacun d'eux, ce jour-l�, aura son propre cas pour l'occuper ]]></Verse>
+	<Verse VerseID="38"><![CDATA[ce jour-l�, il y aura des visages rayonnants ]]></Verse>
+	<Verse VerseID="39"><![CDATA[riants et r�jouis ]]></Verse>
+	<Verse VerseID="40"><![CDATA[De m�me qu'il y aura, ce jour-l�, des visages couverts de poussi�re ]]></Verse>
+	<Verse VerseID="41"><![CDATA[recouverts de t�n�bres ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Voil� les infid�les, les libertins ]]></Verse>
+</Chapter>

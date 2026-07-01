@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="102" ChapterName="The Multiplicatio">
+	<Verse VerseID="1"><![CDATA[The multiplication distracted/diverted you .]]></Verse>
+	<Verse VerseID="2"><![CDATA[Until you visited the cemeteries/burial places .]]></Verse>
+	<Verse VerseID="3"><![CDATA[No but you will/shall know.]]></Verse>
+	<Verse VerseID="4"><![CDATA[Then no but you will/shall know.]]></Verse>
+	<Verse VerseID="5"><![CDATA[No but if you know knowledge (of) the assurance/certainty .]]></Verse>
+	<Verse VerseID="6"><![CDATA[You would see/understand (E) the Hell .]]></Verse>
+	<Verse VerseID="7"><![CDATA[Then you will see/understand it (with) the assurance`s/certainty`s eye (visually).]]></Verse>
+	<Verse VerseID="8"><![CDATA[Then (on) that day you will be asked/questioned (E) about the blessing/goodness .]]></Verse>
+</Chapter>

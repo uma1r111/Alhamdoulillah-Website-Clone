@@ -1,0 +1,1 @@
+<img src="http://www.al-hamdoulillah.com/images/allah.png" style="width: 20px; height: 17px;">

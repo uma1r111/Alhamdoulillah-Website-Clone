@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="111" ChapterName="Les fibres (Al-Masad)">
+	<Verse VerseID="1"><![CDATA[Que périssent les deux mains d'Abou-Lahab et que lui-même périsse. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Sa fortune ne lui sert à rien, ni ce qu'il a acquis. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Il sera brûlé dans un Feu plein de flammes. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[De même sa femme, la porteuse de bois, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[à son cou, une corde de fibres. ]]></Verse>
+</Chapter>

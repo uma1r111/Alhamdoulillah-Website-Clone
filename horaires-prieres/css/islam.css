@@ -1,0 +1,245 @@
+body
+  { font-family: verdana;
+    font-size: 10pt;
+    background-color: slategrey;
+	line-height: 1.5;
+	padding:0;
+	margin:0;
+  }
+  
+h1
+  {
+    background-color: lightblue;
+    font-size: 14pt;
+    color: black;
+	border: 1px;
+	padding-left: 20px;
+	margin-top:0px;
+	font-weight:bold;
+  }
+  
+h2
+  {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 13pt;
+  }
+  
+h3
+  {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 11pt;
+    height: 23px;
+  }  
+  
+#titres
+  {
+    text-align: left;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 13pt;
+    text-decoration: underline;
+  }
+ 
+p
+  {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    line-height: 189%;
+  }
+
+a
+  { 
+    text-decoration: none;
+    color: darkBlue;
+  }
+
+a:hover
+  { 
+    color: darkBlue;
+    text-decoration: underline;
+  }
+  
+a:visited
+  { 
+    text-decoration: none;
+  }
+
+#global
+  {
+    margin-left: auto;
+    margin-right: auto;
+	border-spacing:15px;
+  }
+
+#colonnes
+  {    
+    vertical-align: top;
+	width:300px;
+  }
+
+#contenu
+  {
+    border: 1px solid black;
+    width: 600px;
+    vertical-align: top;
+    background-color: white;
+	border-radius:3px;
+   }
+ 
+  
+#bismillah
+  {
+    text-align: center;
+    margin-bottom: -15px;
+    margin-top: 3px;
+  }
+ 
+#coran
+  {
+    color: rgb(102, 51, 0);
+    font-size: 7pt;
+    font-weight: bold;
+  }
+ 
+#hadiths
+  {
+    color: rgb(102, 51, 0);
+  }
+ 
+#saws
+  {
+    font-size: 7pt;
+  }
+  
+#sahaba
+  {
+    font-size: 7pt;
+  }
+  
+ #rapporteurs
+  {
+    font-size: 7pt;
+  }
+ 
+#rahma
+  {
+    font-size: 7pt;
+  }
+ 
+#ref
+  {
+    font-size: 7pt;
+  }
+ 
+ #end
+  {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(102, 51, 0);
+  }
+  
+ #quran
+ {
+	font-family: quran;
+}
+
+#tajwid
+ {
+	line-height:2.3em; 
+	font-size:21px; 
+	margin:5px; 
+	font-family:quran; 
+	text-align:justify;
+}
+
+#discret
+{
+	color:black; 
+	font-weight:normal; 
+	text-decoration:none;
+}
+
+
+ .tableau_index_sourate
+ {
+	text-align: left; 
+	width: 400px; 
+	border:1px; 
+	padding:5px; 
+	border-spacing: 0px;
+}
+
+ .td_tableau_index_sourate_center
+ {
+	text-align: center; 
+	white-space: nowrap;
+}
+
+
+input {font-size: 12px;}
+.header {background:#eef; border-bottom: 1px solid #ddd; padding: 7px; margin-top:-17px;}
+.caption {    font-size: 15pt; text-align: center; height: 50px; background: lightgray; width: 581px;	}
+.arrow {font-weight: bold; text-decoration: none; color: #3D3D3D; }
+.arrow:hover {text-decoration: underline;}
+.command {font-weight: bold; text-decoration: none; color: #000000; }
+.command:hover {text-decoration: underline;}
+.timetable {border-width: 1px; border-style: outset; border-collapse: collapse; border-color: gray; margin: 0 auto; text-align:center; width:581px;}
+.timetable td {border-width: 1px; border-spacing: 1px; padding: 10px; border-style: outset; border-color: 1px solid black;}
+.head-row {color: black; background-color: #eef; font-weight:bold;}
+.today-row {background-color: lightgray; color: black; background-color:lightyellow; border:1px solid black;}
+.vendredi-row {background-color: powderBlue; color: black; border:1px solid black;}
+
+.suraName {text-align: center; font-size: 21pt;  font-family:quran; margin-bottom: 57px; margin-top: -129px;}
+.suraNamefr {text-align: center; font-size: 10pt; margin-bottom: 55px; margin-top: -105px; font-weight:bold;}
+.suraName19 {text-align: center; font-size: 21pt;  font-family:quran; margin-bottom: 7px; margin-top: -67px;}
+.suraNamefr19 {text-align: center; font-size: 10pt; margin-bottom: 21px; margin-top: -59px; font-weight:bold;}
+
+.aya {font-family: quran, traditional arabic; direction: rtl; font-size: 21px; padding: 0px; background-color: mintCream;}
+.ayafr {font-size: 10pt; padding: 0px; background-color: mintCream;}
+
+.bismillah {font-family: quran, traditional arabic; direction: rtl; font-size: 21px; padding: 0px; background-color: mintCream; text-align:center;}
+.bismillahfr {font-size: 10pt; padding: 0px; background-color: mintCream; text-align:center;}
+
+.aya:hover {background-color: lightBlue;}
+
+.ayaNum {font-size: 21px; font-family: quran; background-color: mintCream; font-weight:bold; color:#663300; margin-left:7px; white-space:nowrap;}
+.ayaNumfr {font-size: 9pt; font-family: verdana; background-color: mintCream; font-weight:bold; color:#663300;}
+
+.sign {font-family: quran; color: red; background-color: mintCream;}
+.footer {text-align: center; margin: 20px 0px; color: #222; font-family: Arial; background-color: #f4f4ff; border: 1px solid #ccd; padding: 3px; font: 12px Verdana;}
+
+.moushaffr {padding-left:3px; padding-right:3px; margin-left:3px; margin-right:3px; text-align: justify; line-height:3.5em; background-color:mintCream; font-size:10pt;}
+.moushaf {padding-left:3px; padding-right:3px; margin-left:3px; margin-right:3px; font-family: quran, traditional arabic; direction: rtl; text-align: justify; line-height:4.5em; background-color:mintCream;}
+
+.versets {font-family: quran, traditional arabic; direction: rtl; font-size: 21px; padding-left:9px; padding-right:9px; line-height:2em;}
+.versetsfr {font-size: 10pt; padding: 0px;}
+
+.verNum {font-size: 21px; font-family: quran; font-weight:bold; margin-left:7px; white-space:nowrap;}
+.verNumfr {font-size: 9pt; font-family: verdana; font-weight:bold; color:#663300;}
+
+
+@font-face {
+   font-family: quran;
+   src: url("http://www.al-hamdoulillah.com/quran.eot");
+}
+
+@font-face {
+   font-family: quran;
+   src: url("http://www.al-hamdoulillah.com/quran.ttf") format("truetype");
+}
+
+.button {
+    background-color: lightblue;
+    border-radius: 11px;
+    color: black;
+	font-weight:bold;
+    padding: 15px;
+	margin:10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12pt;
+    cursor: pointer;
+}

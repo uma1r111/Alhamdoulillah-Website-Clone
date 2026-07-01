@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="69" ChapterName="The Sure Calamity">
+	<Verse VerseID="1"><![CDATA[The disaster/catastrophe/reality .]]></Verse>
+	<Verse VerseID="2"><![CDATA[What is the disaster/catastrophe/reality ?]]></Verse>
+	<Verse VerseID="3"><![CDATA[And what makes you know what (is) the disaster/catastrophe/reality ?]]></Verse>
+	<Verse VerseID="4"><![CDATA[Thamud and Aad lied/denied/falsified with the Resurrection/disaster/calamity .]]></Verse>
+	<Verse VerseID="5"><![CDATA[So but (for) Thamud , so they were made to die/destroyed with a wind blowing/frosty (and) violent .]]></Verse>
+	<Verse VerseID="6"><![CDATA[And but (for) Aad , so they were made to die/destroyed by a violent blowing/frosty wind .]]></Verse>
+	<Verse VerseID="7"><![CDATA[He manipulated/subjugated it on them seven nights and eight days ominously/severing goodness (uprooting), so you see the nation in it lying flat/mad, as if they are palm tree`s fallen/destroyed ends.]]></Verse>
+	<Verse VerseID="8"><![CDATA[So do you see for them from a remainder/remnant?]]></Verse>
+	<Verse VerseID="9"><![CDATA[And Pharaoh came, and who (is) before him, and the overturned/destroyed cities with the sin .]]></Verse>
+	<Verse VerseID="10"><![CDATA[So they disobeyed their Lord`s messenger, so He punished them an increased spellbinding (devastating) punishment .]]></Verse>
+	<Verse VerseID="11"><![CDATA[We (E) when the water became elevated (over flowed)/violent , We carried/lifted you in the ship/flowing .]]></Verse>
+	<Verse VerseID="12"><![CDATA[To make/put it for you (as) a reminder, and comprehending/perceiving ears accept/understand it .]]></Verse>
+	<Verse VerseID="13"><![CDATA[So when (it) was blown in the horn/bugle/instrument, one blow.]]></Verse>
+	<Verse VerseID="14"><![CDATA[And the earth/Planet Earth and the mountains were carried/lifted , so they (B) were leveled/flattened one crunch/destruction .]]></Verse>
+	<Verse VerseID="15"><![CDATA[So that day, the Resurrection/Event landed/happened .]]></Verse>
+	<Verse VerseID="16"><![CDATA[And the sky/space split away/cut open , so it is (on) that day cracked/weak .]]></Verse>
+	<Verse VerseID="17"><![CDATA[And the angels (are) on its boundaries/vastness , and that day eight carries/lifts your Lord`s throne above them .]]></Verse>
+	<Verse VerseID="18"><![CDATA[That day, you are being exhibited/displayed , not a hidden (thing) hides from you.]]></Verse>
+	<Verse VerseID="19"><![CDATA[So but who was given/brought his book/judgment with his right (hand), so he says: "Take (here take this) read my Book/judgment ."]]></Verse>
+	<Verse VerseID="20"><![CDATA[That I, I thought/assumed that I am receiving/meeting my account/calculation (punishment).]]></Verse>
+	<Verse VerseID="21"><![CDATA[So he is in (an) acceptable/approved life/quality of life.]]></Verse>
+	<Verse VerseID="22"><![CDATA[In an elevated/dignified treed garden/paradise.]]></Verse>
+	<Verse VerseID="23"><![CDATA[Its fruit harvests (are) near.]]></Verse>
+	<Verse VerseID="24"><![CDATA[Eat and drink pleasurable/wholesome/tasty because (of) what you advanced in the days/times, the past/expired .]]></Verse>
+	<Verse VerseID="25"><![CDATA[And but who was given/brought his Book/judgment with his left (hand), so he says: "I wish I would have not been given my book/judgment ."]]></Verse>
+	<Verse VerseID="26"><![CDATA[And I did not know what my account/calculation (is).]]></Verse>
+	<Verse VerseID="27"><![CDATA[Oh,. if only it was the end/death.]]></Verse>
+	<Verse VerseID="28"><![CDATA[My property/possession/wealth did not enrich/suffice (help) from (for) me.]]></Verse>
+	<Verse VerseID="29"><![CDATA[My authority/power perished from me.]]></Verse>
+	<Verse VerseID="30"><![CDATA[Take/punish him , so chain/tie him.]]></Verse>
+	<Verse VerseID="31"><![CDATA[Then (in) the Hell roast/burn him .]]></Verse>
+	<Verse VerseID="32"><![CDATA[Then in a chain its measure (length is) seventy arm/ells/cubit , so enter/pass/thread/(tie) him.]]></Verse>
+	<Verse VerseID="33"><![CDATA[That he truly was not believing with (in) God, the great.]]></Verse>
+	<Verse VerseID="34"><![CDATA[And nor urges/insights/influences on feeding the poorest of poor/poor oppressed.]]></Verse>
+	<Verse VerseID="35"><![CDATA[So here, here (a) concerned (relative/friend) is not for him the day/today.]]></Verse>
+	<Verse VerseID="36"><![CDATA[And nor food except from ghesleen (could be Hell`s occupants` flesh, skin and blood) .]]></Verse>
+	<Verse VerseID="37"><![CDATA[None eat it except the mistaken/erroneous .]]></Verse>
+	<Verse VerseID="38"><![CDATA[So I do not swear/make oath with what you see .]]></Verse>
+	<Verse VerseID="39"><![CDATA[And what you do not see .]]></Verse>
+	<Verse VerseID="40"><![CDATA[That it truly is an honoured/noble messenger`s word/saying (E) .]]></Verse>
+	<Verse VerseID="41"><![CDATA[And it is not with a poet`s word/saying , little (is) what you believe.]]></Verse>
+	<Verse VerseID="42"><![CDATA[And nor with a fortune teller`s/altar priests word/saying , little (is) what you mention/remember .]]></Verse>
+	<Verse VerseID="43"><![CDATA[Descent from the creations all together`s/(universe`s) Lord.]]></Verse>
+	<Verse VerseID="44"><![CDATA[And if (the messenger) made false statements on Us (on Our behalf) some (of) the sayings/beliefs .]]></Verse>
+	<Verse VerseID="45"><![CDATA[We would have punished/taken from him by the right (hand).]]></Verse>
+	<Verse VerseID="46"><![CDATA[Then We would have severed/cut off from him the aorta/heart`s main artery.]]></Verse>
+	<Verse VerseID="47"><![CDATA[So (there) is not from anyone from you preventing/hindering from (for) him.]]></Verse>
+	<Verse VerseID="48"><![CDATA[And that it truly is a reminder for the fearing and obeying.]]></Verse>
+	<Verse VerseID="49"><![CDATA[And We (E), We know (E) that (E) from you (are) liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="50"><![CDATA[And that it truly is grief/sadness (E) , on the disbelievers.]]></Verse>
+	<Verse VerseID="51"><![CDATA[And that it truly is true/real (E) the assurance/certainty.]]></Verse>
+	<Verse VerseID="52"><![CDATA[So praise/glorify with your Lord`s name the great.434]]></Verse>
+</Chapter>

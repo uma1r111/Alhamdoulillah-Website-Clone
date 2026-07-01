@@ -1,0 +1,78 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* common and top level styles */
+#nav span {
+    display: none;
+}
+#nav, #nav ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#nav {
+    background-color: #333333;
+    border-bottom: 5px solid lightblue;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+	margin-bottom:15px;
+}
+#nav > li {
+    border-bottom: 5px solid transparent;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+    float: left;
+    margin-bottom: -5px;
+    text-align: left;
+    -moz-transition: all 300ms ease-in-out 0s;
+    -ms-transition: all 300ms ease-in-out 0s;
+    -o-transition: all 300ms ease-in-out 0s;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+}
+#nav li a {
+    display: block;
+    text-decoration: none;
+    -moz-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -ms-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -o-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -webkit-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    white-space: normal;
+}
+#nav > li > a {
+    color: white;
+    display: block;
+    font-size: 11pt;
+    line-height: 49px;
+    padding: 0 15px;
+}
+#nav > li:hover > a, #nav > a:hover {
+    background-color: lightblue;
+    color: black;
+}
+#nav li.active > a {
+    background-color: lightblue;
+    color: black;
+}
+
+
+/* responsive rules */
+@media all and (max-width : 980px) {
+    #nav > li {
+        float: none;
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    #nav ul.subs > li {
+        display: block;
+        width: auto;
+    }
+}

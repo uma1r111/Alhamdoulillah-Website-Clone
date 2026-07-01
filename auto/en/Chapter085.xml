@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="85" ChapterName="The Mansions Of The Stars">
+	<Verse VerseID="1"><![CDATA[And/by the sky/space that of the constellations .]]></Verse>
+	<Verse VerseID="2"><![CDATA[And/by the Day the Promised/Resurrection Day.]]></Verse>
+	<Verse VerseID="3"><![CDATA[And/by a witness/testifier and a witnessed (against).]]></Verse>
+	<Verse VerseID="4"><![CDATA[The geological rift`s-fault line`s owners/company/friends were killed.]]></Verse>
+	<Verse VerseID="5"><![CDATA[The fire , that of the fuel.]]></Verse>
+	<Verse VerseID="6"><![CDATA[When they are on it sitting/remaining.]]></Verse>
+	<Verse VerseID="7"><![CDATA[And they are on what they are making/doing with (to) the believers witnessing/testifying.]]></Verse>
+	<Verse VerseID="8"><![CDATA[And they did not revenge/punish from them except (because) that (E) they believe with (in) God, the glorious/mighty , the praiseworthy/commendable.]]></Verse>
+	<Verse VerseID="9"><![CDATA[Who for Him (is) the skies`/space`s and the earth`s/Planet Earth`s ownership/kingdom , and God (is) on every thing witnessing .]]></Verse>
+	<Verse VerseID="10"><![CDATA[That truly those who tortured/betrayed/allured the believers (M) and the believers (F), then they did not repent, so for them (is) Hell`s torture, and for them (is) the burning`s torture.]]></Verse>
+	<Verse VerseID="11"><![CDATA[That truly those who believed and made/did the correct/righteous deeds, for them (are) treed gardens/paradises the rivers/waterways flow from below it, that is the winning/success , the great .]]></Verse>
+	<Verse VerseID="12"><![CDATA[That truly your Lord`s violent attack/destruction (is) strong (E) (severe).]]></Verse>
+	<Verse VerseID="13"><![CDATA[That He truly creates/initiates , and returns/repeats .]]></Verse>
+	<Verse VerseID="14"><![CDATA[And He is the forgiving, the loving/affectionate.]]></Verse>
+	<Verse VerseID="15"><![CDATA[(Owner) of the throne , the most glorious/exacted .]]></Verse>
+	<Verse VerseID="16"><![CDATA[Maker/doer to what He wills/wants/intends.]]></Verse>
+	<Verse VerseID="17"><![CDATA[Did the soldiers`/warriors` information/news come to you?]]></Verse>
+	<Verse VerseID="18"><![CDATA[Pharaoh and Thamud .]]></Verse>
+	<Verse VerseID="19"><![CDATA[But those who disbelieved (are) in lying/denial/falsification.]]></Verse>
+	<Verse VerseID="20"><![CDATA[And God is from behind them surrounding/comprehending .]]></Verse>
+	<Verse VerseID="21"><![CDATA[But it is a glorious/exalted Koran .]]></Verse>
+	<Verse VerseID="22"><![CDATA[In a protected/guarded tablet/sheet]]></Verse>
+</Chapter>

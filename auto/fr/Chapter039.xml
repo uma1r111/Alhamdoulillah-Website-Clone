@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="39" ChapterName="Les groupes (Az-Zumar)">
+	<Verse VerseID="1"><![CDATA[La révélation du Livre vient d'Allah, le Puissant, le Sage. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Nous t'avons fait descendre le Livre en toute vérité. Adore donc Allah en Lui vouant un culte exclusif. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[C'est à Allah qu'appartient la religion pure. Tandis que ceux qui prennent des protecteurs en dehors de Lui (disent) : "Nous ne les adorons que pour qu'ils nous rapprochent davantage d'Allah". En vérité, Allah jugera parmi eux sur ce en quoi ils divergent. Allah ne guide pas celui qui est menteur et grand ingrat. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Si Allah avait voulu S'attribuer un enfant, Il aurait certes choisi ce qu'Il eût voulu parmi ce qu'Il crée. Gloire à Lui ! C'est Lui Allah, l'Unique, le Dominateur Suprême. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Il a créé les cieux et la terre en toute vérité. Il enroule la nuit sur le jour et enroule le jour sur la nuit, et Il a assujetti le soleil et la lune à poursuivre chacun sa course pour un terme fixé. C'est bien Lui le Puissant, le Grand Pardonneur ! ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Il vous a créés d'une personne unique et a tiré d'elle son épouse. Et Il a fait descendre [créé] pour vous huit couples de bestiaux. Il vous crée dans les ventres de vos mères, création après création, dans trois ténèbres. Tel est Allah, votre Seigneur ! A Lui appartient toute la Royauté. Point de divinité à part Lui. Comment pouvez-vous vous détourner [de son culte] ? ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Si vous ne croyez pas, Allah se passe largement de vous. De Ses serviteurs cependant, Il n'agrée pas la mécréance. Et si vous êtes reconnaissants, Il l'agrée pour vous. Nul pécheur ne portera les péchés d'autrui. Ensuite, vers votre Seigneur sera votre retour : Il vous informera alors de ce que vous faisiez car Il connaît parfaitement le contenu des poitrines. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Et quand un malheur touche l'homme, il appelle son Seigneur en se tournant vers Lui. Puis quand Il lui accorde de Sa part un bienfait, il oublie la raison pour laquelle il faisait appel, et il assigne à Allah des égaux, afin d'égarer (les gens) de Son chemin. Dis : "Jouis de ta mécréance un court moment. Tu fais partie des gens du Feu". ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Est-ce que celui qui, aux heures de la nuit, reste en dévotion, prosterné et debout, prenant garde à l'au-delà et espérant la miséricorde de son Seigneur... Dis : "Sont-ils égaux, ceux qui savent et ceux qui ne savent pas ?" Seuls les doués d'intelligence se rappellent. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Dis : "Ô Mes serviteurs qui avez cru ! Craignez votre Seigneur". Ceux qui ici-bas font le bien, auront une bonne [récompense]. La terre d'Allah est vaste et les endurants auront leur pleine récompense sans compter. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Dis : "Il m'a été ordonné d'adorer Allah en Lui vouant exclusivement le culte, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[et il m'a été ordonné d'être le premier des Musulmans. ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Dis : "Je crains, si je désobéis à mon Seigneur, le châtiment d'un jour terrible". ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Dis : "C'est Allah que j'adore, et Lui voue exclusivement mon culte. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Adorez donc, en dehors de Lui, qui vous voudrez !" - Dis : "Les perdants sont ceux qui, au Jour de la Résurrection, auront causé la perte de leurs propres âmes et celles de leurs familles". C'est bien cela la perte évidente. ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Au-dessus d'eux, ils auront des couches de feu, et des couches au-dessous d'eux. Voilà ce dont Allah menace Ses esclaves. "Ô Mes esclaves, craignez-Moi donc !" ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Et à ceux qui s'écartent des Tagut pour ne pas les adorer, tandis qu'ils reviennent à Allah, à eux la bonne nouvelle ! Annonce la bonne nouvelle à Mes serviteurs ]]></Verse>
+	<Verse VerseID="18"><![CDATA[qui prêtent l'oreille à la Parole, puis suivent ce qu'elle contient de meilleur. Ce sont ceux-là qu'Allah a guidés et ce sont eux les doués d'intelligence ! ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Et bien quoi ! Celui contre qui s'avère le décret du châtiment,... est-ce que tu sauves celui qui est dans le Feu ? ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Mais ceux qui auront craint leur Seigneur auront [pour demeure] des étages [au Paradis] au-dessus desquels d'autres étages sont construits et sous lesquels coulent les rivières. Promesse d'Allah ! Allah ne manque pas à Sa promesse. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Ne vois-tu pas qu'Allah fait descendre du ciel de l'eau, puis Il l'achemine vers des sources dans la terre ; ensuite, avec cela, Il fait sortir une culture aux couleurs diverses, laquelle se fane ensuite, de sorte que tu la vois jaunie ; ensuite, Il la réduit en miettes. C'est là certainement un rappel aux [gens] doués d'intelligence. ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Est-ce que celui dont Allah ouvre la poitrine à l'Islam et qui détient ainsi une lumière venant de Son Seigneur... Malheur donc à ceux dont les coeurs sont endurcis contre le rappel d'Allah. Ceux-là sont dans un égarement évident. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Allah a fait descendre le plus beau des récits, un Livre dont [certains versets] se ressemblent et se répètent. Les peaux de ceux qui redoutent leur Seigneur frissonnent (à l'entendre) ; puis leurs peaux et leurs coeurs s'apaisent au rappel d'Allah. Voilà le [Livre] guide d'Allah par lequel Il guide qui Il veut. Mais quiconque Allah égare n'a point de guide. ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Est-ce que celui qui, au Jour de la Résurrection, se sera protégé le visage contre le pire châtiment... Et l'on dira aux injustes : "Goûtez à ce que vous avez acquis". ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Ceux qui ont vécu avant eux ont démenti (les Messagers), le châtiment leur est venu par où ils ne le pressentaient pas. ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Allah leur a fait goûter l'ignominie dans la vie présente. Le châtiment de l'au-delà, cependant, est plus grand, si seulement ils savaient ! ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Nous avons, dans ce Coran, cité pour les gens des exemples de toutes sortes afin qu'ils se souviennent. ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Un Coran [en langue] arabe, dénué de tortuosité, afin qu'ils soient pieux ! ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Allah a cité comme parabole un homme appartenant à des associés se querellant à son sujet et un [autre] homme appartenant à un seul homme : sont-ils égaux en exemple ? Louanges à Allah ! Mais la plupart d'entre eux ne savent pas. ]]></Verse>
+	<Verse VerseID="30"><![CDATA[En vérité tu mourras et ils mourront eux aussi ; ]]></Verse>
+	<Verse VerseID="31"><![CDATA[ensuite, au Jour de la Résurrection, vous vous disputerez auprès de votre Seigneur. ]]></Verse>
+	<Verse VerseID="32"><![CDATA[Quel pire injuste donc, que celui qui ment contre Allah et qui traite de mensonge la vérité quand elle lui vient ? N'est-ce pas dans l'Enfer qu'il y a un refuge pour les mécréants ? ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Tandis que celui qui vient avec la vérité et celui qui la confirme, ceux-là sont les pieux. ]]></Verse>
+	<Verse VerseID="34"><![CDATA[Ils auront tout ce qu'ils désireront auprès de leur Seigneur ; voilà la récompense des bienfaisants, ]]></Verse>
+	<Verse VerseID="35"><![CDATA[afin qu'Allah leur efface les pires de leurs actions et les récompense selon ce qu'ils auront fait de meilleur. ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Allah ne suffit-Il pas à Son esclave [comme soutien] ? Et ils te font peur avec ce qui est en dehors de Lui. Et quiconque Allah égare n'a point de guide. ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Quiconque Allah guide, nul ne peut l'égarer. Allah n'est-Il pas Puissant et Détenteur du pouvoir de châtier ? ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Si tu leur demandais : "Qui a créé les cieux et la terre ? ", Ils diraient assurément : "Allah". Dis : "Voyez-vous ceux que vous invoquez en dehors d'Allah ; si Allah me voulait du mal, est-ce que [ces divinités] pourraient dissiper Son mal ? Ou s'Il me voulait une miséricorde, pourraient-elles retenir Sa miséricorde ?" - Dis : "Allah me suffit : c'est en Lui que placent leur confiance ceux qui cherchent un appui" ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Dis : "Ô mon peuple, agissez selon votre méthode, moi j'agirai [selon la mienne]. Bientòt vous saurez ]]></Verse>
+	<Verse VerseID="40"><![CDATA[sur qui s'abattra un châtiment qui l'avilira ; et sur qui se justifiera un châtiment durable". ]]></Verse>
+	<Verse VerseID="41"><![CDATA[Nous t'avons fait descendre le Livre, pour les hommes, en toute vérité. Quiconque se guide [le fait] pour son propre bien ; et quiconque s'égare, s'égare à son détriment. Tu n'es nullement responsable [de leurs propres affaires]. ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Allah reçoit les âmes au moment de leur mort ainsi que celles qui ne meurent pas au cours de leur sommeil. Il retient celles à qui Il a décrété la mort, tandis qu'Il renvoie les autres jusqu'à un terme fixé. Il y a certainement là des preuves pour des gens qui réfléchissent. ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Ont-ils adopté, en dehors d'Allah, des intercesseurs ? Dis : "Quoi ! Même s'ils ne détiennent rien et sont dépourvus de raison ?" ]]></Verse>
+	<Verse VerseID="44"><![CDATA[Dis : "L'intercession toute entière appartient à Allah. A Lui la royauté des cieux et de la terre. Puis c'est vers Lui que vous serez ramenés" ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Et quand Allah est mentionné seul (sans associés), les coeurs de ceux qui ne croient pas en l'au-delà se crispent et quand on mentionne ceux qui sont en dehors de Lui, voilà qu'ils se réjouissent. ]]></Verse>
+	<Verse VerseID="46"><![CDATA[Dis : "Ô Allah, Créateur des cieux et de la terre, Connaisseur de tout ce que le monde ignore comme de ce qu'il perçoit, c'est Toi qui jugeras entre Tes serviteurs ce sur quoi ils divergeaient". ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Si les injustes possédaient tout ce qui se trouve sur la terre, - et autant encore, - ils l'offriraient comme rançon pour échapper au pire châtiment le Jour de la Résurrection ; et leur apparaîtra, de la part d'Allah, ce qu'ils n'avaient jamais imaginé ; ]]></Verse>
+	<Verse VerseID="48"><![CDATA[et leur apparaîtront les méfaits qu'ils ont commis, et ce dont ils se raillaient les enveloppera. ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Quand un malheur touche l'homme, il Nous invoque. Quand ensuite Nous lui accordons une faveur de Notre part, il dit : "Je ne la dois qu'à [ma] science". C'est une épreuve, plutòt ; mais la plupart d'entre eux ne savent pas. ]]></Verse>
+	<Verse VerseID="50"><![CDATA[Ainsi parlaient ceux qui vécurent avant eux. Mais ce qu'ils ont acquis ne leur a servi à rien ; ]]></Verse>
+	<Verse VerseID="51"><![CDATA[Ils furent donc atteints par les mauvaises conséquences de leurs acquis. Ceux des ces gens [les Mecquois] qui auront commis l'injustice seront atteints par les mauvaises conséquences de leurs acquis et ils ne pourront s'opposer à la puissance [d'Allah]. ]]></Verse>
+	<Verse VerseID="52"><![CDATA[Ne savent-ils pas qu'Allah attribue Ses dons avec largesse ou les restreint à qui Il veut ? Il y a en cela des preuves pour des gens qui croient. ]]></Verse>
+	<Verse VerseID="53"><![CDATA[Dis : "Ô Mes serviteurs qui avez commis des excès à votre propre détriment, ne désespérez pas de la miséricorde d'Allah. Car Allah pardonne tous les péchés. Oui, c'est Lui le Pardonneur, le Très Miséricordieux". ]]></Verse>
+	<Verse VerseID="54"><![CDATA[Et revenez repentant à votre Seigneur, et soumettez-vous à Lui, avant que ne vous vienne le châtiment et vous ne recevez alors aucun secours. ]]></Verse>
+	<Verse VerseID="55"><![CDATA[Et suivez la meilleure révélation qui vous est descendue de la part de votre Seigneur, avant que le châtiment ne vous vienne soudain, sans que vous ne [le] pressentiez ; ]]></Verse>
+	<Verse VerseID="56"><![CDATA[avant qu'une âme ne dise : "Malheur à moi pour mes manquements envers Allah. Car j'ai été certes, parmi les railleurs" ; ]]></Verse>
+	<Verse VerseID="57"><![CDATA[ou qu'elle ne dise : "Si Allah m'avait guidée, j'aurais été certes, parmi les pieux" ; ]]></Verse>
+	<Verse VerseID="58"><![CDATA[ou bien qu'elle ne dise en voyant le châtiment : "Ah ! S'il y avait pour moi un retour ! Je serais alors parmi les bienfaisants". ]]></Verse>
+	<Verse VerseID="59"><![CDATA["Oh que si ! Mes versets te son venus et tu les as traités de mensonge, tu t'es enflé d'orgueil et tu étais parmi les mécréants". ]]></Verse>
+	<Verse VerseID="60"><![CDATA[Et au Jour de la Résurrection, tu verras les visages de ceux qui mentaient sur Allah, assombris. N'est-ce pas dans l'Enfer qu'il y aura une demeure pour les orgueilleux ? ]]></Verse>
+	<Verse VerseID="61"><![CDATA[Et Allah sauvera ceux qui ont été pieux en leur faisant gagner [leur place au Paradis]. Nul mal ne les touchera et ils ne seront point affligés. ]]></Verse>
+	<Verse VerseID="62"><![CDATA[Allah est le Créateur de toute chose, et de toute chose Il est Garant. ]]></Verse>
+	<Verse VerseID="75"><![CDATA[Et tu verras les Anges faisant cercle autour du Tròne, célébrant les louanges de leur Seigneur et Le glorifiant. Et il sera jugé entre eux en toute équité, et l'on dira : "Louange à Allah, Seigneur de l'univers". versets d'Allah, ce sont ceux-là les perdants. ]]></Verse>
+</Chapter>

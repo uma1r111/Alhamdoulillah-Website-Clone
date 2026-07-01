@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="71" ChapterName="Noé (Nuh)">
+	<Verse VerseID="1"><![CDATA[Nous avons envoyé Noé vers son peuple : "Avertis ton peuple, avant que leur vienne un châtiment douloureux". ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Il [leur] dit : "Ô mon peuple, je suis vraiment pour vous, un avertisseur clair, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Adorez Allah, craignez-Le et obéissez-moi, ]]></Verse>
+	<Verse VerseID="4"><![CDATA[pour qu'Il vous pardonne vos péchés et qu'Il vous donne un délai jusqu'à un terme fixé. Mais quand vient le terme fixé par Allah, il ne saurait être différé si vous saviez !" ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Il dit : "Seigneur ! J'ai appelé mon peuple, nuit et jour. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Mais mon appel n'a fait qu'accroître leur fuite. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Et chaque fois que je les ai appelés pour que Tu leur pardonnes, ils ont mis leurs doigts dans leurs oreilles, se sont enveloppés de leurs vêtements, se sont entêtés et se sont montrés extrêmement orgueilleux. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Ensuite, je les ai appelés ouvertement. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Puis, je leur ai fait des proclamations publiques, et des confidences en secret. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[J'ai donc dit : "Implorez le pardon de votre Seigneur, car Il est grand Pardonneur, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[pour qu'Il vous envoie du ciel, des pluies abondante, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[et qu'Il vous accorde beaucoup de biens et d'enfants, et vous donne des jardins et vous donne des rivières. ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Qu'avez-vous à ne pas vénérer Allah comme il se doit, ]]></Verse>
+	<Verse VerseID="14"><![CDATA[alors qu'Il vous a créés par phases successives ? ]]></Verse>
+	<Verse VerseID="15"><![CDATA[N'avez-vous pas vu comment Allah a créé sept cieux superposés ]]></Verse>
+	<Verse VerseID="16"><![CDATA[et y a fait de la lune une lumière et du soleil une lampe ? ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Et c'est Allah qui, de la terre, vous a fait croître comme des plantes, ]]></Verse>
+	<Verse VerseID="18"><![CDATA[puis Il vous y fera retourner et vous en fera sortir véritablement. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Et c'est Allah qui vous a fait de la terre un tapis, ]]></Verse>
+	<Verse VerseID="20"><![CDATA[pour que vous vous acheminiez par ses voies spacieuses". ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Noé dit : "Seigneur, ils m'ont désobéi et ils ont suivi celui dont les biens et les enfants n'ont fait qu'accroître la perte. ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Ils ont ourdi un immense stratagème, ]]></Verse>
+	<Verse VerseID="23"><![CDATA[et ils ont dit : "N'abandonnez jamais vos divinités et n'abandonnez jamais Wadd, Suwaa, Yagout, Yaouq et Nasr. ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Elles [les idoles] ont déjà égaré plusieurs. Ne fais (Seigneur) croître les injustes qu'en égarement. ]]></Verse>
+	<Verse VerseID="25"><![CDATA[A cause de leurs fautes, ils ont été noyés, puis on les a fait entrer au Feu, et ils n'ont pas trouvé en dehors d'Allah, de secoureurs". ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Et Noé dit : "Seigneur, ne laisse sur la terre aucun infidèle. ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Si Tu les laisses [en vie], ils égareront Tes serviteurs et n'engendreront que des pécheurs infidèles. ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Seigneur ! Pardonne-moi, et à mes père et mère et à celui qui entre dans ma demeure croyante, ainsi qu'aux croyants et croyantes ; et ne fait croître les injustes qu'en perdition". ]]></Verse>
+</Chapter>

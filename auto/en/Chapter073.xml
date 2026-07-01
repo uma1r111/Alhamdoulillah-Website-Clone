@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="73" ChapterName="The Wrapped Up">
+	<Verse VerseID="1"><![CDATA[You, you the hiding/wrapped in clothes.]]></Verse>
+	<Verse VerseID="2"><![CDATA[Stand the night except little .]]></Verse>
+	<Verse VerseID="3"><![CDATA[Its half/middle or reduce/decrease from it little .]]></Verse>
+	<Verse VerseID="4"><![CDATA[Or increase on it, and read or recite slowly, distinctly and clearly the Koran, slow distinct and clear reading or recitation .]]></Verse>
+	<Verse VerseID="5"><![CDATA[That We, We will throw (a) heavy saying/word/declaration on you.]]></Verse>
+	<Verse VerseID="6"><![CDATA[That truly the night`s first hours it is stronger pressure and more just (in) a saying/word/declaration .]]></Verse>
+	<Verse VerseID="7"><![CDATA[That truly for you in the daytime (is) long tending to the livelihood/sleeping and resting .]]></Verse>
+	<Verse VerseID="8"><![CDATA[And remember/mention your Lord`s name and devote your life to Him devotion of your life (to God).]]></Verse>
+	<Verse VerseID="9"><![CDATA[The sun rises`/easts` and the sun set`s/west`s Lord, (there is) no God except Him, so take Him (as) a guardian/ally]]></Verse>
+	<Verse VerseID="10"><![CDATA[And be patient on what they say, and desert/abandon them beautiful/graceful desertion/abandonment .]]></Verse>
+	<Verse VerseID="11"><![CDATA[And leave Me and the liars/deniers/falsifiers (owners) of the blessing/goodness , and delay them (a) little .]]></Verse>
+	<Verse VerseID="12"><![CDATA[That truly shackles and Hell (is) at Us.]]></Verse>
+	<Verse VerseID="13"><![CDATA[And food of lumping in the throat and a painful torture.]]></Verse>
+	<Verse VerseID="14"><![CDATA[A day/time the earth/Planet Earth and the mountains trembles and shakes , and the mountains were a heap of sand dumped sand or dust .]]></Verse>
+	<Verse VerseID="15"><![CDATA[That We, We sent a messenger to you, a witness/testifier on you, as/like We sent a messenger to Pharaoh.]]></Verse>
+	<Verse VerseID="16"><![CDATA[So Pharaoh disobeyed the messenger, so We punished/took him (a) severe/detrimental punishing .]]></Verse>
+	<Verse VerseID="17"><![CDATA[So how (do) you fear and obey (avoid), if you disbelieved (in) a day it makes the children/new borns white or gray haired (old)?]]></Verse>
+	<Verse VerseID="18"><![CDATA[The sky/space is split/cleaved with (by) it, His promise was/is made/done.]]></Verse>
+	<Verse VerseID="19"><![CDATA[That truly this (is) a reminder, so who wanted took/received a way/path to his Lord.]]></Verse>
+	<Verse VerseID="20"><![CDATA[That truly your Lord knows that you, you stand/call (for) prayer nearer (than) from two-thirds (of) the night and its half/middle, and its third, and a group of people from those with you, and God predestines/evaluates the night and the daytime, He knew that you (will) not count/compute it so He forgave on you, so read what eased/became flexible (what you can) from the Koran, He knew that (E) sick/diseased will be from you, and others moving (traveling) in the land/Earth wishing/desiring from God`s grace/favour/blessing, and others fighting in God`s way/path , so read what eased/became flexible from it (what you can), and keep up the prayers, and give/bring the charity/purification, and lend/advance God a good/ beautifulloan/advance, and what you advance/produce for yourselves from goodness/ generosity you find it at God, it is better and greater (in) a reward , and ask God for forgiveness, that truly God (is) forgiving, merciful.443]]></Verse>
+</Chapter>

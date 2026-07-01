@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="86" ChapterName="L'astre nocturne (At-Tariq)">
+	<Verse VerseID="1"><![CDATA[Par le ciel et par l'astre nocturne ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Et qui te dira ce qu'est l'astre nocturne ? ]]></Verse>
+	<Verse VerseID="3"><![CDATA[C'est l'étoile vivement brillante. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Il n'est pas d'âme qui n'ait sur elle un gardien. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Que l'homme considère donc de quoi il a été créé. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Il a été créé d'une giclée d'eau ]]></Verse>
+	<Verse VerseID="7"><![CDATA[sortie d'entre les lombes et les còtes. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Allah est certes capable de le ressusciter. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Le jour où les coeurs dévoileront leurs secrets, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Il n'aura alors ni force ne secoureur. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Par le ciel qui fait revenir la pluie ! ]]></Verse>
+	<Verse VerseID="12"><![CDATA[et par la terre qui se fend  ! ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Ceci [le Coran] est certes, une parole décisive [qui tranche entre le vrai et le faux], ]]></Verse>
+	<Verse VerseID="14"><![CDATA[et non point une plaisanterie frivole ! ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Ils se servent d'une ruse, ]]></Verse>
+	<Verse VerseID="16"><![CDATA[et Moi aussi Je me sers de Mon plan. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Accorde (ò Prophète) donc un délai aux infidèles : accorde-leur un court délai. ]]></Verse>
+</Chapter>

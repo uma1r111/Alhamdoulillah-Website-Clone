@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="111" ChapterName="The Flame">
+	<Verse VerseID="1"><![CDATA[Father of the flame of a smokeless fire`s (known as Prophet Mohammad`s uncle) hand was destroyed/lost, and destroyed/lost.]]></Verse>
+	<Verse VerseID="2"><![CDATA[His property/possession/wealth and what he gained/acquired did not enrich/suffice from him.]]></Verse>
+	<Verse VerseID="3"><![CDATA[He will roast/suffer/burn (in) a fire that of (a) flame of smokeless fire .]]></Verse>
+	<Verse VerseID="4"><![CDATA[And his woman (wife) the fire wood`s/fuel`s carrier/lifter .]]></Verse>
+	<Verse VerseID="5"><![CDATA[In her neck/beautiful neck (is a) rope from palm fiber tightly woven rope/an iron ring.479]]></Verse>
+</Chapter>

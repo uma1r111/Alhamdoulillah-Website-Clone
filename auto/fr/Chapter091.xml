@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="91" ChapterName="Le soleil (Ach-Chams)">
+	<Verse VerseID="1"><![CDATA[Par le soleil et par sa clarté ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Et par la lune quand elle le suit ! ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Et par le jour quand il l'éclaire ! ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Et par la nuit quand elle l'enveloppe  ! ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Et par le ciel et Celui qui l'a construit ! ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Et par la terre et Celui qui l'a étendue ! ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Et par l'âme et Celui qui l'a harmonieusement façonnée ; ]]></Verse>
+	<Verse VerseID="8"><![CDATA[et lui a alors inspiré son immoralité, de même que sa piété ! ]]></Verse>
+	<Verse VerseID="9"><![CDATA[A réussi, certes celui qui la purifie. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Et est perdu, certes, celui qui la corrompt. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Les Tamud, par leur transgression, ont crié au mensonge, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[lorsque le plus misérable d'entre eux se leva (pour tuer la chamelle) ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Le Messager d'Allah leur avait dit : "La chamelle d'Allah ! Laissez-la boire" ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Mais, ils le traitèrent de menteur, et la tuèrent. Leur Seigneur les détruisit donc, pour leur péché et étendit Son châtiment sur tous. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Et Allah n'a aucune crainte des conséquences : ]]></Verse>
+</Chapter>

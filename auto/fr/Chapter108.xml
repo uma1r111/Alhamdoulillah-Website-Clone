@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="108" ChapterName="L'abondance (Al-Kawtar)">
+	<Verse VerseID="1"><![CDATA[Nous t'avons certes, accordé l'Abondance. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Accomplis la Salat pour ton Seigneur et sacrifie. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Celui qui te hait sera certes, sans postérité. ]]></Verse>
+</Chapter>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="88" ChapterName="L'enveloppante (Al-Gasiyah)">
+	<Verse VerseID="1"><![CDATA[T'est-il parvenu le récit de l'enveloppante ? ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Ce jour-là, il y aura des visages humiliés, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[préoccupés, harassés. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Ils brûleront dans un Feu ardent, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[et seront abreuvés d'une source bouillante. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Il n'y aura pour eux d'autre nourriture que des plantes épineuses [darii], ]]></Verse>
+	<Verse VerseID="7"><![CDATA[qui n'engraisse, ni n'apaise la faim. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Ce jour-là, il y aura des visages épanouis, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[contents de leurs efforts, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[dans un haut Jardin, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[où ils n'entendent aucune futilité. ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Là, il y aura une source coulante. ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Là, des divans élevés ]]></Verse>
+	<Verse VerseID="14"><![CDATA[et des coupes posées ]]></Verse>
+	<Verse VerseID="15"><![CDATA[et des coussins rangés ]]></Verse>
+	<Verse VerseID="16"><![CDATA[et des tapis étalés. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Ne considèrent-ils donc pas les chameaux, comment ils ont été créés, ]]></Verse>
+	<Verse VerseID="18"><![CDATA[et le ciel comment il est élevé, ]]></Verse>
+	<Verse VerseID="19"><![CDATA[et les montagnes comment elles sont dressées ]]></Verse>
+	<Verse VerseID="20"><![CDATA[et la terre comment elle est nivelée ? ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Eh bien, rappelle ! Tu n'es qu'un rappeleur, ]]></Verse>
+	<Verse VerseID="22"><![CDATA[et tu n'es pas un dominateur sur eux. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Sauf celui qui tourne le dos et ne croit pas, ]]></Verse>
+	<Verse VerseID="24"><![CDATA[alors Allah le châtiera du plus grand châtiment. ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Vers Nous est leur retour. ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Ensuite, c'est à Nous de leur demander compte. ]]></Verse>
+</Chapter>

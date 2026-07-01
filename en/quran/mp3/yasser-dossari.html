@@ -1,0 +1,33 @@
+<?php 
+ include("recitateurs/test.php");
+ include("recitateurs/compute.php");
+ ?>
+
+<!DOCTYPE html>
+<html><head>
+
+<?php include("header.php") ?>
+
+<? showSEO($qari) ?>
+
+</head>
+<body>
+
+
+
+<?php include("../../inc/haut.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<? showH2($qari) ?><? showQari($qari) ?>
+
+</td>
+<td id="colonnes"><?php include("../../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../../inc/footer.php") ?>
+</body></html>

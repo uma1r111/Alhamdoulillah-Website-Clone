@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="88" ChapterName="The Overwhelming">
+	<Verse VerseID="1"><![CDATA[Did the disaster`s/pericardium`s/Resurrection`s information/news come to you ?]]></Verse>
+	<Verse VerseID="2"><![CDATA[Faces/fronts (on) that day (are) humble/submissive .]]></Verse>
+	<Verse VerseID="3"><![CDATA[Making/doing/working, fatigued/exhausted.]]></Verse>
+	<Verse VerseID="4"><![CDATA[It roasts/suffers a hot fire .]]></Verse>
+	<Verse VerseID="5"><![CDATA[Being given drink/being watered from (a) present/near water well/spring.]]></Verse>
+	<Verse VerseID="6"><![CDATA[Food/feeding is not for them except from Dareigh/gland (excretion) .]]></Verse>
+	<Verse VerseID="7"><![CDATA[(It) does not fatten (nourish), and nor enriches/suffices from starvation/hunger.]]></Verse>
+	<Verse VerseID="8"><![CDATA[Faces/fronts (on) that day (are) comfortable and eased/happy/smooth .]]></Verse>
+	<Verse VerseID="9"><![CDATA[Accepting/approving for its striving/endeavor .]]></Verse>
+	<Verse VerseID="10"><![CDATA[In an elevated/dignified treed garden/paradise.]]></Verse>
+	<Verse VerseID="11"><![CDATA[You do not hear/listen (to) nonsense/senseless talk in it.]]></Verse>
+	<Verse VerseID="12"><![CDATA[In it (is a) flowing/running water well/spring .]]></Verse>
+	<Verse VerseID="13"><![CDATA[In it (are) raised royal beds/sofas.]]></Verse>
+	<Verse VerseID="14"><![CDATA[And laid/raised cups .]]></Verse>
+	<Verse VerseID="15"><![CDATA[And lined/arranged small pillows/cushions.]]></Verse>
+	<Verse VerseID="16"><![CDATA[And scattered/distributed carpets/rugs.]]></Verse>
+	<Verse VerseID="17"><![CDATA[Do they not look/wonder about to the camels how it was created?]]></Verse>
+	<Verse VerseID="18"><![CDATA[And to the sky/space how it was raised?]]></Verse>
+	<Verse VerseID="19"><![CDATA[And to the mountains how it was erected and raised/affixed?]]></Verse>
+	<Verse VerseID="20"><![CDATA[And to the earth/Planet Earth how it was outspread/surfaced ?]]></Verse>
+	<Verse VerseID="21"><![CDATA[So remind, truly you are a reminder.]]></Verse>
+	<Verse VerseID="22"><![CDATA[You are not on them with dominating/controlling.]]></Verse>
+	<Verse VerseID="23"><![CDATA[Except who turned away and disbelieved.]]></Verse>
+	<Verse VerseID="24"><![CDATA[So God tortures him the torture, the greatest .]]></Verse>
+	<Verse VerseID="25"><![CDATA[That truly to Us (is) their return.]]></Verse>
+	<Verse VerseID="26"><![CDATA[Then that truly on Us (is) their account/calculation.]]></Verse>
+</Chapter>

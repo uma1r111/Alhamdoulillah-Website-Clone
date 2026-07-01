@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="109" ChapterName="The Unbelievers">
+	<Verse VerseID="1"><![CDATA[Say: "You, you the disbelievers."]]></Verse>
+	<Verse VerseID="2"><![CDATA[ I do not worship what you worship.]]></Verse>
+	<Verse VerseID="3"><![CDATA[And you are not worshipping what I worship.]]></Verse>
+	<Verse VerseID="4"><![CDATA[And nor I am worshipping what you worshipped.]]></Verse>
+	<Verse VerseID="5"><![CDATA[And nor you are worshipping what I worship.]]></Verse>
+	<Verse VerseID="6"><![CDATA[For you (is) your religion, and for me (is) my religion.]]></Verse>
+</Chapter>

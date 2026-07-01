@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="80" ChapterName="He Frowned">
+	<Verse VerseID="1"><![CDATA[He frowned/knit or contracted his brows and he turned away .]]></Verse>
+	<Verse VerseID="2"><![CDATA[That (E) the blind (man) came to him.]]></Verse>
+	<Verse VerseID="3"><![CDATA[And what makes you know/informs you maybe/perhaps he, he purifies/corrects (himself).]]></Verse>
+	<Verse VerseID="4"><![CDATA[Or He mentions/remembers , so the remembrance/reminder benefits him .]]></Verse>
+	<Verse VerseID="5"><![CDATA[But/as for who availed/sufficed (rejected) .]]></Verse>
+	<Verse VerseID="6"><![CDATA[So you are for him paying attention/being concerned with .]]></Verse>
+	<Verse VerseID="7"><![CDATA[And it (is) not on you that he not purifies/corrects (himself).]]></Verse>
+	<Verse VerseID="8"><![CDATA[And but/as for who came to you striving/hastening .]]></Verse>
+	<Verse VerseID="9"><![CDATA[And he fears.]]></Verse>
+	<Verse VerseID="10"><![CDATA[So you are from him distracted/preoccupied .]]></Verse>
+	<Verse VerseID="11"><![CDATA[No, but that it truly is a reminder.]]></Verse>
+	<Verse VerseID="12"><![CDATA[So who wanted/willed remembered/mentioned Him .]]></Verse>
+	<Verse VerseID="13"><![CDATA[In honoured written pages/sheets (scriptures) .]]></Verse>
+	<Verse VerseID="14"><![CDATA[Raised, purified .]]></Verse>
+	<Verse VerseID="15"><![CDATA[By messengers`/scribes`/writers` hands.]]></Verse>
+	<Verse VerseID="16"><![CDATA[Honoured/generous , righteous/obedient .]]></Verse>
+	<Verse VerseID="17"><![CDATA[Killed (`woe`) the human/mankind what made him more disbelieving (an expression)?]]></Verse>
+	<Verse VerseID="18"><![CDATA[From what thing He created him?]]></Verse>
+	<Verse VerseID="19"><![CDATA[From a drop/male`s or female`s secretion He created him, so He predestined/evaluated/estimated him.]]></Verse>
+	<Verse VerseID="20"><![CDATA[Then (to) the road/path He eased him.]]></Verse>
+	<Verse VerseID="21"><![CDATA[Then He made him die, so He caused him to be buried in a grave .]]></Verse>
+	<Verse VerseID="22"><![CDATA[Then when/if He willed/wanted/intended He revived/resurrected him .]]></Verse>
+	<Verse VerseID="23"><![CDATA[No/but he did not (E) accomplish/execute what He ordered/commanded him.]]></Verse>
+	<Verse VerseID="24"><![CDATA[So the human/mankind should look/watch to his food.]]></Verse>
+	<Verse VerseID="25"><![CDATA[We (E), We poured/flowed the water pouring/flowing.]]></Verse>
+	<Verse VerseID="26"><![CDATA[Then We split/cracked the earth/Planet Earth splitting/cracking .]]></Verse>
+	<Verse VerseID="27"><![CDATA[So We sprouted/grew in it seeds/grains.]]></Verse>
+	<Verse VerseID="28"><![CDATA[And grapes and all trees and vegetation when it regrows for animal consumption i.e.) clover.]]></Verse>
+	<Verse VerseID="29"><![CDATA[And olives and palm trees.]]></Verse>
+	<Verse VerseID="30"><![CDATA[And dense/luxurious fenced gardens.]]></Verse>
+	<Verse VerseID="31"><![CDATA[And fruits and grass/hay/herbs.]]></Verse>
+	<Verse VerseID="32"><![CDATA[Enjoyment for you and for your camels/livestock.]]></Verse>
+	<Verse VerseID="33"><![CDATA[So when the Deafening Noise/Resurrection Day came.]]></Verse>
+	<Verse VerseID="34"><![CDATA[A day/time the human/man escapes/flees from his brother.]]></Verse>
+	<Verse VerseID="35"><![CDATA[And his mother, and his father.]]></Verse>
+	<Verse VerseID="36"><![CDATA[And his wife/companion/friend, and his sons and daughters.]]></Verse>
+	<Verse VerseID="37"><![CDATA[To every/each human/man from them (on) that day (is) a matter/affair (that) suffices him (worries and keeps him busy).]]></Verse>
+	<Verse VerseID="38"><![CDATA[Faces/fronts (on) that day, lit and shining .]]></Verse>
+	<Verse VerseID="39"><![CDATA[Laughing, cheerful/rejoiced .]]></Verse>
+	<Verse VerseID="40"><![CDATA[And faces/fronts (on) that day, on it (is) dust.]]></Verse>
+	<Verse VerseID="41"><![CDATA[Smoke/dust burdens/depresses/oppresses it.]]></Verse>
+	<Verse VerseID="42"><![CDATA[Those, they are the disbelievers, the debauchers/corrupters.458]]></Verse>
+</Chapter>

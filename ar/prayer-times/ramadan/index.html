@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>تقويم رمضان 2021/1442 - إمساك وإفطار رمضان</title>
+
+<meta name="description" content="جميع الجداول الزمنية لشهر رمضان في هذا التقويم مع ساعات الصلاة وفقا لزوايا مختلفة من الحساب ، الإمساك والإفطار."/>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/ar/css/islam.css"> 
+
+
+</head>
+
+<body>
+
+<?php include("../../inc/haut.php");?>
+
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>تقويم رمضان</h1>
+
+<?php include("../../../inc/pub-content.php");?>
+
+<p style="padding-top:20px;">جدول رمضان > <strong>فهرس</strong></p>
+
+<h2>مواعيد رمضان 2021 - 1442</h2>
+
+<p>هذا العام ، سيبدأ شهر رمضان 2021 يوم الاثنين 6 مايو إن شاء الله. وفقًا للحسابات الفلكية ، سيعد هذا الشهر 29 يومًا. ومع ذلك ، قد نصل إلى 30 يومًا ، حيث يبدأ شهر رمضان يوم الأحد 5 مايو. سيتم احتفال عيد الفطر يوم الخميس الموافق 4 يونيو ، أو يوم الجمعة 5 يونيو إن شاء الله. فيما يلي ملخص لتواريخ بداية ونهاية شهر رمضان المبارك وكذلك اللحظات المهمة لهذا الشهر المبارك.</p>
+
+<p><b>متى يبدأ رمضان هذا العام؟</b></p>
+
+<ul style="margin-left:-5px;">
+<li>البداية: الاثنين 6 مايو 2021</li>
+<li>النهاية (عيد الفطر): الخميس 4 يونيو 2021</li>
+<li>آخر 10 أيام: من السبت 25 مايو</li>
+<li>أول ليلة من آخر 10 أيام: الجمعة 24 مايو (مساء) </li>
+<li>ليال وتري : السبت. 25 ، الاثنين. 27 ، الأربعاء. 29 و الجمعة 31 و الاثنين 2 يونيو (أمسيات) </li>
+</ul>
+
+<center><div style="width:100%; display:block; height:5px; background-color:slategray; margin:0px;"></div></center>
+	
+<h3>جدول رمضان</h3>
+
+<?php include("../../inc/share.php");?>
+	
+<p>تعتمد مدة الصيام اليومي على عدد الساعات بين الفجر وغروب الشمس (المغرب). في الصيف ، تكون الأيام أطول ، لذا تستمر حالة الصيام لفترة أطول. من ناحية أخرى ، فإن الليالي قصيرة جدًا. على العكس من ذلك في فصل الشتاء ، صيام رمضان سهل للغاية ، في حين أن ساعات الليل تستمر لفترة أطول.</p>
+
+<p>فيما يلي الدول المختلفة التي نقترح لها تقويم شهر رمضان. يتم فرز التقويمات رمضان حسب القارة. انقر على بلدك واختر مدينتك. ثم يمكنك ضبط الإعدادات إذا لزم الأمر ، مثل تغيير زاوية حساب الفجر أو العشاء وفقًا لموقعك.</p>
+
+
+ <?php
+
+$VilleLat = 21.42664;
+$VilleLong = 39.82563;
+ 
+ $arr = array("europe", "asia", "africa", "north-america", "south-america", "oceania", "central-america", "caribbean");
+	
+	foreach ($arr as $variable){
+
+	$link = ucfirst(str_replace("-", " ", strtolower($variable)));
+	
+	if ($link == "Europe") $link = "أوروبا";
+	if ($link == "Asia") $link = "آسيا";
+	if ($link == "Africa") $link = "أفريقيا";
+	if ($link == "North america") $link = "أمريكا الشمالية";
+	if ($link == "South america") $link = "أمريكا الجنوبية";
+	if ($link == "Oceania") $link = "أوقيانوسيا";
+	if ($link == "Central america") $link = "أمريكا الوسطى";
+	if ($link == "Caribbean") $link = "منطقة البحر الكاريبي";
+	
+	echo " 
+	
+	<div style=\"width:100%; background-color:lightgray;\"><h3><u><a href=\"$variable\">تقويم رمضان $link</a></u></h3></div>
+	
+	<table style=\"padding:0px; margin:0px;\"><tr><td style=\"padding:0px; margin:0px;\"><ul style=\"padding-top:0px; margin-top:0px;\">
+	
+	";
+	
+	$link = str_replace(" ", "-", strtolower($variable));
+ 
+if ($dir = opendir("$variable")) {
+  while (false !== ($file = readdir($dir))) { 
+  if ($file !== 'index.html' && $file !== '.' && $file !== '..') {
+	  $filedo = str_replace("-", " ", $file);
+	  $fileda = str_replace("democratic", "D.", $filedo);
+	  $filed = str_replace("and the", "", $fileda);
+
+$exclude = array('et', 'du');
+$words = explode(' ', $filed);
+foreach($words as $key => $word) {
+    if(in_array($word, $exclude)) {
+        continue;
+    }
+    $words[$key] = ucfirst($word);
+}
+$list = implode(' ', $words);	 
+	  
+	  if ($list == "Luxembourg") $list = "لوكسمبورغ";
+	  if ($list == "United Kingdom") $list = "المملكة المتحدة";
+	  if ($list == "Denmark") $list = "الدنمارك";
+	  if ($list == "Germany") $list = "ألمانيا";
+	  if ($list == "Sweden") $list = "السويد";
+	  if ($list == "Switzerland") $list = "سويسرا";
+	  if ($list == "Iceland") $list = "أيسلندا";
+	  if ($list == "Belgium") $list = "بلجيكا";
+	  if ($list == "Bulgaria") $list = "بلغاريا";
+	  if ($list == "Portugal") $list = "البرتغال";
+	  if ($list == "Spain") $list = "إسبانيا";
+	  if ($list == "Finland") $list = "فنلندا";
+	  if ($list == "Kosovo") $list = "كوسوفو";
+	  if ($list == "Italy") $list = "إيطاليا";
+	  if ($list == "Bosnia And Herzegovina") $list = "البوسنة والهرسك";
+	  if ($list == "Turkey") $list = "تركيا";
+	  if ($list == "Poland") $list = "بولندا";
+	  if ($list == "Lithuania") $list = "ليتوانيا";
+	  if ($list == "Estonia") $list = "استونيا";
+	  if ($list == "Albania") $list = "ألبانيا";
+	  if ($list == "Montenegro") $list = "الجبل الأسود";
+	  
+	  if ($list == "Ukraine") $list = "أوكرانيا";
+	  if ($list == "Moldova") $list = "مولدوفا";
+	  if ($list == "Hungary") $list = "هنغاريا";
+	  if ($list == "Croatia") $list = "كرواتيا";
+	  if ($list == "Netherlands") $list = "هولندا";
+	  if ($list == "Macedonia") $list = "مقدونيا";
+	  if ($list == "Malta") $list = "مالطا";
+	  if ($list == "Greece") $list = "اليونان";
+	  if ($list == "France") $list = "فرنسا";
+	  if ($list == "Slovenia") $list = "سلوفينيا";
+	  if ($list == "Austria") $list = "النمسا";
+	  if ($list == "Ireland") $list = "أيرلندا";
+	  if ($list == "Czechia") $list = "التشيك";
+	  if ($list == "Latvia") $list = "لاتفيا";
+	  if ($list == "Norway") $list = "النرويج";
+	  if ($list == "Monaco") $list = "موناكو";
+	  if ($list == "Slovakia") $list = "سلوفاكيا";
+	  if ($list == "Serbia") $list = "صربيا";
+	  if ($list == "Belarus") $list = "روسيا البيضاء";
+	  if ($list == "Romania") $list = "رومانيا";
+	  
+	  
+	  
+	  if ($list == "Egypt") $list = "مصر";
+	  if ($list == "Togo") $list = "توغو";
+	  if ($list == "Mauritania") $list = "موريتانيا";
+	  if ($list == "Rwanda") $list = "رواندا";
+	  if ($list == "Uganda") $list = "أوغندا";
+	  if ($list == "Senegal") $list = "السنغال";
+	  if ($list == "Guinea") $list = "غينيا";
+	  if ($list == "Republic Of The Congo") $list = "جمهورية الكونغو";
+	  if ($list == "Tunisia") $list = "تونس";
+	  if ($list == "Mali") $list = "مالي";
+	  if ($list == "Malawi") $list = "مالاوي";
+	  if ($list == "Western Sahara") $list = "الصحراء الغربية";
+	  if ($list == "Liberia") $list = "ليبيريا";
+	  if ($list == "Central African Republic") $list = "جمهورية افريقيا الوسطى";
+	  if ($list == "Botswana") $list = "بوتسوانا";
+	  if ($list == "Gabon") $list = "الغابون";
+	  if ($list == "Reunion") $list = "جمع شمل";
+	  if ($list == "Mozambique") $list = "موزمبيق";
+	  if ($list == "Libya") $list = "ليبيا";
+	  if ($list == "Madagascar") $list = "مدغشقر";
+	  if ($list == "Burundi") $list = "بوروندي";
+	  if ($list == "Algeria") $list = "الجزائر";
+	  if ($list == "Guinea Bissau") $list = "غينيا بيساو";
+	  if ($list == "Lesotho") $list = "ليسوتو";
+	  if ($list == "Sudan") $list = "سودان";
+	  if ($list == "Ethiopia") $list = "أثيوبيا";
+	  if ($list == "D. Republic Of The Congo") $list = "الديمقراطية. جمهورية الكونغو";
+	  if ($list == "Morocco") $list = "المغرب";
+	  if ($list == "Ivory Coast") $list = "ساحل العاج";
+	  if ($list == "Equatorial Guinea") $list = "غينيا الإستوائية";
+	  if ($list == "Mayotte") $list = "مايوت";
+	  if ($list == "Tanzania") $list = "تنزانيا";
+	  if ($list == "Djibouti") $list = "جيبوتي";
+	  if ($list == "Kenya") $list = "كينيا";
+	  if ($list == "Nigeria") $list = "نيجيريا";
+	  if ($list == "South Africa") $list = "جنوب أفريقيا";
+	  if ($list == "Sierra Leone") $list = "سيرا ليون";
+	  if ($list == "Comoros") $list = "جزر القمر";
+	  if ($list == "Chad") $list = "تشاد";
+	  if ($list == "Somalia") $list = "الصومال";
+	  if ($list == "Zambia") $list = "زامبيا";
+	  if ($list == "Gambia") $list = "غامبيا";
+	  if ($list == "Ghana") $list = "غانا";
+	  if ($list == "Benin") $list = "بنين";
+	  if ($list == "Maldives") $list = "جزر المالديف";
+	  if ($list == "Angola") $list = "أنغولا";
+	  if ($list == "Namibia") $list = "ناميبيا";
+	  if ($list == "Zimbabwe") $list = "زيمبابوي";
+	  if ($list == "Eritrea") $list = "إريتريا";
+	  if ($list == "Niger") $list = "النيجر";
+	  if ($list == "Burkina Faso") $list = "بوركينا فاسو";
+	  if ($list == "Cameroon") $list = "الكاميرون";
+	  if ($list == "South Sudan") $list = "جنوب السودان";
+	  
+	  if ($list == "Cyprus") $list = "قبرص";
+	  if ($list == "Singapore") $list = "سنغافورة";
+	  if ($list == "Azerbaijan") $list = "أذربيجان";
+	  if ($list == "Pakistan") $list = "باكستان";
+	  if ($list == "Israel") $list = "إسرائيل";
+	  if ($list == "United Arab Emirates") $list = "الإمارات العربية المتحدة";
+	  if ($list == "Jordan") $list = "الأردن";
+	  if ($list == "Kyrgyzstan") $list = "قرغيزستان";
+	  if ($list == "Tajikistan") $list = "طاجيكستان";
+	  if ($list == "Sri Lanka") $list = "سيريلانكا";
+	  if ($list == "Kuwait") $list = "الكويت";
+	  if ($list == "Yemen") $list = "اليمن";
+	  if ($list == "North Korea") $list = "كوريا الشمالية";
+	  if ($list == "Kazakhstan") $list = "كازاخستان";
+	  if ($list == "Armenia") $list = "أرمينيا";
+	  if ($list == "India") $list = "الهند";
+	  if ($list == "Bangladesh") $list = "بنغلاديش";
+	  if ($list == "Taiwan") $list = "تايوان";
+	  if ($list == "Cambodia") $list = "كمبوديا";
+	  if ($list == "Russia") $list = "روسيا";
+	  if ($list == "Uzbekistan") $list = "أوزبكستان";
+	  if ($list == "Hong Kong") $list = "هونج كونج";
+	  if ($list == "Mongolia") $list = "منغوليا";
+	  if ($list == "Qatar") $list = "دولة قطر";
+	  if ($list == "Indonesia") $list = "أندونيسيا";
+	  if ($list == "Japan") $list = "اليابان";
+	  if ($list == "Iraq") $list = "العراق";
+	  if ($list == "Macao") $list = "ماكاو";
+	  if ($list == "Laos") $list = "لاوس";
+	  if ($list == "Georgia") $list = "جورجيا";
+	  if ($list == "Nepal") $list = "نيبال";
+	  if ($list == "China") $list = "الصين";
+	  if ($list == "Malaysia") $list = "ماليزيا";
+	  if ($list == "Bahrain") $list = "البحرين";
+	  if ($list == "Vietnam") $list = "فيتنام";
+	  if ($list == "Turkmenistan") $list = "تركمانستان";
+	  if ($list == "Iran") $list = "إيران";
+	  if ($list == "Philippines") $list = "الفلبين";
+	  if ($list == "Palestine") $list = "فلسطين";
+	  if ($list == "Syria") $list = "سوريا";
+	  if ($list == "Afghanistan") $list = "أفغانستان";
+	  if ($list == "South Korea") $list = "كوريا الجنوبية";
+	  if ($list == "Oman") $list = "سلطنة عمان";
+	  if ($list == "Bhutan") $list = "بوتان";
+	  if ($list == "Lebanon") $list = "لبنان";
+	  if ($list == "Thailand") $list = "تايلاند";
+	  if ($list == "Saudi Arabia") $list = "المملكة العربية السعودية";
+	  
+	 
+	  if ($list == "Chile") $list = "تشيلي";
+	  if ($list == "Colombia") $list = "كولومبيا";
+	  if ($list == "Ecuador") $list = "الإكوادور";
+	  if ($list == "Argentina") $list = "الأرجنتين";
+	  if ($list == "Paraguay") $list = "باراغواي";
+	  if ($list == "Brazil") $list = "البرازيل";
+	  if ($list == "Peru") $list = "بيرو";
+	  if ($list == "Uruguay") $list = "أوروغواي";
+	  if ($list == "Bolivia") $list = "بوليفيا";
+	  if ($list == "Venezuela") $list = "فنزويلا";
+	  if ($list == "South Georgia") $list = "جورجيا الجنوبية";
+	  
+	  
+	  
+	  
+	  if ($list == "Mexico") $list = "المكسيك";
+	  if ($list == "Canada") $list = "كندا";
+	  if ($list == "Cuba") $list = "كوبا";
+	  if ($list == "United States") $list = "الولايات المتحدة الامريكانية";
+	  if ($list == "Australia") $list = "أستراليا";
+	  if ($list == "New Zealand") $list = "نيوزيلندا";
+	  if ($list == "Honduras") $list = "هندوراس";
+	  if ($list == "Nicaragua") $list = "نيكاراغوا";
+	  if ($list == "Jamaica") $list = "ليتوانيا";
+	  if ($list == "Bahamas") $list = "الباهاما";
+	  if ($list == "Dominican Republic") $list = "جمهورية الدومنيكان";
+	  if ($list == "Trinidad And Tobago") $list = "ترينداد وتوباغو";
+	  
+	  
+	  echo "<li style=\"line-height:250%; margin-right:-15px; list-style-type:none; width: 270px; float: right;\"><img style=\"padding:10px; height:33px; width:45px; vertical-align:middle\"; src=\"/en/prayer-times/flags/$file.GIF\"><a href=\"$variable/$file\">$list</a></li>"; 
+	  
+	}
+	
+	
+  }
+  closedir($dir);
+}
+
+
+echo "</ul></td></tr></table>";
+ 
+	}
+?>
+<br>
+
+<h4 style="margin-left: 15px;">رمضان في أفريقيا والشرق الأوسط</h4>
+
+<p>ستشهد منطقة الشرق الأوسط وشمال إفريقيا ساعات صيام أقل قليلاً من ساعات الصيام في أوروبا. يستمر يوم رمضان من 14 إلى 15 ساعة في الكويت والعراق والأردن والجزائر والمغرب وليبيا والسودان لمدة 15 ساعة في الإمارات العربية المتحدة والمملكة العربية السعودية.</p>
+
+<h4 style="margin-left: 15px;">رمضان في آسيا وأوقيانوسيا</h4>
+
+<p>في آسيا ، يصوم معظم المسلمين لمدة 14 إلى 16 ساعة. باكستان وبنغلاديش 15 ساعة ، في حين أن الهند ستصوم 14 ساعة. فترة الصيام في أستراليا قصيرة ب 11 ساعة فقط.</p>
+
+<h4 style="margin-left:15px;">رمضان في أوروبا</h4>
+
+<p>هذا العام ، سيكون لدول الشمال أطول أيام الصيام. ستحصل الدنمارك على 21 ساعة من الصيام ، والسويد وأيسلندا والنرويج 20 ساعة من الصيام. سيتمكن المسلمون في هولندا وبلجيكا من الصيام لمدة 18 ساعة ، في حين أن الذين يحتفلون بشهر رمضان في إسبانيا أو فرنسا أو ألمانيا يصومون تقريبا لمدة 16 ساعة.</p>
+
+<h4 style="margin-left: 15px;">رمضان في أمريكا الشمالية وأمريكا الجنوبية ومنطقة البحر الكاريبي</h4>
+
+<p>يصوم المسلمون في الولايات المتحدة وكندا من 16 إلى 19 ساعة. في البرازيل ، سيكون الوقت أقصر بكثير مع 11 ساعة ، وحتى أقل بالنسبة للأرجنتينيين والتشيليين مع 9:30 ، أسرع وقت صيام رمضان.</p>
+
+<br>
+
+</td>
+
+<td id="colonnes"><?php include("../../inc/droite.php");?></td>
+
+</tr>
+</tbody>
+</table>
+
+<?php include("../../inc/footer.php");?>
+
+</body></html>

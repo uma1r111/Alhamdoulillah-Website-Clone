@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="97" ChapterName="La Destinée (Al-Qadr)">
+	<Verse VerseID="1"><![CDATA[Nous l'avons certes, fait descendre (le Coran) pendant la nuit d'Al-Qadr. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Et qui te dira ce qu'est la nuit d'Al-Qadr ? ]]></Verse>
+	<Verse VerseID="3"><![CDATA[La nuit d'Al-Qadr est meilleure que mille mois. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Durant celle-ci descendent les Anges ainsi que l'Esprit, par permission de leur Seigneur pour tout ordre. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Elle est paix et salut jusqu'à l'apparition de l'aube. ]]></Verse>
+</Chapter>

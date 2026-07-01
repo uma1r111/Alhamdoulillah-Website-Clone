@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="94" ChapterName="L'ouverture (As-Sarh)">
+	<Verse VerseID="1"><![CDATA[N'avons-Nous pas ouvert pour toi ta poitrine ? ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Et ne t'avons-Nous pas déchargé du fardeau ]]></Verse>
+	<Verse VerseID="3"><![CDATA[qui accablait ton dos ? ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Et exalté pour toi ta renommée ? ]]></Verse>
+	<Verse VerseID="5"><![CDATA[A còté de la difficulté est, certes, une facilité ! ]]></Verse>
+	<Verse VerseID="6"><![CDATA[A còté de la difficulté, est certes, une facilité ! ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Quand tu te libères, donc, lève-toi, ]]></Verse>
+	<Verse VerseID="8"><![CDATA[et à ton Seigneur aspire. ]]></Verse>
+</Chapter>

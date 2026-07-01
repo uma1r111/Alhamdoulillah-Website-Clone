@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="99" ChapterName="The Shaking">
+	<Verse VerseID="1"><![CDATA[When/if the earth/Planet Earth shook/trembled its shaking/trembling/earthquake.]]></Verse>
+	<Verse VerseID="2"><![CDATA[And the earth/Planet Earth brought out its loads/weights .]]></Verse>
+	<Verse VerseID="3"><![CDATA[And the human/mankind said: "What (is) for it (what is wrong with it)?"]]></Verse>
+	<Verse VerseID="4"><![CDATA[That day it tells/informs (about) its news/information/knowledge.]]></Verse>
+	<Verse VerseID="5"><![CDATA[With that your Lord inspired/transmitted to it.]]></Verse>
+	<Verse VerseID="6"><![CDATA[That day, the people proceed/arise separately to see their deeds.]]></Verse>
+	<Verse VerseID="7"><![CDATA[So who makes/does a smallest particle of anything (smaller than an atom`s) weight (of) good sees it.]]></Verse>
+	<Verse VerseID="8"><![CDATA[And who makes/does a smallest particle of anything (smaller than an atom`s) weight (of) bad/evil sees it.475]]></Verse>
+</Chapter>

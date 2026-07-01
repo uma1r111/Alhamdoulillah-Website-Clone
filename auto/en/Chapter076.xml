@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="76" ChapterName="The Man">
+	<Verse VerseID="1"><![CDATA[Did (it) come on the human/mankind (a) period of time from the long time he was not a mentioned/remembered thing?]]></Verse>
+	<Verse VerseID="2"><![CDATA[That We, We created the human/mankind from a drop/male`s or female`s secretion mixtures (of secretions), We test him, so We made/created him hearing/listening, seeing/knowing .]]></Verse>
+	<Verse VerseID="3"><![CDATA[That We, We guided him the way/path , either (he is) thankful/grateful and either (an insistent) disbeliever.]]></Verse>
+	<Verse VerseID="4"><![CDATA[That We prepared/made ready for the disbelievers chains/successions, and leather or iron collars or handcuffs and blazing/inflaming (punishment).]]></Verse>
+	<Verse VerseID="5"><![CDATA[That truly the righteous/charitable drink from a cup its mixture/blend was camphor .]]></Verse>
+	<Verse VerseID="6"><![CDATA[A water well/spring God`s worshippers/slaves drink by it, they cause it to flow bursting/flowing .]]></Verse>
+	<Verse VerseID="7"><![CDATA[They fulfill/complete with the vow/duty (on oneself) , and they fear a day/time its evil/harm was spread and scattered .]]></Verse>
+	<Verse VerseID="8"><![CDATA[And they feed the food on (inspite of) its love/like (to it to) a poorest of poor/poor oppressed and an orphan ,and a captive/prisoner.]]></Verse>
+	<Verse VerseID="9"><![CDATA[(They say): "Truly we feed you for God`s sake , we do not want from you a reward/reimbursement ,and nor thankfulness/gratefulness.]]></Verse>
+	<Verse VerseID="10"><![CDATA[We (E), fear from our Lord a severe (gloomy) difficult/evil day/time."]]></Verse>
+	<Verse VerseID="11"><![CDATA[So God protected/preserved them (from) that the day`s/time`s bad/evil/harm, and He made them meet/find beauty and goodness and delight/happiness.]]></Verse>
+	<Verse VerseID="12"><![CDATA[And He rewarded/reimbursed them because (of) what they were patient (by) treed gardens/paradises and silk.]]></Verse>
+	<Verse VerseID="13"><![CDATA[Resting/reclining in it on the luxurious beds/couches, they do not see in it sun and nor severe cold/anger.]]></Verse>
+	<Verse VerseID="14"><![CDATA[And its shades/shadows (are) near on them, and its fruit harvests was manipulated/dangled low dangling/manipulating.]]></Verse>
+	<Verse VerseID="15"><![CDATA[And (they are) being circled around on them with drinking cups from silver and cups (that) were/are clear glass/mirrors .]]></Verse>
+	<Verse VerseID="16"><![CDATA[Clear glass/mirrors from silver, they predestined/evaluated it predestination/evaluation.]]></Verse>
+	<Verse VerseID="17"><![CDATA[And they be given drink in it (in) a cup its mixture/blend was ginger/wine.]]></Verse>
+	<Verse VerseID="18"><![CDATA[A water spring/well in it, it is named Salsbeelan/fresh, smooth and pleasant water fountain.]]></Verse>
+	<Verse VerseID="19"><![CDATA[And immortal/eternal children/new borns circle/walk around them, if you saw/understood them you thought/supposed them (that) they (are) scattered/sprinkled pearls.]]></Verse>
+	<Verse VerseID="20"><![CDATA[And if you saw/understood, then you saw/understood comfort and ease/blessing and a great ownership/kingdom .]]></Verse>
+	<Verse VerseID="21"><![CDATA[Their tops (covers them) clothes/garments (from) green sarcenet (certain type of silk or brocade) and brocade (silk and gold fabric), and they were bejeweled/ornamented (with) bracelets from silver, and their Lord gave/made them drink a pure/clear drink.]]></Verse>
+	<Verse VerseID="22"><![CDATA[That truly that was for you a reward/reimbursement , and your striving/endeavor was/is thanked.]]></Verse>
+	<Verse VerseID="23"><![CDATA[That We, We descended on you the Koran descent.]]></Verse>
+	<Verse VerseID="24"><![CDATA[So be patient for your Lord`s judgment/rule, and do not obey a sinner/criminal (insistent) disbeliever from them.]]></Verse>
+	<Verse VerseID="25"><![CDATA[And remember/mention your Lord (at) daybreaks/early mornings and (at) evening to sunset .]]></Verse>
+	<Verse VerseID="26"><![CDATA[And from the night, so prostrate to Him, and praise/glorify Him at night/nightly long.]]></Verse>
+	<Verse VerseID="27"><![CDATA[That truly those love/like the worldly life/present, and they leave behind them a heavy day/time.]]></Verse>
+	<Verse VerseID="28"><![CDATA[We, We created them and We strengthened/supported their bone structure/ties and joints/(strengths) , and if We willed/wanted/intended We exchanged/replaced their equivalent (by) an exchange/replacement .]]></Verse>
+	<Verse VerseID="29"><![CDATA[That truly this (is) a reminder, so who wanted took/received a way/path to his Lord.]]></Verse>
+	<Verse VerseID="30"><![CDATA[And you do not will/want except that (E) God wills/wants/intends, that truly God was/is knowledgeable, wise/judicious.]]></Verse>
+	<Verse VerseID="31"><![CDATA[He enters whom He wills/wants in His mercy, and the unjust/oppressive, He prepared for them a painful torture.450]]></Verse>
+</Chapter>

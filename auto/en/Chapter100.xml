@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="100" ChapterName="The Assaulters">
+	<Verse VerseID="1"><![CDATA[And/by the panting/changing colour , attacking forces/horses.]]></Verse>
+	<Verse VerseID="2"><![CDATA[So the igniters (of fire)/swayers , fire striking/sparking/decaying .]]></Verse>
+	<Verse VerseID="3"><![CDATA[So the raiders/fast attacking horses (in) mornings/daybreaks.]]></Verse>
+	<Verse VerseID="4"><![CDATA[So they stirred and arose/agitated dust/splashing mud or water with it .]]></Verse>
+	<Verse VerseID="5"><![CDATA[So they were in the middle with it all together/(in) a group .]]></Verse>
+	<Verse VerseID="6"><![CDATA[That truly the human/mankind (is) ungrateful/disobedient (E) to his Lord.]]></Verse>
+	<Verse VerseID="7"><![CDATA[And he truly (is) on that witnessing/testifying (E).]]></Verse>
+	<Verse VerseID="8"><![CDATA[And that he truly to the good`s/wealth`s love/like (is) strong (intense) (E) (humans love excessive goodness).]]></Verse>
+	<Verse VerseID="9"><![CDATA[So does he not know when what (is) in the graves/burial places is scattered/over thrown/strewn ?]]></Verse>
+	<Verse VerseID="10"><![CDATA[And what (is) in the chests (innermosts) is recovered/collected?]]></Verse>
+	<Verse VerseID="11"><![CDATA[That truly their Lord (is) with them (on) that day expert/experienced (E).]]></Verse>
+</Chapter>

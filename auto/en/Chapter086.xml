@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="86" ChapterName="The Night-Comer">
+	<Verse VerseID="1"><![CDATA[And/by the sky/space, and/by the Night Comer/star (Morning Star).]]></Verse>
+	<Verse VerseID="2"><![CDATA[And what made you know/informed you what the Night Comer/star (Morning Star is)?]]></Verse>
+	<Verse VerseID="3"><![CDATA[The star/planet, the lit/penetrating .]]></Verse>
+	<Verse VerseID="4"><![CDATA[That truly every/each self (is) except on it a protector/safe keeper .]]></Verse>
+	<Verse VerseID="5"><![CDATA[So the human/mankind should look/see from what he was created.]]></Verse>
+	<Verse VerseID="6"><![CDATA[He was created from water pouring/flowing forcefully.]]></Verse>
+	<Verse VerseID="7"><![CDATA[It emerges/appears from between the spine and the rib bones.]]></Verse>
+	<Verse VerseID="8"><![CDATA[That He truly (is) on returning him capable/able (E) .]]></Verse>
+	<Verse VerseID="9"><![CDATA[A day/time the secrets/intentions be tested.]]></Verse>
+	<Verse VerseID="10"><![CDATA[So (there is) no strength/power, and nor victorior/savior for him.]]></Verse>
+	<Verse VerseID="11"><![CDATA[And the sky/space that of the rain after rain/benefit .]]></Verse>
+	<Verse VerseID="12"><![CDATA[And the earth/Planet Earth that of the split/separation/geological rift-fault line .]]></Verse>
+	<Verse VerseID="13"><![CDATA[That it truly is a word/statement (of) judgment/partition (decisive).]]></Verse>
+	<Verse VerseID="14"><![CDATA[And it is not with (of) the joke/fun .]]></Verse>
+	<Verse VerseID="15"><![CDATA[That they truly plot/conspire a plot/conspiracy .]]></Verse>
+	<Verse VerseID="16"><![CDATA[And I plot/conspire a plot/conspiracy .]]></Verse>
+	<Verse VerseID="17"><![CDATA[So delay/give time (to) the disbelievers, delay them/give them time slowly/gently.]]></Verse>
+</Chapter>

@@ -1,0 +1,66 @@
+<?php 
+include ("compute.php");
+include("../inc/doctype.php") ?>
+
+<title>Sermon du Vendredi Medine PDF - Ecouter Khotba Imam de Medine Mp3</title>
+<meta name="description" content="Ecouter les khotba du vendredi à Medine en Mp3. Telecharger les sermons des imams de Medine au format PDF.">
+
+</head>
+<body>
+
+<?php include("../inc/menu.php") ?>
+<table id="global">
+<tbody>
+<tr>
+<td id="contenu">
+
+<h1>Sermon Vendredi Medine</h1>
+
+<h2>Khotba Joumou'a Medine</h2>
+
+<p>Après <a href="/sermons-vendredi/la-mecque.html">La Mecque</a>, voici maintenant les discours du vendredi de la ville sainte de Medine (Madinah al Mounawwarah) depuis l'an 1432 après al Hijra jusqu'à nos jours. Disponible à l'écoute en arabe en mp3 et en téléchargement au format PDF, vous trouverez ci-dessous un total de <?php echo $total;?> khoutab et pdf.</p>
+
+<h3>Sermon du vendredi de Medine</h3>
+
+<p> Choix de l'année : <a href="#1432">1432</a> | <a href="#1433">1433</a> | <a href="#1434">1434</a> | <a href="#1435">1435</a> | <a href="#1436">1436</a> | <a href="#1437">1437</a> | <a href="#1438">1438</a></p>
+
+<a name="1432"></a>
+<p><b><u>Khotba Medine 1432</u></b></p>
+<?php showQari(1)?>								
+
+<a name="1433"></a>
+<p><b><u>Khotba Medine 1433</u></b></p>
+<?php showQari(2)?>								
+
+<a name="1434"></a>
+<p><b><u>Khotba Medine 1434</u></b></p>
+<?php showQari(3)?>								
+
+<a name="1435"></a>
+<p><b><u>Khotba Medine 1435</u></b></p>
+<?php showQari(4)?>								
+
+<a name="1436"></a>
+<p><b><u>Khotba Medine 1436</u></b></p>
+<?php showQari(5)?>								
+
+<a name="1437"></a>
+<p><b><u>Khotba Medine 1437</u></b></p>
+<?php showQari(6)?>								
+
+<a name="1438"></a>
+<p><b><u>Khotba Medine 1438</u></b></p>
+<?php showQari(7)?>	
+
+
+<br>
+</td>
+
+
+
+<td id="colonnes"><?php include("../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../inc/footer.php") ?>
+</body></html>

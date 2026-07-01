@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="95" ChapterName="Le figuier (At-Tin)">
+	<Verse VerseID="1"><![CDATA[Par le figuier et l'olivier  ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Et par le Mont Sinin  ! ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Et par cette Cité sûre  ! ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Nous avons certes créé l'homme dans la forme la plus parfaite. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Ensuite, Nous l'avons ramené au niveau le plus bas, ]]></Verse>
+	<Verse VerseID="6"><![CDATA[sauf ceux qui croient et accomplissent les bonnes oeuvres : ceux-là auront une récompense jamais interrompue. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Après cela, qu'est-ce qui te fait traiter la rétribution de mensonge ? ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Allah n'est-Il pas le plus sage des Juges ? ]]></Verse>
+</Chapter>

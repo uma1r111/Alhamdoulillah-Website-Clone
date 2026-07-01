@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="55" ChapterName="Le Tout Miséricordieux (Ar-Rahman)">
+	<Verse VerseID="1"><![CDATA[Le Tout Miséricordieux. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Il a enseigné le Coran. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Il a créé l'homme. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Il lui a appris à s'exprimer clairement. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Le soleil et la lune [évoluent] selon un calcul [minutieux] ]]></Verse>
+	<Verse VerseID="6"><![CDATA[et l'herbe et les arbres se prosternent. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Et quant au ciel, Il l'a élevé bien haut. Et Il a établit la balance, ]]></Verse>
+	<Verse VerseID="8"><![CDATA[afin que vous ne transgressiez pas dans la pesée : ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Donnez [toujours] le poids exact et ne faussez pas la pesée. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Quant à la terre, Il l'a étendue pour les êtres vivants : ]]></Verse>
+	<Verse VerseID="11"><![CDATA[il s'y trouve des fruits, et aussi les palmiers aux fruits recouverts d'enveloppes, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[tout comme les grains dans leurs balles, et les plantes aromatiques. ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Il a créé l'homme d'argile sonnante comme la poterie ; ]]></Verse>
+	<Verse VerseID="15"><![CDATA[et Il a créé les djinns de la flamme d'un feu sans fumée ; ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Seigneur des deux Levants et Seigneur des deux Couchants ! ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Lequel donc des bienfaits de votre seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Il a donné libre cours aux deux mers pour se rencontrer ; ]]></Verse>
+	<Verse VerseID="20"><![CDATA[il y a entre elles une barrière qu'elles ne dépassent pas. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="22"><![CDATA[De ces deux [mers] : sortent la perle et le corail. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="24"><![CDATA[A Lui appartiennent les vaisseaux élevés sur la mer comme des montagnes ; ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Tout ce qui est sur elle [la terre] doit disparaître, ]]></Verse>
+	<Verse VerseID="27"><![CDATA[[Seule] subsistera La Face [Wajh] de ton Seigneur, plein de majesté et de noblesse. ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Ceux qui sont dans les cieux et la terre L'implorent. Chaque jour, Il accomplit une oeuvre nouvelle. ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Nous allons bientòt entreprendre votre jugement, ò vous les deux charges [hommes et djinns] ]]></Verse>
+	<Verse VerseID="32"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Ô peuple de djinns et d'hommes ! si vous pouvez sortir du domaine des cieux et de la terre, alors faites-le. Mais vous ne pourrez en sortir qu'à l'aide d'un pouvoir [illimité]. ]]></Verse>
+	<Verse VerseID="34"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Il sera lancé contre vous un jet de feu et de fumée [ou de cuivre fondu], et vous ne serez pas secourus. ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Puis quand le ciel se fendra et deviendra alors écarlate comme le cuir rouge. ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Lequel des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Alors, ni aux hommes ni aux djinns, on ne posera des questions à propos de leurs péchés. ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="41"><![CDATA[On reconnaîtra les criminels à leurs traits. Ils seront donc saisis par les toupets et les pieds. ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Voilà l'Enfer que les criminels traitaient de mensonge. ]]></Verse>
+	<Verse VerseID="44"><![CDATA[Ils feront le va-et-vient entre lui (l'Enfer) et une eau bouillante extrêmement chaude. ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="46"><![CDATA[et pour celui qui aura craint de comparaître devant son Seigneur, il y aura deux jardins ; ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="48"><![CDATA[Aux branches touffues. ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="50"><![CDATA[Ils y trouveront deux sources courantes. ]]></Verse>
+	<Verse VerseID="51"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="52"><![CDATA[Ils contiennent deux espèces de chaque fruit. ]]></Verse>
+	<Verse VerseID="53"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="54"><![CDATA[ils seront accoudés sur des tapis doublés de brocart, et les fruits des deux jardins seront à leur portée (pour être cueillis). ]]></Verse>
+	<Verse VerseID="55"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="56"><![CDATA[Ils y trouveront [les houris] aux regards chastes, qu'avant eux aucun homme ou djinn n'aura déflorées. ]]></Verse>
+	<Verse VerseID="57"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="58"><![CDATA[Elles seront [aussi belles] : que le rubis et le corail. ]]></Verse>
+	<Verse VerseID="59"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="60"><![CDATA[Y a-t-il d'autre récompense pour le bien, que le bien ? ]]></Verse>
+	<Verse VerseID="61"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="62"><![CDATA[En deçà de ces deux jardins il y aura deux autres jardins. ]]></Verse>
+	<Verse VerseID="63"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="64"><![CDATA[Ils sont d'un vert sombre. ]]></Verse>
+	<Verse VerseID="65"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="66"><![CDATA[Dans lesquelles il y aura deux sources jaillissantes. ]]></Verse>
+	<Verse VerseID="67"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="68"><![CDATA[ils contiennent des fruits, des palmiers, et des grenadiers. ]]></Verse>
+	<Verse VerseID="69"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="70"><![CDATA[là, il y aura des vertueuses et des belles. ]]></Verse>
+	<Verse VerseID="71"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="72"><![CDATA[des houris cloîtrées dans les tentes, ]]></Verse>
+	<Verse VerseID="73"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="74"><![CDATA[qu'avant eux aucun homme ou djinn n'a déflorées. ]]></Verse>
+	<Verse VerseID="75"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="76"><![CDATA[Ils seront accoudés sur des coussins verts et des tapis épais et jolis. ]]></Verse>
+	<Verse VerseID="77"><![CDATA[Lequel donc des bienfaits de votre Seigneur nierez-vous ? ]]></Verse>
+	<Verse VerseID="78"><![CDATA[Béni soit le Nom de ton Seigneur, Plein de Majesté et de Munificence ! ]]></Verse>
+</Chapter>

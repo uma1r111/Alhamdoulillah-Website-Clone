@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="90" ChapterName="The City">
+	<Verse VerseID="1"><![CDATA[I do not swear/make oath with that, the country/land .]]></Verse>
+	<Verse VerseID="2"><![CDATA[And you are placed in/occupying (residing) at this , the country/land.]]></Verse>
+	<Verse VerseID="3"><![CDATA[And a father and what he gave birth (to)/procreated.]]></Verse>
+	<Verse VerseID="4"><![CDATA[We had created the human/mankind in hardship .]]></Verse>
+	<Verse VerseID="5"><![CDATA[Does he think/suppose that no one is capable/over powering on (over) him?]]></Verse>
+	<Verse VerseID="6"><![CDATA[He says: "I destroyed/wasted plenty property/possession/wealth."]]></Verse>
+	<Verse VerseID="7"><![CDATA[Does he think/suppose that (E) no one sees him?]]></Verse>
+	<Verse VerseID="8"><![CDATA[Did We not make/create for him two eyes?]]></Verse>
+	<Verse VerseID="9"><![CDATA[And a tongue , and two lips?]]></Verse>
+	<Verse VerseID="10"><![CDATA[And We guided him (to) the two paths/good or bad ?]]></Verse>
+	<Verse VerseID="11"><![CDATA[So he did not rush/force (himself) into the high mountain path/road ?]]></Verse>
+	<Verse VerseID="12"><![CDATA[And what made you know/informed you what the high mountain path/road (is) ?]]></Verse>
+	<Verse VerseID="13"><![CDATA[Releasing/freeing a neck/person/slave.]]></Verse>
+	<Verse VerseID="14"><![CDATA[Or feeding in a day/time of hunger/starvation/famine.]]></Verse>
+	<Verse VerseID="15"><![CDATA[An orphan of a relation/near/close.]]></Verse>
+	<Verse VerseID="16"><![CDATA[Or a poorest of poor/poor oppressed of poverty.]]></Verse>
+	<Verse VerseID="17"><![CDATA[Then he was from those who believed and directed/commanded each other with the patience, and directed/commanded each other with the mercy/compassion .]]></Verse>
+	<Verse VerseID="18"><![CDATA[Those are the blessings`/right`s (side`s/hand`s) owners/friends/company.]]></Verse>
+	<Verse VerseID="19"><![CDATA[And those who disbelieved with Our verses/evidences , they are the bad omen`s/left side`s owners/friends/company.]]></Verse>
+	<Verse VerseID="20"><![CDATA[Stationary/residing fire (is) on them.]]></Verse>
+</Chapter>

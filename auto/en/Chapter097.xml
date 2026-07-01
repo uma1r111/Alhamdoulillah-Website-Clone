@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="97" ChapterName="The Majesty">
+	<Verse VerseID="1"><![CDATA[We (E) descended it in the predestined/destiny night .474]]></Verse>
+	<Verse VerseID="2"><![CDATA[And what made you know/informed you what the predestined/destiny night (is)?]]></Verse>
+	<Verse VerseID="3"><![CDATA[The predestined/destiny night (is) better than one thousand month (lunar months).]]></Verse>
+	<Verse VerseID="4"><![CDATA[The angels descend and the Soul/Spirit in it, by their Lord`s permission/pardon from every matter/affair.]]></Verse>
+	<Verse VerseID="5"><![CDATA[Security/peace it is until the dawn`s ascent/rising .]]></Verse>
+</Chapter>

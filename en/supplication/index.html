@@ -1,0 +1,105 @@
+<?php
+$theme="index.html";
+include("../inc/coranic.php") 
+?>
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="/en/css/islam.css">
+
+<title>Supplications and Dua of Hisnul Muslim</title>
+<meta name="description" content="Invocations and duas taken from authentic hadiths - List of doua of the citadel of Hisnul Muslim, English and phonetic.">
+
+</head>
+<body>
+
+<?php include("../inc/haut.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>Supplication (Dua)</h1>
+
+<?php include("../../inc/pub-content.php") ?>
+
+<h2> Invocations in Islam and the merits of the duas </h2>
+
+<p> The importance of dhikr, duas and the invocation of Allah is very great. There are many verses in the Quran on this subject. </p>
+
+<h3> The merits of the douas in the Quran </h3>
+
+<?php versets('2', 152,152) ;?>
+<?php versets('33', 35,35) ;?>
+<?php versets('33', 41,41) ;?>
+<?php versets('7', 205,205) ;?>
+
+
+<h3> The merits of the invocation in the Sunna </h3>
+
+<p> In a hadith reported by Imam al Bukhari, the Messenger of Allah <span class="respect">(sallallahu 'alayhi wa sallam)</span> said: "The difference between one who calls on his Lord and whoever does not invoke it is like the difference between the living and the dead. "In another narrative narrated by at-Tirmidhi and Ibn Maja, the prophet <span class =" respect ">(sallallahou 'alayhi wa sallam)</span> said:" Do you want me to tell you which is the best of your actions, the purest for your Lord, who lifts you to the highest degree, which is better for you than to give alms of your gold and your silver, and better than to meet your enemy and to strike him in the neck or that he hits you on the neck? They said, "Yes. "He replied," The invocation of Allah. "</p>
+
+<p> In the same sense, Allah said in a hadh qudoussi reported by al Bukhari and Muslim, the prophet <span class="respect">(sallallahou 'alayhi wa sallam)</span> said: "Allah said: " I am for my servant what he thinks I am, and I will be with him each time he evokes Me, if He evokes Me in him, I will evoke him in Me, if he evokes Me in an assembly, I will evoke it in a better assembly. And if he approaches a span, I will approach a cubit and if he approaches a cubit, I will approach him from an armful. And if he comes to the walk, I will hastily go to him. "</p>
+
+<p> Also, a man questioned the Messenger of Allah. <span class="respect">(sallallahu 'alayhi wa sallam)</span> in these words: "O Messenger of Allah! There are too many Islamic laws for me, tell me something I will hold on to. He replied, "May your tongue never cease to invoke Allah. "</p>
+
+<p> Among the other hadiths on the merits of dhikr and invocation: "Anyone who sits in a place without invoking Allah will be a loss to him. And whoever lies down in a place without invoking Allah, it will be a loss for him. "The prophet <span class =" respect ">(sallallahou 'alayhi wa sallam)</span> also says:" When a group of people sits down without mentioning Allah and praying over their Prophet, it will be for them a breach. If He wills He will punish them and if He wills, He will forgive them. "</p>
+
+<h3> Hisnul Muslim </h3>
+
+<p> Hisnul Muslim is a book which brings together the majority of everyday invocations in the life of the Muslim. All the doua in the citadel of the Muslim are taken from authentic Hadiths according to the opinion of the majority of scholars. Below is the list of supplications: </p>	
+
+
+<ul>
+
+
+<?php 
+	
+	$metadataFile='dua.xml';
+    $xml=simplexml_load_file($metadataFile);
+	
+	for ($i=0; $i<132; $i++) {
+		
+	${'title'.$i}=$xml->group[$i]->title;
+	${'id'.$i}=$xml->group[$i]['id'];
+	
+	${'nameURL'.$i}=str_replace("", "'", ${'title'.$i});
+    ${'nameURL'.$i}=htmlentities(${'nameURL'.$i}, ENT_NOQUOTES, $charset);
+    ${'nameURL'.$i}=preg_replace('#&([A-za-z])(?:acute|cedil|caron|circ|grave|orn|ring|slash|th|tilde|uml);#', '\1', ${'nameURL'.$i});
+    ${'nameURL'.$i}=preg_replace('#&([A-za-z]{2})(?:lig);#', '\1', ${'nameURL'.$i});
+
+	
+
+		${'nameURL'.$i} = str_replace(["'", "," , "/", "(", ")", ".", "and ", "etc", " the", "est ", "lorsque", "sur ", "les ", "lors", " une ", "qui ", "pas ", "par ", "cas ", " al "], " ", strtolower(${'nameURL'.$i}));
+
+	$exploded=explode(" ", ${'nameURL'.$i});
+	foreach($exploded as $key => $word) {
+		if(mb_strlen($word)< 3) unset($exploded[$key]);
+	}
+	${'nameURL'.$i}=implode(" ", $exploded);
+
+	${'nameURL'.$i}=str_replace(" ", "-", strtolower(${'nameURL'.$i}));
+
+		
+		${'url'.$i}="${'nameURL'.$i}.html";
+	
+	echo "<li><a href=\"${'url'.$i}\">${'title'.$i}</a></li>";
+	
+	
+}	
+	?>
+</ul>
+
+
+<br>
+<br>
+
+</td>
+<td id="colonnes"><?php include("../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../inc/footer.php") ?>
+</body></html>

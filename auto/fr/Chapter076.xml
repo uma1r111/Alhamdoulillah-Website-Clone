@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="76" ChapterName="L'homme (Al-Insan)">
+	<Verse VerseID="1"><![CDATA[S'est-il écoulé pour l'homme un laps de temps durant lequel il n'était même pas une chose mentionnable ? ]]></Verse>
+	<Verse VerseID="2"><![CDATA[En effet, Nous avons créé l'homme d'une goutte de sperme mélangé [aux composantes diverses] pour le mettre à l'épreuve. [C'est pourquoi] Nous l'avons fait entendant et voyant. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Nous l'avons guidé dans le chemin, - qu'il soit reconnaissant ou ingrat - ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Nous avons préparé pour les infidèles des chaînes, des carcans et une fournaise ardente. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Les vertueux boiront d'une coupe dont le mélange sera de camphre, ]]></Verse>
+	<Verse VerseID="6"><![CDATA[d'une source de laquelle boiront les serviteurs d'Allah et ils la feront jaillir en abondance.. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Ils accomplissent leurs voeux et ils redoutent un jour dont le mal s'étendra partout. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[et offrent la nourriture, malgré son amour, au pauvre, à l'orphelin et au prisonnier, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[(disant) : "C'est pour le visage d'Allah que nous vous nourrissons : nous ne voulons de vous ni récompense ni gratitude. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Nous redoutons, de notre Seigneur, un jour terrible et catastrophique". ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Allah les protégera donc du mal de ce jour-là, et leur fera rencontrer la splendeur et la joie, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[et les rétribuera pour ce qu'ils auront enduré, en leur donnant le Paradis et des [vêtements] de soie, ]]></Verse>
+	<Verse VerseID="13"><![CDATA[ils y seront accoudés sur des divans, n'y voyant ni soleil ni froid glacial. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Ses ombrages les couvriront de près, et ses fruits inclinés bien-bas [à portée de leurs mains]. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Et l'on fera circuler parmi eux des récipients d'argent et des coupes cristallines, ]]></Verse>
+	<Verse VerseID="16"><![CDATA[en cristal d'argent, dont le contenu a été savamment dosé. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Et là, ils seront abreuvés d'une coupe dont le mélange sera de gingembre, ]]></Verse>
+	<Verse VerseID="18"><![CDATA[puisé là-dedans à une source qui s'appelle Salsabil. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Et parmi eux, circuleront des garçons éternellement jeunes. Quand tu les verras, tu les prendras pour des perles éparpillées. ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Et quand tu regarderas là-bas, tu verras un délice et un vaste royaume. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Ils porteront des vêtements verts de satin et de brocart. Et ils seront parés de bracelets d'argent. Et leur Seigneur les abreuvera d'une boisson très pure. ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Cela sera pour vous une récompense, et votre effort sera reconnu. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[En vérité c'est Nous qui avons fait descendre sur toi le Coran graduellement ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Endure donc ce que ton Seigneur a décrété, et n'obéis ni au pécheur, parmi eux, ni au grand mécréant. ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Et invoque le nom de ton Seigneur, matin et après-midi ; ]]></Verse>
+	<Verse VerseID="26"><![CDATA[et prosterne-toi devant Lui une partie de la nuit ; et glorifie Le de longues [heures] pendant la nuit. ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Ces gens-là aiment [la vie] éphémère (la vie sur terre) et laissent derrière eux un jour bien lourd [le jour du Jugement]. ]]></Verse>
+	<Verse VerseID="28"><![CDATA[C'est Nous qui les avons créés et avons fortifié leur constitution. Quand Nous voulons, cependant, Nous les remplaçons [facilement] par leurs semblables. ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Ceci est un rappel. Que celui qui veut prenne donc le chemin vers son Seigneur ! ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Cependant, vous ne saurez vouloir, à moins qu'Allah veuille. Et Allah est Omniscient et Sage. ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Il fait entrer qui Il veut dans Sa miséricorde. Et quant aux injustes, Il leur a préparé un châtiment douloureux. ]]></Verse>
+</Chapter>

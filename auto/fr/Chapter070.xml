@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="70" ChapterName="Les voies d'ascension (Al- Maarij)">
+	<Verse VerseID="1"><![CDATA[Un demandeur a réclamé un châtiment inéluctable, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[pour les mécréants, que nul ne pourrait repousser, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[et qui vient d'Allah, le Maître des voies d'ascension. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Les Anges ainsi que l'Esprit montent vers Lui en un jour dont la durée est de cinquante mille ans. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Supporte donc, d'une belle patience ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Ile le (le châtiment) voient bien loin, ]]></Verse>
+	<Verse VerseID="7"><![CDATA[alors que Nous le voyons bien proche, ]]></Verse>
+	<Verse VerseID="8"><![CDATA[le jour où le ciel sera comme du métal en fusion ]]></Verse>
+	<Verse VerseID="9"><![CDATA[et les montagnes comme de la laine, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[où nul ami dévoué ne s'enquerra d'un ami, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[bien qu'ils se voient l'un l'autre. Le criminel aimerait pouvoir se racheter du châtiment de ce jour, en livrant ses enfants, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[sa compagne, son frère, ]]></Verse>
+	<Verse VerseID="13"><![CDATA[même son clan qui lui donnait asile, ]]></Verse>
+	<Verse VerseID="14"><![CDATA[et tout ce qui est sur la terre, tout, qui pourrait le sauver. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Mais rien [ne le sauvera]. [L'Enfer] est un brasier ]]></Verse>
+	<Verse VerseID="16"><![CDATA[arrachant brutalement la peau du crâne. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Il appellera celui qui tournait le dos et s'en allait, ]]></Verse>
+	<Verse VerseID="18"><![CDATA[amassait et thésaurisait. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Oui, l'homme a été créé instable [très inquiet] ; ]]></Verse>
+	<Verse VerseID="20"><![CDATA[quand le malheur le touche, il est abattu ; ]]></Verse>
+	<Verse VerseID="21"><![CDATA[et quand le bonheur le touche, il est refuseur. ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Sauf ceux qui pratiquent la Salat ]]></Verse>
+	<Verse VerseID="23"><![CDATA[qui sont assidu à leurs Salats, ]]></Verse>
+	<Verse VerseID="24"><![CDATA[et sur les bien desquels il y a un droit bien déterminé [la Zakat] ]]></Verse>
+	<Verse VerseID="25"><![CDATA[pour le mendiant et le déshérité ; ]]></Verse>
+	<Verse VerseID="26"><![CDATA[et qui déclarent véridique le Jour de la Rétribution, ]]></Verse>
+	<Verse VerseID="27"><![CDATA[et ceux qui craignent le châtiment de leur Seigneur ]]></Verse>
+	<Verse VerseID="28"><![CDATA[car vraiment, il n'y a nulle assurance contre le châtiment de leur Seigneur ; ]]></Verse>
+	<Verse VerseID="29"><![CDATA[et qui se maintiennent dans la chasteté ]]></Verse>
+	<Verse VerseID="30"><![CDATA[et n'ont pas de rapports qu'avec leurs épouses ou les esclaves qu'ils possèdent car dans ce cas, ils ne sont pas blâmables, ]]></Verse>
+	<Verse VerseID="31"><![CDATA[mais ceux qui cherchent [leur plaisir] en dehors de cela, sont des transgresseurs ; ]]></Verse>
+	<Verse VerseID="32"><![CDATA[et qui gardent les dépòts confiés à eux, et respectent leurs engagements scrupuleusement ]]></Verse>
+	<Verse VerseID="33"><![CDATA[et qui témoignent de la stricte vérité, ]]></Verse>
+	<Verse VerseID="34"><![CDATA[et qui sont régulier dans leur Salat. ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Ceux-là seront honorés dans des Jardins. ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Qu'ont donc, ceux qui ont mécru, à courir vers toi, le cou tendu, ]]></Verse>
+	<Verse VerseID="37"><![CDATA[de droite et de gauche, [venant] par bandes ? ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Chacun d'eux convoite-t-il qu'on le laisse entrer au Jardin des délices ? ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Mais non ! Nous les avons créés de ce qu'ils savent. ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Eh Non !... Je jure par le Seigneur des Levants et des Couchants que Nous sommes Capable ]]></Verse>
+	<Verse VerseID="41"><![CDATA[De les remplacer par de meilleurs qu'eux, et nul ne peut Nous en empêcher. ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Laisse-les donc s'enfoncer (dans leur mécréance) et se divertir jusqu'à ce qu'ils rencontrent leur jour dont on les menaçait, ]]></Verse>
+	<Verse VerseID="43"><![CDATA[le jour où ils sortiront des tombes, rapides comme s'ils couraient vers des pierres dressées ; ]]></Verse>
+	<Verse VerseID="44"><![CDATA[leurs yeux seront abaissés, l'avilissement les couvrira. C'est cela le jour dont on les menaçait ! ]]></Verse>
+</Chapter>

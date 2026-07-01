@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="93" ChapterName="The Early Hours">
+	<Verse VerseID="1"><![CDATA[And/by the sunrise/daybreak .]]></Verse>
+	<Verse VerseID="2"><![CDATA[And/by the night when/if it quietened/became covered .]]></Verse>
+	<Verse VerseID="3"><![CDATA[Your Lord did not leave/desert you , and nor hate/hit (you) on the head.]]></Verse>
+	<Verse VerseID="4"><![CDATA[And the end (other life) (E) (is) better for you than the first/beginning.]]></Verse>
+	<Verse VerseID="5"><![CDATA[And your Lord will/shall (E) give/grant you , so you accept/approve .]]></Verse>
+	<Verse VerseID="6"><![CDATA[Did He not find you an orphan , so he sheltered (you)?]]></Verse>
+	<Verse VerseID="7"><![CDATA[And He found you misguided so He guided (you)?]]></Verse>
+	<Verse VerseID="8"><![CDATA[And He found you having dependents/poor , so He enriched/satisfied (you)?]]></Verse>
+	<Verse VerseID="9"><![CDATA[So as for the orphan , so do not humiliate/compel .]]></Verse>
+	<Verse VerseID="10"><![CDATA[And as for the asker/questioner/beggar , so do not yell at/drive away .]]></Verse>
+	<Verse VerseID="11"><![CDATA[And as for with your Lord`s blessing/goodness , so tell/inform.]]></Verse>
+</Chapter>

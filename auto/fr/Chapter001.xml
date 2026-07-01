@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="1" ChapterName="Prologue (Al-Fatiha)">
+	<Verse VerseID="1"><![CDATA[Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Louange à Allah, Seigneur de l'univers. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Le Tout Miséricordieux, le Très Miséricordieux, ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Maître du Jour de la rétribution. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[C'est Toi [Seul] que nous adorons, et c'est Toi [Seul] dont nous implorons secours. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Guide-nous dans le droit chemin, ]]></Verse>
+	<Verse VerseID="7"><![CDATA[le chemin de ceux que Tu as comblés de faveurs, non pas de ceux qui ont encouru Ta colère, ni des égarés ]]></Verse>
+</Chapter>

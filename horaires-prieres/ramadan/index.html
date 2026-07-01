@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Calendrier Ramadan 2021/1442 - Date, Horaire du Ramadan Imsak et Iftar</title>
+
+<meta name="description" content="Dates et horaires du mois de Ramadan 2021 dans ce calendrier avec les heures de prières selon différents angles de calcul, d'imsak et de rupture du jeune (iftar)"/>
+
+<link rel="stylesheet" type="text/css" href="/en/css/islam.css"> 
+
+
+</head>
+
+<body>
+
+<?php include("../../inc/haut.php");?>
+
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>Calendrier Ramadan</h1>
+
+<?php include("../../inc/pub-content.php");?>
+
+<p style="padding-top:20px;">Dates du mois de Ramadan > <strong>Index</strong></p>
+
+<h2>Dates du Ramadan 2021 - 1442</h2>
+
+<p>Cette année, le mois du Ramadan 2021 débutera le vendredi 24 avril insh Allah. D'après les calculs astronomiques, ce mois de jeune comptera 30 jours. Cela dit, il se peut qu'on soit amenés à jeuner 29 jours, où que le mois de Ramadan commence le jeudi 23 avril. La fête de l'aid el fitr aura lieu dimanche 24 mai, ou samedi 23 mai insha Allah. Vous trouverez ci-dessous un récapitulatif des dates de début et de fin de Ramadan ainsi que les moments importants de ce mois béni.</p>
+
+<p><b>Quand commence le Ramadan cette année ?</b></p>
+
+<ul style="margin-left:-5px;">
+<li>Start: Friday, April 24, 2021</li>
+<li>End (aid el fitr): Sunday, May 24, 2021</li>
+<li>Last 10 days: from Wednesday 13 May</li>
+<li>First night of the last 10 days: Tuesday, May 12 (evening)</li>
+<li>Odd nights: Wed 13, Fri 15, Sun 17, Tue 19 and Thu 21 May (evenings)</li>
+</ul>
+
+<p><b>Imsak, iftar, rupture du jeûne..</b></p>
+
+<p>Sur nos calendriers, il n'y a pas de colonne Imsak. Ce choix fait suite aux réponses de savants sur cette question, comme al 'Outheymine et al Albani pour ne citer qu'eux. Il est permis donc de manger jusqu'à l'appel à la prière de al fajr. Pas besoin de s'abstenir 10 ou 15 min avant par crainte de manger et de se faire surprendre par l'adhan. Au contraire, plus vous retardez le souhour, mieux c'est. Quant à la rupture du jeune de Ramadan (et en dehors), c'est l'inverse, au plus tôt vous rompez le jêune, meilleur cela sera. Il vaut donc mieux éviter de prier al maghrib avant l'heure de l'iftar. L'ordre logique c'est : rompre le jêune par des dattes, de l'eau ou du lait, prier puis manger.</p>
+
+<center><div style="width:100%; display:block; height:5px; background-color:slategray; margin:0px;"></div></center>
+	
+<h3>Horaires du Ramadan</h3>
+
+<?php include("../../inc/share.php");?>
+	
+<p>La durée du jeûne quotidien dépend du nombre d'heure entre le fajr et le coucher du soleil (maghrib). En été, les journées sont plus longues, donc l'état de jeune dure plus longtemps. En revanche, les nuits sont très courtes. Inversement en hiver où jeûner Ramadan est très facile, tandis que les veillées nocturnes durent plus longtemps.</p>
+
+<p>Voici les différents pays pour lesquels nous vous proposons le calendrier du mois de Ramadan. Cliquez sur votre continent pour accéder au calendrier de votre pays, puis votre ville. Vous pouvez ensuite ajuster les réglages si besoin, comme changer l'angle de calcul de al fajr, par défaut sur 12 degrés. Vous pouvez le mettre à 15 degrés ou 18.</p>
+
+<?php
+
+$VilleLat = 21.42664;
+$VilleLong = 39.82563;
+ 
+ $arr = array("europe", "asie", "afrique", "amerique-du-nord", "amerique-du-sud", "oceanie", "caraibes");
+	
+	foreach ($arr as $variable){
+
+	$link = ucfirst(str_replace("-", " ", strtolower($variable)));
+	
+	echo " 
+	
+	<div style=\"width:100%; background-color:lightgray;\"><h3><u><a href=\"$variable\">Calendrier Ramadan $link</a></u></h3></div>
+	
+	<table style=\"padding:0px; margin:0px;\"><tr><td style=\"padding:0px; margin:0px;\"><ul style=\"padding-top:0px; margin-top:0px;\">
+	
+	";
+	
+	$link = str_replace(" ", "-", strtolower($variable));
+ 
+if ($dir = opendir("$variable")) {
+  while (false !== ($file = readdir($dir))) { 
+  if ($file !== 'index.html' && $file !== '.' && $file !== '..') {
+	  $filedo = str_replace("-", " ", $file);
+	  $fileda = str_replace("democratique", "D.", $filedo);
+	  $filed = str_replace("terres australes et antarctiques", "Terres AA", $fileda);
+
+$exclude = array('et', 'du');
+$words = explode(' ', $filed);
+foreach($words as $key => $word) {
+    if(in_array($word, $exclude)) {
+        continue;
+    }
+    $words[$key] = ucfirst($word);
+}
+$list = implode(' ', $words);	 
+	  
+	  echo "<li style=\"line-height:250%; margin-left:-15px; list-style-type:none; width: 270px; float: left;\"><img style=\"padding:10px; height:33px; width:45px; vertical-align:middle\"; src=\"/horaires-prieres/flags/$file.GIF\"><a href=\"$variable/$file\">$list</a></li>"; 
+	  
+	}
+	
+	
+  }
+  closedir($dir);
+}
+
+
+echo "</ul></td></tr></table>";
+ 
+	}
+?>
+
+<h4 style="margin-left:15px;">Ramadan en Europe</h4>
+
+<p>Cette année, les pays nordiques auront les jours de jeûne les plus longs. Le Danemark aura 21 heures de jeûne, et la Suède, l'Islande et la Norvège 20 heures de jeûne. Les musulmans aux Pays-Bas et en Belgique seront en état de jeune pendant 18 heures, tandis que ceux qui observent le Ramadan en Espagne, en France ou en Allemagne vont jeuner en moyenne pendant 16 heures.</p>
+
+<h4 style="margin-left:15px;">Ramadan en Afrique et Moyen-Orient</h4>
+
+<p>La région du Moyen-Orient et de l'Afrique du Nord connaîtra des heures de jeûne légèrement plus courtes que celles en Europe. La journée de Ramadan dure entre 14 et 15 heures au Koweït, en Irak, en Jordanie, en Algérie, au Maroc, en Libye et au Soudan et pendant 15 heures dans les Emirats et en Arabie Saoudite.</p>
+
+<h4 style="margin-left:15px;">Ramadan en Asie et Océanie</h4>
+
+<p>En Asie, la plupart des musulmans jeuneront pendant 14 à 16 heures. Le Pakistan et le Bangladesh 15 heures, tandis que l'Inde jeunera 14 heures. La période de jeûne de l'Australie est très courte avec seulement 11 heures.</p>
+
+<h4 style="margin-left:15px;">Ramadan en Amérique du Nord/Sud et Caraibes</h4>
+
+<p>Les musulmans aux États-Unis et au Canada vont jeuner pendant 16 à 19 heures. Au Brésil, ce sera beaucoup plus court avec 11 heures, et encore moins pour les argentins et les chiliens avec 9h30, soit le temps de jeûne le plus court de ce Ramadan.</p>
+
+<br>
+
+</td>
+
+<td id="colonnes"><?php include("../../inc/droite.php");?></td>
+
+</tr>
+</tbody>
+</table>
+
+<?php include("../../inc/footer.php");?>
+
+</body></html>

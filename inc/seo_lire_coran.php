@@ -1,0 +1,2 @@
+<title>Sourate <? echo $suraOrderC; ?>, <? echo $suraNomT; ?> Lire Sourate <? echo $suraOrderC; ?> du Coran : <? echo $suraNom; ?></title>
+<meta name="description" content="Sourate <? echo $suraOrderC; ?> du Coran en ligne, <? echo $suraNomT; ?> - Lire la Sourate <? echo $suraOrderC; ?> sur internet en arabe et en français dans le Coran : <? echo $suraNom; ?> (<? echo $suraNomT; ?>), <? echo $suraNumber; ?> versets" />

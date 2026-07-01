@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="105" ChapterName="The Elephant">
+	<Verse VerseID="1"><![CDATA[Did you not see/understand how (what) your Lord made/did with the elephant`s owners/company/ friends?]]></Verse>
+	<Verse VerseID="2"><![CDATA[Did He not make their plotting/conspiring in misguidance?]]></Verse>
+	<Verse VerseID="3"><![CDATA[And He sent on them flying/birds (in) flocks/groups gathered and following each other .]]></Verse>
+	<Verse VerseID="4"><![CDATA[It throws them with stones from dry and hardened mud .]]></Verse>
+	<Verse VerseID="5"><![CDATA[So He made them like eaten husk/chaff/leaves .]]></Verse>
+</Chapter>

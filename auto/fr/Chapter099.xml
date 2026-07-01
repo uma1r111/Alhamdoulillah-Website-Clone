@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="99" ChapterName="La secousse (Az-Zalzalah)">
+	<Verse VerseID="1"><![CDATA[Quand la terre tremblera d'un violent tremblement, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[et que la terre fera sortir ses fardeaux, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[et que l'homme dira : "Qu'a-t-elle ?" ]]></Verse>
+	<Verse VerseID="4"><![CDATA[ce jour-là, elle contera son histoire, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[selon ce que ton Seigneur lui aura révélé [ordonné]. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Ce jour-là, les gens sortiront séparément pour que leur soient montrées leurs oeuvres. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Quiconque fait un bien fût-ce du poids d'un atome, le verra, ]]></Verse>
+	<Verse VerseID="8"><![CDATA[et quiconque fait un mal fût-ce du poids d'un atome, le verra. ]]></Verse>
+</Chapter>

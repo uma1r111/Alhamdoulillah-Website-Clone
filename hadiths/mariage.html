@@ -1,0 +1,119 @@
+<?php
+$test = $_SERVER['REQUEST_URI']; 
+
+$theme = "sur le mariage";
+
+$titre1 = "L'importance du mariage";
+$intro1 = "D'après Anas <span class=\"respect\">(radiallahou 'anhou)</span>, le prophète <span class=\"respect\">(sallallahou 'alayhi wa sallam)</span> a dit :";
+$hadith1 = "« <span class=\"hadith\">Lorsque le serviteur se marie, il a certes complété la moitié de sa religion, alors qu'il craigne Allah pour l'autre moitié.</span> »";
+$isnad1 = "<span class=\"isnad\">[Rapporté par at Tabarani]</span>";
+
+$titre2 = "Le mariage pour les jeunes";
+$intro2 = "D'après Ibn Mass'oud <span class=\"respect\">(radiallahou 'anhou)</span>, le prophète <span class=\"respect\">(sallallahou 'alayhi wa sallam)</span> a dit :";
+$hadith2 = "« <span class=\"hadith\">Ô vous les jeunes ! Celui d'entre vous qui en a les capacités qu'il se marie car ceci va lui faire baisser le regard et est plus chaste pour le sexe. Et celui qui n'en a pas la capacité alors qu'il jeûne car le jeûne sera pour lui une protection.</span> »";
+$isnad2 = "<span class=\"isnad\">[Rapporté par al Boukhari et Mouslim]</span>";
+
+$titre3 = "La demande en mariage";
+$intro3 = "D'après Abou Houreira <span class=\"respect\">(radiallahou 'anhou)</span>, le prophète <span class=\"respect\">(sallallahou 'alayhi wa sallam)</span> a dit :";
+$hadith3 = "« <span class=\"hadith\">Si se présente à vous celui dont vous êtes satisfait de sa religion et de son comportement alors mariez-le. Si vous ne le faites pas cela va entraîner le désordre sur la terre et une grande perversion.</span> »";
+$isnad3 = "<span class=\"isnad\">[Rapporté par at Tirmidhi]</span>";
+
+$titre4 = "Le mariage sans tuteur légal";
+$intro4 = "D'après Aicha <span class=\"respect\">(radiallahou 'anha)</span>, le prophète <span class=\"respect\">(sallallahou 'alayhi wa sallam)</span> a dit :";
+$hadith4 = "« <span class=\"hadith\">Il n'y a pas de mariage sans tuteur et le dirigeant est le tuteur de celle qui n'a pas de tuteur.</span> »";
+$isnad4 = "<span class=\"isnad\">[Rapporté par Ahmed]</span>";	
+
+$titre5 = "L'interdiction du mariage temporaire";
+$intro5 = "D'après Ali <span class=\"respect\">(radiallahou 'anhou)</span>, le prophète <span class=\"respect\">(sallallahou 'alayhi wa sallam)</span> ";
+$hadith5 = "« <span class=\"hadith\">a interdit le mariage temporaire le jour de Khaybar ainsi que de manger la viande des ânes domestiques.</span> »";
+$isnad5 = "<span class=\"isnad\">[Rapporté par al Boukhari et Mouslim]</span>";
+
+$titre6 = "Le mariage est une sounna";
+$intro6 = "D'après 'Aicha <span class=\"respect\">(radiallahou 'anha)</span>, le prophète <span class=\"respect\">(sallallahou 'alayhi wa sallam)</span> a dit :";
+$hadith6 = "« <span class=\"hadith\">Le mariage est ma sounna et celui qui ne pratique pas ma sounna ne fait pas partie de moi. Mariez-vous je serais certes fier que vous soyez la communauté la plus nombreuse parmi les autres communautés le jour du jugement. Celui qui en a les moyens qu'il se marie et celui qui ne trouve pas de quoi se marier qu'il jeûne car le jeûne sera pour lui une protection.</span> »";
+$isnad6 = "<span class=\"isnad\">[Rapporté par Ibn Maja, authentifié par al Albani]</span>";
+
+$titre7 = "La demande du père à son futur beau-fils";
+$intro7 = "D'après Hajar Ibn Qays <span class=\"respect\">(radiallahou 'anhou)</span>, 'Ali <span class=\"respect\">(radiallahou 'anhou)</span> a demandé la main de Fatima <span class=\"respect\">(radiallahou 'anha)</span> au Messager d'Allah <span class=\"respect\">(sallallahou 'alayhi wa sallam)</span> qui lui a dit :";
+$hadith7 = "« <span class=\"hadith\">Elle est à toi à condition que tu sois bon avec elle.</span> »";
+$isnad7 = "<span class=\"isnad\">[Rapporté par al Boukhari et Mouslim]</span>";
+
+$titre8 = "Le meilleur mariage";
+$intro8 = "D'après Oqba Ibn Amir <span class=\"respect\">(radiallahou 'anhou)</span>, le prophète <span class=\"respect\">(sallallahou 'alayhi wa sallam)</span> a dit :";
+$hadith8 = "« <span class=\"hadith\">Le meilleur mariage est celui qui est le plus facile.</span> »";
+$isnad8 = "<span class=\"isnad\">[Rapporté par al Hakim]</span>";
+
+$titre9 = "L'interdiction du mariage arrangé après 3 divorces";
+$intro9 = "D'après 'Ali Ibn Abi Talib <span class=\"respect\">(radiallahou 'anhou)</span>, le prophète <span class=\"respect\">(sallallahou 'alayhi wa sallam)</span> a dit :";
+$hadith9 = "« <span class=\"hadith\">Allah maudit le mouhalil et celui pour qui on le pratique</span> ».";
+$isnad9 = "<span class=\"isnad\">[Rapporté par Abou Dawoud]</span>";
+
+include("../inc/doctype.php") ?>
+
+<title>Hadith <?php echo $theme?> - Hadiths Authentiques <?php echo $theme?></title>
+<meta name="description" content="Liste de hadiths authentiques rapportés du prophète sallallahou alayhi wa sallam <?php echo $theme?>. Cliquez ici pour lire une série de hadiths en français sur <?php echo $theme?>.">
+
+</head>
+<body>
+
+<?php include("../inc/menu.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>Hadith <?php echo $theme?></h1>
+
+<?php include("../inc/pub-content.php") ?>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<h2>Hadiths Authentiques <?php echo $theme?></h2>
+
+<p>Voici quelques hadiths authentiques <?php echo $theme?>. Cliquez sur le titre du hadith pour en connaitre son contenu ainsi que le rapporteur du hadith <?php echo $theme?>.</p>
+
+
+
+<ol>
+
+<?php 
+
+for ($i=1; $i<40; $i++) {
+
+if (isset(${'titre'.$i}))
+
+echo "
+
+<script>
+$(document).ready(function(){
+  $(\"#$i\").click(function(){
+    $(\"#show$i\").toggle();
+    $(\"#lu$i\").show();
+		$(\"#$i\").css(\"font-weight\", \"bold\");
+		$(\"#$i\").css(\"text-decoration\", \"underline\");
+  });
+});
+</script>
+
+<li><a style=\"cursor:pointer;\" id=\"$i\"><h3 style=\"margin-left:0px; display:inline; font-size:10pt; font-weight:normal;\">${'titre'.$i}</h3></a> <span id=\"lu$i\" style=\"display:none\">(lu)</span></li>
+
+<div style=\"display:none;\" id=\"show$i\"><p class=\"align\">${'intro'.$i} ${'hadith'.$i} ${'isnad'.$i}</p></div>
+";}?>
+</ol>
+
+<br>
+
+<p style="display:inline;"><b>Liste des Hadiths sur l'Islam</b></p>
+
+<?php
+include ("pages.php");
+?>
+
+</td>
+<td id="colonnes"><?php include("../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../inc/footer.php") ?>
+</body></html>

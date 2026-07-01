@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="112" ChapterName="The Unity">
+	<Verse VerseID="1"><![CDATA[Say: "He is God one."]]></Verse>
+	<Verse VerseID="2"><![CDATA[God the Lord/master/intended .]]></Verse>
+	<Verse VerseID="3"><![CDATA[(He) did not give birth/procreate , and was not born/procreated .]]></Verse>
+	<Verse VerseID="4"><![CDATA[And (there) was not for Him any equal/match.]]></Verse>
+</Chapter>

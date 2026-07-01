@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="75" ChapterName="La résurrection (Al-Qiyamah)">
+	<Verse VerseID="1"><![CDATA[Non !... Je jure par le jour de la Résurrection ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Mais non !, Je jure par l'âme qui ne cesse de se blâmer.. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[L'homme, pense-t-il que Nous ne réunirons jamais ses os ? ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Mais si ! Nous somme Capable de remettre à leur place les extrémités de ses doigts.. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[L'homme voudrait plutòt continuer à vivre en libertin. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Il interroge : "A quand, le Jour de la Résurrection ?" ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Lorsque la vue sera éblouie, ]]></Verse>
+	<Verse VerseID="8"><![CDATA[et que la lune s'éclipsera, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[et que le soleil et la lune serons réunis, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[l'homme, ce jour-là, dira : "Où fuir ?" ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Non ! Point de refuge ! ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Vers ton Seigneur sera, ce jour-là, le retour. ]]></Verse>
+	<Verse VerseID="13"><![CDATA[L'homme sera informé ce jour-là de ce qu'il aura avancé et de ce qu'il aura remis à plus tard. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Mais l'homme sera un témoin perspicace contre lui-même, ]]></Verse>
+	<Verse VerseID="15"><![CDATA[quand même il présenterait ses excuses. ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Ne remue pas ta langue pour hâter sa récitation : ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Son rassemblement (dans ton coeur et sa fixation dans ta mémoire) Nous incombent, ainsi que la façon de le réciter.. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Quand donc Nous le récitons, suis sa récitation. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[A Nous, ensuite incombera son explication. ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Mais vous aimez plutòt [la vie] éphémère, ]]></Verse>
+	<Verse VerseID="21"><![CDATA[et vous délaissez l'au-delà. ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Ce jour-là, il y aura des visages resplendissants ]]></Verse>
+	<Verse VerseID="23"><![CDATA[qui regarderont leur Seigneur ; ]]></Verse>
+	<Verse VerseID="24"><![CDATA[et il y aura ce jour-là, des visages assombris, ]]></Verse>
+	<Verse VerseID="25"><![CDATA[qui s'attendent à subir une catastrophe. ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Mais non ! Quand [l'âme] en arrive aux clavicules ]]></Verse>
+	<Verse VerseID="27"><![CDATA[et qu'on dit : "Qui est exorciseur ?" ]]></Verse>
+	<Verse VerseID="28"><![CDATA[et qu'il [l'agonisant] est convaincu que c'est la séparation (la mort), ]]></Verse>
+	<Verse VerseID="29"><![CDATA[et que la jambe s'enlace à la jambe, ]]></Verse>
+	<Verse VerseID="30"><![CDATA[c'est vers ton Seigneur, ce jour-là que tu seras conduit. ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Mais il n'a ni cru, ni fait la Salat ; ]]></Verse>
+	<Verse VerseID="32"><![CDATA[par contre, il a démenti et tourné le dos, ]]></Verse>
+	<Verse VerseID="33"><![CDATA[puis il s'en est allé vers sa famille, marchant avec orgueil. ]]></Verse>
+	<Verse VerseID="34"><![CDATA["Malheur à toi, malheur !" ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Et encore malheur à toi, malheur ! ]]></Verse>
+	<Verse VerseID="36"><![CDATA[L'homme pense-t-il qu'on le laissera sans obligation à observer ? ]]></Verse>
+	<Verse VerseID="37"><![CDATA[N'était-il pas une goutte de sperme éjaculé ? ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Et ensuite une adhérence Puis [Allah] l'a créée et formée harmonieusement ; ]]></Verse>
+	<Verse VerseID="39"><![CDATA[puis en a fait alors les deux éléments de couple : le mâle et la femelle ? ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Celui-là (Allah) n'est-Il pas capable de faire revivre les morts ? ]]></Verse>
+</Chapter>

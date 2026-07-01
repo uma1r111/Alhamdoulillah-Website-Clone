@@ -1,0 +1,81 @@
+<?php include("../../inc/doctype.php") ?>
+
+<title>صحيح البخاري حديث - قراءة كتاب أحاديث صحيح البخاري كامل</title>
+<meta name="description" content="صحيح البخاري - قراءة أحاديث صحيح البخاري كتاب كامل" />
+
+</head>
+<body>
+
+<?php include ("../../inc/menu.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>صحيح البخاري</h1>
+
+<h2 style="padding-top:10px;">أحاديث صحيح البخاري كامل</h2>
+
+<table style="text-align: right; margin-left: auto; margin-right:auto; width:75%; padding:15px;  border-spacing:0; border-collapse: collapse;">
+
+<tr>
+	<td style="border:1px solid black; text-align:center; padding:10px;"><b>رقم</b></td>
+	<td style="border:1px solid black; padding:10px;"><b>اسم الكتاب</b></td>
+	<td style="border:1px solid black; text-align:center; padding:10px"><b>عدد الابواب</b></td>
+	<td style="border:1px solid black; text-align:center; padding:10px"><b>عدد الأحاديث</b></td>
+</tr>
+
+<?php
+
+    $metadataFile = '../sources/bukhari-data.xml';
+    $xml = simplexml_load_file($metadataFile);
+
+	for ($i=0; $i<98; $i++) {
+	
+	$tempo = $xml->book[$i]['name'];
+	
+	$goodurl = str_replace(" ", "-", "$tempo");
+	$url= "$goodurl.html";
+	
+	
+	if($i % 2 == 0){ 
+        	echo '
+		
+	<tr>
+	<td style="background-color:lightblue; border:1px solid black; text-align:center;"><b>' . $xml->book[$i]['index'] . '</b></td>
+	<td style="background-color:lightblue; border:1px solid black; padding:10px;"><a href="' . $url . '">' . $xml->book[$i]['name'] . '</a></td>
+	<td style="background-color:lightblue; border:1px solid black; text-align:center;">' . $xml->book[$i]['chapters'] . '</td>
+	<td style="background-color:lightblue; border:1px solid black; text-align:center;">' . $xml->book[$i]['hadiths'] . '</td>
+	</tr>	
+		
+		';
+	
+    } 
+    else{ 
+        	echo '
+		
+	<tr>
+	<td style="border:1px solid black; text-align:center;"><b>' . $xml->book[$i]['index'] . '</b></td>
+	<td style="border:1px solid black; padding:10px;"><a href="' . $url . '">' . $xml->book[$i]['name'] . '</a></td>
+	<td style="border:1px solid black; text-align:center;">' . $xml->book[$i]['chapters'] . '</td>
+	<td style="border:1px solid black; text-align:center;">' . $xml->book[$i]['hadiths'] . '</td>
+	</tr>	
+		
+		';
+		}
+	}
+
+?>	
+
+</table>
+
+<br>
+
+</td>
+<td id="colonnes"><?php include ("../../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include ("../../inc/footer.php") ?>
+</body></html>

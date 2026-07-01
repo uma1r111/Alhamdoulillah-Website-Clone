@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="87" ChapterName="Le Très-Haut (Al-Ala)">
+	<Verse VerseID="1"><![CDATA[Glorifie le nom de ton Seigneur, le Très Haut, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Celui Qui a crée et agencé harmonieusement, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[qui a décrété et guidé, ]]></Verse>
+	<Verse VerseID="4"><![CDATA[et qui a fait pousser le pâturage, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[et en a fait ensuite un foin sombre. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Nous te ferons réciter (le Coran), de sorte que tu n'oublieras ]]></Verse>
+	<Verse VerseID="7"><![CDATA[que ce qu'Allah veut. Car, Il connaît ce qui paraît au grand jour ainsi que ce qui st caché. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Nous te mettrons sur la voie la plus facile. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Rappelle, donc, où le Rappel doit être utile. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Quiconque craint (Allah) s'[en] rappellera, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[et s'en écartera le grand malheureux, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[qui brûlera dans le plus grand Feu, ]]></Verse>
+	<Verse VerseID="13"><![CDATA[où il ne mourra ni ne vivra. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Réussit, certes, celui qui se purifie, ]]></Verse>
+	<Verse VerseID="15"><![CDATA[et se rappelle le nom de son Seigneur, puis célèbre la Salat. ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Mais, vous préférez plutòt la vie présente, ]]></Verse>
+	<Verse VerseID="17"><![CDATA[alors que l'au-delà est meilleur et plus durable. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Ceci se trouve, certes, dans les Feuilles anciennes, ]]></Verse>
+	<Verse VerseID="19"><![CDATA[les Feuilles d'Abraham et de Moïse. ]]></Verse>
+</Chapter>

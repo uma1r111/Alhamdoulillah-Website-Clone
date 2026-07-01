@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="53" ChapterName="L'étoile (An-Najm)">
+	<Verse VerseID="1"><![CDATA[Par l'étoile à son déclin ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Votre compagnon ne s'est pas égaré et n'a pas été induit en erreur ]]></Verse>
+	<Verse VerseID="3"><![CDATA[et il ne prononce rien sous l'effet de la passion ; ]]></Verse>
+	<Verse VerseID="4"><![CDATA[ce n'est rien d'autre qu'une révélation inspirée. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[que lui a enseigné [L'Ange Gabriel] : à la force prodigieuse, ]]></Verse>
+	<Verse VerseID="6"><![CDATA[doué de sagacité ; c'est alors qu'il se montra sous sa forme réelle [angélique], ]]></Verse>
+	<Verse VerseID="7"><![CDATA[alors qu'ils se trouvait à l'horizon supérieur. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Puis il se rapprocha et descendit encore plus bas, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[et fut à deux portées d'arc, ou plus près encore. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Il révéla à Son serviteur ce qu'Il révéla. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Le coeur n'a pas menti en ce qu'il a vu. ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Lui contestez-vous donc ce qu'il voit ? ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Il l'a pourtant vu, lors d'une autre descente, ]]></Verse>
+	<Verse VerseID="14"><![CDATA[près de la Sidrat-ul-Muntaha, ]]></Verse>
+	<Verse VerseID="15"><![CDATA[près d'elle se trouve le jardin de Maawa : ]]></Verse>
+	<Verse VerseID="16"><![CDATA[au moment où le lotus était couvert de ce qui le couvrait. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[La vue n'a nullement dévié ni outrepassé la mesure. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Il a bien vu certaines des grandes merveilles de son Seigneur. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Que vous en semble [des divinités] Lat et Uzza, ]]></Verse>
+	<Verse VerseID="20"><![CDATA[ainsi que Manat, cette troisième autre ? ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Sera-ce à vous le garçon et à Lui la fille ? ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Que voilà donc un partage injuste ! ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Ce ne sont que des noms que vous avez inventés, vous et vos ancêtres. Allah n'a fait descendre aucune preuve à leur sujet. Ils ne suivent que la conjecture et les passions de [leurs] âmes, alors que la guidée leur est venue de leur Seigneur ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Ou bien l'homme aura-t-il tout ce qu'il désire ? ]]></Verse>
+	<Verse VerseID="25"><![CDATA[A Allah appartiennent la vie future et la vie d'ici-bas. ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Et que d'Anges dans les cieux dont l'intercession ne sert à rien, sinon qu'après qu'Allah l'autre permis, en faveur de qui Il veut et qu'Il agrée. ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Ceux qui ne croient pas en l'au-delà donnent aux Anges des noms de femmes, ]]></Verse>
+	<Verse VerseID="28"><![CDATA[alors qu'ils n'en ont aucune science : ils ne suivent que la conjecture, alors que la conjecture ne sert à rien contre la vérité. ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Ecarte-toi donc, de celui qui tourne le dos à Notre rappel et qui ne désire que la vie présente. ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Voilà toute la portée de leur savoir. Certes ton Seigneur connaît parfaitement celui qui s'égare de Son chemin et Il connaît parfaitement qui est bien guidé. ]]></Verse>
+	<Verse VerseID="31"><![CDATA[A Allah appartient ce qui est dans les cieux et sur la terre afin qu'Il rétribue ceux qui font le mal selon ce qu'ils oeuvrent, et récompense ceux qui font le bien par la meilleure [récompense], ]]></Verse>
+	<Verse VerseID="32"><![CDATA[ceux qui évitent les plus grands péchés ainsi que les turpitudes et [qui ne commettent] que des fautes légères. Certes, le pardon de Ton Seigneur est immense. C'est Lui qui vous connaît le mieux quand Il vous a produits de terre, et aussi quand vous étiez des embryons dans les ventres de vos mères. Ne vantez pas vous-mêmes votre pureté ; c'est Lui qui connaît mieux ceux qui [Le] craignent. ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Vois-tu celui qui s'est détourné, ]]></Verse>
+	<Verse VerseID="34"><![CDATA[donné peu et a [finalement] cessé de donner ? ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Détient-il la science de l'Inconnaissable en sorte qu'il voit ? ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Ne lui a-t-on pas annoncé ce qu'il y avait dans les feuilles de Moïse ]]></Verse>
+	<Verse VerseID="37"><![CDATA[et celles d'Abraham qui a tenu parfaitement [sa promesse de transmettre] ]]></Verse>
+	<Verse VerseID="38"><![CDATA[qu'aucune [âme] : ne portera le fardeau (le péché) d'autrui, ]]></Verse>
+	<Verse VerseID="39"><![CDATA[et qu'en vérité, l'homme n'obtient que [le fruit] : de ses efforts ; ]]></Verse>
+	<Verse VerseID="40"><![CDATA[et que son effort, en vérité, lui sera présenté (le jour du Jugement). ]]></Verse>
+	<Verse VerseID="41"><![CDATA[Ensuite il en sera récompensé pleinement, ]]></Verse>
+	<Verse VerseID="42"><![CDATA[et que tout aboutit, en vérité, vers ton Seigneur, ]]></Verse>
+	<Verse VerseID="43"><![CDATA[et que c'est Lui qui a fait rire et qui a fait pleurer, ]]></Verse>
+	<Verse VerseID="44"><![CDATA[et que c'est Lui qui a fait mourir et qui a ramené à la vie, ]]></Verse>
+	<Verse VerseID="45"><![CDATA[et que c'est Lui qui a créé les deux éléments de couple, le mâle et la femelle, ]]></Verse>
+	<Verse VerseID="46"><![CDATA[d'une goutte de sperme quand elle est éjaculée ]]></Verse>
+	<Verse VerseID="47"><![CDATA[et que la seconde création Lui incombe, ]]></Verse>
+	<Verse VerseID="48"><![CDATA[et c'est Lui qui a enrichi et qui a fait acquérir. ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Et c'est Lui qui est le Seigneur de Sirius, ]]></Verse>
+	<Verse VerseID="50"><![CDATA[et c'est Lui qui a fait périr les anciens Aad, ]]></Verse>
+	<Verse VerseID="51"><![CDATA[ainsi que les Tamud, et Il fit que rien n'en subsistât, ]]></Verse>
+	<Verse VerseID="52"><![CDATA[ainsi que le peuple de Noé antérieurement, car ils étaient encore plus injustes et plus violents, ]]></Verse>
+	<Verse VerseID="53"><![CDATA[de même qu'Il anéantit les villes renversées. ]]></Verse>
+	<Verse VerseID="54"><![CDATA[Et les recouvrit de ce dont Il les recouvrit. ]]></Verse>
+	<Verse VerseID="55"><![CDATA[Lequel donc des bienfaits de ton Seigneur mets-tu en doute ? ]]></Verse>
+	<Verse VerseID="56"><![CDATA[Voici un avertisseur analogue aux avertisseurs anciens : ]]></Verse>
+	<Verse VerseID="57"><![CDATA[l'Imminente (L'heure du Jugement) s'approche. ]]></Verse>
+	<Verse VerseID="58"><![CDATA[Rien d'autre en dehors d'Allah ne peut la dévoiler. ]]></Verse>
+	<Verse VerseID="59"><![CDATA[Quoi ! Vous étonnez-vous de ce discours (le Coran) ? ]]></Verse>
+	<Verse VerseID="60"><![CDATA[Et vous [en] : riez et n'[en] : pleurez point ? ]]></Verse>
+	<Verse VerseID="61"><![CDATA[absorbés [que vous êtes] : par votre distraction. ]]></Verse>
+	<Verse VerseID="62"><![CDATA[Prosternez-vous donc à Allah et adorez-Le. ]]></Verse>
+</Chapter>

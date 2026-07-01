@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="113" ChapterName="L'aube naissante (Al-Falaq)">
+	<Verse VerseID="1"><![CDATA[Dis : "Je cherche protection auprès du Seigneur de l'aube naissante, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[contre le mal des êtres qu'Il a créés, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[contre le mal de l'obscurité quand elle s'approfondit, ]]></Verse>
+	<Verse VerseID="4"><![CDATA[contre le mal de celles qui soufflent (les sorcières) sur les noeuds, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[et contre le mal de l'envieux quand il envie". ]]></Verse>
+</Chapter>

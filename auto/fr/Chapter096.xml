@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="96" ChapterName="L'adhérence (Al-Alaq)">
+	<Verse VerseID="1"><![CDATA[Lis, au nom de ton Seigneur qui a créé, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[qui a créé l'homme d'une adhérence. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Lis ! Ton Seigneur est le Très Noble, ]]></Verse>
+	<Verse VerseID="4"><![CDATA[qui a enseigné par la plume [le calame], ]]></Verse>
+	<Verse VerseID="5"><![CDATA[a enseigné à l'homme ce qu'il ne savait pas. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Prenez-garde ! Vraiment l'homme devient rebelle, ]]></Verse>
+	<Verse VerseID="7"><![CDATA[dès qu'il estime qu'il peut se suffire à lui-même (à cause de sa richesse). ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Mais, c'est vers ton Seigneur qu'est le retour. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[As-tu vu celui qui interdit ]]></Verse>
+	<Verse VerseID="10"><![CDATA[à un serviteur d'Allah (Muhammad) de célébrer la Salat ? ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Vois-tu s'il est sur la bonne voie, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[ou s'il ordonne la piété ? ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Vois-tu s'il dément et tourne le dos ? ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Ne sait-il pas que vraiment Allah voit ? ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Mais non ! S'il ne cesse pas, Nous le saisirons certes, par le toupet, ]]></Verse>
+	<Verse VerseID="16"><![CDATA[le toupet d'un menteur, d'un pécheur. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Qu'il appelle donc son assemblée. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Nous appellerons les gardiens (de l'Enfer). ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Non ! Ne lui obéis pas ; mais prosterne-toi et rapproche-toi ]]></Verse>
+</Chapter>

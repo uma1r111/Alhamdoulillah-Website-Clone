@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="79" ChapterName="Les anges qui arrachent les âmes (An-Naziate)">
+	<Verse VerseID="1"><![CDATA[Par ceux qui arrachent violemment  ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Et par ceux qui recueillent avec douceur  ! ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Et par ceux qui voguent librement, ]]></Verse>
+	<Verse VerseID="4"><![CDATA[puis s'élancent à toute vitesse, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[et règlent les affaires ! ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Le jour où [la terre] tremblera [au premier son du clairon] ]]></Verse>
+	<Verse VerseID="7"><![CDATA[immédiatement suivi du deuxième. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Ce jour-là, il y aura des coeurs qui seront agités d'effroi, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[et leurs regards se baisseront. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Ils disent : "Quoi ! Serons-nous ramenés à notre vie première, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[quand nous serons ossements pourris ?" ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Ils disent : "ce sera alors un retour ruineux !" ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Il n'y aura qu'une sommation, ]]></Verse>
+	<Verse VerseID="14"><![CDATA[et voilà qu'ils seront sur la terre (ressuscités). ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Le récit de Moïse t'est-il parvenu ? ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Quand son Seigneur l'appela, dans Touwa, la vallée sanctifiée : ]]></Verse>
+	<Verse VerseID="17"><![CDATA["Va vers Pharaon. Vraiment, il s'est rebellé ! ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Puis dis-lui : "Voudrais-tu te purifier ? ]]></Verse>
+	<Verse VerseID="19"><![CDATA[et que je te guide vers ton Seigneur afin que tu Le craignes ?" ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Il lui fit voir le très grand miracle. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Mais il le qualifia de mensonge et désobéit ; ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Ensuite, il tourna le dos, s'en alla précipitamment, ]]></Verse>
+	<Verse VerseID="23"><![CDATA[rassembla [les gens] et leur fit une proclamation, ]]></Verse>
+	<Verse VerseID="24"><![CDATA[et dit : "C'est moi votre Seigneur, le très-Haut". ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Alors Allah le saisit de la punition exemplaire de l'au-delà et de celle d'ici-bas. ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Il y a certes là un sujet de réflexion pour celui qui craint. ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Etes-vous plus durs à créer ? ou le ciel, qu'Il a pourtant construit ? ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Il a élevé bien haut sa voûte, puis l'a parfaitement ordonné ; ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Il a assombri sa nuit et fait luire son jour. ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Et quant à la terre, après cela, Il l'a étendue : ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Il a fait sortir d'elle son eau et son pâturage, ]]></Verse>
+	<Verse VerseID="32"><![CDATA[et quant aux montagnes, Il les a ancrées, ]]></Verse>
+	<Verse VerseID="33"><![CDATA[pour votre jouissance, vous et vos bestiaux. ]]></Verse>
+	<Verse VerseID="34"><![CDATA[Puis quand viendra le grand cataclysme, ]]></Verse>
+	<Verse VerseID="35"><![CDATA[le jour où l'homme se rappellera à quoi il s'est efforcé, ]]></Verse>
+	<Verse VerseID="36"><![CDATA[l'Enfer sera pleinement visible à celui qui regardera... ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Quant à celui qui aura dépassé les limites ]]></Verse>
+	<Verse VerseID="38"><![CDATA[et aura préféré la vie présente, ]]></Verse>
+	<Verse VerseID="39"><![CDATA[alors, l'Enfer sera son refuge. ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Et pour celui qui aura redouté de comparaître devant son Seigneur, et préservé son âme de la passion, ]]></Verse>
+	<Verse VerseID="41"><![CDATA[le Paradis sera alors son refuge. ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Ils t'interrogent au sujet de l'Heure : "Quand va-t-elle jeter l'ancre" ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Quelle [science] en as-tu pour le leur dire ? ]]></Verse>
+	<Verse VerseID="44"><![CDATA[Son terme n'est connu que de ton Seigneur. ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Tu n'es que l'avertisseur de celui qui la redoute. ]]></Verse>
+	<Verse VerseID="46"><![CDATA[Le jour où ils la verront, il leur semblera n'avoir demeuré qu'un soir ou un matin. ]]></Verse>
+</Chapter>

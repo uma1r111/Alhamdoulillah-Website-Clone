@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="81" ChapterName="L'obscurcissement (At-Takwir)">
+	<Verse VerseID="1"><![CDATA[Quand le soleil sera obscurci ]]></Verse>
+	<Verse VerseID="2"><![CDATA[et que les �toiles deviendront ternes ]]></Verse>
+	<Verse VerseID="3"><![CDATA[et les montagnes mises en marche ]]></Verse>
+	<Verse VerseID="4"><![CDATA[et les chamelles � terme, n�glig�es ]]></Verse>
+	<Verse VerseID="5"><![CDATA[et les b�tes farouches, rassembl�es ]]></Verse>
+	<Verse VerseID="6"><![CDATA[et les mers allum�es ]]></Verse>
+	<Verse VerseID="7"><![CDATA[et les �mes accoupl�e ]]></Verse>
+	<Verse VerseID="8"><![CDATA[et qu'on demandera � la fillette enterr�e vivant ]]></Verse>
+	<Verse VerseID="9"><![CDATA[pour quel p�ch� elle a �t� tu�e ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Et quand les feuilles seront d�ploy�es ]]></Verse>
+	<Verse VerseID="11"><![CDATA[et le ciel �corch ]]></Verse>
+	<Verse VerseID="12"><![CDATA[et la fournaise attis�e ]]></Verse>
+	<Verse VerseID="13"><![CDATA[et le Paradis rapproch� ]]></Verse>
+	<Verse VerseID="14"><![CDATA[chaque �me saura ce qu'elle a pr�sent� ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Non  !... Je jure par les plan�tes qui graviten ]]></Verse>
+	<Verse VerseID="16"><![CDATA[qui courent et disparaissent ]]></Verse>
+	<Verse VerseID="17"><![CDATA[par la nuit quand elle survient ]]></Verse>
+	<Verse VerseID="18"><![CDATA[et par l'aube quand elle exhale son souffle ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Ceci [le Coran] est la parole d'un noble Messager ]]></Verse>
+	<Verse VerseID="20"><![CDATA[dou� d'une grande force, et ayant un rang �lev� aupr�s du Ma�tre du Tr�ne ]]></Verse>
+	<Verse VerseID="21"><![CDATA[ob�i, l�-haut, et digne de confiance ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Votre compagnon (Muhammad) n'est nullement fou ]]></Verse>
+	<Verse VerseID="23"><![CDATA[il l'a effectivement vu (Gabriel), au clair horizo ]]></Verse>
+	<Verse VerseID="24"><![CDATA[et il ne garde pas avarement pour lui-m�me ce qui lui a �t� r�v�l� ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Et ceci [le Coran] n'est point la parole d'un diable banni ]]></Verse>
+	<Verse VerseID="26"><![CDATA[O� allez-vous donc ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Ceci n'est qu'un rappel pour l'univers ]]></Verse>
+	<Verse VerseID="28"><![CDATA[pour celui d'entre vous qui veut suivre le chemin droit ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Mais vous ne pouvez vouloir, que si Dieu veut, [Lui], le Seigneur de l'Univers ]]></Verse>
+</Chapter>

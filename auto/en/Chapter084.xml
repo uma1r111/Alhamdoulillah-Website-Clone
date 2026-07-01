@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="84" ChapterName="The Bursting Asund">
+	<Verse VerseID="1"><![CDATA[When/if the sky/space split/cracked .]]></Verse>
+	<Verse VerseID="2"><![CDATA[And listened/heard (obeyed) to its Lord, and became certain/fact/deserved .]]></Verse>
+	<Verse VerseID="3"><![CDATA[And when/if the earth/Planet Earth was extended/spread.]]></Verse>
+	<Verse VerseID="4"><![CDATA[And it threw what (is) in it, and became free.]]></Verse>
+	<Verse VerseID="5"><![CDATA[And listened/heard (obeyed) to its Lord and became certain/fact/deserved .]]></Verse>
+	<Verse VerseID="6"><![CDATA[You, you the human/mankind, that you truly are exerting/labouring/toiling to your Lord exertion/labour/toil, so you (are) receiving/meeting Him .]]></Verse>
+	<Verse VerseID="7"><![CDATA[So but who was given/brought his Book/judgment with his right (hand).]]></Verse>
+	<Verse VerseID="8"><![CDATA[So he will be counted/calculated (with an) easy account/calculation .]]></Verse>
+	<Verse VerseID="9"><![CDATA[And he returns to his family/people delighted/happy.]]></Verse>
+	<Verse VerseID="10"><![CDATA[And but who was given/brought his Book/judgment behind his back .]]></Verse>
+	<Verse VerseID="11"><![CDATA[So he will call (for) destruction and grief .]]></Verse>
+	<Verse VerseID="12"><![CDATA[And he suffers/burns blazing/inflaming (punishment).]]></Verse>
+	<Verse VerseID="13"><![CDATA[That he truly was in his family/people delighted/happy.]]></Verse>
+	<Verse VerseID="14"><![CDATA[That he truly thought/assumed that (E) he will never/not return.]]></Verse>
+	<Verse VerseID="15"><![CDATA[Yes/certainly, that truly his Lord was seeing/knowing with (of) him.]]></Verse>
+	<Verse VerseID="16"><![CDATA[So I do not swear/make oath with the twilight .]]></Verse>
+	<Verse VerseID="17"><![CDATA[And the night, and what carried/gathered/loaded.]]></Verse>
+	<Verse VerseID="18"><![CDATA[And the moon when/if it organized/evened/gathered .]]></Verse>
+	<Verse VerseID="19"><![CDATA[You will ride/embark (E) a stage/layer/cover from/of/on a stage/layer/cover (they move from one state to another i.e. birth to death).]]></Verse>
+	<Verse VerseID="20"><![CDATA[So why (is it) for them, they do not believe?]]></Verse>
+	<Verse VerseID="21"><![CDATA[And when/if the Koran is read on them they, they do not prostrate?]]></Verse>
+	<Verse VerseID="22"><![CDATA[But those who disbelieved they lie/deny/falsify.]]></Verse>
+	<Verse VerseID="23"><![CDATA[And God (is) more knowing with what they comprehend/perceive/accept .]]></Verse>
+	<Verse VerseID="24"><![CDATA[So announce good news to them with (of) a painful torture.]]></Verse>
+	<Verse VerseID="25"><![CDATA[Except those who believed and made/did the correct/righteous deeds, for them (is) a reward not obligated/interrupted]]></Verse>
+</Chapter>

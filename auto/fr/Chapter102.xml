@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="102" ChapterName="La course aux richesses (At-Takatur)">
+	<Verse VerseID="1"><![CDATA[La course aux richesses vous distrait, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[jusqu'à ce que vous visitiez les tombes. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Mais non ! Vous saurez bientòt ! ]]></Verse>
+	<Verse VerseID="4"><![CDATA[(Encore une fois) ! Vous saurez bientòt ! ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Sûrement ! Si vous saviez de science certaine. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Vous verrez, certes, la Fournaise. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Puis, vous la verrez certes, avec l'oeil de certitude. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Puis, assurément, vous serez interrogés, ce jour-là, sur les délices. ]]></Verse>
+</Chapter>

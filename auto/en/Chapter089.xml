@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="89" ChapterName="The Daybreak">
+	<Verse VerseID="1"><![CDATA[And/by the dawn]]></Verse>
+	<Verse VerseID="2"><![CDATA[And/by ten nights.]]></Verse>
+	<Verse VerseID="3"><![CDATA[And/by the double/even number, and the odd/singular/uneven.]]></Verse>
+	<Verse VerseID="4"><![CDATA[And/by the night when (it) goes/departs.]]></Verse>
+	<Verse VerseID="5"><![CDATA[Is in that an oath to (those) of (E) a mind?]]></Verse>
+	<Verse VerseID="6"><![CDATA[Did you not see/understand how your Lord made/did with Aad?]]></Verse>
+	<Verse VerseID="7"><![CDATA[Iram that of the pillars/posts ?]]></Verse>
+	<Verse VerseID="8"><![CDATA[Which was not created similar/equal to it in the countries/cities ?]]></Verse>
+	<Verse VerseID="9"><![CDATA[And Thamud who pierced/penetrated the rock/rock terrain at the valley?]]></Verse>
+	<Verse VerseID="10"><![CDATA[And Pharaoh that of the stakes/pegs/nails ?]]></Verse>
+	<Verse VerseID="11"><![CDATA[Those who tyrannized/exceeded the limit in the countries/cities .]]></Verse>
+	<Verse VerseID="12"><![CDATA[So they increased (made too much) in it the corruption .]]></Verse>
+	<Verse VerseID="13"><![CDATA[So your Lord poured on them (the) torture`s intensity/severity .]]></Verse>
+	<Verse VerseID="14"><![CDATA[That truly your Lord (is) at the watch/observation/ambuscade (E) .]]></Verse>
+	<Verse VerseID="15"><![CDATA[So but the human/mankind when as long as his Lord tested him, so he honoured him and He blessed/comforted and eased him , so he says: "My Lord honored me."]]></Verse>
+	<Verse VerseID="16"><![CDATA[And but when as long as He tested him, so He tightened/strained on him His/his provision, so he says: "My Lord humiliated/disgraced/degraded me."]]></Verse>
+	<Verse VerseID="17"><![CDATA[No but, you do not honour/be kind/generous (to) the orphan .]]></Verse>
+	<Verse VerseID="18"><![CDATA[And nor you urge/insight/influence on feeding the poorest of poor/poor oppressed.]]></Verse>
+	<Verse VerseID="19"><![CDATA[And you eat the inheritance accumulatively/collectively gluttony .]]></Verse>
+	<Verse VerseID="20"><![CDATA[And you love/like the property/possession/wealth lovingly excessively .]]></Verse>
+	<Verse VerseID="21"><![CDATA[No but, when/if the earth/Planet Earth was hammered down/crushed , crushingly/destroyingly ,crushingly/destroyingly .]]></Verse>
+	<Verse VerseID="22"><![CDATA[And your Lord came and the angels (in) a row/arranged (after) a row/arranged.]]></Verse>
+	<Verse VerseID="23"><![CDATA[And came (on) that day with Hell ; that day the human/mankind remembers/mentions , and from where (is) for him the remembrance/reminder?]]></Verse>
+	<Verse VerseID="24"><![CDATA[He says: "Oh if only I advanced/presented/preceded for my life."]]></Verse>
+	<Verse VerseID="25"><![CDATA[So (on) that day no one tortures His torture.]]></Verse>
+	<Verse VerseID="26"><![CDATA[And no one ties/chains/affirms His tying/chaining (restraining).]]></Verse>
+	<Verse VerseID="27"><![CDATA[You, you the self, the assured/tranquil .]]></Verse>
+	<Verse VerseID="28"><![CDATA[Return to your Lord accepting/approving, accepted/approved.]]></Verse>
+	<Verse VerseID="29"><![CDATA[So enter in (among) My worshippers/servants .]]></Verse>
+	<Verse VerseID="30"><![CDATA[And enter My treed garden/paradise.469]]></Verse>
+</Chapter>

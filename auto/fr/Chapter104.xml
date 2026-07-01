@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="104" ChapterName="Les calomniateurs (Al-Humazah)">
+	<Verse VerseID="1"><![CDATA[Malheur à tout calomniateur diffamateur, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[qui amasse une fortune et la compte, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[pensant que sa fortune l'immortalisera. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Mais non ! Il sera certes, jeté dans la Hutamah. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Et qui te dira ce qu'est la Hutamah ? ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Le Feu attisé d'Allah ]]></Verse>
+	<Verse VerseID="7"><![CDATA[qui monte jusqu'aux coeurs. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Il se refermera sur eux, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[en colonnes (de flammes) étendues. ]]></Verse>
+</Chapter>

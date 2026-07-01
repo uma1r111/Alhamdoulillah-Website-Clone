@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="89" ChapterName="L'aube (Al-Fajr)">
+	<Verse VerseID="1"><![CDATA[Par l'Aube ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[et par les dix nuits  ! ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Par le pair et l'impair ! ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Et par la nuit quand elle s'écoule ! ]]></Verse>
+	<Verse VerseID="5"><![CDATA[N'est-ce pas là un serment, pour un doué d'intelligence ? ]]></Verse>
+	<Verse VerseID="6"><![CDATA[N'as-tu pas vu comment ton Seigneur a agi avec les Aad ]]></Verse>
+	<Verse VerseID="7"><![CDATA[[avec] Iram, [la cité] à la colonne remarquable, ]]></Verse>
+	<Verse VerseID="8"><![CDATA[dont jamais pareille ne fut construite parmi les villes ? ]]></Verse>
+	<Verse VerseID="9"><![CDATA[et avec les Tamud qui taillaient le rocher dans la vallée ? ]]></Verse>
+	<Verse VerseID="10"><![CDATA[ainsi qu'avec Pharaon, l'homme aux épieux ? ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Tous, étaient des gens qui transgressaient dans [leurs] pays, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[et y avaient commis beaucoup de désordre. ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Donc, ton Seigneur déversa sur eux un fouet du châtiment. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Car ton Seigneur demeure aux aguets. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Quant à l'homme, lorsque son Seigneur l'éprouve en l'honorant et en le comblant de bienfaits, il dit : "Mon Seigneur m'a honoré". ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Mais par contre, quand Il l'éprouve en lui restreignant sa subsistance, il dit : "Mon Seigneur m'a avili". ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Mais non ! C'est vous plutòt, qui n'êtes pas généreux envers les orphelins ; ]]></Verse>
+	<Verse VerseID="18"><![CDATA[qui ne vous incitez pas mutuellement à nourrir le pauvre, ]]></Verse>
+	<Verse VerseID="19"><![CDATA[qui dévorez l'héritage avec une avidité vorace, ]]></Verse>
+	<Verse VerseID="20"><![CDATA[et aimez les richesses d'un amour sans bornes. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Prenez garde ! Quand la terre sera complètement pulvérisée, ]]></Verse>
+	<Verse VerseID="22"><![CDATA[et que ton Seigneur viendra ainsi que les Anges, rang par rang, ]]></Verse>
+	<Verse VerseID="23"><![CDATA[et que ce jour-là, on amènera l'Enfer ; ce jour-là, l'homme se rappellera. Mais à quoi lui servira de se souvenir ? ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Il dira : "Hélas ! Que n'ai-je fait du bien pour ma vie future ! ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Ce jour-là donc, nul ne saura châtier comme Lui châtie, ]]></Verse>
+	<Verse VerseID="26"><![CDATA[et nul ne saura garrotter comme Lui garrotte. ]]></Verse>
+	<Verse VerseID="27"><![CDATA["Ô toi, âme apaisée, ]]></Verse>
+	<Verse VerseID="28"><![CDATA[retourne vers ton Seigneur, satisfaite et agréée ; ]]></Verse>
+	<Verse VerseID="29"><![CDATA[entre donc parmi Mes serviteurs, ]]></Verse>
+	<Verse VerseID="30"><![CDATA[et entre dans Mon Paradis". ]]></Verse>
+</Chapter>

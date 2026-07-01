@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="32" ChapterName="Le prosternation (As-Sajda)">
+	<Verse VerseID="1"><![CDATA[Alif, Lam, Mim. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[La Révélation du Livres, nul doute là-dessus, émane du Seigneur de l'univers. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Diront-ils qu'il (Muhammad) l'a inventé ? Ceci est, au contraire, la vérité venant de ton Seigneur pour que tu avertisses un peuple à qui nul avertisseur avant toi n'est venu, afin qu'ils se guident. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Allah qui a créé en six jours les cieux et la terre, et ce qui est entre eux. Ensuite Il S'est établi "Istawa" sur le Tròne. Vous n'avez, en dehors de Lui, ni allié ni intercesseur. Ne vous rappelez-vous donc pas ? ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Du ciel à la terre, Il administre l'affaire, laquelle ensuite monte vers Lui en un jour équivalant à mille ans de votre calcul. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[C'est Lui le Connaisseur [des mondes] inconnus et visibles, le Puissant, le Miséricordieux, ]]></Verse>
+	<Verse VerseID="7"><![CDATA[qui a bien fait tout ce qu'Il a créé. Et Il a commencé la création de l'homme à partir de l'argile, ]]></Verse>
+	<Verse VerseID="8"><![CDATA[puis Il tira sa descendance d'une goutte d'eau vile [le sperme] ; ]]></Verse>
+	<Verse VerseID="9"><![CDATA[puis Il lui donna sa forme parfaite et lui insuffla de Son Esprit. Et Il vous a assigné l'ouïe, les yeux et le coeur. Que vous êtes peu reconnaissants ! ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Et ils disent : "Quand nous serons perdus dans la terre [sous forme de poussière], redeviendrons-nous une création nouvelle ?" En outre, ils ne croient pas en la rencontre avec leur Seigneur. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Dis : "L'Ange de la mort qui est chargé de vous, vous fera mourir. Ensuite, vous serez ramenés vers Votre Seigneur". ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Si tu voyais alors les criminels [comparaître], têtes basses devant leur Seigneur ! "Notre Seigneur, Nous avons vu et entendu, renvoie-nous donc afin que nous puissions faire du bien ; nous croyons (maintenant) avec certitude". ]]></Verse>
+	<Verse VerseID="13"><![CDATA["Si Nous voulions, Nous apporterions à chaque âme sa guidée. Mais la parole venant de Moi doit être réalisée : "J'emplirai l'Enfer de djinns et d'hommes réunis". ]]></Verse>
+	<Verse VerseID="14"><![CDATA["Goûtez donc ! Pour avoir oublié la rencontre de votre jour que voici. Nous aussi Nous vous avons oubliés. Goûtez au châtiment éternel pour ce que vous faisiez". ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Seuls croient en Nos versets ceux qui, lorsqu'on les leur rappelle, tombent prosternés et, par des louanges à leur Seigneur, célèbrent Sa gloire et ne s'enflent pas d'orgueil. ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Ils s'arrachent de leurs lits pour invoquer leur Seigneur, par crainte et espoir ; et ils font largesse de ce que Nous Leur attribuons. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Aucun être ne sait ce qu'on a réservé pour eux comme réjouissance pour les yeux, en récompense de ce qu'ils oeuvraient ! ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Celui qui est croyant est-il comparable au pervers ? (Non), ils ne sont point égaux. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Ceux qui croient et accomplissent les bonnes oeuvres, auront leur résidence dans les Jardins du Refuge, en récompense de ce qu'ils oeuvraient. ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Et quant à ceux qui auront été pervers, leur refuge sera le Feu : toutes les fois qu'ils voudront en sortir, ils y seront ramenés, et on leur dira : "Goûtez au châtiment du Feu auquel vous refusiez de croire". ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Nous leur ferons certainement goûter au châtiment ici-bas, avant le grand châtiment afin qu'ils retournent (vers le chemin droit) ! ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Qui est plus injuste que celui à qui les versets d'Allah sont rappelés et qui ensuite s'en détourne ? Nous nous vengerons certes des criminels. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Nous avons effectivement donné à Moïse le Livre - ne sois donc pas en doute sur ta rencontre avec lui -, et l'avons assigné comme guide aux Enfants d'Israël. ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Et Nous avons désigné parmi eux des dirigeants qui guidaient (les gens) par Notre ordre aussi longtemps qu'ils enduraient et croyaient fermement en Nos versets. ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Ton Seigneur, c'est Lui qui décidera entre eux, au Jour de la Résurrection, de ce sur quoi ils divergeaient. ]]></Verse>
+	<Verse VerseID="26"><![CDATA[N'est-ce pas pour eux une indication le fait qu'avant eux, Nous ayons fait périr tant de générations dans les maisons desquelles ils marchent ? Il y a en cela des preuves ! N'écouteront-ils donc pas ? ]]></Verse>
+	<Verse VerseID="27"><![CDATA[N'ont-ils pas vu que Nous poussons l'eau vers un sol aride, qu'ensuite Nous en faisons sortir une culture que consomment leurs bestiaux et eux-mêmes ? Ne voient-ils donc pas ? ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Et ils disent : "A quand cette victoire, si vous êtes véridiques" ? ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Dis : "Le jour de la Victoire,, il sera inutile aux infidèles de croire ! Et aucun délai ne leur sera donné". ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Eloigne-toi d'eux et attends. Eux aussi demeurent dans l'attente. ]]></Verse>
+</Chapter>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="101" ChapterName="The Terrible Calam">
+	<Verse VerseID="1"><![CDATA[The resurrection/disaster/calamity.]]></Verse>
+	<Verse VerseID="2"><![CDATA[What (is) the resurrection/disaster/calamity?]]></Verse>
+	<Verse VerseID="3"><![CDATA[And what made you know/informed you what the resurrection/disaster/calamity (is)?]]></Verse>
+	<Verse VerseID="4"><![CDATA[A day/time the people be/become like the butterflies, the scattered/ravished]]></Verse>
+	<Verse VerseID="5"><![CDATA[And the mountains be/become like the wool/dyed wool, the carded (ruffled).]]></Verse>
+	<Verse VerseID="6"><![CDATA[So as for who his weights became heavy.]]></Verse>
+	<Verse VerseID="7"><![CDATA[So he is in (an) acceptable/approved life/quality of life.]]></Verse>
+	<Verse VerseID="8"><![CDATA[And but who his weights were reduced/lightened.]]></Verse>
+	<Verse VerseID="9"><![CDATA[So his origin (is) Hell/destruction .]]></Verse>
+	<Verse VerseID="10"><![CDATA[And what made you know/informed you what it is (E)?]]></Verse>
+	<Verse VerseID="11"><![CDATA[(A) hot fire.476]]></Verse>
+</Chapter>

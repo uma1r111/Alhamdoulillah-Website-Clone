@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="1" ChapterName="The Opening">
+	<Verse VerseID="1"><![CDATA[By God`s Name, the Merciful, the Merciful/Most Merciful .]]></Verse>
+	<Verse VerseID="2"><![CDATA[The gratitude/thanks/praise to God, the creation`s altogether`s/(universe`s) Lord.]]></Verse>
+	<Verse VerseID="3"><![CDATA[The merciful, the merciful/most merciful.]]></Verse>
+	<Verse VerseID="4"><![CDATA[Owner/possessor (of) the Judgment Day/Resurrection Day .]]></Verse>
+	<Verse VerseID="5"><![CDATA[(Only) You we worship, and (only) You we seek help from .]]></Verse>
+	<Verse VerseID="6"><![CDATA[Guide us (to) the way/road, the straight/direct .]]></Verse>
+	<Verse VerseID="7"><![CDATA[(The) way/road (of) those You blessed on them, not (those) the angered on them, and nor the misguided.]]></Verse>
+</Chapter>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="106" ChapterName="Qouraïsh">
+	<Verse VerseID="1"><![CDATA[A cause du pacte des Qouraïsh, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[De leur pacte [concernant] les voyages d'hiver et d'été. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Qu'ils adorent donc le Seigneur de cette Maison (la Kaaba). ]]></Verse>
+	<Verse VerseID="4"><![CDATA[qui les a nourris contre la faim et rassurés de la crainte ! ]]></Verse>
+</Chapter>

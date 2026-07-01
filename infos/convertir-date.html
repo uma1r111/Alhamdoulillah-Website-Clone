@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="/en/css/islam.css">
+
+<title>Convertir une Date Hijri Miladi avec le Convertisseur Grégorien Hégirien</title>
+<meta name="description" content="Outil gratuit permettant de convertir une date miladi (calendrier grégorien) en une date hijri (format hégirien) et de connaitre sa date de naissance." />
+
+</head>
+<body>
+
+<?php include("../inc/menu.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>Convertisseur en date Hijri</h1>
+
+<?php include("../inc/pub-content.php") ?>
+
+<h2>Connaître sa Date de Naissance en Hijri</h2>
+
+<?php
+include "../inc/hijri.php";
+$d = new uCakl;
+?>
+
+<p>Vous êtes vous déjà demandé quel jour du calendrier musulman êtes vous né ? L'outil proposé sur cette page vous permet de le savoir. Indiquez simplement votre date de naissance puis cliquez sur "Convertir". Vous obtiendrez alors aussitôt votre date de naissance selon le calendrier islamique. Cela marche aussi avec les dates de mariage ou de décès. Vous pouvez aussi chercher à quelles dates ont eu lieu des évènements importants de l'histoire récente.</p>
+
+<?php include ("../inc/share.php")?>
+ 
+<p>Choisissez la date de naissance que vous voulez convertir en date hégirienne :</p> 
+
+<form style="margin-left:20px;" method="post" action="">
+
+<?php
+echo "<SELECT name='jour' Size='1'>";
+ 
+     for($i=1; $i<=31;$i++){        //Lister les jours
+ 
+               if ($i < 10){            //Lister les jours pour pouvoir leur ajouter un 0 devant
+              echo "<OPTION>0$i<br></OPTION>";
+                   }
+               else {
+              echo "<OPTION>$i<br></OPTION>";
+                    }
+                          }
+echo "</SELECT>";
+ 
+echo '<SELECT name="mois" Size="1">';
+ 
+     for($di=1; $di<=12;$di++){        //Lister les mois
+ 
+               if ($di < 10){            //Lister les jours pour pouvoir leur ajouter un 0 devant
+              echo "<OPTION>0$di<br></OPTION>";
+                   }
+               else {
+              echo "<OPTION>$di<br></OPTION>";
+                    }
+                          }
+echo "</SELECT>";
+ 
+$dato = date('Y');       //On prend l'année en cours
+     
+echo '<SELECT name="annee" Size="1">';
+ 
+     for ($y=1930; $y<=$dato; $y++) {           //De l'année 2000 à l'année actuelle
+         echo "<OPTION><br>$y<br></OPTION>"; }
+echo "</SELECT>";
+
+?>
+
+<input type="submit" value="Convertir la date"/>
+</form>
+
+<?
+
+		if ($_POST['jour']!='' AND $_POST['mois']!='' AND $_POST['annee']!='') {
+		
+		$jour = $_POST['jour']; 
+		$mois = $_POST['mois'];
+		$annee = $_POST['annee'];
+		$calculer = "$annee-$mois-$jour";		
+		$quand = $_POST['annee']-570;
+		
+		
+		$from = new DateTime($calculer);
+		$to   = new DateTime('today');
+		$ageS = $from->diff($to)->y;
+		
+		
+
+		$semaine = date('D', strtotime($calculer));
+		if ($semaine == "Sun") $semaine = "Dimanche";
+		if ($semaine == "Mon") $semaine = "Lundi";
+		if ($semaine == "Tue") $semaine = "Mardi";
+		if ($semaine == "Wed") $semaine = "Mercredi";
+		if ($semaine == "Thu") $semaine = "Jeudi";
+		if ($semaine == "Fri") $semaine = "Vendredi";
+		if ($semaine == "Sat") $semaine = "Samedi";
+
+		  $date = $d->g2u($jour,$mois,$annee);
+		  
+		  if ($date[month] == 1) $date[month] = "Mouharram";
+		  if ($date[month] == 2) $date[month] = "Safar";
+		  if ($date[month] == 3) $date[month] = "Rabi' 1";
+		  if ($date[month] == 4) $date[month] = "Rabi' 2";
+		  if ($date[month] == 5) $date[month] = "Joumada 1";
+		  if ($date[month] == 6) $date[month] = "Joumada 2";
+		  if ($date[month] == 7) $date[month] = "Rajab";
+		  if ($date[month] == 8) $date[month] = "Cha'ban";
+		  if ($date[month] == 9) $date[month] = "Ramadan";
+		  if ($date[month] == 10) $date[month] = "Shawwal";
+		  if ($date[month] == 11) $date[month] = "Dhoul Qi'dah";
+		  if ($date[month] == 12) $date[month] = "Dhoul Hidjah";
+		  
+		  if ($date[day] == 1) $date[day] = "1er";
+		  
+		  $comparaison = $d->date("Y");
+		  
+		  $age = $comparaison-$date['year'];
+		  
+		  echo "
+		  
+		  <p>Selon le calendrier hégirien :</p>
+		  
+		  <ul>
+		  <li>Votre date de naissance est le <b>$semaine $date[day] $date[month] $date[year]</b>.</li>
+		  <li>Vous êtes né(e) <b>$quand ans après le prophète</b> sallallahou 'alayhi wa sallam</b>.</li>
+		  <li>Votre âge est de <b>$age ans</b> ($ageS selon le calendrier grégorien).</li>
+		  </ul>";
+		}
+		
+	
+		
+
+?>
+
+<p>A voir aussi : <a href="/calendrier-musulman.html">le calendrier hérigien</a>.</p>
+
+
+</td>
+
+<td id="colonnes"><?php include("../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../inc/footer.php") ?>
+</body></html>

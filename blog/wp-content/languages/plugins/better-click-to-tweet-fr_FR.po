@@ -1,0 +1,243 @@
+# Translation of Plugins - Better Click To Tweet - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Better Click To Tweet - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-06 15:52:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Better Click To Tweet - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://www.betterclicktotweet.com"
+msgstr "https://www.betterclicktotweet.com"
+
+#: admin-nags.php:91
+msgid "Save 8% with the code NAGSareTHEbest"
+msgstr "Économisez 8% avec le code NAGSareTHEbest"
+
+#: admin-nags.php:91
+msgid "Purchase it today"
+msgstr "Achetez-le aujourd’hui"
+
+#: admin-nags.php:87
+msgid "Support the development of Better Click To Tweet!"
+msgstr "Soutenez le développement de Better Click To Tweet !"
+
+#: admin-nags.php:86
+msgid "Get more clicks and tweets."
+msgstr "Obtenez plus de clics et de tweets."
+
+#: admin-nags.php:85
+msgid "Make your Better Click To Tweet boxes stand out."
+msgstr "Faites ressortir vos boîtes Better Click To Tweet."
+
+#: admin-nags.php:83
+msgid "Choose from multiple options when styling your Better Click To Tweet boxes, with no code."
+msgstr "Choisissez parmi de multiples options lorsque vous styleisz vos boîtes Better Click To Tweet, sans aucun code."
+
+#: admin-nags.php:78
+msgid "Add Premium Style to your Better Click To Tweet boxes!"
+msgstr "Ajoutez un style premium à vos boîtes Better Click To Tweet !"
+
+#: bctt_options.php:211
+msgid "Subscribe"
+msgstr "S’inscrire"
+
+#: bctt_options.php:152
+msgid "Want Premium styles? Add the <a href=%s>Premium Styles add-on</a> today!"
+msgstr "Vous désirez des styles premium ? Ajoutez le <a href=%s>module Premium Styles</a> aujourd’hui !"
+
+#: bctt_options.php:143
+msgctxt "label for checkbox on settings screen"
+msgid "Use Premium Styles?"
+msgstr "Utiliser des styles Premium ?"
+
+#: i18n-module.php:170
+msgid "As you can see, there is a translation of this plugin in %1$s. This translation is currently %3$d%% complete. We need your help to make it complete and to fix any errors. Please register at %4$s to help complete the translation to %1$s!"
+msgstr "Comme vous le constatez, cette extension est traduite en %1$s. Cette traduction est actuellement terminée à %3$d%%. Nous avons besoin de votre aide pour la terminer et pour corriger les éventuelles erreurs. SVP, enregistrez-vous sur %4$s pour finaliser la traduction à %1$s !"
+
+#: i18n-module.php:172
+msgid "You're using WordPress in %1$s. While %2$s has been translated to %1$s for %3$d%%, it's not been shipped with the plugin yet. You can help! Register at %4$s to help complete the translation to %1$s!"
+msgstr "Vous utilisez WordPress en %1$s. Alors que %2$s a été traduit en %1$s à %3$d%%, elle n’est donc pas encore disponible dans l’extension. Vous pouvez nous aider ! Enregistrez-vous sur %4$s pour nous aider à terminer la traduction à %1$s !"
+
+#: i18n-module.php:174
+msgid "You're using WordPress in a language we don't support yet. We'd love for %2$s to be translated in that language too, but unfortunately, it isn't right now. You can change that! Register at %4$s to help translate it!"
+msgstr "Vous utilisez WordPress dans une langue que nous ne supportons pas encore. Nous aimerions beaucoup que %2$s soit traduit dans cette langue, mais malheureusement ce n’est pas le cas.  Vous pouvez changer cet état de fait ! Enregistrez-vous sur %4$s pour nous aider à traduire ! "
+
+#: i18n-module.php:197
+msgid "Translation of %s"
+msgstr "Traduction de %s"
+
+#: i18n-module.php:200
+msgid "Register now &raquo;"
+msgstr "S’enregistrer maintenant &raquo;"
+
+#: assets/tinymce/languages/bctt-mce-locale.php:21
+msgctxt "Help text for label in visual editor"
+msgid "Which Twitter username?"
+msgstr "Quel nom d’utilisateur Twitter ?"
+
+#. Description of the plugin/theme
+msgid "Add Click to Tweet boxes simply and elegantly to your posts or pages. All the features of a premium plugin, for FREE!"
+msgstr "Ajoutez Click to Tweet simplement et élégamment à vos articles ou pages. Toutes les fonctionnalités de l’extension premium sont gratuites !"
+
+#. Plugin Name of the plugin/theme
+msgid "Better Click To Tweet"
+msgstr "Better Click To Tweet"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/better-click-to-tweet/"
+msgstr "https://wordpress.org/plugins/better-click-to-tweet/"
+
+#. Author of the plugin/theme
+msgid "Ben Meredith"
+msgstr "Ben Meredith"
+
+#: bctt_options.php:167
+msgid "An open source plugin by <a href=%s>Ben Meredith</a>"
+msgstr "Une extension open source par <a href=%s>Ben Meredith</a>"
+
+#: better-click-to-tweet.php:328
+msgctxt "text for the link on the plugins page"
+msgid "Settings"
+msgstr "Réglages"
+
+#: assets/block/init.php:58 better-click-to-tweet.php:93
+msgctxt "Text for the box on the reader-facing box"
+msgid "Click To Tweet"
+msgstr "Cliquez pour tweeter"
+
+#: bctt_options.php:114
+msgid "Enter your Twitter handle to add \"via @yourhandle\" to your tweets. Do not include the @ symbol."
+msgstr "Saisissez votre identifiant Twitter pour ajouter « via @moncompte » à vos tweets. Ne pas inclure le symbole @."
+
+#: bctt_options.php:116
+msgid "Checking the box below will force the plugin to show the WordPress shortlink in place of the full URL. While this does not impact tweet character length, it is useful alongside plugins which customize the WordPress shortlink using services like bit.ly or yourls.org for tracking"
+msgstr "Cocher la case ci-dessous forcera l’extension à afficher le lien court WordPress à la place de l’URL complète.  Bien que cela n’ait aucun impact sur la longueur de caractères du tweet,  il est utile en parallèle aux extensions qui personnalisent le lien court WordPress en utilisant des services comme bit.ly ou yourls.org pour le suivi"
+
+#: bctt_options.php:124
+msgctxt "label for text input on settings screen"
+msgid "Your Twitter Handle"
+msgstr "Mon identifiant Twitter"
+
+#: bctt_options.php:131
+msgctxt "label for checkbox on settings screen"
+msgid "Use Short URL?"
+msgstr "Utiliser l’URL raccourcie ?"
+
+#: bctt_options.php:163
+msgid "Save Changes"
+msgstr "Enregistrer les modifications "
+
+#: bctt_options.php:92
+msgid "Instructions"
+msgstr "Instructions"
+
+#: bctt_options.php:111
+msgid "Settings"
+msgstr "Réglages"
+
+#. translators: Treat "Better Click To Tweet" as a brand name, don't translate
+#. it
+#: bctt_options.php:82
+msgid "Better Click To Tweet — a plugin by Ben Meredith"
+msgstr "Better Click To Tweet — une extension créée par Ben Meredith"
+
+#: bctt_options.php:193
+msgid "This plugin is developed by <a href=\"%s\">Ben Meredith</a>. I am a freelance developer specializing in <a href=\"%s\">outrunning and outsmarting hackers</a>."
+msgstr "Cette extension est développée par <a href=\"%s\">Ben Meredith</a>. Je suis développeur freelance spécialisé dans la<a href=\"%s\">prévention et la désinfection de piratage informatique.</a>."
+
+#: bctt_options.php:194
+msgid "Sign up to receive my FREE web strategy guide"
+msgstr "Inscrivez-vous pour recevoir mon guide gratuit sur la stratégie web"
+
+#: bctt_options.php:200
+msgctxt "placeholder text for input field"
+msgid "Your Email Address"
+msgstr "Votre adresse de messagerie"
+
+#: bctt_options.php:201
+msgid "No Spam. One-click unsubscribe in every message"
+msgstr "Aucun indésirable. Désinscription en un clic dans chaque message"
+
+#: bctt_options.php:229
+msgid "Are you a developer? I would love your help making this plugin better. Check out the <a href=%s>plugin on Github.</a>"
+msgstr "Êtes-vous développeur ? J’aimerais votre aide pour rendre cette extension encore meilleure. Jetez un œil à <a href=%s>l’extension sur Github.</a>"
+
+#: bctt_options.php:236
+msgid "The second best way is to <a href=%s>leave an honest review.</a>"
+msgstr "La seconde meilleure manière est de <a href=%s>laisser une évaluation honnête.</a>"
+
+#: bctt_options.php:243
+msgid "Click here to buy me a Coke to say thanks."
+msgstr "Cliquez ici pour m’acheter un Coca en guise de remerciement."
+
+#: bctt_options.php:98
+msgid "Here's how you format the shortcode:"
+msgstr "Voici comment formater le code court :"
+
+#. translators: Also, treat "BCTT" as a brand name, don't translate it
+#: bctt_options.php:102
+msgid "If you are using the visual editor, click the BCTT birdie in the toolbar to add a pre-formatted shortcode to your post."
+msgstr "Si vous utilisez l’éditeur visuel, cliquez sur l’oiseau BCTT dans la barre d’outils pour ajouter un code court pré-formaté à votre article."
+
+#: bctt_options.php:104
+msgid "Tweet length is automatically shortened to 117 characters minus the length of your twitter name, to leave room for it and a link back to the post."
+msgstr "La longueur du tweet est automatiquement réduite à 117 caractères moins la longueur de votre nom d’utilisateur Twitter, pour lui laisser de la place et un lien vers l’article."
+
+#. translators: This text shows up as a sample tweet in the instructions for
+#. how to use the plugin.
+#: bctt_options.php:100
+msgid "Meaningful, tweetable quote."
+msgstr "Une citation significative et tweetable."
+
+#: bctt_options.php:239
+msgid "Did this plugin save you enough time to be worth some money?"
+msgstr "Cette extension vous a-t-elle fait économiser assez de temps pour valoir de l’argent ?"
+
+#: bctt_options.php:233
+msgid "The best way you can support this and other plugins is to <a href=%s>donate</a>"
+msgstr "La meilleure façon de supporter cette extension ou d’autres extensions est de faire un <a href=%s>don</a>"
+
+#. translators: Treat "Better Click To Tweet" as a brand name, don't translate
+#. it
+#: bctt_options.php:96
+msgid "To add styled click-to-tweet quote boxes include the Better Click To Tweet shortcode in your post."
+msgstr "Pour ajouter des boîtes de citation « Cliquez pour tweeter » stylisées, ajoutez le code court Better Click To Tweet dans votre article."
+
+#: bctt_options.php:185
+msgid "About the Author"
+msgstr "À propos de l’auteur"
+
+#: bctt_options.php:73
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les droits suffisants pour accéder à cette page."
+
+#: assets/tinymce/languages/bctt-mce-locale.php:16
+msgctxt "Text that shows on mouseover for visual editor button"
+msgid "Better Click To Tweet Shortcode Generator"
+msgstr "Générateur de code court Better Click To Tweet"
+
+#: assets/tinymce/languages/bctt-mce-locale.php:17
+msgctxt "Text for title of the popup box when creating tweetable quote in the visual editor"
+msgid "Better Click To Tweet Shortcode Generator"
+msgstr "Générateur de code court Better Click To Tweet"
+
+#: assets/tinymce/languages/bctt-mce-locale.php:19
+msgctxt "Text explaining the checkbox on the visual editor"
+msgid "Add the username below to this tweet"
+msgstr "Ajouter le nom d’utilisateur ci-dessous à ce tweet"
+
+#: assets/tinymce/languages/bctt-mce-locale.php:20
+msgctxt "Checkbox label in visual editor"
+msgid "Include via?"
+msgstr "Inclure via ?"
+
+#: assets/tinymce/languages/bctt-mce-locale.php:18
+msgctxt "Text for label on input box on popup box in visual editor"
+msgid "Tweetable Quote"
+msgstr "Citation tweetable"

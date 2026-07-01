@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="107" ChapterName="L'ustensile (Al-Maun)">
+	<Verse VerseID="1"><![CDATA[Vois-tu celui qui traite de mensonge la Rétribution ? ]]></Verse>
+	<Verse VerseID="2"><![CDATA[C'est bien lui qui repousse l'orphelin, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[et qui n'encourage point à nourrir le pauvre. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Malheur donc, à ceux qui prient ]]></Verse>
+	<Verse VerseID="5"><![CDATA[tout en négligeant (et retardant) leur Salat, ]]></Verse>
+	<Verse VerseID="6"><![CDATA[qui sont pleins d'ostentation, ]]></Verse>
+	<Verse VerseID="7"><![CDATA[et refusent l'ustensile (à celui qui en a besoin). ]]></Verse>
+</Chapter>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="51" ChapterName="The Scatterers">
+	<Verse VerseID="1"><![CDATA[And/by the scatterers/spreaders , scattering/spreading.]]></Verse>
+	<Verse VerseID="2"><![CDATA[So the clouds carrying rain , a heavy weight.]]></Verse>
+	<Verse VerseID="3"><![CDATA[So the flowing/orbiting , easily/flexibly.]]></Verse>
+	<Verse VerseID="4"><![CDATA[So the apportioners/distributors a matter/affair/order/command.]]></Verse>
+	<Verse VerseID="5"><![CDATA[Truly/indeed what you are being promised is truthful/true (E) .]]></Verse>
+	<Verse VerseID="6"><![CDATA[And that truly the religion/debt/rule/might (is) happening/landing (E) .]]></Verse>
+	<Verse VerseID="7"><![CDATA[And the sky/space (owner) of the paths/courses (movements/orbits) .]]></Verse>
+	<Verse VerseID="8"><![CDATA[That you truly are in (E) (a) different word/statement .]]></Verse>
+	<Verse VerseID="9"><![CDATA[Who was lied to/turned away from it, he (will) be lied to/turned away.]]></Verse>
+	<Verse VerseID="10"><![CDATA[The liars/speculators were killed.]]></Verse>
+	<Verse VerseID="11"><![CDATA[Those who, they are in an intoxication/hatred (are) careless/negligent .]]></Verse>
+	<Verse VerseID="12"><![CDATA[They question/ask when (is) the Judgment Day/the Resurrection Day .]]></Verse>
+	<Verse VerseID="13"><![CDATA[A day/time they are on the fire they are being tortured .]]></Verse>
+	<Verse VerseID="14"><![CDATA[Taste/experience your misguidance/seduction this, which you were with it hurrying/hastening .]]></Verse>
+	<Verse VerseID="15"><![CDATA[That truly the fearing and obeying (are) in treed gardens/paradises and water springs/wells.]]></Verse>
+	<Verse VerseID="16"><![CDATA[Taking what their Lord gave them, that they were before that good doers.]]></Verse>
+	<Verse VerseID="17"><![CDATA[They were little from the night what they (spend in) sleep .]]></Verse>
+	<Verse VerseID="18"><![CDATA[And at the times at end of night before dawn they ask for forgiveness.]]></Verse>
+	<Verse VerseID="19"><![CDATA[And in their properties/possessions (is) a share/duty for the asker/questioner/beggar and the deprived.]]></Verse>
+	<Verse VerseID="20"><![CDATA[And in the earth/Planet Earth (are) evidences/signs for the sure/certain.]]></Verse>
+	<Verse VerseID="21"><![CDATA[And in your selves, so do you not see/look/understand?]]></Verse>
+	<Verse VerseID="22"><![CDATA[And in the sky/space (is) your provision and what you are being promised.]]></Verse>
+	<Verse VerseID="23"><![CDATA[So with/by the skies`/space`s and the earth`s/Planet Earth`s Lord, that it truly is true (E) , equal/alike (to) what that you, you speak.]]></Verse>
+	<Verse VerseID="24"><![CDATA[Did information/speech (of) Abraham`s guests, the honoured, come to you?]]></Verse>
+	<Verse VerseID="25"><![CDATA[When they entered on him, so they said: "A greeting/security/peace." He said: "A greeting/security/peace (you) unknown/disguised nation."]]></Verse>
+	<Verse VerseID="26"><![CDATA[So he conned his way to his family/relation , so he came with a fat/fleshy (M) calf.]]></Verse>
+	<Verse VerseID="27"><![CDATA[So he neared/approached it to them, he said: "Do you not eat?"]]></Verse>
+	<Verse VerseID="28"><![CDATA[So he felt inner horror/fear from them, they said: "Do not fear." And they announced good news to him with a knowledgeable boy (son) .]]></Verse>
+	<Verse VerseID="29"><![CDATA[So his woman (wife) approached/came in an outcry/frown, so she hit/struck (an act of surprise) her face/front and she said: "Old/weak, infertile."]]></Verse>
+	<Verse VerseID="30"><![CDATA[They said: "As/like that your Lord said, that He truly, He is the wise/judicious, the knowledgeable."]]></Verse>
+	<Verse VerseID="31"><![CDATA[He said: "So what (is) your matter/affair/concern, oh you the messengers?"]]></Verse>
+	<Verse VerseID="32"><![CDATA[They said: "That we, we were sent to a nation committing crimes/sins."]]></Verse>
+	<Verse VerseID="33"><![CDATA[To send on them stones from mud/clay .]]></Verse>
+	<Verse VerseID="34"><![CDATA[Marked/identified/distinguished at your Lord for the spoilers/extravagators/wasters .]]></Verse>
+	<Verse VerseID="35"><![CDATA[So We brought out who was in it from the believers.]]></Verse>
+	<Verse VerseID="36"><![CDATA[So We did not find in it other than (a) house/home from the submitters/Moslems .]]></Verse>
+	<Verse VerseID="37"><![CDATA[And We left in it an evidence/sign to those who fear the torture, the painful.]]></Verse>
+	<Verse VerseID="38"><![CDATA[And in Moses when We sent him to Pharaoh with a clear/evident proof/evidence .]]></Verse>
+	<Verse VerseID="39"><![CDATA[So he turned away at his corner/strong support, and he said: "A magician/sorcerer, or mad/insane."]]></Verse>
+	<Verse VerseID="40"><![CDATA[So We punished/took him and his soldiers/warriors , so We discarded them/casted them off in the body of water, and he is blameworthy/blamed.]]></Verse>
+	<Verse VerseID="41"><![CDATA[And in Aad, when We sent on them the wind/breeze, the infertile/sterile .]]></Verse>
+	<Verse VerseID="42"><![CDATA[It does not leave from a thing it came on it, except it made it as/like the decomposed/decayed.]]></Verse>
+	<Verse VerseID="43"><![CDATA[And in Thamud , when (it) was said to them: "Live long/enjoy until a time/period of time."]]></Verse>
+	<Verse VerseID="44"><![CDATA[So they become arrogant/disobedient from their Lord`s order/command, so the death/destructive torture punished/took them, and (while) they are looking/watching .]]></Verse>
+	<Verse VerseID="45"><![CDATA[So they were not able from getting up/standing, and they were not victorious.]]></Verse>
+	<Verse VerseID="46"><![CDATA[And Noah`s nation from before, that they truly were a nation (of) debauchers .]]></Verse>
+	<Verse VerseID="47"><![CDATA[And the sky/space We built/constructed it with power/support , and We (E) are extending/spreading (E) .]]></Verse>
+	<Verse VerseID="48"><![CDATA[And the earth/Planet Earth We spread it out so the levelers/preparers (are) blessed/praise.]]></Verse>
+	<Verse VerseID="49"><![CDATA[And from every thing We created a pair/couple , maybe/perhaps you mention/remember .]]></Verse>
+	<Verse VerseID="50"><![CDATA[So escape/flee to God, that I am for you from Him a clear/evident warner/giver of notice.]]></Verse>
+	<Verse VerseID="51"><![CDATA[And do not make/put with God another god, that I am for you from Him a clear/evident warner/giver of notice.]]></Verse>
+	<Verse VerseID="52"><![CDATA[As/like that none from a messenger came to those from before them except (that) they said: "A magician/sorcerer, or mad/insane."]]></Verse>
+	<Verse VerseID="53"><![CDATA[Do they command/entrust with it? But they are a tyrannizing/arrogant nation.]]></Verse>
+	<Verse VerseID="54"><![CDATA[So turn away from them, so you are not with being blamed/reprimanded.]]></Verse>
+	<Verse VerseID="55"><![CDATA[And remind, so that the reminder/remembrance benefits/becomes useful (to) the believers.]]></Verse>
+	<Verse VerseID="56"><![CDATA[And I did not create the Jinns and the human/mankind except to worship Me.]]></Verse>
+	<Verse VerseID="57"><![CDATA[I do not want/intend from them from provision , and I do not want/intend that (E) they feed Me.]]></Verse>
+	<Verse VerseID="58"><![CDATA[That truly God, He is the provider, (owner) of the power/strength, the solid/sturdy .]]></Verse>
+	<Verse VerseID="59"><![CDATA[So that to those who were unjust/oppressive (are) crimes, equal/alike (to) their company`s/friends` crimes, so do not hurry/hasten Me .386]]></Verse>
+	<Verse VerseID="60"><![CDATA[So calamity/scandal to those who disbelieved from their day/time which they are being promised.387]]></Verse>
+</Chapter>

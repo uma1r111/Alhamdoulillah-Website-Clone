@@ -1,0 +1,379 @@
+<?php
+
+    $quranFile = 'quran.txt';   // quran file
+    $transFile = 'traduction.txt';   // translation file
+    $metadataFile = 'quran-data.xml';  // quran metadata file
+
+    initSuraData();   // initialize sura data array
+    
+
+    //------------------ General Functions ---------------------
+	
+
+    // initialize sura data array
+    function initSuraData()
+    {
+        global $suraData, $metadataFile;
+        $dataItems = Array("index", "start", "ayas", "name", "tname", "ename", "type", "order", "rukus");
+
+        $quranData = file_get_contents($metadataFile);
+        $parser = xml_parser_create();
+        xml_parse_into_struct($parser, $quranData, $values, $index);
+        xml_parser_free($parser);
+
+        for ($i=1; $i<=114; $i++) 
+        {
+            $j = $index['SURA'][$i-1];
+            foreach ($dataItems as $item)
+                $suraData[$i][$item] = $values[$j]['attributes'][strtoupper($item)]; 
+        }
+    }
+
+
+    // return given property of a sura
+    function getSuraData($sura, $property) 
+    {
+        global $suraData;
+        return $suraData[$sura][$property]; 
+    }
+
+
+    // return contents of a sura 
+    function getSuraContents($sura) 
+    {
+        global $quranFile;
+        $startAya = getSuraData($sura, 'start');
+        $endAya = $startAya+ getSuraData($sura, 'ayas');
+        $quran = file($quranFile);
+        $text = array_slice($quran, $startAya, $endAya- $startAya); 
+        return $text;
+    }
+	
+    // return contents of a sura 
+    function getSuraContentsfr($sura) 
+    {
+        global $transFile;
+        $startAya = getSuraData($sura, 'start');
+        $endAya = $startAya+ getSuraData($sura, 'ayas');
+        $quran = file($transFile);
+        $textfr = array_slice($quran, $startAya, $endAya- $startAya); 
+        return $textfr;
+    }
+
+    //------------------ Display Functions ---------------------
+
+	
+	
+    // show sura contents
+    function showSura($sura)
+    {
+        $suraName = getSuraData($sura, 'name');
+        $suraText = getSuraContents($sura);
+        $showBismillah = false; // change to true to show Bismillahs
+        $ayaNum = 1;
+        
+        echo "<div class=suraName>سورة $suraName</div>";
+        foreach ($suraText as $aya)
+        {
+            // remove bismillahs, except for suras 1 and 9
+            if (!$showBismillah && $ayaNum == 1 && $sura !=1 && $sura !=9)
+                $aya = preg_replace('/^(([^ ]+ ){4})/u', '', $aya);
+            // display waqf marks in different style
+            $aya = preg_replace('/ ([ۖ-۩])/u', '<span class="sign">&nbsp;$1</span>', $aya);
+            
+            echo "<div class=aya><span class=ayaNum>$ayaNum. </span>$aya</div>";
+            $ayaNum++;
+        }
+    }
+
+    // show sura contents
+    function showSurafr($sura)
+    {
+        $suraName = getSuraData($sura, 'ename');
+        $suraText = getSuraContentsfr($sura);
+        
+        $showBismillah = false; $ayaNum = 1;
+			
+	
+		echo "<div class=suraNamefr>$suraName</div>";
+		
+		foreach ($suraText as $aya)
+        {
+
+			
+			
+			echo "<span class=ayaNumfr>($ayaNum)</span> $aya";
+			
+			
+			$ayaNum++;
+
+		
+		
+        }
+
+    }
+	
+	
+?>
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="/en/css/islam.css">
+
+<title>Coran en Français Arabe - Explorer Saint Coran Mp3 en Ligne</title>
+<meta name="description" content="Coran en ligne - Navigateur Saint Coran Explorer arabe et français avec mp3 verset par verset, nombreux récitateurs, classements par page, hizb, djouz, roub'" />
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="tanzil(v1.5).js" ></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9535111-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+
+<h1>Coran</h1>
+
+<?php include("../inc/haut.php") ?>
+<table id="global">
+<tbody>
+<tr>
+<td id="colonnes"><?php include("../inc/gauche.php") ?></td>
+<td id="contenu">
+
+<h2>Le Saint Coran</h2>
+
+
+
+
+<div style="display: block;">
+<form method="post" action="<?= $_SERVER['PHP_SELF']; ?>" name="sura">
+<label style="margin-left:15px;">Sourate :</label>
+<select id="sura" name="sura" onchange="submit();"> 
+<option selected value="1">1. الفاتحة</option>
+<option value="2">2. البقرة</option>
+<option value="3">3. آل عمران</option>
+<option value="4">4. النساء</option>
+<option value="5">5. المائدة</option>
+<option value="6">6. الأنعام</option>
+<option value="7">7. الأعراف</option>
+<option value="8">8. الأنفال</option>
+<option value="9">9. التوبة</option>
+<option value="10">10. يونس</option>
+<option value="11">11. هود</option>
+<option value="12">12. يوسف</option>
+<option value="13">13. الرعد</option>
+<option value="14">14. ابراهيم</option>
+<option value="15">15. الحجر</option>
+<option value="16">16. النحل</option>
+<option value="17">17. الإسراء</option>
+<option value="18">18. الكهف</option>
+<option value="19">19. مريم</option>
+<option value="20">20. طه</option>
+<option value="21">21. الأنبياء</option>
+<option value="22">22. الحج</option>
+<option value="23">23. المؤمنون</option>
+<option value="24">24. النور</option>
+<option value="25">25. الفرقان</option>
+<option value="26">26. الشعراء</option>
+<option value="27">27. النمل</option>
+<option value="28">28. القصص</option>
+<option value="29">29. العنكبوت</option>
+<option value="30">30. الروم</option>
+<option value="31">31. لقمان</option>
+<option value="32">32. السجدة</option>
+<option value="33">33. الأحزاب</option>
+<option value="34">34. سبإ</option>
+<option value="35">35. فاطر</option>
+<option value="36">36. يس</option>
+<option value="37">37. الصافات</option>
+<option value="38">38. ص</option>
+<option value="39">39. الزمر</option>
+<option value="40">40. غافر</option>
+<option value="41">41. فصلت</option>
+<option value="42">42. الشورى</option>
+<option value="43">43. الزخرف</option>
+<option value="44">44. الدخان</option>
+<option value="45">45. الجاثية</option>
+<option value="46">46. الأحقاف</option>
+<option value="47">47. محمد</option>
+<option value="48">48. الفتح</option>
+<option value="49">49. الحجرات</option>
+<option value="50">50. ق</option>
+<option value="51">51. الذاريات</option>
+<option value="52">52. الطور</option>
+<option value="53">53. النجم</option>
+<option value="54">54. القمر</option>
+<option value="55">55. الرحمن</option>
+<option value="56">56. الواقعة</option>
+<option value="57">57. الحديد</option>
+<option value="58">58. المجادلة</option>
+<option value="59">59. الحشر</option>
+<option value="60">60. الممتحنة</option>
+<option value="61">61. الصف</option>
+<option value="62">62. الجمعة</option>
+<option value="63">63. المنافقون</option>
+<option value="64">64. التغابن</option>
+<option value="65">65. الطلاق</option>
+<option value="66">66. التحريم</option>
+<option value="67">67. الملك</option>
+<option value="68">68. القلم</option>
+<option value="69">69. الحاقة</option>
+<option value="70">70. المعارج</option>
+<option value="71">71. نوح</option>
+<option value="72">72. الجن</option>
+<option value="73">73. المزمل</option>
+<option value="74">74. المدثر</option>
+<option value="75">75. القيامة</option>
+<option value="76">76. الانسان</option>
+<option value="77">77. المرسلات</option>
+<option value="78">78. النبإ</option>
+<option value="79">79. النازعات</option>
+<option value="80">80. عبس</option>
+<option value="81">81. التكوير</option>
+<option value="82">82. الإنفطار</option>
+<option value="83">83. المطففين</option>
+<option value="84">84. الإنشقاق</option>
+<option value="85">85. البروج</option>
+<option value="86">86. الطارق</option>
+<option value="87">87. الأعلى</option>
+<option value="88">88. الغاشية</option>
+<option value="89">89. الفجر</option>
+<option value="90">90. البلد</option>
+<option value="91">91. الشمس</option>
+<option value="92">92. الليل</option>
+<option value="93">93. الضحى</option>
+<option value="94">94. الشرح</option>
+<option value="95">95. التين</option>
+<option value="96">96. العلق</option>
+<option value="97">97. القدر</option>
+<option value="98">98. البينة</option>
+<option value="99">99. الزلزلة</option>
+<option value="100">100. العاديات</option>
+<option value="101">101. القارعة</option>
+<option value="102">102. التكاثر</option>
+<option value="103">103. العصر</option>
+<option value="104">104. الهمزة</option>
+<option value="105">105. الفيل</option>
+<option value="106">106. قريش</option>
+<option value="107">107. الماعون</option>
+<option value="108">108. الكوثر</option>
+<option value="109">109. الكافرون</option>
+<option value="110">110. النصر</option>
+<option value="111">111. المسد</option>
+<option value="112">112. الإخلاص</option>
+<option value="113">113. الفلق</option>
+<option value="114">114. الناس</option></select>
+</form>
+</div>
+
+<br>
+
+<div style="text-align: left; margin-left: 29px; margin-bottom: 15px;">
+<a href="javascript:visibilite('div_texte1');">Lire en Arabe</a> | <a href="javascript:visibilite('div_texte2');">Lire en Français</a></div>
+
+
+<table style="margin-right:auto; margin-left:auto;" bgcolor="#fafafa" border="0"
+ cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr align="justify">
+      <td align="middle" dir="ltr">
+      <table style="background-color: rgb(255, 255, 255); width:100%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+         <td colspan="3" style="height:23px; background-image: url(http://www.al-hamdoulillah.com/coran/lire/up.png);"></td>
+          </tr>
+          <tr>
+<td style="width:23px;background-image: url(http://www.al-hamdoulillah.com/coran/lire/right.jpg); background-repeat: repeat-y"></td>
+
+
+
+            <td style="vertical-align: top;">
+
+
+            <table style="background-color: rgb(254, 254, 228); width: 453px; height: 100%;" border="0" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr align="justify">
+                  <td style="text-align: center; vertical-align: top;">
+                  <table style="width: 100%; text-align: left; margin-left: auto; margin-right: auto;" cellpading="0" cellspace="0" border="0">
+                    <tbody>
+                      <tr align="justify" dir="rtl">
+                        <td style="text-align: center;"><img style="width:521px;" alt="" src="http://www.al-hamdoulillah.com/coran/lire/titre.gif"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+			
+				<div id="div_texte1" style="display:block;">			
+					<div class=moushaf>
+					<div class=bismillah>بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
+					<?      showSura($sura); ?>
+					</div>
+				</div>		
+		
+				<div id="div_texte2" style="display:none;">
+					<div class=moushaffr>
+					<div class=bismillahfr>Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux</div>
+					<?      showSurafr($sura); ?>
+					</div>
+				</div>		
+		
+
+<script>
+    var divPrecedent=document.getElementById('div_texte1');
+    function visibilite(divId)
+    {
+        divPrecedent.style.display='none';
+        divPrecedent=document.getElementById(divId);
+        divPrecedent.style.display='';
+    }
+</script> 
+			
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+<td style="width:23px;background-image: url(http://www.al-hamdoulillah.com/coran/lire/left.jpg); background-repeat: repeat-y"></td>
+
+
+
+          </tr>
+          <tr>
+            <td colspan="3" style="height:23px; background-image: url(http://www.al-hamdoulillah.com/coran/lire/down.png);"></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+</td>
+<td id="colonnes"><?php include("../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../inc/footer.php") ?>
+</body></html>

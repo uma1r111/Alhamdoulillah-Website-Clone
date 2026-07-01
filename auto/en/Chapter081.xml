@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="81" ChapterName="The Covering Up">
+	<Verse VerseID="1"><![CDATA[When/if the sun`s light rolled/rotated .]]></Verse>
+	<Verse VerseID="2"><![CDATA[And when/if the stars/planets became dispersed/dulled .]]></Verse>
+	<Verse VerseID="3"><![CDATA[And when/if the mountains were made to move .]]></Verse>
+	<Verse VerseID="4"><![CDATA[And when/if the female camels and other livestock over ten months pregnant were abandoned/left unsupervised (miscarried) .]]></Verse>
+	<Verse VerseID="5"><![CDATA[And when/if the wild beasts were gathered.]]></Verse>
+	<Verse VerseID="6"><![CDATA[And when/if the seas/oceans filled and over flowed.]]></Verse>
+	<Verse VerseID="7"><![CDATA[And when/if the selves were made in pairs/couples .]]></Verse>
+	<Verse VerseID="8"><![CDATA[And when/if the buried alive was asked/questioned:]]></Verse>
+	<Verse VerseID="9"><![CDATA[With (because of) which crime it was killed?]]></Verse>
+	<Verse VerseID="10"><![CDATA[And when/if the written pages (scriptures) were spread/publicized .]]></Verse>
+	<Verse VerseID="11"><![CDATA[And when/if the sky/space was skimmed/scraped off/uncovered.]]></Verse>
+	<Verse VerseID="12"><![CDATA[And when/if the Hell was ignited/blazed .]]></Verse>
+	<Verse VerseID="13"><![CDATA[And when/if the Paradise was advanced/brought near.]]></Verse>
+	<Verse VerseID="14"><![CDATA[A self knew what it presented/brought.]]></Verse>
+	<Verse VerseID="15"><![CDATA[So I do not swear/make oath by the planets .]]></Verse>
+	<Verse VerseID="16"><![CDATA[The flowing/orbiting , the orbiting/sweeping planets/stars.]]></Verse>
+	<Verse VerseID="17"><![CDATA[And the night when/if (it) passed/lightened .]]></Verse>
+	<Verse VerseID="18"><![CDATA[And the morning/daybreak when/if (it) breathed in or out (began).]]></Verse>
+	<Verse VerseID="19"><![CDATA[That it truly is an honored/generous messenger`s word/statement/declaration (E).]]></Verse>
+	<Verse VerseID="20"><![CDATA[(Owner) of power at (owner) of the throne highly positioned/distinguished .]]></Verse>
+	<Verse VerseID="21"><![CDATA[Obeyed there at the same time or place, faithful/loyal .]]></Verse>
+	<Verse VerseID="22"><![CDATA[And your companion/friend is not with mad/insane.]]></Verse>
+	<Verse VerseID="23"><![CDATA[And he/He had seen/understood him/Him at the horizon/direction, the clear/evident .]]></Verse>
+	<Verse VerseID="24"><![CDATA[And he is not on the unseen/supernatural (future) with withholding/clinging .]]></Verse>
+	<Verse VerseID="25"><![CDATA[And it is not with a cursed/expelled devil`s saying/statement .]]></Verse>
+	<Verse VerseID="26"><![CDATA[So where (do) you go ?]]></Verse>
+	<Verse VerseID="27"><![CDATA[That truly it is except a reminder to the creations all together/(universes).]]></Verse>
+	<Verse VerseID="28"><![CDATA[To who willed/wanted from you that (E) to be straight/direct.]]></Verse>
+	<Verse VerseID="29"><![CDATA[And you do not want/will/intend except that (E) (if) God wants/wills/intends, the creations all together`s/(universe`s) Lord.]]></Verse>
+</Chapter>

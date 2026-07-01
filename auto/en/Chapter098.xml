@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="98" ChapterName="The Clear Evidence">
+	<Verse VerseID="1"><![CDATA[Those who disbelieved from the Book`s people and the sharers/takers of partners (with God) were not broken to pieces/separated until the evidence comes to them.]]></Verse>
+	<Verse VerseID="2"><![CDATA[A messenger from God, he reads/recites/follows purified/cleaned written pages (scriptures) .]]></Verse>
+	<Verse VerseID="3"><![CDATA[In it (are) straight/valuable Books .]]></Verse>
+	<Verse VerseID="4"><![CDATA[And those who were given/brought the Book did not separate except from after what came to them (from) the evidence.]]></Verse>
+	<Verse VerseID="5"><![CDATA[And they were not ordered/commanded except to worship God faithful/loyal/devoted to Him (in) the religion (as) submitters/Unifiers of God , and they keep up the prayers, and they give/bring the charity/purification , and that (is) the straight/valuable religion.]]></Verse>
+	<Verse VerseID="6"><![CDATA[That truly those who disbelieved from the Book`s people and the sharers/takers of partners (with God are) in Hell`s fire immortally/eternally in it, those, they are the creation`s worst.]]></Verse>
+	<Verse VerseID="7"><![CDATA[That truly those who believed and made/did the correct/righteous deeds, those, they are the creation`s best.]]></Verse>
+	<Verse VerseID="8"><![CDATA[Their reimbursement (is) at their Lord, treed gardens/paradises (as) eternal residence the rivers/waterways flow from beneath it, immortally/eternally in it (for) ever (E), God accepted/approved on them, and they accepted/approved on Him, that (is) to who feared his Lord.]]></Verse>
+</Chapter>

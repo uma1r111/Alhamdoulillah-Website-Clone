@@ -1,0 +1,277 @@
+<?php
+
+    // Quran Metadata Sample Usage
+    // By: Hamid Zarrabi-Zadeh
+    // http://tanzil.net
+
+    $metadataFile = 'quran-data.xml';  // quran metadata file
+
+    initSuraData();   // initialize sura data array
+    
+
+    //------------------ General Functions ---------------------
+	
+
+    // initialize sura data array
+    function initSuraData()
+    {
+        global $suraData, $metadataFile;
+        $dataItems = Array("index", "start", "ayas", "name", "tname", "ename", "type", "order", "rukus",);
+
+        $quranData = file_get_contents($metadataFile);
+        $parser = xml_parser_create();
+        xml_parse_into_struct($parser, $quranData, $values, $index);
+        xml_parser_free($parser);
+
+        for ($i=1; $i<=114; $i++) 
+        {
+            $j = $index['SURA'][$i-1];
+            foreach ($dataItems as $item)
+                $suraData[$i][$item] = $values[$j]['attributes'][strtoupper($item)]; 
+        }
+    }
+
+
+    // return given property of a sura
+    function getSuraData($sura, $property) 
+    {
+        global $suraData;
+        return $suraData[$sura][$property]; 
+    }
+
+
+    // return contents of a sura 
+    function getSuraContents($sura) 
+    {
+        global $quranFile;
+        $startAya = getSuraData($sura, 'start');
+        $endAya = $startAya+ getSuraData($sura, 'ayas');
+        
+        return $text;
+    }
+	
+    
+    //------------------ Display Functions ---------------------
+
+	
+	
+    // show sura contents
+    function showSura($sura)
+    {
+        $suraName = getSuraData($sura, 'ename');
+		$suraNumber = getSuraData($sura, 'ayas');
+		$suraType = getSuraData($sura, 'type');
+		$suraOrderT = getSuraData($sura, 'order');
+		$suraOrderC = getSuraData($sura, 'index');
+		$suraNom = getSuraData($sura, 'ename');
+		$suraNomT = getSuraData($sura, 'tname');
+        $suraText = getSuraContents($sura);
+        $showBismillah = false; // change to true to show Bismillahs
+        $ayaNum = 1;
+	
+		echo "<table style=\"text-align: left; margin-left: auto; margin-right:auto; width: 353px;\" border=\"1\" cellpadding=\"5\" cellspacing=\"0\">
+  <tbody>
+    <tr>
+      <td style=\"text-align: center;\" colspan=\"1\" rowspan=\"5\"><b>$suraOrderC</b></td>
+      <td style=\"text-align: center; white-space: nowrap;\" colspan=\"2\" rowspan=\"1\"><strong>$suraNomT - $suraName</strong></td>
+    </tr>
+    <tr>
+      <td>Number of verses</td>
+      <td style=\"text-align: center;\">$suraNumber</td>
+    </tr>
+    <tr>
+      <td>Order of revelation</td>
+      <td style=\"text-align: center;\">$suraOrderT</td>
+    </tr>
+    <tr>
+      <td>Type of sura</td>
+      <td style=\"text-align: center;\">$suraType</td>
+    </tr>
+    <tr>
+      <td style=\"text-align: center;\" colspan=\"2\" rowspan=\"1\"><a href=\"/en/quran/read/surah-$suraOrderC.html\">Read surah $suraNomT</a></td>
+    </tr>
+  </tbody>
+</table><p>&nbsp;</p>";
+		
+		
+    }
+	
+	
+?>
+
+
+<!DOCTYPE html>
+<html><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/en/css/islam.css">
+
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<title>Read Quran in Arabic and English Translation - Quran Reading Online</title>
+<meta name="description" content="Read quran online in arabic with english translation - Read the surahs of the Holy Quran on internet, reading the book of Allah" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9535111-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+
+<?php include ("../../inc/haut.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>Read Quran</h1>
+
+<h2>Read Quran Online</h2>
+
+<p>List of surahs in the Quran :</p>
+
+
+<? showSura(1) ?>
+<? showSura(2) ?>
+<? showSura(3) ?>
+<? showSura(4) ?>
+<? showSura(5) ?>
+<? showSura(6) ?>
+<? showSura(7) ?>
+<? showSura(8) ?>
+<? showSura(9) ?>
+<? showSura(10) ?>
+
+<? showSura(11) ?>
+<? showSura(12) ?>
+<? showSura(13) ?>
+<? showSura(14) ?>
+<? showSura(15) ?>
+<? showSura(16) ?>
+<? showSura(17) ?>
+<? showSura(18) ?>
+<? showSura(19) ?>
+<? showSura(20) ?>
+
+<? showSura(21) ?>
+<? showSura(22) ?>
+<? showSura(23) ?>
+<? showSura(24) ?>
+<? showSura(25) ?>
+<? showSura(26) ?>
+<? showSura(27) ?>
+<? showSura(28) ?>
+<? showSura(29) ?>
+<? showSura(30) ?>
+
+<? showSura(31) ?>
+<? showSura(32) ?>
+<? showSura(33) ?>
+<? showSura(34) ?>
+<? showSura(35) ?>
+<? showSura(36) ?>
+<? showSura(37) ?>
+<? showSura(38) ?>
+<? showSura(39) ?>
+<? showSura(40) ?>
+
+<? showSura(41) ?>
+<? showSura(42) ?>
+<? showSura(43) ?>
+<? showSura(44) ?>
+<? showSura(45) ?>
+<? showSura(46) ?>
+<? showSura(47) ?>
+<? showSura(48) ?>
+<? showSura(49) ?>
+<? showSura(50) ?>
+
+<? showSura(51) ?>
+<? showSura(52) ?>
+<? showSura(53) ?>
+<? showSura(54) ?>
+<? showSura(55) ?>
+<? showSura(56) ?>
+<? showSura(57) ?>
+<? showSura(58) ?>
+<? showSura(59) ?>
+<? showSura(60) ?>
+
+<? showSura(61) ?>
+<? showSura(62) ?>
+<? showSura(63) ?>
+<? showSura(64) ?>
+<? showSura(65) ?>
+<? showSura(66) ?>
+<? showSura(67) ?>
+<? showSura(68) ?>
+<? showSura(69) ?>
+<? showSura(70) ?>
+
+<? showSura(71) ?>
+<? showSura(72) ?>
+<? showSura(73) ?>
+<? showSura(74) ?>
+<? showSura(75) ?>
+<? showSura(76) ?>
+<? showSura(77) ?>
+<? showSura(78) ?>
+<? showSura(79) ?>
+<? showSura(80) ?>
+
+<? showSura(81) ?>
+<? showSura(82) ?>
+<? showSura(83) ?>
+<? showSura(84) ?>
+<? showSura(85) ?>
+<? showSura(86) ?>
+<? showSura(87) ?>
+<? showSura(88) ?>
+<? showSura(89) ?>
+<? showSura(90) ?>
+
+<? showSura(91) ?>
+<? showSura(92) ?>
+<? showSura(93) ?>
+<? showSura(94) ?>
+<? showSura(95) ?>
+<? showSura(96) ?>
+<? showSura(97) ?>
+<? showSura(98) ?>
+<? showSura(99) ?>
+<? showSura(100) ?>
+
+<? showSura(101) ?>
+<? showSura(102) ?>
+<? showSura(103) ?>
+<? showSura(104) ?>
+<? showSura(105) ?>
+<? showSura(106) ?>
+<? showSura(107) ?>
+<? showSura(108) ?>
+<? showSura(109) ?>
+<? showSura(110) ?>
+
+<? showSura(111) ?>
+<? showSura(112) ?>
+<? showSura(113) ?>
+<? showSura(114) ?>
+
+
+</td>
+<td id="colonnes"><?php include ("../../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include ("../../inc/footer.php") ?>
+</body></html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="93" ChapterName="Le jour montant (Ad-Duha)">
+	<Verse VerseID="1"><![CDATA[Par le Jour Montant ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Et par la nuit quand elle couvre tout ! ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Ton Seigneur ne t'a ni abandonné, ni détesté. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[La vie dernière t'est, certes, meilleure que la vie présente. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Ton Seigneur t'accordera certes [Ses faveurs], et alors tu seras satisfait. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Ne t'a-t-Il pas trouvé orphelin ? Alors Il t'a accueilli ! ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Ne t'a-t-Il pas trouvé égaré ? Alors Il t'a guidé. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Ne t'a-t-Il pas trouvé pauvre ? Alors Il t'a enrichi. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Quant à l'orphelin, donc, ne le maltraite pas. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Quant au demandeur, ne le repousse pas. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Et quant au bienfait de ton Seigneur, proclame-le. ]]></Verse>
+</Chapter>

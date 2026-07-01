@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="95" ChapterName="The Fig">
+	<Verse VerseID="1"><![CDATA[And/by the figs and the olives.]]></Verse>
+	<Verse VerseID="2"><![CDATA[And/by Seneen Mountain.]]></Verse>
+	<Verse VerseID="3"><![CDATA[And/by this the country/land/city , the faithful/secure .]]></Verse>
+	<Verse VerseID="4"><![CDATA[We had (E) created the human/mankind in best chronometry/cartography (methods of calculating maps and charts)/straightness (formation).]]></Verse>
+	<Verse VerseID="5"><![CDATA[Then We returned him (to) lowest/more lowly/more mean lowly/mean (lowliest) .]]></Verse>
+	<Verse VerseID="6"><![CDATA[Except those who believed and made/did the correct/righteous deeds, so for them (is) a not interrupted/weakened reward .]]></Verse>
+	<Verse VerseID="7"><![CDATA[So what makes you lie/deny/falsify after with the religion?]]></Verse>
+	<Verse VerseID="8"><![CDATA[Is God not with (the) most judicious (of) the judges/rulers?]]></Verse>
+</Chapter>

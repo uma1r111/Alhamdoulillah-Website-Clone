@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="50" ChapterName="Qaf">
+	<Verse VerseID="1"><![CDATA[Qaf. Par le Coran glorieux  ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Mais ils s'étonnent que l'un des leurs leur vint comme avertisseur ; et les mécréants dirent : "Ceci est une chose étonnante". ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Quoi ! Quand nous serons morts et réduits en poussière... ? Ce serait revenir de loin" ! ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Certes, Nous savons ce que la terre rongera d'eux [de leurs corps] ; et Nous avons un Livre où tout est conservé. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Plutòt, ils traitent de mensonge la vérité qui leur est venue : les voilà donc dans une situation confuse. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[N'ont-ils donc pas observé le ciel au-dessus d'eux, comment Nous l'avons bâti et embelli ; et comment il est sans fissures ? ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Et la terre, Nous l'avons étendue et Nous y avons enfoncé fermement des montagnes et y avons fait pousser toutes sortes de magnifiques couples de [végétaux], ]]></Verse>
+	<Verse VerseID="8"><![CDATA[à titre d'appel à la clairvoyance et un rappel pour tout serviteur repentant. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Et Nous avons fait descendre du ciel une eau bénie, avec laquelle Nous avons fait pousser des jardins et le grain qu'on moissonne, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[ainsi que les hauts palmiers aux régimes superposés, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[comme subsistance pour les serviteurs. Et par elle (l'eau) Nous avons redonné la vie à une contrée morte. Ainsi se fera la résurrection. ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Avant eux, le peuple de Noé, les gens d'Ar-Rass et les Tamud crièrent au mensonge, ]]></Verse>
+	<Verse VerseID="13"><![CDATA[de même que les Aad et Pharaon et les frères de Lot, ]]></Verse>
+	<Verse VerseID="14"><![CDATA[et les gens d'Al-Aïka et le peuple de Tubbaa. Tous traitèrent les Messagers de menteurs. C'est ainsi que Ma menace se justifia. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Quoi ? Avons-Nous été fatigué par la première création ? Mais ils sont dans la confusion [au sujet] d'une création nouvelle. ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Nous avons effectivement créé l'homme et Nous savons ce que son âme lui suggère et Nous sommes plus près de lui que sa veine jugulaire ]]></Verse>
+	<Verse VerseID="17"><![CDATA[quand les deux recueillants, assis à droite et à gauche, recueillent. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Il ne prononce pas une parole sans avoir auprès de lui un observateur prêt à l'inscrire. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[L'agonie de la mort fait apparaître la vérité : "Voilà ce dont tu t'écartais". ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Et l'on soufflera dans la Trompe : Voilà le jour de la Menace. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Alors chaque âme viendra accompagnée d'un conducteur et d'un témoin. ]]></Verse>
+	<Verse VerseID="22"><![CDATA["Tu restais indifférent à cela. Et bien, Nous òtons ton voile ; ta vue est perçante aujourd'hui. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Et son compagnon dira : "Voilà ce qui est avec moi, tout prêt".. ]]></Verse>
+	<Verse VerseID="24"><![CDATA["Vous deux, jetez dans l'Enfer tout mécréant endurci et rebelle, ]]></Verse>
+	<Verse VerseID="25"><![CDATA[acharné à empêcher le bien, transgresseur, douteur, ]]></Verse>
+	<Verse VerseID="26"><![CDATA[celui qui plaçait à còté d'Allah une autre divinité. Jetez-le donc dans le dur châtiment". ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Son camarade (le Diable) dira : "Seigneur, ce n'est pas moi qui l'ai fait transgresser ; mais il était déjà dans un profond égarement". ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Alors [Allah] dira : "Ne vous disputez pas devant moi ! Alors que Je vous ai déjà fait part de la menace. ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Chez moi, la parole ne change pas ; et Je n'opprime nullement les serviteurs". ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Le jour où Nous dirons à l'Enfer ; "Es-tu rempli ?" Il dira : "Y en a-t-il encore" ? ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Le Paradis sera rapproché à proximité des pieux. ]]></Verse>
+	<Verse VerseID="32"><![CDATA["Voilà ce qui vous a été promis, [ainsi qu'] à tout homme plein de repentir et respectueux [des prescriptions divines] ]]></Verse>
+	<Verse VerseID="33"><![CDATA[qui redoute le Tout Miséricordieux bien qu'il ne Le voit pas, et qui vient [vers Lui] avec un coeur porté à l'obéissance. ]]></Verse>
+	<Verse VerseID="34"><![CDATA[. Entrez-y en toute sécurité". Voilà le jour de l'éternité ! ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Il y aura là pour eux tout ce qu'ils voudront. Et auprès de Nous il y a davantage encore. ]]></Verse>
+	<Verse VerseID="36"><![CDATA[combien avons-Nous fait périr, avant eux, de générations bien plus fortes qu'eux. Ils avaient parcouru les contrées, cherchant [vainement] où fuir. ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Il y a bien là un rappel pour quiconque a un coeur, prête l'oreille tout en étant témoin. ]]></Verse>
+	<Verse VerseID="38"><![CDATA[En effet, Nous avons créé les cieux et la terre et ce qui existe entre eux en six jours, sans éprouver la moindre lassitude. ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Endure donc ce qu'ils disent : et célèbre la louange de ton Seigneur avant le lever du soleil et avant [son] coucher ; ]]></Verse>
+	<Verse VerseID="40"><![CDATA[et célèbre Sa gloire, une partie de la nuit et à la suite des prosternations [prières]. ]]></Verse>
+	<Verse VerseID="41"><![CDATA[Et sois à l'écoute, le jour où le Crieur criera d'un endroit proche, ]]></Verse>
+	<Verse VerseID="42"><![CDATA[le jour où ils entendront en toute vérité le Cri. Voilà le Jour de la Résurrection. ]]></Verse>
+	<Verse VerseID="43"><![CDATA[C'est Nous qui donnons la vie et donnons la mort, et vers Nous sera la destination, ]]></Verse>
+	<Verse VerseID="44"><![CDATA[le jour où la terre se fendra, les [rejetant] précipitamment. ce sera un rassemblement facile pour Nous. ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Nous savons mieux ce qu'ils disent. Tu n'as pas pour mission d'exercer sur eux une contrainte. Rappelle donc, par le Coran celui qui craint Ma menace. ]]></Verse>
+</Chapter>

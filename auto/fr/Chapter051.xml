@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="51" ChapterName="Qui éparpillent (Ad-Dariyat)">
+	<Verse VerseID="1"><![CDATA[Par les vents qui éparpillent ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Par les porteurs de fardeaux ! ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Par les glisseurs agiles ! ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Par les distributeurs selon un commandement  ! ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Ce qui vous est promis est certainement vrai. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Et la Rétribution arrivera inévitablement. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Par le ciel aux voies parfaitement tracées ! ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Vous divergez sur ce que vous dites. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Est détourné de lui quiconque a été détourné de la foi. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Maudits soient les menteurs, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[qui sont plongés dans l'insouciance. ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Ils demandent : "A quand le jour de la Rétribution ?" ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Le jour où ils seront éprouvés au Feu : ]]></Verse>
+	<Verse VerseID="14"><![CDATA["Goûtez à votre épreuve [punition] ; voici ce que vous cherchiez à hâter". ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Les pieux seront dans des Jardins et [parmi] des sources, ]]></Verse>
+	<Verse VerseID="16"><![CDATA[recevant ce que leur Seigneur leur aura donné. Car ils ont été auparavant de bienfaisants : ]]></Verse>
+	<Verse VerseID="17"><![CDATA[ils dormaient peu, la nuit, ]]></Verse>
+	<Verse VerseID="18"><![CDATA[et aux dernières heures de la nuit ils imploraient le pardon [d'Allah] ; ]]></Verse>
+	<Verse VerseID="19"><![CDATA[et dans leurs biens, il y avait un droit au mendiant et au déshérité. ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Il y a sur terre des preuves pour ceux qui croient avec certitude ; ]]></Verse>
+	<Verse VerseID="21"><![CDATA[ainsi qu'en vous-mêmes. N'observez-vous donc pas ? ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Et il y dans le ciel votre subsistance et ce qui vous a été promis. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Par le Seigneur du ciel et de la terre ! Ceci est tout aussi vrai que le fait que vous parliez. ]]></Verse>
+	<Verse VerseID="24"><![CDATA[T'est-il parvenu le récit des visiteurs honorables d'Abraham ? ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Quand ils entrèrent chez lui et dirent : "Paix !", il [leur] dit : "Paix, visiteurs inconnus". ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Puis il alla discrètement à sa famille et apporta un veau gras. ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Ensuite il l'approcha d'eux... "Ne mangez-vous pas ?" dit-il. ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Il ressentit alors de la peur vis-à-vis d'eux. Ils dirent : "N'aie pas peur". Et ils lui annoncèrent [la naissance] d'un garçon plein de savoir. ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Alors sa femme s'avança en criant, se frappa le visage et dit : "Une vieille femme stérile... ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Ils dirent : "Ainsi a dit ton Seigneur. C'est Lui vraiment le Sage, l'Omniscient". ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Alors [Abraham] dit : "Quelle est donc votre mission, ò envoyés ?" ]]></Verse>
+	<Verse VerseID="32"><![CDATA[Ils dirent : "Nous avons été envoyés vers des gens criminels, ]]></Verse>
+	<Verse VerseID="33"><![CDATA[pour lancer sur eux des pierres de glaise, ]]></Verse>
+	<Verse VerseID="34"><![CDATA[marquées auprès de ton Seigneur à l'intention des outranciers". ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Nous en fîmes sortir alors ce qu'il y avait comme croyants, ]]></Verse>
+	<Verse VerseID="36"><![CDATA[mais Nous n'y trouvâmes qu'une seule maison de gens soumis. ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Et Nous y laissâmes un signe pour ceux qui redoutent le douloureux châtiment ; ]]></Verse>
+	<Verse VerseID="38"><![CDATA[[Il y a même un signe] : en Moïse quand Nous l'envoyâmes, avec une preuve évidente, vers Pharaon. ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Mais [celui-ci] : se détourna confiant en sa puissance, et dit : "C'est un magicien ou un possédé !" ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Nous le saisîmes ainsi que ses troupes, puis les jetâmes dans les flots, pour son comportement blâmable. ]]></Verse>
+	<Verse VerseID="41"><![CDATA[De même pour les Aad, quand Nous envoyâmes contre eux le vent dévastateur ]]></Verse>
+	<Verse VerseID="42"><![CDATA[n'épargnant rien sur son passage sans le réduire en poussière. ]]></Verse>
+	<Verse VerseID="43"><![CDATA[De même pour les Tamud, quand il leur fut dit : "Jouissez jusqu'à un certain temps !" ]]></Verse>
+	<Verse VerseID="44"><![CDATA[Ils défièrent le commandement de leur Seigneur. La foudre les saisit alors qu'ils regardaient. ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Ils ne purent ni se mettre debout ni être secourus. ]]></Verse>
+	<Verse VerseID="46"><![CDATA[De même, pour le peuple de Noé auparavant. Ils étaient des gens pervers. ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Le ciel, Nous l'avons construit par Notre puissance : et Nous l'étendons [constamment] : dans l'immensité. ]]></Verse>
+	<Verse VerseID="48"><![CDATA[Et la terre, Nous l'avons étendue. Et de quelle excellente façon Nous l'avons nivelée ! ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Et de toute chose Nous avons créé [deux éléments] : de couple. Peut-être vous rappellerez-vous ? ]]></Verse>
+	<Verse VerseID="50"><![CDATA["Fuyez donc vers Allah. Moi, je suis pour vous de Sa part, un avertisseur explicite. ]]></Verse>
+	<Verse VerseID="51"><![CDATA[Ne placez pas avec Allah une autre divinité. Je suis pour vous de Sa part, un avertisseur explicite". ]]></Verse>
+	<Verse VerseID="52"><![CDATA[Ainsi aucun Messager n'est venu à leurs prédécesseurs sans qu'ils n'aient dit : "C'est un magicien ou un possédé" ! ]]></Verse>
+	<Verse VerseID="53"><![CDATA[est-ce qu'ils se sont transmis cette injonction ? Ils sont plutòt des gens transgresseurs. ]]></Verse>
+	<Verse VerseID="54"><![CDATA[Détourne-toi d'eux, tu ne seras pas blâmé [à leur sujet] :. ]]></Verse>
+	<Verse VerseID="55"><![CDATA[Et rappelle ; car le rappel profite aux croyants. ]]></Verse>
+	<Verse VerseID="56"><![CDATA[Je n'ai créé les djinns et les hommes que pour qu'ils M'adorent. ]]></Verse>
+	<Verse VerseID="57"><![CDATA[Je ne cherche pas d'eux une subsistance ; et Je ne veux pas qu'ils me nourrissent. ]]></Verse>
+	<Verse VerseID="58"><![CDATA[En vérité, c'est Allah qui est le Grand Pourvoyeur, Le Détenteur de la force, l'Inébranlable. ]]></Verse>
+	<Verse VerseID="59"><![CDATA[Ceux qui ont été injustes auront une part [de tourments] : pareille à celle de leurs compagnons ]]></Verse>
+	<Verse VerseID="60"><![CDATA[Malheur donc à ceux qui ont mécru à cause du jour dont ils sont menacés ! ]]></Verse>
+</Chapter>

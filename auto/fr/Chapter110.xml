@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="110" ChapterName="Les secours (An-Nasr)">
+	<Verse VerseID="1"><![CDATA[Lorsque vient le secours d'Allah ainsi que la victoire, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[et que tu vois les gens entrer en foule dans la religion d'Allah, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[alors, par la louange, célèbre la gloire de ton Seigneur et implore Son pardon. Car c'est Lui le grand Accueillant au repentir. ]]></Verse>
+</Chapter>

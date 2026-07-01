@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="90" ChapterName="La cité (Al-Balad)">
+	<Verse VerseID="1"><![CDATA[Non !... Je jure par cette Cité  ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[et toi, tu es un résident dans cette cité - ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Et par le père et ce qu'il engendre ! ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Nous avons, certes, créé l'homme pour une vie de lutte. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Pense-t-il que personne ne pourra rien contre lui ? ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Il dit : "J'ai gaspillé beaucoup de biens". ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Pense-t-il que nul ne l'a vu ? ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Ne lui avons Nous pas assigné deux yeux, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[et une langue et deux lèvres ? ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Ne l'avons-Nous pas guidé aux deux voies. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Or, il ne s'engage pas dans la voie difficile ! ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Et qui te dira ce qu'est la voie difficile ? ]]></Verse>
+	<Verse VerseID="13"><![CDATA[C'est délier un joug [affranchir un esclave], ]]></Verse>
+	<Verse VerseID="14"><![CDATA[ou nourrir, en un jour de famine, ]]></Verse>
+	<Verse VerseID="15"><![CDATA[un orphelin proche parent ]]></Verse>
+	<Verse VerseID="16"><![CDATA[ou un pauvre dans le dénouement. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Et c'est être, en outre, de ceux qui croient et s'enjoignent mutuellement l'endurance, et s'enjoignent mutuellement la miséricorde. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Ceux-là sont les gens de la droite ; ]]></Verse>
+	<Verse VerseID="19"><![CDATA[alors que ceux qui ne croient pas en Nos versets sont les gens de la gauche. ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Le Feu se refermera sur eux. ]]></Verse>
+</Chapter>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="83" ChapterName="The Defrauders">
+	<Verse VerseID="1"><![CDATA[Calamity/scandal to the ones giving insufficient or deficient measures .]]></Verse>
+	<Verse VerseID="2"><![CDATA[Those who if they took by measure or weight for themselves on (from) the people, they fulfill/complete (the measure or weight).]]></Verse>
+	<Verse VerseID="3"><![CDATA[And if they measured/weighed for them or they weighed/measured for them , they reduce/decrease (cheat).]]></Verse>
+	<Verse VerseID="4"><![CDATA[Do those not think/assume that they are being resurrected/revived?]]></Verse>
+	<Verse VerseID="5"><![CDATA[To a great day/time?]]></Verse>
+	<Verse VerseID="6"><![CDATA[A day/time the people stand to the creations all together`s/(universes`) Lord.]]></Verse>
+	<Verse VerseID="7"><![CDATA[No but that truly the debauchers`/corrupters` Book/judgment (is) in (E) Sijjin .]]></Verse>
+	<Verse VerseID="8"><![CDATA[And what made you know/informed you what (is) Sijjin ?]]></Verse>
+	<Verse VerseID="9"><![CDATA[A written/branded/inscribed Book .]]></Verse>
+	<Verse VerseID="10"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="11"><![CDATA[Those who lie/deny/falsify with the Judgment Day/Resurrection Day .]]></Verse>
+	<Verse VerseID="12"><![CDATA[And none lies/denies/falsifiers with it except every/each transgressor/violator , sinner/criminal.]]></Verse>
+	<Verse VerseID="13"><![CDATA[When/if Our verses/evidences are read/recited on him he said: "The first`s/beginner`s myths/baseless stories ."]]></Verse>
+	<Verse VerseID="14"><![CDATA[No but, rather (it) dominated/overwhelmed on their hearts/minds , what they were gaining/acquiring .]]></Verse>
+	<Verse VerseID="15"><![CDATA[No but, that they truly are from their Lord (on) that day being prevented (E).]]></Verse>
+	<Verse VerseID="16"><![CDATA[Then that they truly are entering into the fire/roasting (E) the Hell .]]></Verse>
+	<Verse VerseID="17"><![CDATA[Then (it) will be said: "That (is) what you were with it lying/denying/falsifying."]]></Verse>
+	<Verse VerseID="18"><![CDATA[No but, that truly the righteous`/charitable` Book/judgment (is) in (E) Eley`yeen/height/elevation.]]></Verse>
+	<Verse VerseID="19"><![CDATA[And what made you know/informed you what (is) Eley`yoon/highest places ?]]></Verse>
+	<Verse VerseID="20"><![CDATA[A written/branded/inscribed Book .]]></Verse>
+	<Verse VerseID="21"><![CDATA[The neared/closer witness it.]]></Verse>
+	<Verse VerseID="22"><![CDATA[That truly the righteous/charitable (are) in (E) blessing/goodness .]]></Verse>
+	<Verse VerseID="23"><![CDATA[On the luxurious beds/couches they look/watch .]]></Verse>
+	<Verse VerseID="24"><![CDATA[You know in their faces/fronts the blessing`s/goodness` beauty and goodness (brightness).]]></Verse>
+	<Verse VerseID="25"><![CDATA[They are being given water/drink from sealed/completed pure nectar .]]></Verse>
+	<Verse VerseID="26"><![CDATA[Its end/conclusion (is) musk/fragrance, and in (for) that so the competitors/rivals should compete/rival.]]></Verse>
+	<Verse VerseID="27"><![CDATA[And its mixture/blend (is) from paradises` valuable water.]]></Verse>
+	<Verse VerseID="28"><![CDATA[A water spring/well, the neared/closer drink by (near) it .]]></Verse>
+	<Verse VerseID="29"><![CDATA[That truly those who committed crimes/sins were laughing/wondering from (about) those who believed.]]></Verse>
+	<Verse VerseID="30"><![CDATA[And when/if they passed by them, they signal/wink to each other.]]></Verse>
+	<Verse VerseID="31"><![CDATA[And when/if they returned to their people/family , they returned enjoying/humorous .]]></Verse>
+	<Verse VerseID="32"><![CDATA[And when/if they saw them they said: "That truly, those are misguided (E)."]]></Verse>
+	<Verse VerseID="33"><![CDATA[And they were not sent on them protecting/observing .]]></Verse>
+	<Verse VerseID="34"><![CDATA[So the day/today those who believed are laughing/wondering from (about) the disbelievers.]]></Verse>
+	<Verse VerseID="35"><![CDATA[On the luxurious beds/couches they (are) looking/watching .]]></Verse>
+	<Verse VerseID="36"><![CDATA[Did the disbelievers become rewarded/replaced what they were making/doing ?462]]></Verse>
+</Chapter>

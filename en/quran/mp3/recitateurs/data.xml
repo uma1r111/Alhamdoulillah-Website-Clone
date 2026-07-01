@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quran type="metadata" version="1.0" copyright="(C) 2008-2009 Tanzil.info" license="cc-by">
+<qari index="1"
+name = "Abdurrahman Sudais"
+nameS = "Sudais"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "../../../coran/mp3/files/abderrahman-soudais/"
+image = "/images/recitateurs/abderrahman-soudais/000.jpg"
+biographie = ""
+/>
+
+
+
+
+<qari index="2"
+name = "Saad al Ghamidi"
+nameS = "Saad Ghamidi"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/saad-ghamidi"
+image = "/images/recitateurs/saad-ghamidi/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="3"
+name = "Salah Budair"
+nameS = "Budair"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/salah-budair"
+image = "/images/recitateurs/salah-budair/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+
+<qari index="4"
+name = "Abdulbasit Abdussamad"
+nameS = "Abdulbasit"
+pays = "Egypte"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/abdelbasset-abdessamad"
+image = "/images/recitateurs/abdelbasset-abdessamad/000.jpg"
+biographie = ""
+
+/>
+
+<qari index="5"
+name = "Abdulmuhsin al Qassim"
+nameS = "Abdul Muhsin al Qassim"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/abdelmuhsin-qassim"
+image = "/images/recitateurs/abdelmuhsin-qassim/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+
+<qari index="6"
+name = "Abdullah Awad al Juhani"
+nameS = "al Juhani"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/abdellah-juhani"
+image = "/images/recitateurs/abdellah-juhani/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="7"
+name = "Muhammad Siddiq al Minshawi"
+nameS = "al Minshawi"
+pays = "Egypte"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/mohammed-siddiq-minshawi"
+image = "/images/recitateurs/mohammed-siddiq-minshawi/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="8"
+name = "Mahmoud al Hussary"
+nameS = "al Hussary"
+pays = "Egypte"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/mahmoud-khalil-hussary"
+image = "/images/recitateurs/mahmoud-khalil-hussari/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="9"
+name = "Abdullah al Matrood"
+nameS = "al Matrood"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/abdellah-matroud"
+image = "/images/recitateurs/abdellah-matroud/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="10"
+name = "Ali al Hudayfi"
+nameS = "al Hudayfi"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/ali-houdayfi"
+image = "/images/recitateurs/ali-houdayfi/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="11"
+name = "Saud Shuraim"
+nameS = "Shuraim"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/saoud-shouraim"
+image = "/images/recitateurs/saoud-shouraim/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="12"
+name = "Bandar Baleela"
+nameS = "Bandar Balila"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/bandar-balila"
+image = "/images/recitateurs/bandar-balila/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="13"
+name = "Fahd al Kandari"
+nameS = "al Kandari"
+pays = "Koweit"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/fahd-kandari"
+image = "/images/recitateurs/fahd-kandari/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="14"
+name = "Khalid al Qahtani"
+nameS = "Al Qahtani"
+pays = "-"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/khalid-qahtani"
+image = "/images/recitateurs/khalid-qahtani/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="15"
+name = "Ahmed al Ajmi"
+nameS = "al Ajmi"
+pays = "-"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/ahmed-ajmi"
+image = "/images/recitateurs/ahmed-ajmi/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="16"
+name = "Abdulwadud Haneef"
+nameS = "Al Hanif"
+pays = "-"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/abdelwadoud-hanif"
+image = "/images/recitateurs/abdelwadoud-hanif/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="17"
+name = "Abu Bakr Shatiri"
+nameS = "Shatiri"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/aboubakr-shatiri"
+image = "/images/recitateurs/aboubakr-shatiri/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+<qari index="18"
+name = "Abdullah Basfar"
+nameS = "Basfar"
+pays = "-"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/abdellah-basfar"
+image = "/images/recitateurs/abdellah-basfar/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="19"
+name = "Ali Jaber"
+nameS = "Ali Jaber"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/ali-jaber"
+image = "/images/recitateurs/ali-jaber/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+<qari index="20"
+name = "Fares Abbad"
+nameS = "Fares Abbad"
+pays = "Yemen"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/fares-abbad"
+image = "/images/recitateurs/fares-abbad/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+<qari index="21"
+name = "Yasser Dossari"
+nameS = "al Dossari"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/yasser-dossari"
+image = "/images/recitateurs/yasser-dossari/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="22"
+name = "Khalid al Ghamdi"
+nameS = "Khalid Ghamdi"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/khalid-ghamidi"
+image = "/images/recitateurs/khalid-ghamidi/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+<qari index="23"
+name = "Maher al Muayqli"
+nameS = "Al Muayqli"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/maher-mouayqli"
+image = "/images/recitateurs/maher-mouayqli/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="24"
+name = "Omar al Kazabri"
+nameS = "al Qazabri"
+pays = "Morocco"
+recitation = "Tartil"
+lecture = "Warsh an Nafi"
+dossier = "files/omar-kazabri"
+image = "/images/recitateurs/omar-kazabri/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+<qari index="25"
+name = "Salah al Bukhatir"
+nameS = "Bukhatir"
+pays = "-"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/salah-boukhatir"
+image = "/images/recitateurs/salah-boukhatir/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+<qari index="26"
+name = "Yasser Salama"
+nameS = "Salama"
+pays = "Saudi Arabia"
+recitation = "Tartil"
+lecture = "Hafs an Assim"
+dossier = "files/yasser-salama"
+image = "/images/recitateurs/yasser-salama/000.jpg"
+biographie = ""
+
+
+
+
+
+
+
+
+/>
+
+</quran>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="52" ChapterName="The Mountain">
+	<Verse VerseID="1"><![CDATA[By/and the mountain.]]></Verse>
+	<Verse VerseID="2"><![CDATA[By/and a Book written/inscribed/drafted.]]></Verse>
+	<Verse VerseID="3"><![CDATA[In spread/publicized parchment .]]></Verse>
+	<Verse VerseID="4"><![CDATA[By/and to the House/Home, the frequently visited/inhabited/populated.]]></Verse>
+	<Verse VerseID="5"><![CDATA[By/and the roof/ceiling, the raised.]]></Verse>
+	<Verse VerseID="6"><![CDATA[By/and the sea/ocean , the filled and overflowed .]]></Verse>
+	<Verse VerseID="7"><![CDATA[That truly your Lord`s torture (is) happening/falling (E) .]]></Verse>
+	<Verse VerseID="8"><![CDATA[(There is) no repeller/pusher for it.]]></Verse>
+	<Verse VerseID="9"><![CDATA[A day/time the sky/space agitates/moves from side to side quickly (in) agitation/quick movement from side to side .]]></Verse>
+	<Verse VerseID="10"><![CDATA[And the mountains moves movement/manipulation .]]></Verse>
+	<Verse VerseID="11"><![CDATA[So calamity/scandal (on) that day to the liars/falsifiers .]]></Verse>
+	<Verse VerseID="12"><![CDATA[Those who, they are in a plunge/an engagement in conversation playing/amusing .]]></Verse>
+	<Verse VerseID="13"><![CDATA[A day/time they are being called repeatedly to Hell`s fire , repelling/pushing away violently and roughly.]]></Verse>
+	<Verse VerseID="14"><![CDATA[This (is) the fire which you were with it lying/denying .]]></Verse>
+	<Verse VerseID="15"><![CDATA[So is magic/sorcery that (so is that magic/sorcery)? Or you do not see/look/understand?]]></Verse>
+	<Verse VerseID="16"><![CDATA[Roast/suffer it , so be patient or do not be patient, (it is) equal/alike on (to) you, but/truly you are being reimbursed what you were making/doing.]]></Verse>
+	<Verse VerseID="17"><![CDATA[That truly the fearing and obeying (are) in treed gardens/paradises and blessing/comfort and ease .]]></Verse>
+	<Verse VerseID="18"><![CDATA[Enjoying/joyful with what their Lord gave them, and their Lord protected them (from) the Hell`s torture.]]></Verse>
+	<Verse VerseID="19"><![CDATA[Eat and drink pleasurable/tasty because (of) what you were making/doing .]]></Verse>
+	<Verse VerseID="20"><![CDATA[Reclining/resting on royal beds/sofas lined/arranged, and We got them married with (spouses of) eyes with intense blackness of pupils and whiteness (beautifully contrasted).]]></Verse>
+	<Verse VerseID="21"><![CDATA[And those who believed and their descendants followed them with faith/belief, We made their descendants catch up/follow with them, and We did not reduce/diminish them from a thing from their deeds , each/every human with what he gained/won (is) accountable .]]></Verse>
+	<Verse VerseID="22"><![CDATA[And We extended/spread them with fruits and flesh/meat from what they desire/crave .]]></Verse>
+	<Verse VerseID="23"><![CDATA[They give each other in it a cup/wine , (there is) no nonsense/senseless talk in it, and nor sinning/committing crimes.]]></Verse>
+	<Verse VerseID="24"><![CDATA[And servants/boys for them, circle/walk around on them, as if they are protected/covered pearls.]]></Verse>
+	<Verse VerseID="25"><![CDATA[And some of them approached/came on (to) some (each other), they ask/question each other.]]></Verse>
+	<Verse VerseID="26"><![CDATA[They said: "We were before in our people/family afraid/compassionate ."]]></Verse>
+	<Verse VerseID="27"><![CDATA[So God blessed on us and He protected/preserved us (from) the severe hot`s/burning wind`s torture.]]></Verse>
+	<Verse VerseID="28"><![CDATA[We were from before, we call Him, that He truly is, He is the righteous/charitable , the merciful/most merciful.]]></Verse>
+	<Verse VerseID="29"><![CDATA[So remind, so you are not with your Lord`s blessing with a fortune teller/highly ranked priest or rabbi ,and nor mad/insane.]]></Verse>
+	<Verse VerseID="30"><![CDATA[Or they say: "A poet, we wait/remain with him the death`s doubt/suspicion".]]></Verse>
+	<Verse VerseID="31"><![CDATA[Say: "Wait/remain (watch) so that I am with you from the waiting/ remaining (watching)."]]></Verse>
+	<Verse VerseID="32"><![CDATA[Or their minds/dreams order/command them with that, or they are a tyrannizing/arrogant nation?]]></Verse>
+	<Verse VerseID="33"><![CDATA[Or they say: "He made it up." But/rather, they do not believe.]]></Verse>
+	<Verse VerseID="34"><![CDATA[So they come (E) with an information/speech equal/alike to it, if they were truthful.]]></Verse>
+	<Verse VerseID="35"><![CDATA[Or they were created from without a thing, or they are the creators?]]></Verse>
+	<Verse VerseID="36"><![CDATA[Or they created the skies/space and the earth/Planet Earth, but/rather they are not sure/certain?]]></Verse>
+	<Verse VerseID="37"><![CDATA[Or at them (are) your Lord`s safes/storages (treasures)? Or they are the dominators/controllers?]]></Verse>
+	<Verse VerseID="38"><![CDATA[Or for them (is) a ladder, they hear/listen in (from) it? So their hearer/listener should come with a clear/evident proof/evidence/power .]]></Verse>
+	<Verse VerseID="39"><![CDATA[Or for Him (are) the daughters, and for you (are) the sons?]]></Verse>
+	<Verse VerseID="40"><![CDATA[Or you ask/question them (for) a reward/wage/fee, so they are from a burdensome debt heavy/burdened/loaded?]]></Verse>
+	<Verse VerseID="41"><![CDATA[Or at them (is) the unseen/absent so they write/dictate ?]]></Verse>
+	<Verse VerseID="42"><![CDATA[Or they want/intend a plot/conspiracy ? So those who disbelieved they are the plotted/conspired against .]]></Verse>
+	<Verse VerseID="43"><![CDATA[Or for them (is) a god other than God? God`s praise/glory from what they share/make partners (with Him).]]></Verse>
+	<Verse VerseID="44"><![CDATA[And if they see/understand pieces from the sky/space dropping/falling they say: "Piled/accumulated/heaped clouds."]]></Verse>
+	<Verse VerseID="45"><![CDATA[So leave them until they meet/find their day/time which in it they die/get thunderstruck .]]></Verse>
+	<Verse VerseID="46"><![CDATA[A day/time their plotting/conspiracy does not enrich/suffice from them a thing, and nor they be given victory/aid.]]></Verse>
+	<Verse VerseID="47"><![CDATA[And that truly to those who were unjust/oppressive (is) a torture other than that, and but most of them do not know.]]></Verse>
+	<Verse VerseID="48"><![CDATA[And be patient for your Lord`s judgment/rule, so that you are with Our eyes/sights, and praise/glorify with your Lord`s praise/gratitude when you stand/get up .]]></Verse>
+	<Verse VerseID="49"><![CDATA[And from the night so praise/glorify Him, and (at) the star`s/planet`s passings/ends (settings).389]]></Verse>
+</Chapter>

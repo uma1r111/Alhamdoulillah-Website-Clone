@@ -1,0 +1,2183 @@
+# Translation of Plugins - LiteSpeed Cache - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - LiteSpeed Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-19 08:44:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - LiteSpeed Cache - Stable (latest release)\n"
+
+#: admin/tpl/setting/settings_debug.php:59
+msgid "Your IP"
+msgstr "Je IP-adres"
+
+#: admin/tpl/import_export.php:58 admin/tpl/settings.php:216
+msgid "Reset All Settings"
+msgstr "Herstel alle instellingen"
+
+#: admin/tpl/import_export.php:66
+msgid "This will reset all settings to default settings."
+msgstr "Dit herstelt alle instellingen naar de standaard instellingen."
+
+#: inc/import.class.php:244
+msgid "Reset successfully."
+msgstr "Succesvol hersteld."
+
+#: admin/tpl/inc/img_optm.percentage_summary.php:29
+msgid "Congratulations, all done!"
+msgstr "Gefeliciteerd, klaar!"
+
+#: admin/tpl/api/quic.user_welcome.php:19
+msgid "Next"
+msgstr "Volgende"
+
+#: admin/tpl/api/quic.register.php:37
+msgid "Register"
+msgstr "Registreer"
+
+#: admin/tpl/api/quic.register.php:39 admin/tpl/api/quic.login.php:36
+msgid "Back"
+msgstr "Terug"
+
+#: admin/tpl/api/quic.login.php:34
+msgid "Login"
+msgstr "Login"
+
+#: admin/tpl/api/quic.login.php:30
+msgid "Or"
+msgstr "Of"
+
+#: admin/tpl/api/quic.register.php:17 admin/tpl/api/quic.login.php:17
+msgid "ERROR"
+msgstr "FOUT"
+
+#: admin/tpl/inc/img_optm.level_info.php:41
+msgid "Next Level"
+msgstr "Volgend niveau"
+
+#: admin/tpl/setting/settings_media.php:187
+msgid "Remove Original Backups"
+msgstr "Verwijder originele backups"
+
+#: admin/admin-api.class.php:492
+msgid "Good news from LiteSpeed image server"
+msgstr "Goed nieuws van de LiteSpeed afbeeldingserver"
+
+#: admin/tpl/setting/settings_media.php:156
+msgid "Optimize Automatically"
+msgstr "Automatisch optimaliseren"
+
+#: admin/tpl/settings.php:174
+msgid "Show Advanced Options"
+msgstr "Toon geavanceerde opties"
+
+#: admin/tpl/settings.php:172
+msgid "Hide Advanced Options"
+msgstr "Verberg geavanceerde opties"
+
+#: admin/tpl/setting/settings_optimize.php:153
+msgid "This option only works if %1$s is %2$s."
+msgstr "Deze optie werkt alleen als %1$s is %2$s."
+
+#: includes/litespeed-cache-purge.class.php:202 inc/purge.class.php:202
+msgid "Cleaned all critical CSS files."
+msgstr "Alle kritieke CSS-bestanden opgeschoond."
+
+#: admin/tpl/inc/img_optm.summary.php:196
+msgid "Total"
+msgstr "Totaal"
+
+#: admin/tpl/inc/img_optm.summary.php:193
+#: admin/tpl/inc/img_optm.summary.php:220
+msgid "Files"
+msgstr "Bestanden"
+
+#: admin/tpl/inc/img_optm.summary.php:189
+msgid "Last calculated"
+msgstr "Laatst berekend"
+
+#: admin/tpl/inc/img_optm.summary.php:210
+#: admin/tpl/setting/settings_media.php:195
+msgid "This is irreversible."
+msgstr "Dit kan niet ongedaan worden gemaakt."
+
+#: admin/tpl/inc/img_optm.summary.php:179
+msgid "Storage Optimization"
+msgstr "Opslagruimte optimaliseren"
+
+#: admin/tpl/setting/settings_media.php:262
+msgid "Enable replacement of WebP in %s elements that were generated outside of WordPress logic."
+msgstr "Schakel vervanging van WebP in in %s elementen die zijn gegenereerd buiten de WordPress logica."
+
+#: includes/litespeed-cache-gui.class.php:421 inc/gui.class.php:421
+msgid "Forced cacheable"
+msgstr "Geforceerd cachebaar"
+
+#: includes/litespeed-cache-gui.class.php:469
+#: includes/litespeed-cache-gui.class.php:519 inc/gui.class.php:469
+#: inc/gui.class.php:519
+msgid "LSCache"
+msgstr "LSCache"
+
+#: admin/tpl/inc/disabled_all.php:4 admin/tpl/setting/settings_debug.php:13
+msgid "Disable All Features"
+msgstr "Schakel alle functies uit"
+
+#: admin/tpl/manage/manage_purge.php:45
+#: includes/litespeed-cache-gui.class.php:527 inc/gui.class.php:527
+msgid "CSS/JS Cache"
+msgstr "CSS/JS cache"
+
+#: admin/tpl/manage/manage_purge.php:63
+#: includes/litespeed-cache-gui.class.php:556 inc/gui.class.php:556
+msgid "Opcode Cache"
+msgstr "Opcode cache"
+
+#: admin/litespeed-cache-admin-display.class.php:1140
+msgid "%s image"
+msgstr "%s afbeelding"
+
+#: admin/litespeed-cache-admin-display.class.php:1137
+msgid "%s group"
+msgstr "%s groep"
+
+#: admin/litespeed-cache-admin-display.class.php:1127
+msgid "%s images"
+msgstr "%s afbeeldingen"
+
+#: admin/litespeed-cache-admin-display.class.php:1124
+msgid "%s groups"
+msgstr "%s groepen"
+
+#: includes/litespeed-cache-crawler.class.php:531 inc/crawler.class.php:531
+msgid "Guest"
+msgstr "Gast"
+
+#: admin/tpl/crawler.php:165
+msgid "Size"
+msgstr "Grootte"
+
+#: admin/tpl/crawler.php:115 admin/tpl/crawler.php:122
+msgid "%d seconds"
+msgstr "%d seconden"
+
+#: admin/litespeed-cache-admin-display.class.php:1071
+#: admin/tpl/setting/settings_media.php:38
+#: admin/tpl/setting/settings_tuning.php:24
+#: admin/tpl/setting/settings_tuning.php:40
+#: admin/tpl/setting/settings_tuning.php:60
+#: admin/tpl/setting/settings_tuning.php:76
+#: admin/tpl/setting/settings_tuning.php:109
+#: admin/tpl/setting/settings_tuning.php:157
+#: admin/tpl/setting/settings_optimize.php:140
+msgid "API"
+msgstr "API"
+
+#: admin/tpl/import_export.php:44
+msgid "Import"
+msgstr "Importeer"
+
+#: admin/tpl/import_export.php:35
+msgid "Import Settings"
+msgstr "Importeer instellingen"
+
+#: admin/tpl/import_export.php:50
+msgid "Last imported"
+msgstr "Laatst geïmporteerd"
+
+#: admin/tpl/import_export.php:27
+msgid "Last exported"
+msgstr "Laatst geëxporteerd"
+
+#: admin/tpl/import_export.php:32
+msgid "This will export all current LiteSpeed Cache settings and save as a file."
+msgstr "Dit zal alle huidige LiteSpeed Cache instellingen exporteren en het als bestand bewaren."
+
+#: admin/tpl/import_export.php:22
+msgid "Export"
+msgstr "Exporteer"
+
+#: admin/tpl/import_export.php:19
+msgid "Export Settings"
+msgstr "Exporteer instellingen"
+
+#: admin/tpl/api/quic.register.php:30 admin/tpl/api/quic.login.php:30
+#: admin/tpl/setting/settings_inc.cache_object.php:90
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: admin/tpl/setting/settings_inc.cache_object.php:85
+msgid "Only available when %s is installed."
+msgstr "Alleen beschikbaar als %s is geïnstalleerd."
+
+#: admin/tpl/setting/settings_inc.cache_object.php:81
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: admin/tpl/setting/settings_inc.cache_object.php:50
+msgid "Your %s Hostname or IP address."
+msgstr "Jouw %s hostnaam of IP-adres."
+
+#: admin/tpl/setting/settings_inc.cache_object.php:37
+msgid "Method"
+msgstr "Methode"
+
+#: admin/tpl/crawler.php:166 admin/tpl/setting/settings_inc.cache_object.php:70
+msgid "Status"
+msgstr "Status"
+
+#: admin/tpl/setting/settings_inc.cache_object.php:55
+msgid "Port"
+msgstr "Poort"
+
+#: admin/tpl/setting/settings_inc.cache_object.php:46
+msgid "Host"
+msgstr "Host"
+
+#: admin/tpl/setting/settings_inc.cache_object.php:18
+msgid "Failed"
+msgstr "Mislukt"
+
+#: admin/tpl/setting/settings_inc.cache_object.php:12
+msgid "Not Available"
+msgstr "Niet beschikbaar"
+
+#: admin/tpl/setting/settings_cdn.php:257
+msgid "Domain"
+msgstr "Domein"
+
+#: admin/tpl/setting/settings_cdn.php:247
+msgid "Global API Key"
+msgstr "Globale API-sleutel"
+
+#: admin/tpl/manage/manage_cdn.php:71
+msgid "Purge Everything"
+msgstr "Verwijder alles"
+
+#: admin/tpl/manage/manage_cdn.php:11
+#: includes/litespeed-cache-gui.class.php:536 inc/gui.class.php:536
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: inc/img_optm.class.php:170 inc/img_optm.class.php:1478
+#: inc/img_optm.class.php:1543
+msgid "No image found."
+msgstr "Geen afbeelding gevonden."
+
+#: includes/litespeed-cache-utility.class.php:242 inc/utility.class.php:242
+msgid " %s ago"
+msgstr " %s geleden"
+
+#: admin/tpl/inc/img_optm.summary.php:64
+msgid "This process is automatic."
+msgstr "Dit proces gaat automatisch."
+
+#: admin/tpl/inc/banner_promo.slack.php:8
+msgid "Welcome to LiteSpeed"
+msgstr "Welkom bij LiteSpeed"
+
+#: admin/tpl/inc/banner_promo.php:166
+msgid "Maybe later"
+msgstr "Misschien later"
+
+#: admin/tpl/inc/banner_promo.php:165
+msgid "I've already left a review"
+msgstr "Ik heb al een beoordeling achtergelaten"
+
+#: admin/tpl/network_settings.php:9 admin/tpl/settings.php:11
+msgid "Media"
+msgstr "Media"
+
+#: admin/tpl/setting/settings_tuning.php:166
+msgid "Remove WordPress Emoji"
+msgstr "Verwijder WordPress emoji"
+
+#: includes/litespeed-cache-gui.class.php:449 inc/gui.class.php:449
+msgid "More settings"
+msgstr "Meer instellingen"
+
+#: admin/tpl/settings.php:12 admin/tpl/manage.php:10
+#: admin/tpl/setting/settings_cdn.php:234
+msgid "CDN"
+msgstr "CDN"
+
+#: admin/tpl/setting/settings_cdn.php:20
+msgid "Enable CDN"
+msgstr "Schakel CDN in"
+
+#: admin/tpl/setting/settings_cdn.php:14
+msgid "CDN Settings"
+msgstr "CDN instellingen"
+
+#: admin/litespeed-cache-admin-display.class.php:932
+#: admin/litespeed-cache-admin-display.class.php:1020
+#: admin/tpl/setting/settings_debug.php:29
+#: admin/tpl/setting/settings_media.php:105
+#: admin/tpl/setting/settings_inc.cache_object.php:149
+#: admin/tpl/setting/settings_tuning.php:18
+#: admin/tpl/setting/settings_tuning.php:54
+#: admin/tpl/setting/settings_optimize.php:152
+#: admin/tpl/setting/settings_optimize.php:164
+#: admin/tpl/setting/settings_cdn.php:25 admin/tpl/setting/settings_cdn.php:163
+msgid "OFF"
+msgstr "UIT"
+
+#: admin/litespeed-cache-admin-display.class.php:931
+#: admin/litespeed-cache-admin-display.class.php:1016
+#: admin/tpl/setting/settings_debug.php:35
+#: admin/tpl/setting/settings_inc.cache_mobile.php:65
+#: admin/tpl/setting/settings_media.php:102
+#: admin/tpl/setting/settings_tuning.php:21
+#: admin/tpl/setting/settings_tuning.php:57
+#: admin/tpl/setting/settings_optimize.php:138
+#: admin/tpl/setting/settings_optimize.php:152
+#: admin/tpl/setting/settings_optimize.php:153
+#: admin/tpl/setting/settings_optimize.php:248
+msgid "ON"
+msgstr "AAN"
+
+#: admin/tpl/settings.php:9
+msgid "Optimize"
+msgstr "Optimaliseer"
+
+#: admin/tpl/manage/manage_db.php:38
+msgid "All Transients"
+msgstr "Alle Transients"
+
+#: admin/tpl/manage/manage_db.php:31
+msgid "Clean all trackbacks and pingbacks"
+msgstr "Alle trackbacks en pingbacks opgeschoond"
+
+#: admin/tpl/manage/manage_db.php:39
+msgid "Clean all transient options"
+msgstr "Opschonen alle transient opties"
+
+#: admin/tpl/manage/manage_db.php:27
+msgid "Clean all trashed comments"
+msgstr "Alle reacties in de prullenbak opgeschoond"
+
+#: admin/tpl/manage/manage_db.php:35
+msgid "Clean expired transient options"
+msgstr "Opschonen alle verlopen transient opties"
+
+#: admin/tpl/manage/manage_db.php:68
+msgid "Database Optimizer"
+msgstr "Database Optimalisatie"
+
+#: admin/tpl/manage/manage_db.php:34
+msgid "Expired Transients"
+msgstr "Verlopen Transients"
+
+#: admin/tpl/setting/settings_optimize.php:9
+msgid "Optimization Settings"
+msgstr "Optimalisatie Instellingen"
+
+#: admin/tpl/manage/manage_db.php:42
+msgid "Optimize Tables"
+msgstr "Optimaliseer Tabellen"
+
+#: admin/tpl/manage/manage_purge.php:33
+msgid "Purge 500 Error"
+msgstr "Verwijder 500 Error"
+
+#: admin/tpl/manage/manage_purge.php:34
+msgid "Purge error pages, including 500 pages"
+msgstr "Verwijder error pagina's, inclusief 500 pagina's"
+
+#: admin/tpl/manage/manage_db.php:30
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#: admin/tpl/manage/manage_db.php:43
+msgid "Optimize all tables in your database"
+msgstr "Optimaliseer alle tabellen in de database"
+
+#: admin/tpl/manage/manage_purge.php:19 admin/tpl/manage/manage_purge.php:25
+#: admin/tpl/manage/manage_purge.php:31
+msgid "Purge %s Error"
+msgstr "Verwijder %s fout"
+
+#: admin/tpl/manage/manage_purge.php:20 admin/tpl/manage/manage_purge.php:26
+#: admin/tpl/manage/manage_purge.php:32
+msgid "Purge error pages, including %s pages"
+msgstr "Verwijder foutpagina's, inclusief %s pagina's"
+
+#: admin/tpl/manage/manage_db.php:14
+msgid "Auto Drafts"
+msgstr "Automatische Concepten"
+
+#: admin/tpl/manage/manage_db.php:6
+msgid "Clean All"
+msgstr "Alles Opschonen"
+
+#: admin/tpl/manage/manage_db.php:15
+msgid "Clean all auto saved drafts"
+msgstr "Alle automatisch opgeslagen concepten opgeschoond"
+
+#: admin/tpl/manage/manage_db.php:11
+msgid "Clean all post revisions"
+msgstr "Alle bericht revisies opgeschoond"
+
+#: admin/tpl/manage/manage_db.php:23
+msgid "Clean all spam comments"
+msgstr "Alle spam reacties opgeschoond"
+
+#: admin/litespeed-cache-admin-optimize.class.php:146
+msgid "Clean all successfully."
+msgstr "Alles succesvol opgeschoond."
+
+#: admin/litespeed-cache-admin-optimize.class.php:181
+msgid "Clean all transients successfully."
+msgstr "Alles transients succesvol opgeschoond."
+
+#: admin/tpl/manage/manage_db.php:19
+msgid "Clean all trashed posts and pages"
+msgstr "Alle berichten/pagina's in de prullenbak opgeschoond"
+
+#: admin/litespeed-cache-admin-optimize.class.php:157
+msgid "Clean auto drafts successfully."
+msgstr "Automatische concepten succesvol opgeschoond."
+
+#: admin/litespeed-cache-admin-optimize.class.php:177
+msgid "Clean expired transients successfully."
+msgstr "Verlopen transients succesvol opgeschoond."
+
+#: admin/litespeed-cache-admin-optimize.class.php:153
+msgid "Clean post revisions successfully."
+msgstr "Bericht revisies succesvol opgeschoond."
+
+#: admin/litespeed-cache-admin-optimize.class.php:165
+msgid "Clean spam comments successfully."
+msgstr "Spam reacties succesvol opgeschoond."
+
+#: admin/litespeed-cache-admin-optimize.class.php:173
+msgid "Clean trackbacks and pingbacks successfully."
+msgstr "Trackbacks en pingbacks succesvol opgeschoond."
+
+#: admin/litespeed-cache-admin-optimize.class.php:169
+msgid "Clean trashed comments successfully."
+msgstr "Reacties in de prullenbak succesvol opgeschoond."
+
+#: admin/tpl/manage.php:6
+msgid "DB Optimizer"
+msgstr "DB Optimalisatie"
+
+#: admin/tpl/manage.php:19
+msgid "LiteSpeed Cache Network Management"
+msgstr "LiteSpeed Cache Netwerk Management"
+
+#: admin/litespeed-cache-admin-optimize.class.php:191
+msgid "Optimized all tables."
+msgstr "Alle tabellen geoptimaliseerd."
+
+#: admin/tpl/manage/manage_db.php:10
+msgid "Post Revisions"
+msgstr "Bericht Revisies"
+
+#: admin/tpl/manage/manage_db.php:22
+msgid "Spam Comments"
+msgstr "Spam Reacties"
+
+#: admin/tpl/manage/manage_db.php:26
+msgid "Trashed Comments"
+msgstr "Reacties in de Prullenbak"
+
+#: admin/tpl/manage/manage_db.php:18
+msgid "Trashed Posts"
+msgstr "Prullenbak Berichten"
+
+#: admin/litespeed-cache-admin-optimize.class.php:161
+msgid "Clean trashed posts and pages successfully."
+msgstr "Berichten/Pagina's in de prullenbak succesvol opgeschoond."
+
+#: admin/tpl/setting/settings_general.php:74
+msgid "Default Private Cache TTL"
+msgstr "Privé Cache TTL"
+
+#: admin/tpl/setting/settings_general.php:79
+msgid "Specify how long, in seconds, private pages are cached. Minimum is %1$s seconds. Maximum is %2$s seconds."
+msgstr "Geef (in seconden) aan hoe lang de privé pagina's gecached moeten blijven. Minimum is %1$s seconden. Maximum is %2$s seconden."
+
+#: admin/tpl/setting/settings_esi.php:89
+msgid "If your site contains public content that certain user roles can see but other roles cannot, you can specify a Vary Group for those user roles. For example, specifying an administrator vary group allows there to be a separate publicly-cached page tailored to administrators (with “edit” links, etc), while all other user roles see the default public page."
+msgstr "Als uw site publieke inhoud bevat die bepaalde gebruikersrol kan zien, maar andere rollen niet kunnen, kunt u een Vary-groep opgeven voor die gebruikersrollen. Bijvoorbeeld, door een groep met beheerder te specificeren, kan er een aparte openbare cache-pagina zijn die op administrators is aangepast (met koppelingen \"edit\", enz.), Terwijl alle andere gebruikersrollen de standaard openbare pagina zien."
+
+#: admin/tpl/setting/settings_esi.php:54
+msgid "Cache Admin Bar"
+msgstr "Cache WP Toolbar"
+
+#: admin/tpl/setting/settings_esi.php:64
+msgid "Cache Comment Form"
+msgstr "Cache WP Reacties"
+
+#: admin/tpl/setting/settings_esi.php:58
+msgid "Cache the build-in Admin Bar ESI block."
+msgstr "Cache de WP toolbar via ESI."
+
+#: admin/tpl/setting/settings_esi.php:68
+msgid "Cache the build-in Comment Form ESI block."
+msgstr "Cache het ingebouwde reactieformulier via ESI. "
+
+#: admin/tpl/setting/settings_esi.php:15
+msgid "ESI allows you to designate parts of your dynamic page as separate fragments that are then assembled together to make the whole page. In other words, ESI lets you “punch holes” in a page, and then fill those holes with content that may be cached privately, cached publicly with its own TTL, or not cached at all."
+msgstr "Met ESI kunnen delen van een dynamische pagina worden aangegeven. Met andere woorden, met ESI kunt u gaten op een pagina aangeven en die gaten vervolgens invullen met inhoud die privé kan worden gecached, met een eigen cachegeheugen worden gecached of helemaal niet gecached."
+
+#: admin/tpl/setting/settings_esi.php:48
+msgid "Enable caches public pages for logged in users and serves the Admin Bar and Comment Form via ESI blocks. These two blocks will be uncached unless enabled below."
+msgstr "Schakel caches in voor publieke pagina's (als een gebruiker is ingelogd) en bedien de beheerdersbalk en het reactieformulier via ESI-blokken. Deze twee blokken worden niet gecached, tenzij hieronder ingeschakeld."
+
+#: admin/tpl/setting/settings_esi.php:74
+msgid "Vary Group"
+msgstr "Vary Groep"
+
+#: admin/tpl/esi_widget_edit.php:44
+msgid "Private"
+msgstr "Privé"
+
+#: admin/tpl/esi_widget_edit.php:43
+msgid "Public"
+msgstr "Publiek"
+
+#: admin/tpl/setting/settings_esi.php:14
+msgid "With ESI (Edge Side Includes), pages may be served from cache for logged-in users."
+msgstr "Met ESI (Edge Side Includes) kunnen pagina's worden weergegeven vanuit cache voor ingelogde gebruikers."
+
+#: admin/tpl/setting/settings_debug.php:86
+msgid "Advanced level will log more details."
+msgstr "De optie \"Geavanceerd\" geeft een logbestand met meer details."
+
+#: admin/tpl/setting/settings_purge.php:7
+msgid "Purge Settings"
+msgstr "Verwijder Instellingen"
+
+#: admin/tpl/setting/settings_debug.php:76
+msgid "Basic"
+msgstr "Basis"
+
+#: admin/tpl/setting/settings_inc.cache_mobile.php:8
+#: admin/tpl/setting/settings_inc.cache_mobile.php:65
+msgid "Cache Mobile"
+msgstr "Cache Mobiel"
+
+#: admin/tpl/setting/settings_inc.cache_resources.php:7
+msgid "Cache PHP Resources"
+msgstr "Cache PHP Resources"
+
+#: admin/tpl/setting/settings_crawler.php:90
+msgid "The maximum average server load allowed while crawling. The number of crawler threads in use will be actively reduced until average server load falls under this limit. If this cannot be achieved with a single thread, the current crawler run will be terminated."
+msgstr "De maximale gemiddelde serverbelasting is toegestaan ​​tijdens het crawlen. Het aantal crawler threads in gebruik wordt actief verminderd tot de gemiddelde serverbelasting onder deze limiet valt. Als dit niet met een enkele thread kan worden bereikt, wordt de huidige crawler-run beëindigd."
+
+#: admin/tpl/network_settings.php:8 admin/tpl/settings.php:8
+msgid "Excludes"
+msgstr "Uitsluiten"
+
+#: admin/tpl/setting/network_settings_purge.php:4
+msgid "Purge Network Settings"
+msgstr "Verwijder Netwerk Instellingen"
+
+#: admin/tpl/network_settings.php:6 admin/tpl/settings.php:6
+msgid "Cache"
+msgstr "Cache"
+
+#: admin/tpl/setting/settings_cache.php:24
+msgid "Cache Commenters"
+msgstr "Cache Reageerders"
+
+#: admin/tpl/setting/network_settings_cache.php:4
+msgid "Cache Control Network Settings"
+msgstr "Cache Netwerk Instellingen"
+
+#: admin/tpl/setting/settings_cache.php:6
+msgid "Cache Control Settings"
+msgstr "Cache Instellingen"
+
+#: admin/tpl/setting/settings_cache.php:14
+msgid "Cache Logged-in Users"
+msgstr "Cache Ingelogde Gebruikers"
+
+#: admin/tpl/setting/settings_cache.php:44
+msgid "Cache Login Page"
+msgstr "Cache Login Pagina"
+
+#: admin/tpl/setting/settings_cache.php:34
+msgid "Cache REST API"
+msgstr "Cache REST API"
+
+#: admin/tpl/setting/settings_cache.php:38
+msgid "Cache requests made by WordPress REST API calls."
+msgstr "Cache verzoeken die door de Wordpress REST API worden aangeroepen."
+
+#: admin/tpl/settings.php:13
+msgid "ESI"
+msgstr "ESI"
+
+#: admin/tpl/setting/settings_cache.php:18
+msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
+msgstr "Privé cache voor de voorpagina (voor ingelogde gebruikers). (LSWS %s verplicht)"
+
+#: admin/tpl/settings.php:19
+msgid "Compatibilities"
+msgstr "Compatibiliteiten"
+
+#: admin/tpl/setting/settings_cache.php:28
+msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
+msgstr "In afwachting zijnde reacties van reageerders (via privé cache). Het uitschakelen van deze optie zal niet-gecachete pagina's laten zien aan reageerders. (LSWS %s verplicht)"
+
+#: admin/tpl/manage/manage_purge.php:116 admin/tpl/network_settings.php:7
+#: admin/tpl/settings.php:7 admin/tpl/manage.php:5
+msgid "Purge"
+msgstr "Verwijderen"
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:802
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/tpl/inc/show_rule_conflict.php:5
+msgid "Unexpected cache rule %2$s found in %1$s file. This rule may cause visitors to see old versions of pages due to the browser caching html pages. If you are sure that html pages are not being browser cached, this message can be dismissed. (<a %3$s>Learn More</a>)"
+msgstr "Onverwachte cache regel %2$s gevonden in %1$s bestand. Deze regel kan ervoor zorgen dat bezoekers oude versies van pagina's door browser caching html pagina's te zien krijgen. Als u er zeker van bent dat HTML-pagina's niet door de browser zijn gecached, kan dit bericht worden genegeerd. (<a %3$s>Meer informatie</a>)"
+
+#: admin/tpl/setting/settings_purge.php:84
+msgid "Both %1$s and %2$s are acceptable."
+msgstr "Zowel %1$s als %2$s zijn correct."
+
+#: admin/tpl/setting/settings_debug.php:152
+msgid "Exclude Filters"
+msgstr "Filters uitsluiten"
+
+#: admin/tpl/setting/settings_debug.php:163
+msgid "Exclude Part Filters"
+msgstr "Uitsluiten Deelfilters"
+
+#: admin/tpl/setting/settings_debug.php:167
+msgid "Filters containing these strings (one per line) will not be logged."
+msgstr "Filters die een deel bevatten van deze regel (één per regel) zullen niet worden gelogd. "
+
+#: admin/tpl/setting/settings_debug.php:104
+msgid "Heartbeat"
+msgstr "Hartslag"
+
+#: admin/tpl/setting/settings_debug.php:156
+msgid "Listed filters (one per line) will not be logged."
+msgstr "Genoemde filters (één per regel) zullen niet worden opgenomen in het logbestand. "
+
+#: admin/tpl/setting/settings_debug.php:92
+msgid "Log File Size Limit"
+msgstr "Limiet Logbestand"
+
+#: admin/tpl/setting/settings_debug.php:122
+msgid "Log request cookie values."
+msgstr "Log cookie-waarden bij aanvragen. "
+
+#: admin/tpl/setting/settings_purge.php:83
+#: admin/tpl/setting/settings_purge.php:91
+msgid "Scheduled Purge Time"
+msgstr "Geplande Verwijder Tijd"
+
+#: admin/tpl/setting/settings_purge.php:79
+#: admin/tpl/setting/settings_purge.php:96
+msgid "Scheduled Purge URLs"
+msgstr "Lijst met (geplande) urls"
+
+#: admin/tpl/setting/settings_debug.php:132
+msgid "Shorten query strings in the debug log to improve readability."
+msgstr "Kort de Query Strings in in het debug-log om het overzichtelijk te houden."
+
+#: admin/tpl/setting/settings_debug.php:97
+msgid "Specify the maximum size of the log file. Minimum is 3MB. Maximum is 3000MB."
+msgstr "Geef de maximale bestandsgrootte aan van het logbestand. Minimum is 3MB, maximum is 3000MB."
+
+#: admin/tpl/setting/settings_purge.php:96
+msgid "Specify the time to purge the \"%s\" list."
+msgstr "Geef aan op welk tijdstip de cache (van de urls in de lijst \"%s\") automatisch verwijderd moeten worden."
+
+#: admin/tpl/setting/settings_purge.php:83
+msgid "The URLs here (one per line) will be purged automatically at the time set in the option \"%s\"."
+msgstr "Urls die hier zijn genoemd (één per regel) daarvan wordt de cache automatisch verwijderd op de tijd die is ingesteld bij de optie \"%s\"."
+
+#: admin/litespeed-cache-admin-error.class.php:209
+msgid "%s file not readable."
+msgstr "%s bestand is niet leesbaar."
+
+#: admin/litespeed-cache-admin-error.class.php:212
+msgid "%s file not writable."
+msgstr "%s bestand niet schrijfbaar."
+
+#: admin/litespeed-cache-admin-rules.class.php:918
+msgid "<p>Please add/replace the following codes into the beginning of %1$s:</p> %2$s"
+msgstr "<p>Voeg de volgende codes toe aan het begin van %1$s:</p> %2$s"
+
+#: admin/tpl/setting/settings_purge.php:97
+msgid "Current server time is %s."
+msgstr "Servertijd is %s."
+
+#: admin/tpl/debug_log.php:8
+msgid "LiteSpeed Cache Debug Log Viewer"
+msgstr "LiteSpeed Cache Debug Log Bekijken"
+
+#: admin/tpl/setting/settings_debug.php:138
+msgid "Log Filters"
+msgstr "Log Filters"
+
+#: admin/tpl/setting/settings_debug.php:95
+#: admin/tpl/setting/settings_tuning.php:88
+msgid "MB"
+msgstr "MB"
+
+#: admin/tpl/setting/settings_debug.php:128
+msgid "Collapse Query Strings"
+msgstr "Inkorten Query Strings"
+
+#: admin/tpl/esi_widget_edit.php:71
+msgid "A TTL of 0 indicates do not cache."
+msgstr "Een TTL van 0 betekent dat het niet wordt gecached."
+
+#: admin/tpl/setting/settings_inc.check_adv_file.php:6
+msgid "Check Advanced Cache"
+msgstr "Controleer Geavanceerde Cache"
+
+#: admin/tpl/setting/settings_esi.php:7
+msgid "ESI Settings"
+msgstr "ESI Instellingen"
+
+#: admin/tpl/esi_widget_edit.php:34 admin/tpl/setting/settings_esi.php:44
+msgid "Enable ESI"
+msgstr "ESI inschakelen"
+
+#: admin/tpl/setting/settings_debug.php:118
+msgid "Log Cookies"
+msgstr "Log Cookies"
+
+#: admin/tpl/esi_widget_edit.php:70
+msgid "Recommended value: 28800 seconds (8 hours)."
+msgstr "Aanbevolen waarde: 28800 seconden (8 uur)."
+
+#: admin/tpl/esi_widget_edit.php:60
+msgid "Widget Cache TTL:"
+msgstr "Widget Cache TTL:"
+
+#: admin/tpl/setting/settings_crawler.php:120
+msgid "Enter this site's IP address to crawl by IP instead of domain name. This eliminates the overhead of DNS and CDN lookups. (optional)"
+msgstr "Crawl op basis van ip-adres in plaats van domeinnaam. Dit zorgt voor minder overhead (DNS en CDN aanvragen). (optioneel)"
+
+#: admin/tpl/setting/settings_crawler.php:209
+msgid "The crawler can use your Google XML Sitemap instead of its own. Enter the full URL to your sitemap here."
+msgstr "De crawler kan je Google XML Sitemap gebruiken in plaats van zijn eigen. Geef de volledige url van de sitemap hier in."
+
+#: admin/litespeed-cache-admin-error.class.php:154
+msgid "Can not parse custom sitemap xml file: %s."
+msgstr "Kan het aangepaste sitemap-bestand niet parsen: %s."
+
+#: admin/litespeed-cache-admin-error.class.php:151
+msgid "Can not fetch Custom Sitemap: %s"
+msgstr "Kon de sitemap niet doorlopen: %s"
+
+#: admin/litespeed-cache-admin-error.class.php:148
+msgid "Invalid Site IP: %s"
+msgstr "Ongeldig Site IP: %s"
+
+#: admin/litespeed-cache-admin-error.class.php:155
+msgid "Please make sure the file is xml format and the %s extension is installed on the server."
+msgstr "Zorg ervoor dat het bestand in xml formaat is geschreven en de %s extensie is geïnstalleerd op de server."
+
+#: admin/tpl/crawler.php:93
+msgid "See <a %s>Introduction for Enabling the Crawler</a> for detailed information."
+msgstr "Bekijk <a %s>Introductie voor het inschakelen van de crawler</a> voor gedetailleerde informatie."
+
+#: admin/tpl/setting/settings_crawler.php:204
+#: admin/tpl/setting/settings_crawler.php:297
+msgid "Custom Sitemap"
+msgstr "Aangepaste Sitemap"
+
+#: admin/tpl/manage/manage_cdn.php:15 admin/tpl/crawler.php:91
+#: admin/tpl/settings.php:183 admin/tpl/inc/check_cache_disabled.php:38
+#: admin/tpl/setting/settings_esi.php:37
+#: admin/tpl/setting/settings_optimize.php:15
+msgid "WARNING"
+msgstr "WAARSCHUWING"
+
+#: admin/tpl/manage/manage_purge.php:217
+msgid "Purge pages by relative or full URL."
+msgstr "Verwijder cache per relatieve of volledige url. "
+
+#: admin/tpl/crawler.php:92
+msgid "The crawler feature is not enabled on the LiteSpeed server. Please consult your server admin."
+msgstr "Deze crawler optie is niet ingeschakeld op de LiteSpeedserver. Neem contact op met je hosting/server beheerder."
+
+#: lib/litespeed/litespeed-crawler.class.php:319
+msgid "Stopped: crawler disabled by the server admin"
+msgstr "Gestopt: de crawler is uitgeschakeld door de hosting/server beheerder"
+
+#: admin/litespeed-cache-admin-display.class.php:1055
+msgid "Recommended value: %s"
+msgstr "AAnbevolen waarde: %s."
+
+#: admin/tpl/crawler.php:149
+msgid "<b>Last crawled:</b> %s item(s)"
+msgstr "<b>Laatst gecrawled:</b> %s item(s)"
+
+#: lib/litespeed/litespeed-crawler.class.php:312
+msgid "Stopped due to error when crawling urls %1$s : %2$s"
+msgstr "Gestopt als gevolg van een fout bij het crawlen van URL's %1$s : %2$s"
+
+#: lib/litespeed/litespeed-crawler.class.php:230
+msgid "Stopped due to load hit the maximum."
+msgstr "Gestopt als gevolg van load overbelasting (tegen het maximale)"
+
+#: lib/litespeed/litespeed-crawler.class.php:365
+msgid "Stopped due to load over limit"
+msgstr "Gestopt als gevolg van load overbelasting (over de limiet)"
+
+#: admin/tpl/crawler.php:106
+msgid "The next complete sitemap crawl will start at"
+msgstr "De volgende volledige sitemap crawl begint bij"
+
+#: lib/litespeed/litespeed-file.class.php:144
+msgid "Can not create folder: %1$s. Error: %2$s"
+msgstr "Kan geen map maken: %1$s. Error: %2$s"
+
+#: includes/litespeed-cache-crawler.class.php:102 inc/crawler.class.php:102
+msgid "Can not find any form data for blacklist"
+msgstr "Kan geen formuliergegevens voor zwarte lijst vinden"
+
+#: lib/litespeed/litespeed-crawler.class.php:219
+msgid "Cannot read meta file: %s"
+msgstr "Kan het meta-bestand niet lezen: %s."
+
+#: includes/litespeed-cache.class.php:316 inc/litespeed-cache.class.php:316
+msgid "Crawler blacklist is saved."
+msgstr "Crawler blacklist is opgeslagen."
+
+#: lib/litespeed/litespeed-file.class.php:171
+msgid "Failed to write to %s."
+msgstr "Mislukt om te schrijven naar %s."
+
+#: includes/litespeed-cache-crawler.class.php:169 inc/crawler.class.php:169
+msgid "File created successfully: %s"
+msgstr "Bestand succesvol gecreëerd: %s"
+
+#: includes/litespeed-cache-crawler.class.php:117 inc/crawler.class.php:117
+msgid "File saved successfully: %s"
+msgstr "Bestand succesvol opgeslagen: %s"
+
+#: lib/litespeed/litespeed-file.class.php:135
+msgid "Folder does not exist: %s"
+msgstr "Map bestaat niet: %s"
+
+#: lib/litespeed/litespeed-crawler.class.php:340
+msgid "Stopped due to exceeding defined Maximum Run Time"
+msgstr "Gestopt als gevolg van overschrijding van de maximale looptijd"
+
+#: lib/litespeed/litespeed-crawler.class.php:357
+msgid "Stopped due to reset meta position"
+msgstr "Gestopt door reset van de meta positie"
+
+#: includes/litespeed-cache-crawler.class.php:328 inc/crawler.class.php:328
+msgid "Failed to send position reset notification: %s"
+msgstr "Het verzenden van de melding voor positie-reset is mislukt: %s"
+
+#: includes/litespeed-cache-crawler.class.php:332 inc/crawler.class.php:332
+msgid "Position reset notification sent successfully"
+msgstr "Melding voor positie-reset is verzonden"
+
+#: includes/litespeed-cache.class.php:337 inc/litespeed-cache.class.php:337
+msgid "Notified LiteSpeed Web Server to purge the list."
+msgstr "Er is een melding naar de LiteSPeed Web Server verzonden om de lijst te verwijderen."
+
+#: lib/litespeed/litespeed-crawler.class.php:224
+msgid "Oh look, there is already another LiteSpeed crawler running!"
+msgstr "Oh kijk, er draait al een andere LiteSpeed ​​crawler."
+
+#: lib/litespeed/litespeed-file.class.php:152
+msgid "Folder is not writable: %s."
+msgstr "Map is niet schrijfbaar: %s. "
+
+#: admin/tpl/crawler.php:60
+msgid "%d hour"
+msgstr "%d uur"
+
+#: admin/tpl/crawler.php:57
+msgid "%d hours"
+msgstr "%d uren"
+
+#: admin/tpl/crawler.php:70
+msgid "%d minute"
+msgstr "%d minuut"
+
+#: admin/tpl/crawler.php:67
+msgid "%d minutes"
+msgstr "%d minuten"
+
+#: admin/tpl/setting/settings_debug.php:58
+msgid "Allows listed IPs (one per line) to perform certain actions from their browsers."
+msgstr "Lijst met toegestane IP-adressen (één per regel) die het toestaan om bepaalde acties uit te voeren in de browser."
+
+#: admin/tpl/setting/settings_crawler.php:293
+msgid "Alphabetical, ascending"
+msgstr "Alfabetisch, oplopend"
+
+#: admin/tpl/setting/settings_crawler.php:287
+msgid "Alphabetical, descending"
+msgstr "Alfabetisch, aflopend"
+
+#: admin/tpl/setting/settings_crawler.php:261
+msgid "Available Custom Post Type"
+msgstr "Beschikbare Custom Post Type's"
+
+#: admin/tpl/setting/settings_crawler.php:61
+msgid "Crawl Interval"
+msgstr "Crawl Interval"
+
+#: admin/litespeed-cache-admin-display.class.php:265 admin/tpl/settings.php:22
+msgid "Crawler"
+msgstr "Crawler"
+
+#: admin/tpl/crawler.php:76
+msgid "Crawler Cron"
+msgstr "Crawler Cron"
+
+#: admin/tpl/crawler.php:36
+msgid "Crawler File"
+msgstr "Crawler Bestand"
+
+#: admin/tpl/setting/settings_crawler.php:7
+msgid "Crawler Settings"
+msgstr "Crawler Instellingen"
+
+#: admin/tpl/crawler.php:163
+msgid "Cron Name"
+msgstr "Cron Naam"
+
+#: admin/tpl/setting/settings_crawler.php:281
+msgid "Date, ascending"
+msgstr "Datum, oplopend"
+
+#: admin/tpl/setting/settings_crawler.php:275
+msgid "Date, descending (Default)"
+msgstr "Datum, aflopend (standaard)"
+
+#: admin/tpl/setting/settings_crawler.php:13
+msgid "Delay"
+msgstr "Vertraging"
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:44
+msgid "Error getting current rules from %s: %s"
+msgstr "Fout bij het verkrijgen van de regels %s: %s"
+
+#: admin/tpl/setting/settings_crawler.php:250
+msgid "Exclude Custom Post Types"
+msgstr "Custom Post Types uitsluiten"
+
+#: admin/tpl/crawler.php:38
+msgid "Generate Crawler File"
+msgstr "Genereer Crawler Bestand"
+
+#: admin/tpl/crawler.php:43
+msgid "Generated at %s"
+msgstr "Gegenereerd op %s"
+
+#: admin/tpl/setting/settings_crawler.php:234
+msgid "Include Categories"
+msgstr "Categorieën "
+
+#: admin/tpl/setting/settings_crawler.php:227
+msgid "Include Pages"
+msgstr "Pagina's"
+
+#: admin/tpl/setting/settings_crawler.php:220
+msgid "Include Posts"
+msgstr "Berichten"
+
+#: admin/tpl/setting/settings_crawler.php:241
+msgid "Include Tags"
+msgstr "Tags"
+
+#: admin/tpl/setting/settings_inc.check_adv_file.php:10
+msgid "Include advanced-cache.php"
+msgstr "Toevoegen advanced-cache.php"
+
+#: admin/tpl/setting/settings_crawler.php:49
+msgid "Interval Between Runs"
+msgstr "Tijd tussen de runs"
+
+#: admin/tpl/crawler.php:25
+msgid "LiteSpeed Cache Crawler"
+msgstr "LiteSpeed Cache Crawler"
+
+#: admin/tpl/network_settings.php:22
+msgid "LiteSpeed Cache Network Settings"
+msgstr "LiteSpeed Cache Netwerk Instellingen"
+
+#: admin/tpl/report.php:28
+msgid "LiteSpeed Cache Report"
+msgstr "LiteSpeed Cache Rapport"
+
+#: admin/tpl/crawler.php:156
+msgid "Manually run"
+msgstr "Run handmatig"
+
+#: admin/tpl/setting/settings_crawler.php:269
+msgid "Order links by"
+msgstr "Links volgorde"
+
+#: admin/tpl/setting/settings_general.php:50
+msgid "Please visit the <a %s>Information</a> page on how to test the cache."
+msgstr "Ga naar de <a %s>Informatiepagina</a> voor het testen van de cache."
+
+#: admin/tpl/crawler.php:153
+msgid "Reset position"
+msgstr "Reset positie"
+
+#: admin/tpl/setting/settings_crawler.php:37
+msgid "Run Duration"
+msgstr "Looptijd"
+
+#: admin/tpl/crawler.php:164
+msgid "Run Frequency"
+msgstr "Run Frequentie"
+
+#: admin/tpl/setting/settings_crawler.php:85
+msgid "Server Load Limit"
+msgstr "Server Load Limiet"
+
+#: admin/tpl/crawler.php:214
+msgid "Show crawler status"
+msgstr "Toon crawler status"
+
+#: admin/tpl/setting/settings_crawler.php:66
+msgid "Specify how long in seconds before the crawler should initiate crawling the entire sitemap again."
+msgstr "Geef (in seconden) aan hoe lang de crawler moet wachten om de hele sitemap opnieuw te crawlen."
+
+#: admin/tpl/setting/settings_crawler.php:18
+msgid "Specify time in microseconds for the delay between requests during a crawl."
+msgstr "Geen de wachttijd aan (in microseconden) tussen de crawl aanvragen."
+
+#: admin/tpl/setting/settings_crawler.php:42
+msgid "Specify time in seconds for the duration of the crawl interval."
+msgstr "Geef (in seconden) de wachttijd aan tussen de crawls."
+
+#: admin/tpl/setting/settings_crawler.php:54
+msgid "Specify time in seconds for the time between each run interval. Must be greater than 60."
+msgstr "Geef (in seconden) de wachttijd aan tussen de runs. (Moet groter zijn dan 60)."
+
+#: admin/tpl/setting/settings_crawler.php:73
+msgid "Threads"
+msgstr "Onderwerpen"
+
+#: admin/tpl/crawler.php:207
+msgid "Watch Crawler Status"
+msgstr "Bekijk Crawler Status"
+
+#: admin/tpl/setting/settings_crawler.php:16
+msgid "microseconds"
+msgstr "microseconden"
+
+#: admin/tpl/inc/show_display_installed.php:16
+msgid "If there are any questions, the team is always happy to answer any questions on the <a %s>support forum</a>."
+msgstr "Als er vragen zijn, dan is ons team altijd blij om te kunnen helpen en eventuele vragen te beantwoorden op het <a %s> supportforum</a>."
+
+#: admin/tpl/manage/manage_purge.php:151
+msgid "Select below for \"Purge by\" options."
+msgstr "Geef hieronder aan welke specifieke cache-onderdelen je wilt verwijderen."
+
+#: admin/tpl/setting/settings_crawler.php:78
+msgid "Specify Number of Threads to use while crawling."
+msgstr "Specificeer het aantal onderwerpen dat je wilt gebruiken tijdens het crawlen."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:29
+msgid "Then another WordPress is installed (NOT MULTISITE) at %s"
+msgstr "En een andere WordPress is geïnstalleerd (GEEN MULTISITE) op %s"
+
+#: admin/tpl/crawler.php:251
+msgid "All Urls which returned no-cache tags will be added here, after the initial crawling."
+msgstr "Alle URL's die een \"geen-cache-tag\" hebben geretourneerd, worden hier toegevoegd."
+
+#: admin/tpl/crawler.php:250
+msgid "Current blacklist has %s item(s)."
+msgstr "Huidige zwarte-lijst heeft %s item(s)."
+
+#: admin/tpl/crawler.php:201
+msgid "If both the cron and manual run start at a similar time, the first one to start will run."
+msgstr "Als zowel de cron als de handmatige run op een gelijke tijdstip beginnen, zal de eerste die begint, worden uitgevoerd."
+
+#: admin/tpl/crawler.php:232
+msgid "No crawler meta file generated yet"
+msgstr "Er is nog geen crawler bestand gegenereerd. "
+
+#: admin/tpl/crawler.php:47
+msgid "On click, this will create a crawler sitemap file in plugin directory %s."
+msgstr "Bij klikken, wordt er een sitemap bestand geplaatst in de plugin directory %s."
+
+#: admin/tpl/crawler.php:200
+msgid "Only one crawler can run concurrently."
+msgstr "Er kan maar 1 crawler tegelijk draaien."
+
+#: admin/tpl/crawler.php:202
+msgid "Please follow <a %s>Hooking WP-Cron Into the System Task Scheduler</a> to create the system cron task."
+msgstr "Bekijk <a %s>Hooking WP-Cron Into the System Task Scheduler</a> Om de systeemcron-taak te creëren."
+
+#: admin/tpl/crawler.php:199
+msgid "Run frequency is set by the Interval Between Runs setting."
+msgstr "De run frequentie kan worden ingesteld bij de optie \"Tijd tussen de runs\"."
+
+#: admin/tpl/crawler.php:237
+msgid "Sitemap Generation Blacklist"
+msgstr "Zwarte-lijst Sitemap Generatie"
+
+#. Plugin URI of the plugin
+msgid "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+msgstr "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+
+#: admin/litespeed-cache-admin-error.class.php:223
+msgid "%s file did not find a place to insert define."
+msgstr "%s bestand kon niet worden ingevoegd."
+
+#: admin/litespeed-cache-admin-error.class.php:112
+msgid "Bad Purge By selected value."
+msgstr "Niet goed verwijderd met de geselecteerde waarde."
+
+#: admin/litespeed-cache-admin-error.class.php:173
+msgid "Empty or invalid rule."
+msgstr "Lege of ongeldige regel."
+
+#: admin/litespeed-cache-admin-error.class.php:172
+msgid "Invalid Rewrite List."
+msgstr "Ongeldige Herschrijf Lijst"
+
+#: includes/litespeed-cache-purge.class.php:463 inc/purge.class.php:463
+msgid "Notified LiteSpeed Web Server to purge pages."
+msgstr "De LiteSpeed Web Server zal de pagina cache verwijderen."
+
+#: admin/tpl/setting/settings_purge.php:19
+msgid "Pages"
+msgstr "Pagina's"
+
+#: admin/tpl/manage/manage_purge.php:13
+msgid "Purge Pages"
+msgstr "Verwijder cache van de pagina's"
+
+#: admin/litespeed-cache-admin-error.class.php:174
+msgid "Rule: %1$s, list: %2$s"
+msgstr "Regel: %1$s, lijst: %2$s"
+
+#: admin/tpl/manage/manage_purge.php:14
+msgid "This will Purge Pages only"
+msgstr "Dit zal alleen de cache van de pagina's verwijderen."
+
+#: admin/tpl/setting/settings_purge.php:21
+msgid "All pages with Recent Posts Widget"
+msgstr "Alle pagina's met \"Recente berichten\"-widget"
+
+#: cli/litespeed-cache-cli-purge.class.php:235
+msgid "Purged the tags!"
+msgstr "De tags zijn verwijderd."
+
+#: admin/litespeed-cache-admin-error.class.php:219
+msgid "The %1$s file not writable for %2$s"
+msgstr "Het %1$s bestand is niet schrijfnaar voor %2$s"
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:815
+msgid "For example, if the homepage for the site is located at %1$s, the shop page may be located at %2$s."
+msgstr "Bijvoorbeeld, als de voorpagina van de site zich bevindt op %1$s, kan de winkelpagina zich bevinden op %2$s."
+
+#: admin/litespeed-cache-admin-error.class.php:193
+#: admin/litespeed-cache-admin-error.class.php:231
+msgid "Please add the following to the wp-config.php file: %s"
+msgstr "Voeg het volgende toe aan het wp-config.php bestand: %s"
+
+#: admin/litespeed-cache-admin-error.class.php:192
+#: admin/litespeed-cache-admin-error.class.php:230
+msgid "LiteSpeed Cache was unable to write to the wp-config.php file."
+msgstr "LiteSpeed Cache kon niets wegschrijven in het wp-config.php bestand."
+
+#: admin/litespeed-cache-admin-error.class.php:92
+#: admin/litespeed-cache-admin-error.class.php:101
+msgid "Please upgrade or go to <a href=\"%s\">active plugins</a> and deactivate the LiteSpeed Cache plugin to hide this message."
+msgstr "Upgrade of ga naar <a href=\"%s\">active plugins</a> en deactiveer de LiteSpeed ​​Cache plugin om dit bericht te verbergen."
+
+#: admin/litespeed-cache-admin-error.class.php:88
+msgid "The LiteSpeed Cache Plugin requires at least PHP %s."
+msgstr "The LiteSpeed Cache Plugin vereist minstens PHP %s."
+
+#: admin/litespeed-cache-admin-error.class.php:99
+msgid "The LiteSpeed Cache Plugin requires at least WordPress %s."
+msgstr "The LiteSpeed Cache Plugin vereist minstens WordPress %s."
+
+#: admin/litespeed-cache-admin-error.class.php:90
+msgid "The currently installed version is PHP %s, which is out-dated and insecure."
+msgstr "De huidige PHP versie die is geïnstalleerd: %s is verouderd en onveilig."
+
+#: admin/litespeed-cache-admin-error.class.php:86
+msgid "The installed PHP version is too old for the LiteSpeed Cache Plugin."
+msgstr "De geïnstalleerde PHP-versie is te oud voor de LiteSpeed ​​Cache Plugin."
+
+#: cli/litespeed-cache-cli-purge.class.php:90
+msgid "Purged All!"
+msgstr "Alle cache verwijderd!"
+
+#: cli/litespeed-cache-cli-purge.class.php:135
+msgid "Purged the blog!"
+msgstr "De blog-cache is verwijderd!"
+
+#: cli/litespeed-cache-cli-purge.class.php:186
+msgid "Purged the url!"
+msgstr "De url is verwijderd!"
+
+#: admin/tpl/setting/settings_crawler.php:115
+msgid "Site IP"
+msgstr "Site IP"
+
+#: admin/tpl/setting/settings_cdn.php:206
+#: admin/tpl/setting/settings_cdn.php:238
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: admin/tpl/api/quic.user_welcome.php:15
+#: admin/tpl/api/quic.user_welcome.php:16 admin/tpl/api/quic.register.php:25
+#: admin/tpl/api/quic.login.php:25
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/litespeed-cache-gui.class.php:615 inc/gui.class.php:615
+msgid "Install Now"
+msgstr "Installeer nu"
+
+#: admin/tpl/inc/show_error_cookie.php:6
+msgid "If not, please verify the setting in the <a href=\"%1$s\">Advanced tab</a>."
+msgstr "Zo niet, controleer dan de instelling in de <a href=\"%1$s\">Geavanceerd tab</a>."
+
+#: admin/tpl/inc/show_error_cookie.php:5
+msgid "If the login cookie was recently changed in the settings, please log out and back in."
+msgstr "Als de login cookie onlangs is gewijzigd in de instellingen, log dan uit en opnieuw in."
+
+#: admin/tpl/inc/show_error_cookie.php:10
+msgid "If using OpenLiteSpeed, the server must be restarted once for the changes to take effect."
+msgstr "Als u OpenLiteSpeed ​​gebruikt, moet de server opnieuw worden gestart voor de wijzigingen van kracht worden."
+
+#: includes/litespeed-cache-purge.class.php:483 inc/purge.class.php:483
+msgid "Notified LiteSpeed Web Server to purge error pages."
+msgstr "De LiteSpeed Web Server zal de cache van de error-pagina's verwijderen."
+
+#: admin/tpl/setting/settings_general.php:124
+msgid "Default 403 Page TTL"
+msgstr "403 Pagina TTL"
+
+#: admin/tpl/setting/settings_general.php:137
+msgid "Default 500 Page TTL"
+msgstr "500 Pagina TTL"
+
+#: admin/tpl/manage/manage_purge.php:108
+msgid "If only the WordPress site should be purged, use purge all."
+msgstr "Als alleen de cache van deze Wordpress site verwijdert moeten worden, kies dan bovenin \"LiteSpeed Cache verwijderen\" "
+
+#: admin/tpl/setting/settings_general.php:130
+msgid "If this is set to a number less than 30, 403 pages will not be cached."
+msgstr "Als je dit instelt op minder dan 30 seconden dan worden de 403 pagina's niet gecached."
+
+#: admin/tpl/setting/settings_general.php:143
+msgid "If this is set to a number less than 30, 500 pages will not be cached."
+msgstr "Als je dit instelt op minder dan 30 seconden dan worden de 500 pagina's niet gecached."
+
+#: admin/tpl/manage/manage_purge.php:203
+msgid "Purge pages by category name - e.g. %2$s should be used for the URL %1$s."
+msgstr "Verwijder cache per categorie-naam - Bijv. %2$s moet worden gebruikt voor de URL %1$s."
+
+#: admin/tpl/manage/manage_purge.php:208
+msgid "Purge pages by post ID."
+msgstr "Verwijder cache per Post ID"
+
+#: admin/tpl/manage/manage_purge.php:212
+msgid "Purge pages by tag name - e.g. %2$s should be used for the URL %1$s."
+msgstr "Verwijder cache per tag naam - Bijv. %2$s moet worden gebruikt voor de URL %1$s."
+
+#: admin/tpl/setting/settings_general.php:129
+msgid "Specify how long, in seconds, 403 pages are cached."
+msgstr "Geef (in seconden) aan hoe lang de 403 pagina-cache gecached moeten blijven."
+
+#: admin/tpl/setting/settings_general.php:142
+msgid "Specify how long, in seconds, 500 pages are cached."
+msgstr "Geef (in seconden) aan hoe lang de 500 pagina-cache gecached moeten blijven."
+
+#: admin/tpl/manage/manage_purge.php:8
+msgid "This will Purge Front Page only"
+msgstr "Dit zal alleen de cache van de voorpagina verwijderen."
+
+#: admin/tpl/edit_htaccess.php:52
+msgid "Please consult the host/server admin before making any changes."
+msgstr "Raadpleeg de hosting/server beheerder voordat u wijzigingen aanbrengt."
+
+#: admin/tpl/inc/help_tabs.php:11
+msgid "A LiteSpeed server (OLS, LSWS, WebADC) and its LSCache module must be installed and enabled."
+msgstr "Een LiteSpeed server (OLS, LSWS, WebADC) en de LSCache module moeten geïnstalleerd en inschakeld zijn."
+
+#: admin/tpl/inc/show_display_installed.php:8
+msgid "However, there is no way of knowing all the possible customizations that were implemented."
+msgstr "Er is echter geen mogelijkheid om alle mogelijke aanpassingen te kennen die zijn geïmplementeerd."
+
+#: admin/tpl/inc/show_display_installed.php:7
+msgid "The LiteSpeed Cache plugin is used to cache pages - a simple way to improve the performance of the site."
+msgstr "De LiteSpeed ​​Cache plugin wordt gebruikt om pagina's te cachen - een eenvoudige manier om de prestaties van de site te verbeteren."
+
+#: admin/tpl/setting/settings_general.php:55
+msgid "The network admin setting can be overridden here."
+msgstr "De instellingen voor het netwerkbeheer kunnen hier worden overschreden."
+
+#: admin/tpl/manage/manage_purge.php:218
+msgid "e.g. Use %s or %s."
+msgstr "bijv. Gebruik %s of %s."
+
+#: admin/tpl/setting/network_settings_general.php:16
+msgid "It is <b>STRONGLY</b> recommend that the compatibility with other plugins on a single/few sites is tested first."
+msgstr "Het wordt <b>STRENG</b> aanbevolen om de compatibiliteit met andere plugins op een- of meerdere sites eerst te testen."
+
+#: admin/tpl/manage/manage_purge.php:101
+msgid "Clears all cache entries related to this site, <i>including other web applications</i>."
+msgstr "Verwijdert alle cache van deze site, <i>inclusief de cache van andere applicaties</i>."
+
+#: includes/litespeed-cache.class.php:327 inc/litespeed-cache.class.php:327
+msgid "Notified LiteSpeed Web Server to purge everything."
+msgstr "De LiteSpeed Web Server zal alle cache verwijderen."
+
+#: admin/tpl/manage/manage_purge.php:107
+msgid "This may cause heavy load on the server."
+msgstr "Dit zal een zware belasting zijn voor de server."
+
+#: admin/tpl/manage/manage_purge.php:106
+msgid "This will clear EVERYTHING inside the cache."
+msgstr "Dit zal ALLE cache verwijderen."
+
+#: admin/tpl/manage/manage_purge.php:100
+msgid "Empty Entire Cache"
+msgstr "Verwijder alle cache"
+
+#: admin/tpl/settings.php:208 admin/tpl/settings.php:211
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: admin/litespeed-cache-admin-settings.class.php:57
+msgid "'Use primary site settings' set by Network Administrator."
+msgstr "'Gebruik primaire site-instellingen' ingesteld door Netwerkbeheerder."
+
+#: admin/tpl/setting/network_settings_general.php:27
+msgid "Check this option to use the primary site's configuration for all subsites."
+msgstr "Controleer deze optie om de configuratie van de primaire site te gebruiken voor alle subsites."
+
+#: admin/tpl/settings.php:186
+msgid "The following options are selected, but are not editable in this settings page."
+msgstr "De volgende opties zijn geselecteerd, maar kunnen niet worden bewerkt op deze instellingenpagina."
+
+#: admin/tpl/settings.php:185
+msgid "The network admin selected use primary site configs for all subsites."
+msgstr "De netwerkbeheerder gebruikt de primaire site-configuraties voor alle subsites."
+
+#: admin/tpl/setting/network_settings_general.php:28
+msgid "This will disable the settings page on all subsites."
+msgstr "Dit zal de instellingenpagina uitschakelen op alle subsites."
+
+#: admin/tpl/setting/network_settings_general.php:23
+msgid "Use Primary Site Configuration"
+msgstr "Gebruik de primaire site configuratie"
+
+#: admin/tpl/manage/manage_purge.php:102
+msgid "This action should only be used if things are cached incorrectly."
+msgstr "Deze actie moet eigenlijk alleen gebruikt worden als elementen onjuist gecached zijn."
+
+#: admin/tpl/manage/manage_purge.php:91
+msgid "Purge the cache entries created by this plugin"
+msgstr "Verwijder alle cache-ingangen die gecreëerd zijn door deze plugin."
+
+#: admin/tpl/setting/settings_debug.php:41
+msgid "Admin IP only"
+msgstr "Alleen Admin IP"
+
+#: admin/tpl/inc/show_display_installed.php:14
+msgid "Create a post, make sure the front page is accurate."
+msgstr "Maak een nieuw bericht (zorg ervoor dat de voorpagina is ingesteld)."
+
+#: admin/tpl/setting/settings_general.php:111
+msgid "Default 404 Page TTL"
+msgstr "404 Pagina TTL"
+
+#: admin/tpl/inc/show_display_installed.php:11
+msgid "Examples of test cases include:"
+msgstr "Voorbeelden van tests zijn:"
+
+#: admin/tpl/inc/show_display_installed.php:9
+msgid "For that reason, please test the site to make sure everything still functions properly."
+msgstr "Controleer daarom de site om ervoor te zorgen dat alles nog steeds goed functioneert."
+
+#: admin/tpl/setting/settings_general.php:117
+msgid "If this is set to a number less than 30, 404 pages will not be cached."
+msgstr "Als je dit instelt op minder dan 30 seconden dan worden de 404 pagina's niet gecached."
+
+#: includes/litespeed-cache-gui.class.php:469 inc/gui.class.php:469
+msgid "LiteSpeed Cache Purge All"
+msgstr "LiteSpeed Cache verwijderen"
+
+#: admin/tpl/setting/settings_general.php:116
+msgid "Specify how long, in seconds, 404 pages are cached."
+msgstr "Geef (in seconden) aan hoe lang de 404 pagina-cache gecached moeten blijven."
+
+#: admin/tpl/setting/settings_debug.php:47
+msgid "The Admin IP option will only output log messages on requests from admin IPs."
+msgstr "De Admin IP-optie zal alleen logboekberichten op verzoek van admin-IP's uitvoeren."
+
+#: admin/tpl/setting/settings_debug.php:46
+msgid "This should be set to off once everything is working to prevent filling the disk."
+msgstr "Dit moet worden uitgeschakeld zodra alles werkt om te voorkomen dat de schijf steeds verder wordt gevuld."
+
+#: admin/tpl/inc/show_display_installed.php:19
+msgid "If you would rather not move at litespeed, you can deactivate this plugin."
+msgstr "Je kunt deze plugin deactiveren, als je niet bij LiteSpeed wenst te blijven."
+
+#: admin/tpl/inc/show_display_installed.php:13
+msgid "Visit the site while logged out."
+msgstr "Bezoek de site terwijl je bent uitgelogd."
+
+#: admin/tpl/report.php:56
+msgid "The environment report contains detailed information about the WordPress configuration."
+msgstr "Het rapport bevat gedetailleerde informatie over de Wordpress configuratie."
+
+#: admin/litespeed-cache-admin-display.class.php:270
+#: admin/tpl/setting/settings_debug.php:23
+msgid "Debug Log"
+msgstr "Debug Log"
+
+#: admin/litespeed-cache-admin-error.class.php:132
+msgid "Failed to purge by url, invalid input: %s."
+msgstr "Url-cache verwijderen mislukt, ongeldige invoer: %s."
+
+#: admin/tpl/inc/show_display_installed.php:5
+msgid "LiteSpeed Cache plugin is installed!"
+msgstr "LiteSpeed Cache plugin is geïnstalleerd!"
+
+#: admin/tpl/inc/show_display_installed.php:6
+msgid "This message indicates that the plugin was installed by the server admin."
+msgstr "Dit bericht geeft aan dat de plugin is geïnstalleerd door de hosting/server beheerder."
+
+#: admin/tpl/setting/settings_inc.check_adv_file.php:13
+msgid "The advanced-cache.php file is used by many caching plugins to signal that a cache is active."
+msgstr "Het advanced-cache.php bestand wordt door veel cache-plugins gebruikt om aan te geven dat de cache actief is."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:19
+msgid "The server will determine if the user is logged in based on the existance of this cookie."
+msgstr "De server zal bepalen of de gebruiker is ingelogd, gebaseerd op het bestaan van deze cookie."
+
+#: admin/tpl/setting/settings_inc.cache_mobile.php:42
+msgid "List in WordPress database is: %s"
+msgstr "Lijst in Wordpress database is: %s"
+
+#: admin/tpl/inc/help_tabs.php:9
+msgid "LiteSpeed Cache is a page cache built into LiteSpeed Web Server."
+msgstr "LiteSpeed ​​Cache is een pagina cache die ingebouwd is in de LiteSpeed ​​Web Server."
+
+#: admin/tpl/inc/help_tabs.php:10
+msgid "This plugin communicates with LiteSpeed Web Server to let it know which pages are cacheable and when to purge them."
+msgstr "Deze plugin communiceert met LiteSpeed ​​Web Server om te laten weten welke pagina's gecached zijn en wanneer ze moeten worden verwijderd."
+
+#: admin/tpl/setting/settings_inc.check_adv_file.php:14
+msgid "When this option is checked and this file is detected as belonging to another plugin, LiteSpeed's caching functionality will not work."
+msgstr "Wanneer deze optie is aangevinkt en het bestand wordt gelinkt aan een andere plugin, dan zal LiteSpeed Cache functionaliteit niet werken."
+
+#: admin/tpl/setting/settings_purge.php:53
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:867
+msgid "Note"
+msgstr "Notitie"
+
+#: admin/tpl/setting/settings_inc.purge_on_upgrade.php:11
+msgid "When enabled, the cache will automatically purge when any plugins, themes, or WordPress core is upgraded."
+msgstr "Als deze optie is ingeschakeld zal de cache automatisch worden verwijderd nadat plugin's, thema's of de Wordpress-core is geupdate. "
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:869
+msgid "After verifying that the cache works in general, please test the cart."
+msgstr "Nadat u gecontroleerd heeft dat de cache in het algemeen werkt, kunt u de winkelwagen testen."
+
+#: admin/tpl/edit_htaccess.php:57
+msgid "File editing is disabled in configuration."
+msgstr "Bestand bewerken is uitgeschakeld in configuratie."
+
+#: admin/tpl/setting/settings_inc.purge_on_upgrade.php:7
+msgid "Purge All On Upgrade"
+msgstr "Verwijder cache bij upgrade"
+
+#: admin/tpl/setting/settings_general.php:104
+msgid "If this is set to a number less than 30, feeds will not be cached."
+msgstr "Als je dit instelt op minder dan 30 seconden dan worden de feeds niet gecached."
+
+#: admin/tpl/setting/settings_general.php:103
+msgid "Specify how long, in seconds, feeds are cached."
+msgstr "Geef (in seconden) aan hoe lang de feed-cache gecached moeten blijven."
+
+#: admin/tpl/setting/settings_general.php:67
+msgid "Specify how long, in seconds, public pages are cached. Minimum is 30 seconds."
+msgstr "Geef (in seconden) aan hoe lang de public pagina-cache gecached moeten blijven. Minimum is 30 seconden."
+
+#: admin/tpl/setting/settings_general.php:91
+msgid "Specify how long, in seconds, the front page is cached. Minimum is 30 seconds."
+msgstr "Geef (in seconden) aan hoe lang de voorpagina-cache gecached moeten blijven. Minimum is 30 seconden."
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:810
+msgid "Always purge both product and categories on changes to the quantity or stock status."
+msgstr "Verwijder zowel de product-cache als de categorie-cache wanneer de productvoorraad of de voorraad-status wijzigt."
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:814
+msgid "Checking this option will force the shop page to use the front page TTL setting."
+msgstr "Als u deze optie kiest, wordt de winkelpagina gedwongen om de TTL-instelling van de voorpagina te gebruiken."
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:813
+msgid "Determines how changes in product quantity and product stock status affect product pages and their associated category pages."
+msgstr "Bepaalt hoe wijzingingen in de productvoorraad en de voorraad-status invloed heeft op de product-pagina's de bijbehorende categorie-pagina's."
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:809
+msgid "Do not purge categories on changes to the quantity or stock status."
+msgstr "Verwijder de categorie-cache niet wanneer de productvoorraad of voorraad-status wijzigt."
+
+#: admin/tpl/setting/settings_inc.cache_mobile.php:40
+msgid "Htaccess did not match configuration option."
+msgstr "Htaccess komt niet overeen met de configuratie-optie."
+
+#: admin/tpl/setting/settings_inc.cache_mobile.php:41
+msgid "Please re-enter the mobile view setting."
+msgstr "Voer de instelling voor mobiele weergave opnieuw in."
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:843
+msgid "Product Update Interval"
+msgstr "Product Update Interval"
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:806
+msgid "Purge categories only when stock status changes."
+msgstr "Verwijder de categorie-cache alleen wanneer voorraad-status wijzigt."
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:807
+msgid "Purge product and categories only when the stock status changes."
+msgstr "Verwijder de product-cache en categorie-cache alleen wanneer de voorraad-status wijzigt."
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:805
+msgid "Purge product on changes to the quantity or stock status."
+msgstr "Verwijder de product-cache wanneer de productvoorraad of voorraad-status wijzigt."
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:808
+msgid "Purge product only when the stock status changes."
+msgstr "Verwijder de product-cache alleen wanneer de voorraad-status wijzigt."
+
+#: thirdparty/lscwp-3rd-woocommerce.cls.php:850
+msgid "Use Front Page TTL for the Shop Page"
+msgstr "Gebruik de Voorpagina TTL voor de winkelpagina"
+
+#: admin/tpl/setting/settings_general.php:98
+msgid "Default Feed TTL"
+msgstr "Feed TTL"
+
+#: admin/litespeed-cache-admin-display.class.php:367
+msgid "It is recommended that LiteSpeed Cache be purged after updating a plugin."
+msgstr "Het is aan te raden om LiteSpeed ​​Cache te verwijderen na het bijwerken van een plugin."
+
+#: admin/tpl/setting/settings_inc.cache_resources.php:12
+msgid "Caching these pages may improve server performance by avoiding unnecessary PHP calls."
+msgstr "Door deze pagina's te cachen kan de serverprestatie worden verbeterd door onnodige PHP-aanvragen te vermijden."
+
+#: admin/tpl/setting/settings_cache.php:48
+msgid "Disabling this option may negatively affect performance."
+msgstr "Het uitschakelen van deze optie kan de prestaties negatief beïnvloeden."
+
+#: admin/tpl/setting/settings_inc.cache_resources.php:11
+msgid "Some themes and plugins add resources via a PHP request."
+msgstr "Sommige thema's en plugin's voegen resources toe via een PHP-aanvraag."
+
+#: admin/tpl/setting/settings_inc.cache_favicon.php:10
+msgid "favicon.ico is requested on most pages."
+msgstr "favicon.ico wordt op de meeste pagina's aangevraagd."
+
+#: admin/litespeed-cache-admin-error.class.php:183
+msgid "Could not find %s."
+msgstr "Niet gevonden %s."
+
+#: admin/tpl/setting/settings_inc.cache_favicon.php:6
+msgid "Cache favicon.ico"
+msgstr "Cache Favicon.ico"
+
+#: admin/litespeed-cache-admin-error.class.php:203
+msgid "Failed to get %s file contents."
+msgstr "Kan de inhoud van het bestand %s niet krijgen."
+
+#: admin/tpl/setting/settings_inc.cache_favicon.php:11
+msgid "Caching this resource may improve server performance by avoiding unnecessary PHP calls."
+msgstr "Door deze resources te cachen kan de serverprestatie worden verbeterd door onnodige PHP-aanvragen te vermijden."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:36
+msgid "Error: invalid login cookie. Please check the %s file"
+msgstr "Fout: Ongeldige login cookie. Controleer het bestand %s"
+
+#: admin/tpl/manage/manage_purge.php:149
+msgid "Purge By..."
+msgstr "Verwijder per onderdeel"
+
+#: admin/tpl/manage/manage_purge.php:231
+msgid "Purge List"
+msgstr "Verwijder Cache Lijst"
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:52
+msgid "WARNING: The .htaccess login cookie and Database login cookie do not match."
+msgstr "WAARSCHUWING: De .htaccess login cookie en de database login cookie komen niet overeen."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:25
+msgid "Example use case:"
+msgstr "Voorbeeld:"
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:21
+msgid "If every web application uses the same cookie, the server may confuse whether a user is logged in or not."
+msgstr "De server raakt in de war als iedere web-applicatie dezelfde cookie gebruikt om te zien of een gebruiker is ingelogd of niet."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:7
+msgid "Login Cookie"
+msgstr "Login Cookie"
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:15
+msgid "MUST BE UNIQUE FROM OTHER WEB APPLICATIONS."
+msgstr "MOET UNIEK ZIJN TEN OPZICHTE VAN ANDERE WEBAPPLICATIES."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:14
+msgid "No spaces and case sensitive."
+msgstr "Geen spaties en hoofdlettergevoelig."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:13
+msgid "SYNTAX: alphanumeric and \"_\"."
+msgstr "SYNTAX: alfanumeriek en \"_\"."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:30
+msgid "The cache needs to distinguish who is logged into which WordPress site in order to cache correctly."
+msgstr "De cache moet kunnen onderscheiden welke gebruiker is ingelogd in welke WordPress-site om correct te kunnen cachen."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:22
+msgid "The cookie set here will be used for this WordPress installation."
+msgstr "De cookie die hier wordt gezet zal worden gebruikt voor deze Wordpress-installatie. "
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:18
+msgid "The default login cookie is %s."
+msgstr "De standaard login-cookie is %s."
+
+#: admin/tpl/setting/settings_advanced.php:15
+msgid "These settings are meant for ADVANCED USERS ONLY."
+msgstr "Deze instellingen zijn alleen voor GEAVANCEERDE GEBRUIKERS."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:20
+msgid "This setting is useful for those that have multiple web applications for the same domain."
+msgstr "Deze instelling is handig als er meerdere web-applicaties gebruik maken van cookies op hetzelfde domein."
+
+#: admin/tpl/setting/settings_inc.login_cookie.php:27
+msgid "There is a WordPress installed for %s."
+msgstr "Er is een WordPress geïnstalleerd voor %s."
+
+#: admin/litespeed-cache-admin-error.class.php:179
+msgid "%s file not valid. Please verify contents."
+msgstr "%s bestand niet geldig. Controleer de inhoud."
+
+#: admin/tpl/network_settings.php:10 admin/tpl/settings.php:14
+#: admin/tpl/setting/settings_debug.php:82
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: admin/tpl/setting/settings_advanced.php:9
+msgid "Advanced Settings"
+msgstr "Geavanceerde Opties"
+
+#: admin/tpl/manage/manage_purge.php:179
+msgid "Category"
+msgstr "Categorie"
+
+#: admin/litespeed-cache-admin-rules.class.php:1030
+msgid "File Saved."
+msgstr "Bestand Opgeslagen."
+
+#: admin/tpl/setting/network_settings_general.php:5
+msgid "General Network Configuration"
+msgstr "Algemene Netwerk Configuratie"
+
+#: admin/litespeed-cache-admin-error.class.php:168
+msgid "Invalid login cookie. Invalid characters found: %s"
+msgstr "Ongeldige login cookie. Ongeldige tekens gevonden: %s"
+
+#: admin/litespeed-cache-admin-error.class.php:188
+msgid "Login cookies do not match."
+msgstr "Login cookies komen niet overeen."
+
+#: admin/tpl/setting/network_settings_excludes.php:5
+msgid "Network Do Not Cache Rules"
+msgstr "Newerk Niet Cachen Regels"
+
+#: admin/litespeed-cache-admin-error.class.php:189
+msgid "Please remove both and set the login cookie in LiteSpeed Cache advanced settings."
+msgstr "Verwijder beide en verwijder de login cookie in de geavanceerde instellingen van LiteSpeed ​​Cache."
+
+#: admin/tpl/manage/manage_purge.php:185
+msgid "Post ID"
+msgstr "Post ID"
+
+#: admin/tpl/manage/manage_purge.php:191
+msgid "Tag"
+msgstr "Tag"
+
+#: admin/litespeed-cache-admin-error.class.php:187
+msgid "This site is a subdirectory install."
+msgstr "Deze site is in een subdirectory geïnstalleerd."
+
+#: admin/litespeed-cache-admin-error.class.php:178
+msgid "Tried to parse for existing login cookie."
+msgstr "Probeer de bestaande login cookie te analyseren."
+
+#: admin/tpl/manage/manage_purge.php:197
+msgid "URL"
+msgstr "URL"
+
+#: admin/tpl/edit_htaccess.php:64
+msgid "Current %s Contents"
+msgstr "Huidige %s inhoud"
+
+#: includes/litespeed-cache-purge.class.php:538 inc/purge.class.php:538
+msgid "Purge Post ID %s"
+msgstr "Verwijder Post ID %s"
+
+#: admin/litespeed-cache-admin-error.class.php:128
+msgid "Failed to purge by Post ID, given ID does not exist or is not published: %s"
+msgstr "Fout bij het verwijderen van Post ID-cache, deze ID bestaat niet of is niet gepubliceerd: %s"
+
+#: admin/litespeed-cache-admin-error.class.php:125
+msgid "Failed to purge by Post ID, given ID is not numeric: %s"
+msgstr "Fout bij het verwijderen van de Post ID-cache, het ID is niet numeriek: %s"
+
+#: admin/litespeed-cache-admin-error.class.php:135
+msgid "Failed to purge by category, does not exist: %s"
+msgstr "Fout bij het verwijderen van de categorie-cache, deze bestaat niet: %s"
+
+#: admin/litespeed-cache-admin-error.class.php:138
+msgid "Failed to purge by tag, does not exist: %s"
+msgstr "Fout bij het verwijderen van de tag-cache, deze bestaat niet: %s"
+
+#: admin/litespeed-cache-admin-error.class.php:121
+msgid "Failed to purge by url, contained \"<\"."
+msgstr "Fout bij het verwijderen van de cache van url, bevat \"<\"."
+
+#: admin/tpl/inc/show_error_cookie.php:4
+msgid "NOTICE: Database login cookie did not match your login cookie."
+msgstr "Let op: Database login cookie kwam niet overeen met uw login cookie."
+
+#: includes/litespeed-cache-purge.class.php:511 inc/purge.class.php:511
+msgid "Purge category %s"
+msgstr "Categorie-cache verwijderen %s"
+
+#: includes/litespeed-cache-purge.class.php:567 inc/purge.class.php:567
+msgid "Purge tag %s"
+msgstr "Tag verwijderen %s"
+
+#: includes/litespeed-cache-purge.class.php:601 inc/purge.class.php:601
+msgid "Purge url %s"
+msgstr "Url-cache verwijderen %s"
+
+#: admin/litespeed-cache-admin-error.class.php:106
+msgid "Something went wrong with the form! Please try again."
+msgstr "Er is iets fout gegaan met het formulier! Probeer het opnieuw."
+
+#: admin/litespeed-cache-admin-error.class.php:109
+msgid "Tried to purge list with empty list."
+msgstr "Probeer de lijst leeg te maken met een lege lijst."
+
+#: admin/litespeed-cache-admin-error.class.php:115
+msgid "Failed to purge by category, invalid category slug."
+msgstr "Fout bij het verwijderen van de categorie-cache, ongeldige categorie-slug."
+
+#: admin/litespeed-cache-admin-error.class.php:118
+msgid "Failed to purge by tag, invalid tag slug."
+msgstr "Fout bij het verwijderen van de tag-cache, ongeldige tag-slug."
+
+#: admin/tpl/setting/settings_general.php:53
+#: admin/tpl/setting/settings_optimize.php:21
+msgid "NOTICE"
+msgstr "Let op"
+
+#: admin/tpl/setting/settings_inc.exclude_cookies.php:23
+#: admin/tpl/setting/settings_inc.cache_browser.php:13
+#: admin/tpl/setting/settings_inc.media_webp.php:13
+#: admin/tpl/setting/settings_inc.cache_resources.php:15
+#: admin/tpl/setting/settings_inc.cache_mobile.php:18
+#: admin/tpl/setting/settings_inc.exclude_useragent.php:22
+#: admin/tpl/setting/settings_inc.cache_favicon.php:14
+msgid "This setting will edit the .htaccess file."
+msgstr "Deze instelling zal het .htaccess bestand wijzigen. "
+
+#: admin/tpl/setting/settings_general.php:53
+msgid "When disabling the cache, all cached entries for this blog will be purged."
+msgstr "Wanneer de cache wordt uitgeschakeld wordt alle cache verwijderd."
+
+#: admin/tpl/edit_htaccess.php:51
+msgid "Any changes made to the .htaccess file may break the site."
+msgstr "Wijzigingen in het .htaccess-bestand kunnen ervoor zorgen dat de site niet meer werkt."
+
+#: admin/tpl/edit_htaccess.php:66
+msgid "DO NOT EDIT ANYTHING WITHIN %s"
+msgstr "NIETS WIJZIGEN IN %s"
+
+#: admin/litespeed-cache-admin-error.class.php:206
+msgid "%s file not readable or not writable."
+msgstr "%s bestand niet leesbaar of niet schrijfbaar."
+
+#: admin/litespeed-cache-admin-error.class.php:197
+msgid "Failed to back up file, aborted changes."
+msgstr "Fout bij het maken van een back-up van het bestand, de wijzigingen zijn niet doorgevoerd."
+
+#: admin/litespeed-cache-admin-error.class.php:215
+msgid "Failed to overwrite %s."
+msgstr "Kan niet overschrijven %s."
+
+#: admin/tpl/edit_htaccess.php:39
+msgid "LiteSpeed Cache Edit .htaccess"
+msgstr "LiteSpeed Cache .htaccess Bewerken"
+
+#: admin/tpl/report.php:40 admin/tpl/setting/settings_advanced.php:14
+msgid "NOTICE:"
+msgstr "Let op:"
+
+#: admin/tpl/crawler.php:246 admin/tpl/edit_htaccess.php:74
+msgid "Save"
+msgstr "Opslaan"
+
+#: admin/tpl/setting/network_settings_general.php:11
+msgid "Network Enable Cache"
+msgstr "Inschakelen Netwerk Cache"
+
+#: admin/tpl/setting/network_settings_cache.php:8
+msgid "Responsive themes can handle this part automatically."
+msgstr "Responsieve thema's kunnen dit onderdeel automatisch verwerken."
+
+#: admin/tpl/setting/network_settings_cache.php:7
+msgid "Separate Mobile Views should be enabled if any of the network enabled themes require a different view for mobile devices."
+msgstr "Aparte Mobiele Weergaven moet ingeschakeld zijn als een van de netwerk-geschakelde thema's een andere weergave vereist voor mobiele apparaten."
+
+#: admin/tpl/setting/network_settings_general.php:7
+msgid "These configuration are only available network wide."
+msgstr "Deze configuratie is alleen beschikbaar via het netwerk."
+
+#: admin/tpl/setting/network_settings_general.php:17
+msgid "This is to ensure compatibility prior to enabling the cache for all sites."
+msgstr "Dit is om compatibiliteit te garanderen voordat u de cache voor alle sites inschakelt."
+
+#: admin/tpl/setting/settings_purge.php:56
+msgid "Other checkboxes will be ignored."
+msgstr "Andere selectievakjes worden genegeerd."
+
+#: admin/tpl/setting/settings_purge.php:55
+msgid "Select \"All\" if there are dynamic widgets linked to posts on pages other than the front or home pages."
+msgstr "Selecteer \"Alle\" als er dynamische widgets zijn gekoppeld aan berichten op andere pagina's dan de voorpagina of homepagina."
+
+#: admin/tpl/setting/settings_inc.cache_mobile.php:62
+msgid "The default list WordPress uses is %s"
+msgstr "De standaard WordPress-lijst is %s"
+
+#: admin/tpl/setting/settings_inc.exclude_cookies.php:18
+#: admin/tpl/setting/settings_inc.exclude_useragent.php:18
+msgid "Spaces should have a backslash in front of them, %s."
+msgstr "Spaties moeten worden voorafgegaan door een schuine streep %s."
+
+#: admin/litespeed-cache-admin-error.class.php:200
+msgid "Failed to put contents into %s"
+msgstr "Kan geen inhoud schrijven naar %s"
+
+#: lib/litespeed/litespeed-file.class.php:159
+#: lib/litespeed/litespeed-file.class.php:164
+msgid "File %s is not writable."
+msgstr "Bestand %s is niet schrijfbaar."
+
+#: admin/tpl/setting/settings_inc.cache_mobile.php:25
+#: admin/tpl/setting/settings_inc.cache_mobile.php:65
+msgid "List of Mobile User Agents"
+msgstr "Lijst van mobiele user-agents"
+
+#: admin/tpl/setting/settings_inc.cache_mobile.php:59
+msgid "Any spaces should be escaped with a backslash before the space, %s."
+msgstr "Elke spatie moet worden voorafgegaan door een schuine streep voor de spatie, %s"
+
+#: admin/tpl/setting/settings_inc.cache_mobile.php:58
+msgid "SYNTAX: Each entry should be separated with a bar, %s."
+msgstr "SYNTAX: Elk item moet worden gescheiden door een verticale streep, %s"
+
+#: admin/litespeed-cache-admin-display.class.php:260
+msgid "Edit .htaccess"
+msgstr ".htaccess bewerken"
+
+#: admin/litespeed-cache-admin-display.class.php:257
+#: admin/tpl/setting/settings_cdn.php:234
+#: includes/litespeed-cache-gui.class.php:485 inc/gui.class.php:485
+msgid "Manage"
+msgstr "Beheren"
+
+#: admin/tpl/setting/settings_general.php:86
+msgid "Default Front Page TTL"
+msgstr "Voorpagina TTL"
+
+#: includes/litespeed-cache-purge.class.php:449 inc/purge.class.php:449
+msgid "Notified LiteSpeed Web Server to purge the front page."
+msgstr "De LiteSpeed Web Server zal de voorpagina cache verwijderen."
+
+#: admin/tpl/manage/manage_purge.php:7
+msgid "Purge Front Page"
+msgstr "Verwijder cache van de voorpagina"
+
+#: admin/tpl/setting/settings_compatibilities.php:34
+msgid "The ajax code can be found at"
+msgstr "De ajax code kan worden gevonden op"
+
+#: admin/tpl/setting/settings_compatibilities.php:37
+msgid "After purging the cache, the view count should be updating."
+msgstr "Nadat de cache is verwijderd, moet de weergavetelling worden bijgewerkt."
+
+#: admin/tpl/setting/settings_compatibilities.php:22
+msgid "Example:"
+msgstr "Bijvoorbeeld:"
+
+#: admin/tpl/setting/settings_excludes.php:103
+msgid "All tags are cached by default."
+msgstr "Alle tags worden standaard gecached."
+
+#: admin/tpl/setting/settings_compatibilities.php:14
+msgid "e.g. Replace <br> <pre>%1$s</pre> with<br> <pre>%2$s</pre>"
+msgstr "bijv. Vervang <br> <pre>%1$s</pre> door<br> <pre>%2$s</pre>"
+
+#: admin/tpl/setting/settings_compatibilities.php:13
+msgid "Replace the following calls in the active theme's template files with a div or span with a unique ID."
+msgstr "Vervang de volgende aanroepen van het actieve thema met een div of span met een uniek ID."
+
+#: admin/tpl/setting/settings_compatibilities.php:9
+msgid "To make LiteSpeed Cache compatible with WP-PostViews:"
+msgstr "Om LiteSpeed ​​Cache compatibel te maken met WP-PostViews:"
+
+#: admin/tpl/setting/settings_compatibilities.php:21
+msgid "Update the ajax request to output the results to that div."
+msgstr "Update het ajax-verzoek om de resultaten naar die div te sturen."
+
+#: admin/tpl/setting/settings_purge.php:57
+msgid "Select only the archive types that are currently used, the others can be left unchecked."
+msgstr "Selecteer alleen de archieven die momenteel worden gebruikt, de anderen hoeven niet te worden aangevinkt."
+
+#: admin/tpl/setting/settings_excludes.php:65
+msgid "All categories are cached by default."
+msgstr "Alle categorieën worden standaard gecached."
+
+#: admin/tpl/setting/settings_general.php:44
+msgid "Use Network Admin Setting"
+msgstr "Gebruik Netwerk Instellingen"
+
+#: admin/litespeed-cache-admin-display.class.php:1104
+msgid "The URLs will be compared to the REQUEST_URI server variable."
+msgstr "De urls worden vergeleken met de REQUEST_URI server variabele."
+
+#: admin/litespeed-cache-admin-display.class.php:1108
+msgid "To do an exact match, add %s to the end of the URL."
+msgstr "Om een exacte overeenkomst te verkrijgen, voeg een '%s' toe aan het eind van de url."
+
+#: admin/tpl/inc/img_optm.initialize.php:22
+msgid "Notes"
+msgstr "Notities"
+
+#: admin/tpl/crawler.php:84 admin/tpl/esi_widget_edit.php:45
+#: admin/tpl/setting/settings_general.php:30
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: admin/tpl/crawler.php:84 admin/tpl/setting/settings_general.php:36
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: admin/tpl/setting/network_settings_general.php:15
+msgid "Enabling LiteSpeed Cache for WordPress here enables the cache for the network."
+msgstr "Als u LiteSpeed ​​Cache voor WordPress inschakelt, schakelt u de cache voor dit netwerk in."
+
+#: admin/tpl/setting/settings_inc.cache_object.php:5
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: admin/tpl/setting/settings_inc.cache_object.php:4
+msgid "Enabled"
+msgstr "Inschakelen"
+
+#: admin/litespeed-cache-admin-error.class.php:159
+msgid "Removed category \"%s\" from list, ID does not exist."
+msgstr "Categorie verwijderd \"%s\" van de lijst, het ID bestaat niet. "
+
+#: admin/litespeed-cache-admin-error.class.php:164
+msgid "Removed tag \"%s\" from list, ID does not exist."
+msgstr "Tag verwijderd \"%s\" van de lijst, het ID bestaat niet."
+
+#: admin/tpl/setting/settings_excludes.php:133
+msgid "Do Not Cache Roles"
+msgstr "Niet cachen regels"
+
+#: admin/tpl/setting/settings_compatibilities.php:7
+msgid "Compatibility with WP-PostViews"
+msgstr "Compatibiliteit met WP-PostViews"
+
+#: admin/tpl/settings.php:15
+msgid "Debug"
+msgstr "Foutopsporing"
+
+#: admin/tpl/setting/settings_debug.php:45
+msgid "Outputs to WordPress debug log."
+msgstr "Stuur de uitkomst naar het WordPress foutopsporing logbestand."
+
+#. Plugin Name of the plugin
+#: admin/tpl/inc/banner_promo.new_version.php:56
+#: admin/tpl/inc/admin_footer.php:7 includes/litespeed-cache-gui.class.php:477
+#: inc/gui.class.php:477
+msgid "LiteSpeed Cache"
+msgstr "LiteSpeed Cache"
+
+#. Author of the plugin
+msgid "LiteSpeed Technologies"
+msgstr "LiteSpeed Technologies"
+
+#: admin/litespeed-cache-admin-error.class.php:97
+msgid "The installed WordPress version is too old for the LiteSpeed Cache Plugin."
+msgstr "De Wordpress-versie is te oud voor de LiteSpeed Cache Plugin."
+
+#. Author URI of the plugin
+msgid "https://www.litespeedtech.com"
+msgstr "https://www.litespeedtech.com"
+
+#: admin/tpl/setting/settings_debug.php:70
+msgid "Debug Level"
+msgstr "Debug Level"
+
+#: admin/tpl/setting/settings_purge.php:23
+msgid "Author archive"
+msgstr "Auteur Archief"
+
+#: admin/tpl/setting/settings_purge.php:28
+msgid "Daily archive"
+msgstr "Dagelijks archief"
+
+#: admin/tpl/setting/settings_debug.php:7
+msgid "Developer Testing"
+msgstr "Developer Testing"
+
+#: admin/tpl/setting/settings_purge.php:18
+msgid "Home page"
+msgstr "Home pagina"
+
+#: admin/tpl/setting/settings_purge.php:27
+msgid "Monthly archive"
+msgstr "Maandelijks archief"
+
+#: admin/tpl/setting/settings_purge.php:24
+msgid "Post type archive"
+msgstr "Post Type archief"
+
+#: admin/tpl/setting/settings_purge.php:30
+msgid "Term archive (include category, tag, and tax)"
+msgstr "Termarchief (inclusief categorie, tag en belasting)"
+
+#: admin/tpl/setting/settings_purge.php:26
+msgid "Yearly archive"
+msgstr "Jaarlijks archief"
+
+#: admin/tpl/setting/settings_purge.php:16
+msgid "All pages"
+msgstr "Alle pagina's"
+
+#: admin/tpl/setting/settings_purge.php:17
+msgid "Front page"
+msgstr "Voorpagina"
+
+#: admin/tpl/setting/settings_purge.php:50
+msgid "Auto Purge Rules For Publish/Update"
+msgstr "Automatische verwijderregels"
+
+#: admin/tpl/setting/settings_purge.php:73
+msgid "Select which pages will be automatically purged when posts are published/updated."
+msgstr "Selecteer de pagina's waarbij de cache automatisch wordt verwijderd bij het publiceren of wijzigen."
+
+#: admin/tpl/setting/settings_general.php:62
+msgid "Default Public Cache TTL"
+msgstr "Publieke Cache TTL"
+
+#: admin/tpl/setting/settings_debug.php:54
+msgid "Admin IPs"
+msgstr "Admin IP-adressen"
+
+#: admin/tpl/setting/settings_general.php:15
+msgid "Enable LiteSpeed Cache"
+msgstr "LiteSpeed Cache Inschakelen"
+
+#: admin/tpl/esi_widget_edit.php:67
+#: admin/tpl/setting/settings_inc.cache_browser.php:24
+#: admin/tpl/setting/settings_general.php:65
+#: admin/tpl/setting/settings_general.php:77
+#: admin/tpl/setting/settings_general.php:89
+#: admin/tpl/setting/settings_general.php:101
+#: admin/tpl/setting/settings_general.php:114
+#: admin/tpl/setting/settings_general.php:127
+#: admin/tpl/setting/settings_general.php:140
+#: admin/tpl/setting/settings_inc.cache_object.php:63
+#: admin/tpl/setting/settings_crawler.php:40
+#: admin/tpl/setting/settings_crawler.php:52
+#: admin/tpl/setting/settings_crawler.php:64
+#: admin/tpl/setting/settings_optimize.php:93
+msgid "seconds"
+msgstr "seconden"
+
+#: admin/tpl/network_settings.php:5 admin/tpl/settings.php:5
+#: admin/tpl/setting/settings_general.php:7
+msgid "General"
+msgstr "Standaard Instellingen"
+
+#: admin/tpl/manage.php:22
+msgid "LiteSpeed Cache Management"
+msgstr "LiteSpeed Cache Beheer"
+
+#: admin/tpl/settings.php:122
+msgid "LiteSpeed Cache Settings"
+msgstr "LiteSpeed Cache Instellingen"
+
+#: admin/tpl/manage/manage_purge.php:39 admin/tpl/manage/manage_purge.php:45
+#: admin/tpl/manage/manage_purge.php:54 admin/tpl/manage/manage_purge.php:63
+#: admin/tpl/manage/manage_purge.php:72 admin/tpl/manage/manage_purge.php:81
+#: admin/tpl/manage/manage_purge.php:90
+#: includes/litespeed-cache-gui.class.php:511
+#: includes/litespeed-cache-gui.class.php:519
+#: includes/litespeed-cache-gui.class.php:527
+#: includes/litespeed-cache-gui.class.php:536
+#: includes/litespeed-cache-gui.class.php:546
+#: includes/litespeed-cache-gui.class.php:556
+#: includes/litespeed-cache-gui.class.php:566
+#: includes/litespeed-cache-gui.class.php:576 inc/gui.class.php:511
+#: inc/gui.class.php:519 inc/gui.class.php:527 inc/gui.class.php:536
+#: inc/gui.class.php:546 inc/gui.class.php:556 inc/gui.class.php:566
+#: inc/gui.class.php:576
+msgid "Purge All"
+msgstr "Verwijder alle cache"
+
+#: admin/litespeed-cache-admin-display.class.php:255
+#: admin/litespeed-cache-admin-display.class.php:347
+#: includes/litespeed-cache-gui.class.php:493 inc/gui.class.php:493
+msgid "Settings"
+msgstr "Configuratie"
+
+#: admin/litespeed-cache-admin-error.class.php:142
+msgid "Invalid data in Admin IPs."
+msgstr "Ongeldige gegevens in Admin IPs."
+
+#: admin/litespeed-cache-admin-error.class.php:145
+msgid "Invalid data in Test IPs."
+msgstr "Ongeldige gegevens in Test IPs."
+
+#: admin/tpl/inc/help_tabs.php:24
+msgid "Support Forum"
+msgstr "Forum voor ondersteuning"
+
+#: admin/tpl/inc/help_tabs.php:22
+msgid "For more information:"
+msgstr "Voor meer info:"
+
+#: admin/tpl/inc/help_tabs.php:7
+msgid "Overview"
+msgstr "Overzicht"

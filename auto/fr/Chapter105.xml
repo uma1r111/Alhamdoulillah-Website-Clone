@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="105" ChapterName="L'éléphant (Al-Fil)">
+	<Verse VerseID="1"><![CDATA[N'as-tu pas vu comment ton Seigneur a agi envers les gens de l'Eléphant. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[N'a-t-Il pas rendu leur ruse complètement vaine ? ]]></Verse>
+	<Verse VerseID="3"><![CDATA[et envoyé sur eux des oiseaux par volées ]]></Verse>
+	<Verse VerseID="4"><![CDATA[qui leur lançaient des pierres d'argile ? ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Et Il les a rendus semblables à une paille mâchée. ]]></Verse>
+</Chapter>

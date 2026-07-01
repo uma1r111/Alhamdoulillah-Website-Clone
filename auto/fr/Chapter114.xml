@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="114" ChapterName="Les hommes (An-Nas)">
+	<Verse VerseID="1"><![CDATA[Dis : "Je cherche protection auprès du Seigneur des hommes. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Le Souverain des hommes, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Dieu des hommes, ]]></Verse>
+	<Verse VerseID="4"><![CDATA[contre le mal du mauvais conseiller, furtif, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[qui souffle le mal dans les poitrines des hommes, ]]></Verse>
+	<Verse VerseID="6"><![CDATA[qu'il (le conseiller) soit un djinn, ou un être humain". ]]></Verse>
+</Chapter>

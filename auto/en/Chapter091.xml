@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="91" ChapterName="The Sun">
+	<Verse VerseID="1"><![CDATA[And/by the sun and its sunrise/day light .]]></Verse>
+	<Verse VerseID="2"><![CDATA[And/by the moon when/if it followed it.]]></Verse>
+	<Verse VerseID="3"><![CDATA[And/by the daytime when/if it shined/revealed it .]]></Verse>
+	<Verse VerseID="4"><![CDATA[And/by the night when/if it covers/darkens it .]]></Verse>
+	<Verse VerseID="5"><![CDATA[And/by the sky/space and who built/constructed it.]]></Verse>
+	<Verse VerseID="6"><![CDATA[And/by the earth/Planet Earth and who spread and extended it .]]></Verse>
+	<Verse VerseID="7"><![CDATA[And/by a self and who straightened it.]]></Verse>
+	<Verse VerseID="8"><![CDATA[So He inspired/transmitted (to) it its debauchery/corruption, and its fear and obedience of God.]]></Verse>
+	<Verse VerseID="9"><![CDATA[Who purified/corrected it had succeeded/won.]]></Verse>
+	<Verse VerseID="10"><![CDATA[And who buried it/plotted against it (corrupted it) had failed/despaired .]]></Verse>
+	<Verse VerseID="11"><![CDATA[Thamud had lied/denied/falsified with its own tyranny/excess of the limit .]]></Verse>
+	<Verse VerseID="12"><![CDATA[When/if its most miserable/unhappy stirred up/urged .]]></Verse>
+	<Verse VerseID="13"><![CDATA[So God`s messenger said to them: "God`s female camel, and its drink/drinking (water)."]]></Verse>
+	<Verse VerseID="14"><![CDATA[So they denied him , so they wounded it/slaughtered it/made it infertile, so their Lord became angry/destroyed on them because of their crime, so He straightened it.]]></Verse>
+	<Verse VerseID="15"><![CDATA[And He does not fear its end/turn (result).]]></Verse>
+</Chapter>

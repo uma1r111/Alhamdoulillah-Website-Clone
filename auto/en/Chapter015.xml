@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="15" ChapterName="The Rock">
+	<Verse VerseID="1"><![CDATA[A L R , those are The Book`s evidences/verses , and (an) evident/clear Koran .]]></Verse>
+	<Verse VerseID="2"><![CDATA[Maybe those who disbelieved wish/love if they were Moslems/submitters/surrenderers.]]></Verse>
+	<Verse VerseID="3"><![CDATA[Leave them eat and they live long/enjoy, and the hope distracts/preoccupies them , so they will/shall know.]]></Verse>
+	<Verse VerseID="4"><![CDATA[And We did not destroy from a village/urban city , except and for it (is) a known Book .]]></Verse>
+	<Verse VerseID="5"><![CDATA[None from a nation precedes its term/time, and they do not delay (it).]]></Verse>
+	<Verse VerseID="6"><![CDATA[And they said: "You, you who the reminder/remembrance was descended on him, that you are mad/insane (E)."]]></Verse>
+	<Verse VerseID="7"><![CDATA[If you (could) come to us with the angels , if you were from truthful! (expression of wonderment).]]></Verse>
+	<Verse VerseID="8"><![CDATA[We do not descend the angels except with the truth , and they (the disbelievers) were not then delayed/waited .]]></Verse>
+	<Verse VerseID="9"><![CDATA[That We, We descended the reminder/remembrance, and that We (are) for it, protectors/guards (E) .]]></Verse>
+	<Verse VerseID="10"><![CDATA[And We had descended from before you in the first`s/beginner`s groups/parties .]]></Verse>
+	<Verse VerseID="11"><![CDATA[And none from a messenger comes to them , except they were with him mocking/making fun.]]></Verse>
+	<Verse VerseID="12"><![CDATA[As/like that We enter/insert it in the criminals`/sinners` hearts/minds .]]></Verse>
+	<Verse VerseID="13"><![CDATA[They do not believe with it, and (the) manner/nature (of) the firsts/beginners had past/expired .]]></Verse>
+	<Verse VerseID="14"><![CDATA[And if We opened on them a door/entrance from the sky/space, so they continued/remained in it ascending/zigzagging.]]></Verse>
+	<Verse VerseID="15"><![CDATA[They would have said: "But our eye/sights/understanding got closed and confused, but we are a bewitched/enchanted nation."]]></Verse>
+	<Verse VerseID="16"><![CDATA[And We had made/created in the sky/space constellations, and We decorated/beautified it to the lookers/seers .]]></Verse>
+	<Verse VerseID="17"><![CDATA[And We protected/guarded it from every cursed/expelled devil.]]></Verse>
+	<Verse VerseID="18"><![CDATA[Except who eavesdropped the hearing, so a clear/evident light from a fire source/a star followed him.]]></Verse>
+	<Verse VerseID="19"><![CDATA[And the earth/Planet Earth, We extended/spread it, and We threw in it anchors/mountains , and We sprouted/grew in it from every thing weighed/measured/balanced.]]></Verse>
+	<Verse VerseID="20"><![CDATA[And We made/created for you in it livelihoods/sustenances, and whom you are not to him with providing for.]]></Verse>
+	<Verse VerseID="21"><![CDATA[And that (there is not) from a thing, except at Us (is) its safes (treasures) , and We do not descent it except with (a) known measure/quantity .]]></Verse>
+	<Verse VerseID="22"><![CDATA[And We sent the winds/breezes (as) pollinators , so We descended from the sky water, so We gave it to you to drink, and you are not for it with storing.]]></Verse>
+	<Verse VerseID="23"><![CDATA[And that We, We are (E), We revive/make life and We make die, and We are the heirs/inheritants.]]></Verse>
+	<Verse VerseID="24"><![CDATA[And We had known the advanced from you, and We had known the delayed/lagging behind.]]></Verse>
+	<Verse VerseID="25"><![CDATA[And that your Lord, He gathers them, that He is wise/judicious, knowledgeable.]]></Verse>
+	<Verse VerseID="26"><![CDATA[And We had created the human/mankind from black (foul mud) dry mud/clay smoothened/rotted .]]></Verse>
+	<Verse VerseID="27"><![CDATA[And the Jinn , We created him from before from (the) fire`s burning wind .]]></Verse>
+	<Verse VerseID="28"><![CDATA[When/if your Lord said to the angels : "That I am creating (a) human/humans from black (foul mud) dry mud/clay smoothened/rotted ."]]></Verse>
+	<Verse VerseID="29"><![CDATA[So when/if I straightened him, and I blew in him from My Soul/Sprit , so fall/land/come to him prostrating.]]></Verse>
+	<Verse VerseID="30"><![CDATA[So the angels all/all together prostrated.]]></Verse>
+	<Verse VerseID="31"><![CDATA[Except Satan/Iblis , refused/hated that he be with the prostrating.]]></Verse>
+	<Verse VerseID="32"><![CDATA[He said: "You Satan , why (is it) for you (that) you not be with the prostrating?"]]></Verse>
+	<Verse VerseID="33"><![CDATA[He said: "I was not to prostrate to (a) human You created him from black (foul mud) from dry mud/clay smoothened/rotted ."]]></Verse>
+	<Verse VerseID="34"><![CDATA[He said: "So get out from it, so that you are cursed/expelled."]]></Verse>
+	<Verse VerseID="35"><![CDATA[And that on you (is) the curse/torture to the Judgment`s Day/Resurrection Day .]]></Verse>
+	<Verse VerseID="36"><![CDATA[He said: "My Lord, so delay me to a day they be sent/resurrected/revived."]]></Verse>
+	<Verse VerseID="37"><![CDATA[He said: "So that (then) you are from the delayed ."]]></Verse>
+	<Verse VerseID="38"><![CDATA[To (the) day of the time, the known.]]></Verse>
+	<Verse VerseID="39"><![CDATA[He said: "My Lord with what You misguided/enticed me , I will decorate/beautify for them in the earth/Planet Earth, and I will misguide/entice them (E) all/all together."]]></Verse>
+	<Verse VerseID="40"><![CDATA[Except Your worshippers/slaves from them, the faithful/loyal/devoted.]]></Verse>
+	<Verse VerseID="41"><![CDATA[He said: "That (is) a straight/direct road/way on Me."]]></Verse>
+	<Verse VerseID="42"><![CDATA[That My worshippers/slaves, power/control is not for you on them (you have no power/control over My worshippers/slaves) except who followed you from the misguided/failed .]]></Verse>
+	<Verse VerseID="43"><![CDATA[And that Hell (is) their appointment (E) all/all together.]]></Verse>
+	<Verse VerseID="44"><![CDATA[For it (are) seven doors/entrances, to each door/entrance from them (is an) apportioned/divided part/portion.]]></Verse>
+	<Verse VerseID="45"><![CDATA[That the fearing and obeying (are) in treed gardens/paradises and water springs/wells.]]></Verse>
+	<Verse VerseID="46"><![CDATA[Enter it with safety/security/peace, safe/secure.]]></Verse>
+	<Verse VerseID="47"><![CDATA[And We removed/pulled away what (is) in their chests (innermosts) from hatred/animosity , brothers on beds/sofas facing each other.]]></Verse>
+	<Verse VerseID="48"><![CDATA[Hardship/fatigue does not touch them in it, and they are not with being brought out from it.]]></Verse>
+	<Verse VerseID="49"><![CDATA[Inform My worshippers/slaves, that I, I am the forgiving , the merciful .]]></Verse>
+	<Verse VerseID="50"><![CDATA[And that My torture, it is the torture, the painful.]]></Verse>
+	<Verse VerseID="51"><![CDATA[And inform them about Abraham`s guests.]]></Verse>
+	<Verse VerseID="52"><![CDATA[When/if they entered on (to) him, so they said: "Greeting/peace ." He said: "That we are afraid/apprehensive from you."]]></Verse>
+	<Verse VerseID="53"><![CDATA[They said: "Do not be afraid/apprehensive, that we, we announce good news to you with (of) a knowledgeable boy (new son)."]]></Verse>
+	<Verse VerseID="54"><![CDATA[He said: "Did you announce good news to me on that the old age touched me so with what (do) you announce177good news to me?"]]></Verse>
+	<Verse VerseID="55"><![CDATA[They said: "We announced to you with the good news, so do not be from the despaired/despairing."]]></Verse>
+	<Verse VerseID="56"><![CDATA[He said: "And who despairs from his Lord`s mercy, except the misguided?"]]></Verse>
+	<Verse VerseID="57"><![CDATA[He said: "So what (is) your matter/affair/concern, you, the messengers?"]]></Verse>
+	<Verse VerseID="58"><![CDATA[They said: "We are sent to a nation (of) criminals/sinners ."]]></Verse>
+	<Verse VerseID="59"><![CDATA[Except Lot`s family, We are saving/rescuing them (E) all together .]]></Verse>
+	<Verse VerseID="60"><![CDATA[Except his woman (wife). We predestined/evaluated that she truly is from (E) the remaining behind.]]></Verse>
+	<Verse VerseID="61"><![CDATA[So when the messengers came (to) Lot`s family .]]></Verse>
+	<Verse VerseID="62"><![CDATA[He said: "That you are a disguised/unknown nation."]]></Verse>
+	<Verse VerseID="63"><![CDATA[They said: "But we came to you, with what they were in it doubting/arguing."]]></Verse>
+	<Verse VerseID="64"><![CDATA[And we came/brought (to) you with the truth , and that we are truthful (E).]]></Verse>
+	<Verse VerseID="65"><![CDATA[So move/travel/depart at night with your family/people with portions from the night and follow their backs/ends; and no one from you (should) turn around , and proceed/complete where/when you are being ordered/commanded.]]></Verse>
+	<Verse VerseID="66"><![CDATA[And We ordered/passed judgment to him (of) that the matter/affair/order/command, that those (people`s) root/remainder (is) cut off/severed by the morning/daybreak.]]></Verse>
+	<Verse VerseID="67"><![CDATA[And the city`s/town`s people came cheerful/rejoicing ."]]></Verse>
+	<Verse VerseID="68"><![CDATA[He said: "That those (are) my guests, so do not expose my faults (scandalize me)."]]></Verse>
+	<Verse VerseID="69"><![CDATA[And fear and obey God and do not shame/disgrace me .]]></Verse>
+	<Verse VerseID="70"><![CDATA[They said: "And did we not forbid/prevent you from the creations all together/(universes)?"]]></Verse>
+	<Verse VerseID="71"><![CDATA[He said: "Those (are) my daughters, if you were making/doing."]]></Verse>
+	<Verse VerseID="72"><![CDATA[To your life/age (an oath) that they truly are in (E) their intoxication/loss of judgment being confused/puzzled .]]></Verse>
+	<Verse VerseID="73"><![CDATA[So the loud strong cry/torture raid took/punished them at sunrise.]]></Verse>
+	<Verse VerseID="74"><![CDATA[So We made its highest/elevated , its lowest/bottom, and We rained on them stones of dry and hardened mud.]]></Verse>
+	<Verse VerseID="75"><![CDATA[That in that (are) evidences/signs (E) , to the observing/scrutinizing .]]></Verse>
+	<Verse VerseID="76"><![CDATA[And that it truly is with a continuing/keeping up path/means (E) .]]></Verse>
+	<Verse VerseID="77"><![CDATA[That in that (is) a sign/evidence (E) to the believers.]]></Verse>
+	<Verse VerseID="78"><![CDATA[And if owners/company (of) the thicket/dense tangled trees were unjust/oppressive (E).]]></Verse>
+	<Verse VerseID="79"><![CDATA[So We revenged from them that they (B) truly (the two nations) are with a clear/evident leader/example (E) .]]></Verse>
+	<Verse VerseID="80"><![CDATA[And the forbidden`s/mind`s owners/company denied the messengers.]]></Verse>
+	<Verse VerseID="81"><![CDATA[And We gave/brought them Our verses/evidences , so they were objecting/opposing/turning away from it.]]></Verse>
+	<Verse VerseID="82"><![CDATA[And they were carving out/cutting from the mountains houses/homes safely/securely.]]></Verse>
+	<Verse VerseID="83"><![CDATA[So the loud strong cry/torture raid took/punished them in the morning/daybreak. 178]]></Verse>
+	<Verse VerseID="84"><![CDATA[So what they were gaining/acquiring did not enrich/suffice them from them (was of no benefit to them).]]></Verse>
+	<Verse VerseID="85"><![CDATA[And We did not create the skies/space and the earth/Planet Earth and what (is) between them (B) except with the truth , and that truly the Hour/Resurrection is coming (E) so forgive/pardon the forgiveness/pardon, the beautiful/graceful .]]></Verse>
+	<Verse VerseID="86"><![CDATA[That truly your Lord (is) the creator (E), the knowledgeable.]]></Verse>
+	<Verse VerseID="87"><![CDATA[And We had given/brought you seven from the doubles/strength/capacity and the Koran , the great.]]></Verse>
+	<Verse VerseID="88"><![CDATA[Do not extend/spread your two eyes to what We made spouses/couples from them enjoy with it, and do not be sad/grievous on (for) them, and be lenient/comforting/lower your wing/side (kindness) to the believers.]]></Verse>
+	<Verse VerseID="89"><![CDATA[And say: "That I, I am the warner/giver of notice, the clear/evident ."]]></Verse>
+	<Verse VerseID="90"><![CDATA[As We descended on the apportioners/dividers/distributors.]]></Verse>
+	<Verse VerseID="91"><![CDATA[Those who made the Koran bits/divisions/enchantments .]]></Verse>
+	<Verse VerseID="92"><![CDATA[So by/with your Lord, We will ask/question them (E) all together .]]></Verse>
+	<Verse VerseID="93"><![CDATA[About what they were making/doing .]]></Verse>
+	<Verse VerseID="94"><![CDATA[So uncover/declare openly with what you are being ordered/commanded, and turn away from the sharers/takers of partners (with God).]]></Verse>
+	<Verse VerseID="95"><![CDATA[That We truly make you sufficient (protect you) against the mocking/making fun.]]></Verse>
+	<Verse VerseID="96"><![CDATA[Those who create/put with God another god, so they will/shall know.]]></Verse>
+	<Verse VerseID="97"><![CDATA[And We had know (known) that you, your chest (innermost) narrows/tightens becuase (of) what they say.]]></Verse>
+	<Verse VerseID="98"><![CDATA[So praise/glorify with your Lord`s praise/gratitude/thanks, and be from the prostrating.]]></Verse>
+	<Verse VerseID="99"><![CDATA[And worship your Lord, until the assurance/certainty (death) comes to you. 179]]></Verse>
+</Chapter>

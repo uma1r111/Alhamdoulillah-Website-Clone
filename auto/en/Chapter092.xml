@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="92" ChapterName="The Night">
+	<Verse VerseID="1"><![CDATA[And/by the night when/if it covers/darkens .]]></Verse>
+	<Verse VerseID="2"><![CDATA[And/by the daytime when/if it uncovered/shined .]]></Verse>
+	<Verse VerseID="3"><![CDATA[And/by what (who) created the male and the female.]]></Verse>
+	<Verse VerseID="4"><![CDATA[That truly your striving/endeavor (is) separate/different (E) .]]></Verse>
+	<Verse VerseID="5"><![CDATA[So but who gave/granted and feared and obeyed.]]></Verse>
+	<Verse VerseID="6"><![CDATA[And gave charity/confirmed with the best/most beautiful .]]></Verse>
+	<Verse VerseID="7"><![CDATA[So We will ease him to the ease/prosperity.]]></Verse>
+	<Verse VerseID="8"><![CDATA[And but who was stingy/miser and sufficed/availed .]]></Verse>
+	<Verse VerseID="9"><![CDATA[And lied/denied/falsified with the best/most beautiful .]]></Verse>
+	<Verse VerseID="10"><![CDATA[So We will ease him to the difficulty/hardship .]]></Verse>
+	<Verse VerseID="11"><![CDATA[And his property/possession/wealth does not enrich/suffice (replace) from him if he fell/was destroyed .]]></Verse>
+	<Verse VerseID="12"><![CDATA[That truly on Us (is) the guidance (E).]]></Verse>
+	<Verse VerseID="13"><![CDATA[And that truly for Us (is) the end (other life) (E), and the first/beginning.]]></Verse>
+	<Verse VerseID="14"><![CDATA[And so I warned you/gave you notice (of) a fire blazing/burning/inflaming.]]></Verse>
+	<Verse VerseID="15"><![CDATA[None roasts/suffers it except the most miserable/unhappy.]]></Verse>
+	<Verse VerseID="16"><![CDATA[Who lied/denied/falsified and turned away.]]></Verse>
+	<Verse VerseID="17"><![CDATA[And the most fearing and obeying will be made to avoid it/be distanced from it.]]></Verse>
+	<Verse VerseID="18"><![CDATA[Who gives/brings his property/possession/wealth (and) purifies/corrects (himself).]]></Verse>
+	<Verse VerseID="19"><![CDATA[And (there) is not to anyone at Him from a blessing/goodness to be rewarded/reimbursed .]]></Verse>
+	<Verse VerseID="20"><![CDATA[Except wishing/desiring his Lord`s the highest`s/mightiest`s/most dignified`s face/front (path).]]></Verse>
+	<Verse VerseID="21"><![CDATA[And he/He will/shall (E) accept/approve.]]></Verse>
+</Chapter>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="14" ChapterName="Abraham (Ibrahim)">
+	<Verse VerseID="1"><![CDATA[Alif, Lam, Ra. (Voici) un livre que nous avons fait descendre sur toi, afin que - par la permission de leur Seigneur - tu fasses sortir les gens des ténèbres vers la lumière, sur la voie du Tout Puissant, du Digne de louange, ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Allah, à qui appartient tout ce qui est dans les cieux et sur la terre. Et malheur aux mécréants, pour un dur châtiment [qu'ils subiront]. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Ceux qui préfèrent la vie d'ici bas à l'au-delà, obstruent [aux gens], le chemin d'Allah et cherchent à le rendre tortueux, ceux-là sont loin dans l'égarement. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Et Nous n'avons envoyé de Messager qu'avec la langue de son peuple, afin de les éclairer. Allah égare qui Il veut et guide qui Il veut. Et, c'est Lui le tout Puissant, le Sage. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Nous avons certes, envoyé Moïse avec Nos miracles [en lui disant] : "Fais sortir ton peuple des ténèbres vers la lumière, et rappelle-leur les jours d'Allah". [Ses bienfaits]. Dans tout cela il y a des signes pour tout homme plein d'endurance et de reconnaissance. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[(Rappelle-toi) quand Moïse dit à son peuple : "Rappelez- vous le bienfait d'Allah sur vous quand Il vous sauva des gens de Pharaon qui vous infligeaient le pire châtiment. Ils massacraient vos fils et laissaient en vie vos filles. Il y avait là une dure épreuve de la part de votre Seigneur", ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Et lorsque votre Seigneur proclama : "Si vous êtes reconnaissants, très certainement J'augmenterai [Mes bienfaits] pour vous. Mais si vous êtes ingrats, Mon châtiment sera terrible". ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Et Moïse dit : "Si vous êtes ingrats, vous ainsi que tous ceux qui sont sur terre, [sachez] qu'Allah Se suffit à Lui-même et qu'Il est digne de louange" ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Ne vous est-il pas parvenu le récit de ceux d'avant vous, du peuple de Noé, des Aad, des Tamud et de ceux qui vécurent après eux, et que seul Allah connaît ? Leurs messagers vinrent à eux avec des épreuves, mais il dirent, ramenant leurs mains à leurs bouches : "Nous ne croyons pas [au message] avec lequel vous avez été envoyés et nous sommes, au sujets de ce à quoi vous nous appelez, dans un doute vraiment troublant". ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Leurs messagers dirent : "Y a-t-il un doute au sujet d'Allah, Créateur des cieux et de la terre, qui vous appelle pour vous pardonner une partie de vos péchés et vous donner un délai jusqu'à un terme fixé ?" [Les mécréants] répondirent : "Vous n'êtes que des hommes comme nous. Vous voulez nous empêcher de ce que nos ancêtres adoraient. Apportez-nous donc une preuve évidente". ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Leurs messagers leur dirent : "Certes, nous ne sommes que des humains comme vous. Mais Allah favorise qui Il veut parmi Ses serviteurs. Il ne nous appartient de vous apporter quelque preuve, que par la permission d'Allah. Et c'est en Allah que les croyants doivent placer leur confiance ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Et qu'aurions-nous à ne pas placer notre confiance en Allah, alors qu'Il nous guidés sur les sentiers [que nous devions suivre] ? Nous endurerons sûrement la persécution que vous nous infligez. Et ceux qui ont confiance en Allah s'en remettent entièrement à Lui." ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Et ceux qui ont mécru dirent à leurs messagers : "Nous vous expulserons certainement de notre territoire, à moins que vous ne réintégriez notre religion !" Alors, leur Seigneur leur révéla : "Assurément Nous anéantirons les injustes, ]]></Verse>
+	<Verse VerseID="14"><![CDATA[et vous établirons dans le pays après eux. Cela est pour celui qui craint Ma présence et craint Ma menace". ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Et ils demandèrent [à Allah] la victoire. Et tout tyran insolent fut déçu ]]></Verse>
+	<Verse VerseID="16"><![CDATA[L'Enfer est sa destination et il sera abreuvé d'une eau purulent ]]></Verse>
+	<Verse VerseID="17"><![CDATA[qu'il tentera d'avaler à petites gorgées. Mais c'est à peine s'il peut l'avaler. La mort lui viendra de toutes parts, mais il ne mourra pas ; et il aura un châtiment terrible. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[qu'il tentera d'avaler à petites gorgées. Mais c'est à peine s'il peut l'avaler. La mort lui viendra de toutes parts, mais il ne mourra pas ; et il aura un châtiment terrible. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Ne vois-tu pas qu'Allah a créé les cieux et la terre pour une juste raison ? S'Il voulait, Il vous ferait disparaître et ferait venir de nouvelles créatures, ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Ne vois-tu pas qu'Allah a créé les cieux et la terre pour une juste raison ? S'Il voulait, Il vous ferait disparaître et ferait venir de nouvelles créatures, ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Et tous comparaîtront devant Allah. Puis, les faibles diront à ceux qui s'enflaient d'orgueil : "Nous étions bien vos suiveurs. Pouvez-vous nous être de quelque utilité contre le châtiment d'Allah ?" - Alors, les autres diront : "Si Allah nous avait guidés nous vous aurions certainement guidées. Il est indifférent pour nous plaindre ou d'endurer ; nous n'avons pas d'échappatoire". ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Et quand tout sera accompli, le Diable dira : "Certes, Allah vous avait fait une promesse de vérité ; tandis que moi, je vous ai fait une promesse que je n'ai pas tenue. Je n'avais aucune autorité sur vous si ce n'est que je vous ai appelés, et que vous m'avez répondu. Ne me faites donc pas de reproches ; mais faites-en à vous même. Je ne vous suis d'aucun secours et vous ne m'êtes d'aucun secours. Je vous renie de m'avoir jadis associé [à Allah]". Certes, un châtiment douloureux attend les injustes [les associateurs]. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Et on fera entrer ceux qui croient et font de bonnes oeuvres, dans les jardins sous lesquels coulent les ruisseaux, pour y demeurer éternellement, par permission de leur Seigneur. Et là, leur salutation sera : "Salam" (Paix) ]]></Verse>
+	<Verse VerseID="24"><![CDATA[N'as-tu pas vu comment Allah propose en parabole une bonne parole pareille à un bel arbre dont la racine est ferme et la ramure s'élançant dans le ciel ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Il donne à tout instant ses fruits, par la grâce de son Seigneur. Allah propose ses paraboles à l'intention des gens afin qu'ils s'exhortent ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Il donne à tout instant ses fruits, par la grâce de son Seigneur. Allah propose ses paraboles à l'intention des gens afin qu'ils s'exhortent ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Allah affermit les croyants par une parole ferme, dans la vie présente et dans l'au-delà. Tandis qu'Il égare Ies injustes. Et Allah fait ce qu'Il veut. ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Allah affermit les croyants par une parole ferme, dans la vie présente et dans l'au-delà. Tandis qu'Il égare Ies injustes. Et Allah fait ce qu'Il veut. ]]></Verse>
+	<Verse VerseID="29"><![CDATA[...l'Enfer, où ils brûleront ? Et quel mauvais gîte ! ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Et ils ont donné à Allah des égaux afin d'égarer (les gens) de Son sentier. - Dis : "Jouissez [de cette vie] car votre destination sera le feu". ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Dis à Mes serviteurs qui ont cru, qu'ils accomplissent la Salat et qu'ils dépensent [dans le bien] en secret et en public de ce que Nous leur avons attribué, avant que vienne le jour où il n'y a ni rachat ni amitié. ]]></Verse>
+	<Verse VerseID="32"><![CDATA[Allah, c'est Lui qui a crée les cieux et la terre et qui, du ciel, a fait descendre l'eau ; grâce à laquelle Il a produit des fruits pour vous nourrir. Il a soumis à votre service les vaisseaux qui, par Son ordre, voguent sur la mer. Et Il a soumis à votre service les rivières. ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Et pour vous, Il a assujetti le soleil et la lune à une perpétuelle révolution. Et Il vous a assujetti la nuit et le jour. ]]></Verse>
+	<Verse VerseID="34"><![CDATA[Il vous a accordé de tout ce que vous Lui avez demandé. Et si vous comptiez les bienfaits d'Allah, vous ne sauriez les dénombrer. L'homme est vraiment très injuste, très ingrat. ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Et (rappelle-toi) quand Abraham dit : "Ô mon Seigneur, fais de cette cité un lieu sûr, et préserve-moi ainsi que mes enfants de l'adoration des idoles. ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Ô mon Seigneur, elles (les idoles) ont égaré beaucoup de gens. Quiconque me suit est des miens. Quand a celui qui me désobéit... c'est Toi, le Pardonneur, le Très Miséricordieux ! ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Ô notre Seigneur, j'ai établi une partie de ma descendance dans une vallée sans agriculture, près de Ta Maison sacrée [la Kaaba], - ò notre Seigneur - afin qu'ils accomplissent la Salat. Fais donc que se penchent vers eux les coeurs d'une partie des gens. Et nourris-les de fruits. Peut-être seront-ils reconnaissants ? ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Ô notre Seigneur, Tu sais, vraiment, ce que nous cachons et ce que nous divulguons : - et rien n'échappe à Allah, ni sur terre, ni au ciel ! - ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Louange à Allah, qui en dépit de ma vieillesse, m'a donné Ismaël et Isaac. Certes, mon Seigneur entend bien les prières. ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Ô mon Seigneur ! Fais que j'accomplisse assidûment la Salat ainsi qu'une partie de ma descendance ; exauce ma prière, ò notre Seigneur ! ]]></Verse>
+	<Verse VerseID="41"><![CDATA[Ô notre Seigneur ! pardonne-moi, ainsi qu'à mes père et mère et aux croyants, le jour de la reddition des comptes". ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Et ne pense point qu'Allah soit inattentif à ce que font les injustes. Ils leur accordera un délai jusqu'au jour où leurs regards se figeront. ]]></Verse>
+	<Verse VerseID="44"><![CDATA[Et avertis les gens du jour où le châtiment les atteindra et ceux qui auront été injustes diront : "Ô notre Seigneur accorde-nous un court délai, nous répondrons à Ton appel et suivront les messagers". - N'avez-vous pas juré auparavant que vous ne deviez jamais disparaître ? ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Et vous avez habité, les demeures de ceux qui s'étaient fait du tord à eux-mêmes. Il vous est apparu en toute évidence comment Nous les avions traité et Nous vous avons cité les exemples. ]]></Verse>
+	<Verse VerseID="46"><![CDATA[Ils ont certes comploté. Or leur complot est (inscrit) auprès d'Allah même si leur complot était assez puissant pour faire disparaître les montagnes.. ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Ne pense point qu'Allah manque à Sa Promesse envers Ses messagers. Certes Allah est Tout Puissant et Détenteur du pouvoir de punir, ]]></Verse>
+	<Verse VerseID="48"><![CDATA[au jour où la terre sera remplacée par une autre, de même que les cieux et où (les hommes) comparaîtront devant Allah, l'Unique, Le Dominateur Suprêm ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Et ce jour-là, tu verras les coupables, enchaînés les uns aux autres ]]></Verse>
+	<Verse VerseID="50"><![CDATA[leurs tuniques seront de goudron et le feu couvrira leurs visages. ]]></Verse>
+	<Verse VerseID="51"><![CDATA[(Tout cela) afin qu'Allah rétribue chaque âme de ce qu'elle aura acquis. Certes Allah est prompt dans Ses comptes ]]></Verse>
+	<Verse VerseID="52"><![CDATA[Ceci est un message (le Coran) pour les gens afin qu'ils soient avertis, qu'ils sachent qu'Ils n'est qu'un Dieu unique, et pour que les doués d'intelligence s'exhortent. ]]></Verse>
+</Chapter>

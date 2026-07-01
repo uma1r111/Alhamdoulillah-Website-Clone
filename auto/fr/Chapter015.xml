@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="15" ChapterName="Al-Hijr)">
+	<Verse VerseID="1"><![CDATA[Alif, Lam, Ra. Voici les versets du Livre et d'une Lecture explicite. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[[Le Jour du Jugement Dernier] les mécréants voudraient avoir été Musulmans [soumis]. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Laisse-les manger, jouir (un temps), et être distraits par l'espoir ; car bientòt ils sauront ! ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Or Nous ne détruisons aucune cité sans qu'elle n'ait eu [un terme fixé en] une Ecriture connue. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Nulle communauté ne devance son terme, ni ne le retard. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Et ils (les mecquois) disent : "Ô toi sur qui on a fait descendre le Coran, tu es certainement fou ! ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Pourquoi ne nous es-tu pas venu avec les Anges, si tu es du nombre des véridiques ?" ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Nous ne faisons descendre les Anges qu'avec la vérité ; et alors, il ne leur sera pas accordé de répit [à ces impies]. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Nous ne faisons descendre les Anges qu'avec la vérité ; et alors, il ne leur sera pas accordé de répit [a ces impies] ]]></Verse>
+	<Verse VerseID="10"><![CDATA[En vérité c'est Nous qui avons fait descendre le Coran, et c'est Nous qui en sommes gardien. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Et nous avons certes envoyé, avant toi, [des Messagers] parmi les peuples des Anciens. ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Et pas un Messager ne leur est venu sans qu'ils s'en soient moqués. ]]></Verse>
+	<Verse VerseID="13"><![CDATA[C'est ainsi que Nous faisons pénétrer (la mécréance) dans les coeurs des coupables. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Ils ne croiront pas en lui [le Messager ou le Coran] bien que se soit accompli le sort traditionnel des anciens. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Et même si Nous ouvrions pour eux une porte du ciel, et qu'ils pussent y monter, ]]></Verse>
+	<Verse VerseID="16"><![CDATA[ils diraient : "Vraiment nos yeux sont voilés. Mais plutòt, nous sommes des gens ensorcelés". ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Certes Nous avons placé dans le ciel des constellations et Nous l'avons embelli pour ceux qui regardent. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Et Nous l'avons protégé contre tout diable banni. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[A moins que l'un d'eux parvienne subrepticement à écouter, une flamme brillante alors le poursuit. ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Et quant à la terre, Nous l'avons étalée et y avons placé des montagnes (immobiles) et y avons fait pousser toute chose harmonieusement proportionnée. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Et Nous y avons placé des vivres pour vous, et (placé aussi pour vous) des êtres que vous ne nourrissez pas ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Et il n'est rien dont Nous n'ayons les réserves et Nous ne le faisons descendre que dans une mesure déterminée. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Et Nous envoyons les vents fécondants ; et Nous faisons alors descendre du ciel une eau dont Nous vous abreuvons et que vous n'êtes pas en mesure de conserver ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Et c'est bien Nous qui donnons la vie et donnons la mort, et c'est Nous qui sommes l'héritier [de tout]. ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Et Nous connaissons certes ceux qui parmi vous ont avancé et Nous connaissons ceux qui tardent encore ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Certes, c'est ton Seigneur qui les rassemblera. Car c'est lui le Sage, l'Omniscient. ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Nous créâmes l'homme d'une argile crissante, extraite d'une boue malléable. ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Et quand au djinn, Nous l'avions auparavant créé d'un feu d'une chaleur ardente. ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Et lorsque ton Seigneur dit aux Anges : "Je vais créer un homme d'argile crissante, extraite d'une boue malléable ]]></Verse>
+	<Verse VerseID="30"><![CDATA[et dès que Je l'aurais harmonieusement formé et lui aurait insufflé Mon souffle de vie, jetez-vous alors, prosternés devant lui" ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Alors, les Anges se prosternèrent tous ensemble, ]]></Verse>
+	<Verse VerseID="32"><![CDATA[excepté Iblis qui refusa d'être avec les prosternés. ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Alors [Allah] dit : "Ô Iblis, pourquoi n'es-tu pas au nombre des prosternés ? ]]></Verse>
+	<Verse VerseID="34"><![CDATA[Il dit : "Je ne puis me prosterner devant un homme que Tu as créé d'argile crissante, extraite d'une boue malléable" ]]></Verse>
+	<Verse VerseID="35"><![CDATA[- Et [Allah] dit : "Sors de là [du Paradis], car te voilà banni ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Et malédiction sur toi, jusqu'au Jour de la rétribution !" ]]></Verse>
+	<Verse VerseID="37"><![CDATA[- Il dit : "Ô mon Seigneur, donne-moi donc un délai jusqu'au jour où ils (les gens) seront ressuscités". ]]></Verse>
+	<Verse VerseID="38"><![CDATA[[Allah] dit : tu es de ceux à qui ce délai est accordé, ]]></Verse>
+	<Verse VerseID="39"><![CDATA[jusqu'au jour de l'instant connu" [d'Allah]. ]]></Verse>
+	<Verse VerseID="40"><![CDATA[- Il dit : "Ô mon Seigneur, parce que Tu m'as induit en erreur, eh bien je leur enjoliverai la vie sur terre et les égarerai tous, ]]></Verse>
+	<Verse VerseID="41"><![CDATA[à l'exception, parmi eux, de Tes serviteurs élus." ]]></Verse>
+	<Verse VerseID="42"><![CDATA[- "[Allah] dit : voici une voie droite [qui mène] vers Moi. ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Sur Mes serviteurs tu n'auras aucune autorité, excepté sur celui qui te suivra parmi les dévoyés. ]]></Verse>
+	<Verse VerseID="44"><![CDATA[Et l'Enfer sera sûrement leur lieu de rendez-vous à tous. ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Certes, les pieux seront dans des jardins avec des sources ]]></Verse>
+	<Verse VerseID="46"><![CDATA["Entrez-y en paix et en sécurité" ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Et Nous aurons arraché toute rancune de leurs poitrines : et ils se sentiront frères, faisant face les uns aux autres sur des lits. ]]></Verse>
+	<Verse VerseID="48"><![CDATA[Nulle fatigue ne les y touchera. Et on ne les en fera pas sortir. ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Informe Mes serviteurs que c'est Moi le Pardonneur, le Très Miséricordieux. ]]></Verse>
+	<Verse VerseID="50"><![CDATA[et que Mon châtiment est certes le châtiment douloureux. ]]></Verse>
+	<Verse VerseID="51"><![CDATA[Et informe-les au sujet des hòtes d'Abraha ]]></Verse>
+	<Verse VerseID="52"><![CDATA[Quand ils entrèrent chez lui et dirent : "Salam" - Il dit : "Nous avons peur de vous". ]]></Verse>
+	<Verse VerseID="53"><![CDATA[Ils dirent : "N'aie pas peur ! Nous t'annonçons une bonne nouvelle, [la naissance] d'un garçon plein de savoir" ]]></Verse>
+	<Verse VerseID="54"><![CDATA[Il dit : "M'annoncez-vous [cette nouvelle] alors que la vieillesse m'a touché ? Que m'annoncez-vous donc ?" ]]></Verse>
+	<Verse VerseID="55"><![CDATA[- Ils dirent : "Nous t'annonçons la vérité. Ne sois donc pas de ceux qui désespèrent" ]]></Verse>
+	<Verse VerseID="56"><![CDATA[- Il dit : "Et qui désespère de la miséricorde de son Seigneur, sinon les égarés ?" ]]></Verse>
+	<Verse VerseID="57"><![CDATA[Et il [leur] dit : "Que voulez-vous, ò envoyés d'Allah ? ]]></Verse>
+	<Verse VerseID="58"><![CDATA[- Ils dirent : "En vérité, nous sommes envoyés à des gens criminels, ]]></Verse>
+	<Verse VerseID="59"><![CDATA[à l'exception de la famille de Lot que nous sauverons tou ]]></Verse>
+	<Verse VerseID="60"><![CDATA[sauf sa femme. "Nous (Allah) avions déterminé qu'elle sera du nombre des exterminés. ]]></Verse>
+	<Verse VerseID="61"><![CDATA[Puis lorsque les envoyés vinrent auprès de la famille de Lo ]]></Verse>
+	<Verse VerseID="62"><![CDATA[celui-ci dit : "Vous êtes [pour moi] des gens inconnus" ]]></Verse>
+	<Verse VerseID="63"><![CDATA[- Ils dirent : "Nous sommes plutòt venus à toi en apportant (le châtiment) à propos duquel ils doutaient. ]]></Verse>
+	<Verse VerseID="64"><![CDATA[Et nous venons à toi avec la vérité. Et nous sommes véridiques. ]]></Verse>
+	<Verse VerseID="65"><![CDATA[Pars donc avec ta famille en fin de nuit et suis leurs arrières ; et que nul d'entre vous ne se retourne. Et allez là où on vous le commande". ]]></Verse>
+	<Verse VerseID="66"><![CDATA[Et Nous lui annonçâmes cet ordre : que ces gens-là, au matin, seront anéantis jusqu'au dernier ]]></Verse>
+	<Verse VerseID="67"><![CDATA[Et les habitants de la ville (Sodome) vinrent [à lui] dans la joie ]]></Verse>
+	<Verse VerseID="68"><![CDATA[- Il dit : "Ceux-ci sont mes hòtes, ne me déshonorez donc pas ]]></Verse>
+	<Verse VerseID="69"><![CDATA[Et craignez Allah. Et ne me couvrez pas d'ignominie ]]></Verse>
+	<Verse VerseID="70"><![CDATA[Ils dirent : "Ne t'avions-nous pas interdit de [recevoir] du monde ?" ]]></Verse>
+	<Verse VerseID="71"><![CDATA[Il dit : "Voici mes filles, si vous voulez faire [quelque chose] !" ]]></Verse>
+	<Verse VerseID="72"><![CDATA[Par ta vie ! ils se confondaient dans leur délire. ]]></Verse>
+	<Verse VerseID="73"><![CDATA[Alors, au lever du soleil le Cri (la catastrophe) les saisit ]]></Verse>
+	<Verse VerseID="74"><![CDATA[Et Nous renversâmes [la ville] de fond en comble et fîmes pleuvoir sur eux des pierres d'argile dure. ]]></Verse>
+	<Verse VerseID="75"><![CDATA[Voilà vraiment des preuves, pour ceux qui savent observer ! ]]></Verse>
+	<Verse VerseID="76"><![CDATA[Voilà vraiment des preuves, pour ceux qui savent observer ! ]]></Verse>
+	<Verse VerseID="77"><![CDATA[Voilà vraiment une exhortation pour les croyants ! ]]></Verse>
+	<Verse VerseID="78"><![CDATA[Et les habitants d'al-Aïka étaient [aussi] des injustes. ]]></Verse>
+	<Verse VerseID="79"><![CDATA[Nous Nous sommes donc vengés d'eux. Et ces deux [cités], vraiment, sont sur une route bien évidente [que vous connaissez]. ]]></Verse>
+	<Verse VerseID="80"><![CDATA[Certes, les gens d'al-Hijr ont traité de menteurs les messagers. ]]></Verse>
+	<Verse VerseID="81"><![CDATA[Nous leur avons montré Nos miracles, mais ils s'en étaient détournés. ]]></Verse>
+	<Verse VerseID="82"><![CDATA[Et ils taillaient des maisons dans leur montagnes, vivant en sécurité. ]]></Verse>
+	<Verse VerseID="83"><![CDATA[Puis, au matin, le Cri les saisit. ]]></Verse>
+	<Verse VerseID="84"><![CDATA[Ce qu'ils avaient acquis ne leur a donc point profité. ]]></Verse>
+	<Verse VerseID="85"><![CDATA[Et Nous n'avons créé les cieux et la terre, et ce qui est entre eux, que pour une juste raison. Et l'Heure [sans aucun doute] arrivera ! Pardonne-[leur] donc d'un beau pardon. ]]></Verse>
+	<Verse VerseID="86"><![CDATA[Ton Seigneur, c'est Lui vraiment le grand Créateur, l'Omniscient ]]></Verse>
+	<Verse VerseID="87"><![CDATA[Nous t'avons certes donné "les sept versets que l'on répété", ainsi que le Coran sublime. ]]></Verse>
+	<Verse VerseID="88"><![CDATA[Ne regarde surtout pas avec envie les choses dont Nous avons donné jouissance temporaire à certains couples d'entre eux, ne t'afflige pas à leur sujet et abaisse ton aile pour les croyants. ]]></Verse>
+	<Verse VerseID="89"><![CDATA[Et dis : "Je suis l'avertisseur évident" (d'un châtiment), ]]></Verse>
+	<Verse VerseID="90"><![CDATA[De même que Nous avons fait descendre [le châtiment] sur ceux qui ont juré (entre eux), ]]></Verse>
+	<Verse VerseID="91"><![CDATA[ceux qui ont fait du Coran des fractions diverses, (pour créer des doutes). ]]></Verse>
+	<Verse VerseID="92"><![CDATA[Par ton Seigneur ! Nous les interrogerons tous ]]></Verse>
+	<Verse VerseID="93"><![CDATA[sur ce qu'ils oeuvraient. ]]></Verse>
+	<Verse VerseID="94"><![CDATA[Expose donc clairement ce qu'on t'a commandé et détourne- toi des associateurs. ]]></Verse>
+	<Verse VerseID="95"><![CDATA[Nous t'avons effectivement défendu vis-à-vis des railleurs. ]]></Verse>
+	<Verse VerseID="96"><![CDATA[Ceux qui associent à Allah une autre divinité. Mais ils sauront bientòt. ]]></Verse>
+	<Verse VerseID="97"><![CDATA[Et Nous savons certes que ta poitrine se serre, à cause de ce qu'ils disent. ]]></Verse>
+	<Verse VerseID="98"><![CDATA[Glorifie donc Ton Seigneur par Sa louange et sois de ceux qui se prosternent ; ]]></Verse>
+	<Verse VerseID="99"><![CDATA[et adore ton Seigneur jusqu'à ce que te vienne la certitude (la mort). ]]></Verse>
+</Chapter>

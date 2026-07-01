@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="110" ChapterName="The Help">
+	<Verse VerseID="1"><![CDATA[When/if God`s victory/aid came, and the opening/judgment .]]></Verse>
+	<Verse VerseID="2"><![CDATA[And you saw the people entering in God`s religion (in) groups/crowds .]]></Verse>
+	<Verse VerseID="3"><![CDATA[So praise/glorify with your Lord`s praise/gratitude/thanks, and ask him for forgiveness, that He truly was/is forgiving.]]></Verse>
+</Chapter>

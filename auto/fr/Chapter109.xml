@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="109" ChapterName="Les infidèles (Al-Kafiroune)">
+	<Verse VerseID="1"><![CDATA[Dis : "Ô vous les infidèles ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Je n'adore pas ce que vous adorez. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Et vous n'êtes pas adorateurs de ce que j'adore. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Je ne suis pas adorateur de ce que vous adorez. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Et vous n'êtes pas adorateurs de ce que j'adore. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[A vous votre religion, et à moi ma religion". ]]></Verse>
+</Chapter>

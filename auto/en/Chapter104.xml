@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="104" ChapterName="The Slanderer">
+	<Verse VerseID="1"><![CDATA[Calamity/scandal/woe to every/each backbiter/spurrer , defamer/blamer .]]></Verse>
+	<Verse VerseID="2"><![CDATA[Who gathered/accumulated property/possession/wealth and he counted it repeatedly.]]></Verse>
+	<Verse VerseID="3"><![CDATA[He thinks/supposes that (E) his property/possession/wealth made him immortal/eternal .]]></Verse>
+	<Verse VerseID="4"><![CDATA[No but he will be discarded/thrown away (E) in the intense fire/Hell.]]></Verse>
+	<Verse VerseID="5"><![CDATA[And what made you know/informed you what the intense fire/Hell (is)?477]]></Verse>
+	<Verse VerseID="6"><![CDATA[God`s fire, the ignited/kindled .]]></Verse>
+	<Verse VerseID="7"><![CDATA[Which ascends/rises on (to) the hearts .]]></Verse>
+	<Verse VerseID="8"><![CDATA[That it truly is on them stationary/residing .]]></Verse>
+	<Verse VerseID="9"><![CDATA[In extended/spread pillars/posts .]]></Verse>
+</Chapter>

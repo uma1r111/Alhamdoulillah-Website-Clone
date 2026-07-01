@@ -1,0 +1,100 @@
+	<?php 
+$theme1 = "allah swt"; 
+$theme2 = "allah subhana wa ta ala"; 
+$theme3 = "allah subhanahu wa ta ala"; 
+
+$signification = "<span style=\"color:darkred;\">Allah, glory to him, let him be Exalted.</span>"; 
+
+$prononciation = "allahou soubhanahou wa ta'ala"; 
+$arabe = "<span style=\"font-size:12pt;\"><b>الله سبحانه وتعالى</b></span>"; 
+
+$temps1 = "<li>When the name of Allah is read, heard or written</li>";
+$temps5 = "<li>Anytime to do dhikr</li>";
+
+ ?>
+ 
+ 
+
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="/en/css/islam.css">
+
+<title>What means « <?php echo $theme1;?> » ? Meaning and Translation of « <?php echo $theme1;?> »</title>
+<meta name="description" content="What does the word « <?php echo $theme1;?> » mean ? Explanation and meaning of the term « <?php echo $theme2;?> », when to say it and how to pronounce it correctly in arabic ?">
+
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-9535111-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+
+</head>
+<body>
+
+<?php include("../inc/haut.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>What does « <?php echo $theme1;?> » mean ?</h1>
+
+<?php include("../../inc/pub-content.php");?>
+
+<h2>Meaning of « <?php echo $theme2;?> »</h2>
+
+<p>That means : <?php echo $signification;?></p> 
+
+<p>Here are the main spellings of this word :</p>
+
+<ul>
+	<?php 
+	if (isset($theme1)) echo "<li>$theme1</li>";
+	if (isset($theme2)) echo "<li>$theme2</li>";
+	if (isset($theme3)) echo "<li>$theme3</li>";
+	if (isset($theme4)) echo "<li>$theme4</li>";
+	?>
+</ul>
+
+<h3>How to pronounce « <?php echo $theme2;?> » ?</h3>
+
+<p>The exact pronunciation is <?php echo $prononciation;?>.
+
+<h3>How to write « <?php echo $prononciation;?> » in arabic ?</h3>
+
+<p>We write : <?php echo $arabe;?></p>
+
+<h3>When to say « <?php echo $prononciation;?> » ?</h3>
+
+<ul>
+	<?php if (isset($temps1)) echo $temps1;?>
+	<?php if (isset($temps2)) echo $temps2;?>
+	<?php if (isset($temps3)) echo $temps3;?>
+	<?php if (isset($temps4)) echo $temps4;?>
+	<?php if (isset($temps5)) echo $temps5;?>
+</ul>
+
+<?php 
+include("../inc/share.php");
+include ("pages.php");
+?>
+
+
+</td>
+<td id="colonnes"><?php include("../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../inc/footer.php") ?>
+</body></html>

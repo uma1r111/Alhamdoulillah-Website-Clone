@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="44" ChapterName="La fumée (Ad-Dukhan)">
+	<Verse VerseID="1"><![CDATA[Ha, Mim. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Par le Livre (le Coran) explicite. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Nous l'avons fait descendre en une nuit bénie, Nous sommes en vérité Celui qui avertit, ]]></Verse>
+	<Verse VerseID="4"><![CDATA[durant laquelle est décidé tout ordre sage, avertit, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[c'est là un commandement venant de Nous. C'est Nous qui envoyons [les Messagers], avertit, ]]></Verse>
+	<Verse VerseID="6"><![CDATA[à titre de miséricordieux de la part de ton Seigneur, car c'est Lui l'Audient, l'Omniscient, avertit, ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Seigneur des cieux et de la terre et de ce qui est entre eux, si seulement vous pouviez en avoir la conviction. avertit, ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Point de divinité à part Lui. Il donne la vie et donne la mort, et Il est votre Seigneur et le Seigneur de vos premiers ancêtres. avertit, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Mais ces gens-là, dans le doute, s'amusent. avertit, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Et bien, attends le jour où le ciel apportera une fumée visible avertit, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[qui couvrira les gens. Ce sera un châtiment douloureux. avertit, ]]></Verse>
+	<Verse VerseID="12"><![CDATA["Seigneur, éloigne de nous le châtiment. Car [à présent] nous croyons". avertit, ]]></Verse>
+	<Verse VerseID="13"><![CDATA[D'où leur vient cette prise de conscience alors qu'un Messager explicite leur est déjà venu avertit, ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Puis ils s'en détournèrent en disant : "C'est un homme instruit [par d'autres], un possédé". avertit, ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Nous dissiperons le châtiment pour peu de temps ; car vous récidiverez. ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Le jour où Nous userons de la plus grande violence et Nous Nous vengerons. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Et avant eux, Nous avons déjà éprouvé le peuple de Pharaon, quand un noble Messager leur était venu, ]]></Verse>
+	<Verse VerseID="18"><![CDATA[[leur disant] : "Livrez-moi les serviteurs d'Allah ! Je suis pour vous un Messager digne de confiance. Messager leur était venu, ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Ne vous montrez pas hautains vis-à-vis d'Allah, car je vous apporte une preuve évidente. Messager leur était venu, ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Et je cherche protection auprès de mon Seigneur et votre Seigneur, pour que vous ne me lapidiez pas. Messager leur était venu, ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Si vous ne voulez pas croire en moi, éloignez-vous de moi". Messager leur était venu, ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Il invoqua alors son Seigneur : "Ce sont des gens criminels". Messager leur était venu, ]]></Verse>
+	<Verse VerseID="23"><![CDATA["Voyage de nuit avec Mes serviteurs ; vous serez poursuivis. Messager leur était venu, ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Laisse la mer calme ; [telle que tu l'as franchie] ce sont, des armées [voués] à la noyade". Messager leur était venu, ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Que de jardins et de sources ils laissèrent [derrière eux] Messager leur était venu, ]]></Verse>
+	<Verse VerseID="26"><![CDATA[que de champs et de superbes résidences, Messager leur était venu, ]]></Verse>
+	<Verse VerseID="27"><![CDATA[que de délices au sein desquels ils réjouissaient. Messager leur était venu, ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Il en fut ainsi et Nous fîmes qu'un autre peuple en hérita. ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Ni le ciel ni la terre ne les pleurèrent et ils n'eurent aucun délai. ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Et certes, Nous sauvâmes les Enfants d'Israël du châtiment avilissant ]]></Verse>
+	<Verse VerseID="31"><![CDATA[de Pharaon qui était hautain et outrancier. ]]></Verse>
+	<Verse VerseID="32"><![CDATA[A bon escient Nous les choisîmes parmi tous les peuples de l'univers, ]]></Verse>
+	<Verse VerseID="33"><![CDATA[et leur apportâmes des miracles de quoi les mettre manifestement à l'épreuve. ]]></Verse>
+	<Verse VerseID="34"><![CDATA[Ceux-là (les Mecquois) disent : ]]></Verse>
+	<Verse VerseID="35"><![CDATA["Il n'y a pour nous qu'une mort, la première. Et nous ne seront pas ressuscités. ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Faites donc revenir nos ancêtres, si vous êtes véridiques". ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Sont-ils les meilleurs ou le peuple de Tubbaa et ceux qui les ont précédés ? Nous les avons périr parce que vraiment ils étaient criminels. ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Ce n'est pas par divertissement que Nous avons créé les cieux et la terre et ce qui est entre eux. ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Nous ne les avons créés qu'en toute vérité. Mais la plupart d'entre eux ne savent pas. ]]></Verse>
+	<Verse VerseID="40"><![CDATA[En vérité, le Jour de la Décision sera leur rendez- vous à tous, ]]></Verse>
+	<Verse VerseID="41"><![CDATA[Le jour où un allié ne sera d'aucune utilité à un [autre] allié ; et ils ne seront point secourus non plus, ]]></Verse>
+	<Verse VerseID="42"><![CDATA[sauf celui qui Allah fera miséricorde. Car c'est Lui, le Puissant, le Très Miséricordieux. ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Certes l'arbre de Zakkoum ]]></Verse>
+	<Verse VerseID="44"><![CDATA[sera la nourriture du grand pécheur. ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Comme du métal en fusion ; il bouillonnera dans les ventres ]]></Verse>
+	<Verse VerseID="46"><![CDATA[comme le bouillonnement de l'eau surchauffée. ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Qu'on le saisisse et qu'on l'emporte en plein dans la fournaise ; ]]></Verse>
+	<Verse VerseID="48"><![CDATA[qu'on verse ensuite sur sa tête de l'eau bouillante comme châtiment. ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Goûte ! Toi [qui prétendait être] le puissant, le noble. ]]></Verse>
+	<Verse VerseID="50"><![CDATA[Voilà ce dont vous doutiez. ]]></Verse>
+	<Verse VerseID="51"><![CDATA[Les pieux seront dans une demeure sûre, ]]></Verse>
+	<Verse VerseID="52"><![CDATA[parmi les jardins et des sources, ]]></Verse>
+	<Verse VerseID="53"><![CDATA[Ils porteront des vêtements de satin et de brocart et seront placés face à face. ]]></Verse>
+	<Verse VerseID="54"><![CDATA[C'est ainsi ! Et Nous leur donnerons pour épouses des houris aux grands yeux. ]]></Verse>
+	<Verse VerseID="55"><![CDATA[Ils y demanderont en toute quiétude toutes sortes de fruits. ]]></Verse>
+	<Verse VerseID="56"><![CDATA[Ils n'y goûteront pas à la mort sauf leur mort première. Et [Allah] les protégera du châtiment de la Fournaise, ]]></Verse>
+	<Verse VerseID="57"><![CDATA[c'est là une grâce de ton Seigneur. Et c'est là l'énorme succès. ]]></Verse>
+	<Verse VerseID="58"><![CDATA[Nous ne l'avons facilité dans ta langue, qu'afin qu'ils se rappellent ! ]]></Verse>
+	<Verse VerseID="59"><![CDATA[Attends donc. Eux aussi attendent. ]]></Verse>
+</Chapter>

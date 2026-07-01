@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="50" ChapterName="Qaf">
+	<Verse VerseID="1"><![CDATA[K and the Koran , the most glorious/exalted .]]></Verse>
+	<Verse VerseID="2"><![CDATA[But they were wondering/astonished that (E) a warner/giver of notice came to them from them, so the disbelievers said: "That (is an) unusual (strange) thing."]]></Verse>
+	<Verse VerseID="3"><![CDATA[Is (it that) if we died and we were dust/earth? That (is) a far/distant return.]]></Verse>
+	<Verse VerseID="4"><![CDATA[We had known what the Earth/land reduces/decreases from them, and at Us (is) an honest protecting/safekeeping Book .]]></Verse>
+	<Verse VerseID="5"><![CDATA[But they lied/denied/falsified with the truth when (it) came to them, so they are (in a) confusing/disturbing , matter/affair .]]></Verse>
+	<Verse VerseID="6"><![CDATA[Did they not look/wonder about to the sky/space above them, how We built/constructed it and We decorated/beautified it, and (there are) no openings/gaps due to defects for it?]]></Verse>
+	<Verse VerseID="7"><![CDATA[And the earth/Planet Earth We extended/spread it, and We threw in it anchors/mountains , and We sprouted/grew in it from every/each delightful/cheering pair .]]></Verse>
+	<Verse VerseID="8"><![CDATA[Clarification/understanding and a reminder/remembrance, to each/every repentant slave/worshipper .]]></Verse>
+	<Verse VerseID="9"><![CDATA[And We descended from the sky , blessed water, so We sprouted/grew with it treed gardens and the crop`s/harvest`s seed/grain.]]></Verse>
+	<Verse VerseID="10"><![CDATA[And palm trees high/tall, for it (is) well arranged first fruit of the season .]]></Verse>
+	<Verse VerseID="11"><![CDATA[A provision to the worshippers/slaves , and We revived with it a dead/lifeless country/land , as/like that (is) the exit/getting out (revival).]]></Verse>
+	<Verse VerseID="12"><![CDATA[Noah`s nation denied/falsified before them, and the old well`s/Riss`/Rass` owners/company, and Thamud .]]></Verse>
+	<Verse VerseID="13"><![CDATA[And Aad , and Pharaoh, and Lot`s brothers.]]></Verse>
+	<Verse VerseID="14"><![CDATA[And the thicket`s/dense tangled trees` owners/company, and Tubas` nation, each/all denied/falsified the messengers, so (they) deserved My threat.]]></Verse>
+	<Verse VerseID="15"><![CDATA[Have We been failing with the creation the first/beginning? But they are in confusion/ obscurity from a new creation.]]></Verse>
+	<Verse VerseID="16"><![CDATA[And We had (E) created the human/mankind, and we know what his self inspires and talks with it, and We are nearer/closer to him than the jugular vein (which carries deoxygenated blood to the heart).]]></Verse>
+	<Verse VerseID="17"><![CDATA[When/if the two receivers/meeters/finders meet from the right (side) and the left, protecting/guarding .]]></Verse>
+	<Verse VerseID="18"><![CDATA[Nothing emits/vocalizes from a word except at Him (is a) prepared/made ready observer/guard .]]></Verse>
+	<Verse VerseID="19"><![CDATA[And the death`s/liflessness`s intensity/agony came with the truth that (is) what you were from it deviating/turning aside.]]></Verse>
+	<Verse VerseID="20"><![CDATA[And (it) was blown in the horn/bugle/instrument that (is) Day of the Threat/Resurrection Day.]]></Verse>
+	<Verse VerseID="21"><![CDATA[And every/each self came with it a driver (herder) and (an) honest witness/testifier.]]></Verse>
+	<Verse VerseID="22"><![CDATA[You had (E) been in negligence/disregard from that, so We removed/uncovered (relieved) from you your cover/concealment, so your eye sight today/the day (is) sharp/iron.]]></Verse>
+	<Verse VerseID="23"><![CDATA[And his companion said: "That what (is) at me (is) prepared/made ready."]]></Verse>
+	<Verse VerseID="24"><![CDATA[You (B) throw in Hell each/every stubborn/obstinate (insisting) disbeliever.]]></Verse>
+	<Verse VerseID="25"><![CDATA[Miser/often preventing to the good , (a) transgressor/violator , doubtful/ suspicious.]]></Verse>
+	<Verse VerseID="26"><![CDATA[Who made/put with God another god, so you (B) throw him in the torture, the strong (severe).]]></Verse>
+	<Verse VerseID="27"><![CDATA[His companion said: "Our Lord I did not make him a tyrant/exceed the limit and but he was in (a) far/distant misguidance."]]></Verse>
+	<Verse VerseID="28"><![CDATA[He said: "Do not dispute/controvert at Me, and I had advanced/preceded to you with the threat."]]></Verse>
+	<Verse VerseID="29"><![CDATA[The word/statement/saying does not become exchanged/replaced/substituted at Me, and I am not with an unjust/oppressor to the worshippers/slaves .]]></Verse>
+	<Verse VerseID="30"><![CDATA[A day/time We say to Hell : "Did you fill?" And it says: "Is (there) from an increase?"]]></Verse>
+	<Verse VerseID="31"><![CDATA[And the Paradise was advanced/brought near to the fearing and obeying not far/distant.]]></Verse>
+	<Verse VerseID="32"><![CDATA[That (is) what you are being promised to each/every repentant/returning (to God), honest protector .]]></Verse>
+	<Verse VerseID="33"><![CDATA[Who feared the merciful with the unseen/hidden and came with (a) repentant heart/mind .]]></Verse>
+	<Verse VerseID="34"><![CDATA[Enter it with safety/security/peace, that (is) the immortality`s/eternity`s day/time.]]></Verse>
+	<Verse VerseID="35"><![CDATA[For them what they will/want in it, and an increase (is) at Us.]]></Verse>
+	<Verse VerseID="36"><![CDATA[And how many We destroyed before them from (a) generation/century they are stronger than them (in) violent destruction/attack, so they searched/investigated in the countries/lands , is (there) from (an) escape/diversion?]]></Verse>
+	<Verse VerseID="37"><![CDATA[That truly in that (is) a remembrance/reminder (E) to who was for him (a) heart/mind , or He threw the hearing/listening , and He is witnessing/testifying.]]></Verse>
+	<Verse VerseID="38"><![CDATA[And We had (E) created the skies/space and the earth/Planet Earth and what (is) between them (B) in six days/times, and exhaustion did not touch Us.]]></Verse>
+	<Verse VerseID="39"><![CDATA[So be patient on what they say, and praise/glorify with your Lord`s praise/gratitude/thanks before the sun`s ascent/rising , and before the sunset.]]></Verse>
+	<Verse VerseID="40"><![CDATA[And from the night so praise/glorify Him, and (during) the prostration`s ends/backs.]]></Verse>
+	<Verse VerseID="41"><![CDATA[And hear/listen a day/time the caller calls from a near/close place/position .]]></Verse>
+	<Verse VerseID="42"><![CDATA[A day/time they hear/listen (to) the loud strong cry/torture raid with the truth , that (is) the Exit Day/Resurrection Day.]]></Verse>
+	<Verse VerseID="43"><![CDATA[That We, We revive/make alive, and We make die, and to Us (is) the end/destination.]]></Verse>
+	<Verse VerseID="44"><![CDATA[A day/time the earth/Planet Earth splits/cracks from them quickening/speeding/rushing, that (is a) gathering easy/small on Us.]]></Verse>
+	<Verse VerseID="45"><![CDATA[We are more knowledgeable with what they say, and you are not on them with a tyrant , so remind with the Koran who fears My threat.383]]></Verse>
+</Chapter>

@@ -1,0 +1,34 @@
+<?php
+	$book = 'كتاب صلاة السفر';
+	$bookHadiths = 52;
+	$bookNumber = 4-1;
+	$chapters = 20;
+
+	$bookseo = str_replace("كتاب ", "", $book);
+
+	include("../seo.php") ?></td>
+
+<body> 
+
+<?php include("../../inc/menu.php") ?>
+
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>حديث عن <?php echo $bookseo?> سنن أبي داود</h1>
+
+
+<?php include("../compute.php") ?></td>
+	
+
+
+</td>
+<td id="colonnes"><?php include("../../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../../inc/footer.php") ?>
+</body></html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="101" ChapterName="Le fracas (Al-Qariah)">
+	<Verse VerseID="1"><![CDATA[Le fracas ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Qu'est-ce que le fracas ? ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Et qui te dira ce qu'est le fracas ? ]]></Verse>
+	<Verse VerseID="4"><![CDATA[C'est le jour où les gens seront comme des papillons éparpillés, ]]></Verse>
+	<Verse VerseID="5"><![CDATA[et les montagnes comme de la laine cardée ; ]]></Verse>
+	<Verse VerseID="6"><![CDATA[quant à celui dont la balance sera lourde ]]></Verse>
+	<Verse VerseID="7"><![CDATA[il sera dans une vie agréable ; ]]></Verse>
+	<Verse VerseID="8"><![CDATA[et quant à celui dont la balance sera légère, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[sa mère [destination] est un abîme très profond. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Et qui te dira ce que c'est ? ]]></Verse>
+	<Verse VerseID="11"><![CDATA[C'est un Feu ardent. ]]></Verse>
+</Chapter>

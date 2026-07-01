@@ -1,0 +1,110 @@
+<?php
+$theme = "index.html";
+include("../inc/coranic.php");
+?>
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="/en/css/islam.css">
+
+<title>Invocations et Doua de la Citadelle du Musulman</title>
+<meta name="description" content="Invocations et douas tirées des hadiths authentiques - Liste de doua de la citadelle du musulman en arabe, français et phonétique.">
+
+<body>
+
+<?php include("../inc/menu.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>Invocation (Doua)</h1>
+
+<?php include("../inc/pub-content.php") ?>
+
+<h2>Les Invocations en Islam et les mérites des douas</h2>
+
+<p>L'importance du dhikr, des douas et de l'invocation d'Allah est très grande. Les versets dans le Coran à ce sujet sont nombreux.</p>
+
+<h3>Les mérites des douas dans le Coran</h3>
+
+<?php versets('2', 152,152) ;?>
+<?php versets('33', 35,35) ;?>
+<?php versets('33', 41,41) ;?>
+<?php versets('7', 205,205) ;?>
+
+<h3>Les mérites de l'invocation dans la Sounna</h3>
+
+<p>Dans un hadith rapporté par l'imam al Boukhari, le messager d’Allah <span class="respect">(sallallahou 'alayhi wa sallam)</span> a dit : « La différence entre celui qui invoque son Seigneur et celui qui ne l’invoque pas est comme la différence entre le vivant et le mort. » Dans un autre récit rapprté par at-Tirmidhi et Ibn Maja, le prophète  <span class="respect">(sallallahou 'alayhi wa sallam)</span> a dit : « Voulez-vous que je vous dise quelle est la meilleure de vos actions, la plus pure pour votre Seigneur, qui vous élève au plus haut degré, qui vous est meilleure que de faire aumône de votre or et de votre argent, et meilleure que de rencontrer votre ennemi et de le frapper à la nuque ou qu’il vous frappe à la nuque ? » Ils dirent : « Oui. » Il répliqua : « L’invocation d’Allah. »</p>
+
+<p>Dans le même sens, Allah dit dans un hadith qoudoussi rapporté par al Boukhari et Mouslim, le prophète <span class="respect">(sallallahou 'alayhi wa sallam)</span> a dit : « Allah a dit « Je suis pour mon serviteur ce qu’il pense que Je suis, et Je serai avec lui chaque fois qu’il M’évoque, s’Il M’évoque en lui, Je l’évoquerai en Moi, s’il M’évoque dans une assemblée, Je l’évoquerai dans une meilleure assemblée. Et s’il s’approche d’un empan, Je m’approcherai d’une coudée et s’il s’approche d’une coudée, Je m’approcherai de lui d’une brassée. Et s’il vient à la marche, J’irai à lui hâtivement. »</p>
+
+<p>Aussi, un homme questionna le messager d’Allâh <span class="respect">(sallallahou 'alayhi wa sallam)</span> en ces termes : « Ô Messager d’Allâh ! Les lois islamiques sont trop nombreuses pour moi, dis-moi une chose à laquelle je me cramponnerai. Il lui répondit : « Que ta langue ne cesse d’invoquer Allah. »</p>
+
+<p>Parmi les autres hadiths sur les mérites du dhikr et de l'invocation : « Quiconque s’assied à un endroit sans invoquer Allah, ce sera pour lui une perte. Et celui qui se couche dans un endroit sans invoquer Allah, cela sera pour lui une perte. » Le prophète <span class="respect">(sallallahou 'alayhi wa sallam)</span> dit aussi : « Lorsqu’un groupe de gens s’assied sans mentionner Allah et sans prier sur leur Prophète, cela sera pour eux un manquement. S’Il veut Il les châtiera et s’Il veut, Il leur pardonnera. »</p>
+
+<h3>La Citadelle du Musulman</h3>
+
+<p>La citadelle du musulman est un livre qui regroupe la majorité des invocations de tous les jours dans la vie du musulman. Toutes les doua de la citadelle du musulman sont tirées de hadiths auhtentiques d'après l'avis de la majorité des savants. Ci-dessous la liste des invocations :</p>
+
+<ul>
+
+
+<?php 
+	
+	$metadataFile = 'doua.xml';
+    $xml = simplexml_load_file($metadataFile);
+	
+	for ($i=0; $i<132; $i++) {
+		
+	${'title'.$i} = $xml->group[$i]->title;
+	${'id'.$i} = $xml->group[$i]['id'];
+	
+	${'nameURL'.$i} = str_replace("", "'", ${'title'.$i});
+    ${'nameURL'.$i} = htmlentities(${'nameURL'.$i}, ENT_NOQUOTES, $charset);
+    ${'nameURL'.$i} = preg_replace('#&([A-za-z])(?:acute|cedil|caron|circ|grave|orn|ring|slash|th|tilde|uml);#', '\1', ${'nameURL'.$i});
+    ${'nameURL'.$i} = preg_replace('#&([A-za-z]{2})(?:lig);#', '\1', ${'nameURL'.$i});
+
+		${'nameURL'.$i} = str_replace(["'", "," , "/", "(", ")", ".", "des ", "ses ", " ait ", "est ", "lorsque", "sur ", "les ", "lors", " une ", "qui ", "pas ", "par ", "cas ", " al "], " ", strtolower(${'nameURL'.$i}));
+
+		${'nameURL'.$i} = str_replace(["quelqu"], "personne", ${'nameURL'.$i});
+		${'nameURL'.$i} = str_replace(["personnee"], "personne", ${'nameURL'.$i});
+
+	$exploded = explode(" ", ${'nameURL'.$i});
+	foreach($exploded as $key => $word) {
+		if(mb_strlen($word) < 3) unset($exploded[$key]);
+	}
+	${'nameURL'.$i} = implode(" ", $exploded);
+
+	${'nameURL'.$i} = str_replace(" ", "-", strtolower(${'nameURL'.$i}));
+
+		
+		${'url'.$i} = "${'nameURL'.$i}.html";
+	
+	echo "<li><a href=\"${'url'.$i}\">${'title'.$i}</a></li>";
+	
+	
+}	
+	?>
+	
+</ul>
+
+
+<br>
+<br>
+
+</td>
+<td id="colonnes"><?php include("../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../inc/footer.php") ?>
+</body></html>

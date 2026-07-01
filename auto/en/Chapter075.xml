@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="75" ChapterName="The Resurrection">
+	<Verse VerseID="1"><![CDATA[I do not swear/make oath with the Resurrection Day]]></Verse>
+	<Verse VerseID="2"><![CDATA[And nor I swear/make oath with the self , the often blaming/reprimanding.]]></Verse>
+	<Verse VerseID="3"><![CDATA[Does the human/mankind think/suppose that We (will) not gather/unite his bones?]]></Verse>
+	<Verse VerseID="4"><![CDATA[Yes/certainly We are capable/able on that (E) We straighten (recreate) his fingertip (finger print) .]]></Verse>
+	<Verse VerseID="5"><![CDATA[Rather the human/mankind wants to debauch/corrupt in front of him.]]></Verse>
+	<Verse VerseID="6"><![CDATA[He asks/questions: "When (is) the Resurrection Day?"]]></Verse>
+	<Verse VerseID="7"><![CDATA[So if/when the eye sight/vision glared/gleamed/confused and astonished .]]></Verse>
+	<Verse VerseID="8"><![CDATA[And the moon punctured/eclipsed .]]></Verse>
+	<Verse VerseID="9"><![CDATA[And the sun and the moon were gathered/collected.]]></Verse>
+	<Verse VerseID="10"><![CDATA[The human/mankind that day says: "Where (is) the escape/escape to (shelter)?"]]></Verse>
+	<Verse VerseID="11"><![CDATA[No but (there is) no shelter .]]></Verse>
+	<Verse VerseID="12"><![CDATA[To your Lord that day (is) the settlement .]]></Verse>
+	<Verse VerseID="13"><![CDATA[The human/mankind (will) be informed that day with what he advanced/preceded and he delayed.]]></Verse>
+	<Verse VerseID="14"><![CDATA[Rather the human/mankind (is) on him self (an) evidence/witness .]]></Verse>
+	<Verse VerseID="15"><![CDATA[And even if he threw (gave) his apologies/excuses.]]></Verse>
+	<Verse VerseID="16"><![CDATA[Do not move with it your tongue to hurry/hasten/rush with it.]]></Verse>
+	<Verse VerseID="17"><![CDATA[That truly on Us (is) gathering/accumulating it , and its reading/recitation .]]></Verse>
+	<Verse VerseID="18"><![CDATA[So when/if We read it, so follow its reading/recitation .]]></Verse>
+	<Verse VerseID="19"><![CDATA[Then that truly on Us (is) its clarification/explanation.]]></Verse>
+	<Verse VerseID="20"><![CDATA[No, but you love/like the worldly life/present.]]></Verse>
+	<Verse VerseID="21"><![CDATA[And you leave the end (other life).]]></Verse>
+	<Verse VerseID="22"><![CDATA[Faces/fronts, that day (are) beautiful and good (bright/blooming).]]></Verse>
+	<Verse VerseID="23"><![CDATA[To its Lord looking .]]></Verse>
+	<Verse VerseID="24"><![CDATA[And faces/fronts, that day (are) frowning/gloomy .]]></Verse>
+	<Verse VerseID="25"><![CDATA[(They) think/suppose that a disaster/calamity will be made/done with it.]]></Verse>
+	<Verse VerseID="26"><![CDATA[No, but when/if the collar bones/verge of death reached.]]></Verse>
+	<Verse VerseID="27"><![CDATA[And (it) was said: "Who (is) ascended/elevated (being saved)?"]]></Verse>
+	<Verse VerseID="28"><![CDATA[And (he) thought/assumed that it is the separation.]]></Verse>
+	<Verse VerseID="29"><![CDATA[And the shin/leg coiled/wrapped with the shin/leg.]]></Verse>
+	<Verse VerseID="30"><![CDATA[To your Lord (on) that day (is) the drive (destination).]]></Verse>
+	<Verse VerseID="31"><![CDATA[So he did not give charity and nor he prayed.]]></Verse>
+	<Verse VerseID="32"><![CDATA[And but lied/denied and turned away.]]></Verse>
+	<Verse VerseID="33"><![CDATA[Then he went to his people walking stretched with his arms moving in a conceited manner (marching arrogantly).]]></Verse>
+	<Verse VerseID="34"><![CDATA[Woe/warning/threat (Hell) for you, so woe/warning/threat (Hell for you).]]></Verse>
+	<Verse VerseID="35"><![CDATA[Then woe/warning/threat (Hell) for you, so woe/warning/threat (Hell for you).]]></Verse>
+	<Verse VerseID="36"><![CDATA[Does the human/mankind think/suppose that (E) he be left unattended to/disregarded (uncounted with)?]]></Verse>
+	<Verse VerseID="37"><![CDATA[Did he not be a drop/male`s or female`s secretion from sperm/semen , semen being ejaculated/ discharged ?]]></Verse>
+	<Verse VerseID="38"><![CDATA[Then (he) was/became a blood clot , so He created (it), so He straightened/perfected (it).]]></Verse>
+	<Verse VerseID="39"><![CDATA[So He made/created from it the couples/pairs , the male and the female.]]></Verse>
+	<Verse VerseID="40"><![CDATA[Is not that with capable/able on that He revives/makes alive the deads?448]]></Verse>
+</Chapter>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="77" ChapterName="The Emissaries">
+	<Verse VerseID="1"><![CDATA[And/by the messengers/sent/angles (F) , successively/sand dunes/elevated points .]]></Verse>
+	<Verse VerseID="2"><![CDATA[So the stormy/turbulent winds , violently/turbulently.]]></Verse>
+	<Verse VerseID="3"><![CDATA[And/by the spreading/extending/winds (for clouds) , spreading out/extending.]]></Verse>
+	<Verse VerseID="4"><![CDATA[So the separated clouds/separators of right and wrong , separating.]]></Verse>
+	<Verse VerseID="5"><![CDATA[So the throwing/throwing away a reminder/remembrance (delivering messages).]]></Verse>
+	<Verse VerseID="6"><![CDATA[An excuse/fault or sins or (a) warning/notice.]]></Verse>
+	<Verse VerseID="7"><![CDATA[That truly what you are being promised (is) happening (E) .]]></Verse>
+	<Verse VerseID="8"><![CDATA[So when/if the stars/planets were eliminated/effaced .]]></Verse>
+	<Verse VerseID="9"><![CDATA[And when/if the sky/space opened/split open .]]></Verse>
+	<Verse VerseID="10"><![CDATA[And when/if the mountains were uprooted and dispersed/exploded .]]></Verse>
+	<Verse VerseID="11"><![CDATA[And when/if the messengers were appointed a time.]]></Verse>
+	<Verse VerseID="12"><![CDATA[To which day/time it was delayed.]]></Verse>
+	<Verse VerseID="13"><![CDATA[To the Judgment Day/Separation Day/Resurrection Day .]]></Verse>
+	<Verse VerseID="14"><![CDATA[And what makes you know what the Judgment Day/Separation Day/Resurrection Day (is)?]]></Verse>
+	<Verse VerseID="15"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers .]]></Verse>
+	<Verse VerseID="16"><![CDATA[Did We not destroy the first/beginners?]]></Verse>
+	<Verse VerseID="17"><![CDATA[Then We make them followed (by) the lasts/others .]]></Verse>
+	<Verse VerseID="18"><![CDATA[As/like that We make/do with the criminals/sinners.]]></Verse>
+	<Verse VerseID="19"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="20"><![CDATA[Did We not create you from despised/humiliated (discarded) water?]]></Verse>
+	<Verse VerseID="21"><![CDATA[So We made/put it in a highly positioned/established settlement/affixation .]]></Verse>
+	<Verse VerseID="22"><![CDATA[To a known predestiny/estimation .]]></Verse>
+	<Verse VerseID="23"><![CDATA[So We evaluated and measured precisely, so blessed/praised (are) the capable/able .]]></Verse>
+	<Verse VerseID="24"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="25"><![CDATA[Did We not make the earth/Planet Earth encompassing/containing internally and externally ?]]></Verse>
+	<Verse VerseID="26"><![CDATA[Alive and deads.]]></Verse>
+	<Verse VerseID="27"><![CDATA[And We made/put in it anchors/mountains high/towering , and We gave you drink (from) very sweet/fresh water.]]></Verse>
+	<Verse VerseID="28"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="29"><![CDATA[Leave/go/set out to what you were with it lying/denying/falsifying.]]></Verse>
+	<Verse VerseID="30"><![CDATA[Leave/go/set out to shade of three branches/three off shoots .]]></Verse>
+	<Verse VerseID="31"><![CDATA[Not shading and nor enriches/suffices (protects) from the flame of a smokeless fire.]]></Verse>
+	<Verse VerseID="32"><![CDATA[That it truly throws with sparks as (big) as the castle/palace .]]></Verse>
+	<Verse VerseID="33"><![CDATA[As though it (is) camels yellow .]]></Verse>
+	<Verse VerseID="34"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="35"><![CDATA[That (is) a day/time they do not speak.]]></Verse>
+	<Verse VerseID="36"><![CDATA[And nor (it) be permitted/allowed for them so (that) they apologize/excuse themselves .]]></Verse>
+	<Verse VerseID="37"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="38"><![CDATA[That (is) the Judgment Day/Separation Day/Resurrection Day We gathered/collected you and the first/beginners.]]></Verse>
+	<Verse VerseID="39"><![CDATA[So if (there) was for you (a) plot/conspiracy , so plot/conspire against Me .]]></Verse>
+	<Verse VerseID="40"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="41"><![CDATA[That truly the fearing and obeying (are) in shades and water springs/wells.]]></Verse>
+	<Verse VerseID="42"><![CDATA[And fruits from what they desire/crave .]]></Verse>
+	<Verse VerseID="43"><![CDATA[Eat and drink pleasurable/wholesome because (of) what you were making/doing .]]></Verse>
+	<Verse VerseID="44"><![CDATA[That truly like that We reimburse the good doers.]]></Verse>
+	<Verse VerseID="45"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="46"><![CDATA[Eat and enjoy little that you truly are criminals/sinners.]]></Verse>
+	<Verse VerseID="47"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="48"><![CDATA[And when/if (it) was said to them: "Bow ." They do not bow .]]></Verse>
+	<Verse VerseID="49"><![CDATA[Calamity/scandal (on) that day to the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="50"><![CDATA[So with which information/speech after it (do) they believe (in it)?452]]></Verse>
+</Chapter>

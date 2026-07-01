@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="55" ChapterName="The Beneficient">
+	<Verse VerseID="1"><![CDATA[The merciful.]]></Verse>
+	<Verse VerseID="2"><![CDATA[He taught/instructed the Koran.]]></Verse>
+	<Verse VerseID="3"><![CDATA[He created the human/mankind.]]></Verse>
+	<Verse VerseID="4"><![CDATA[He taught/instructed him the evidence/logic .]]></Verse>
+	<Verse VerseID="5"><![CDATA[The sun and the moon with a count/calculation.]]></Verse>
+	<Verse VerseID="6"><![CDATA[And the star/planet and the trees, they (B) prostrate.]]></Verse>
+	<Verse VerseID="7"><![CDATA[And the sky/space He rose it, and He laid/put/raised the scale/measuring instrument .]]></Verse>
+	<Verse VerseID="8"><![CDATA[That you not tyrannize/exceed the limit in the scale/measuring instrument .]]></Verse>
+	<Verse VerseID="9"><![CDATA[And keep up the weight/measure with the just/equitable, and do not reduce/decrease (cheat) in the scale/measuring instrument .]]></Verse>
+	<Verse VerseID="10"><![CDATA[And the earth/Planet Earth, He laid it for the creation.]]></Verse>
+	<Verse VerseID="11"><![CDATA[In it (are) fruits and the palm trees that of the buds/covers from which fruits and flowers emerge.]]></Verse>
+	<Verse VerseID="12"><![CDATA[And the seed/grain (of) the husk/chaff/external cover of seeds, and the basil/fragrant plants.]]></Verse>
+	<Verse VerseID="13"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="14"><![CDATA[He created the human/mankind from dry mud/clay as the pottery/earthenware.]]></Verse>
+	<Verse VerseID="15"><![CDATA[And He created the Jinn from (the) flaming blazing torch mixed with blackened smoke from fire.]]></Verse>
+	<Verse VerseID="16"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="17"><![CDATA[The two sun rises`/easts` Lord, and the two sunsets`/declines` Lord.]]></Verse>
+	<Verse VerseID="18"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="19"><![CDATA[The two large bodies of water usually salty mixed/set loose, they (B) meet .]]></Verse>
+	<Verse VerseID="20"><![CDATA[Between them (B) (is) a barrier , they (B) do not transgress .]]></Verse>
+	<Verse VerseID="21"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="22"><![CDATA[The pearls and the corals emerge from them (B).]]></Verse>
+	<Verse VerseID="23"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="24"><![CDATA[And for Him (are) the ships/flowing/passing the raised/developed in the sea/ocean as/like the banners/mountains .]]></Verse>
+	<Verse VerseID="25"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="26"><![CDATA[Each/every who (is) on it (is) vanishing/being destroyed .]]></Verse>
+	<Verse VerseID="27"><![CDATA[And your Lord`s face/front/direction (owner) of the glory/splendor and the honour/generosity remains/continues .]]></Verse>
+	<Verse VerseID="28"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="29"><![CDATA[Who (ever is) in the skies/space and the earth/Planet Earth asks/questions him, each/every day/time He is in a great matter/affair/concern .]]></Verse>
+	<Verse VerseID="30"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="31"><![CDATA[We will finish/end/complete (free ourselves) for you, oh you, the humans and Jinns (the two weights).]]></Verse>
+	<Verse VerseID="32"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="33"><![CDATA[You race/society (of) the Jinns and human/mankind, if you were able that (E) you penetrate/pierce from the skies`/space`s and the earth`s/Planet Earth`s regions/diameters/chords , so penetrate/pierce , you do not penetrate/pierce except with power/ authority .]]></Verse>
+	<Verse VerseID="34"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="35"><![CDATA[He sends on you (B) a smokeless flame/blazing heat from fire and copper/sparks of molten iron , so you (B) do not become victorious.]]></Verse>
+	<Verse VerseID="36"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="37"><![CDATA[So if the sky/space split/cut open , so it was a red/a rose as/like the paint/painted with oil .]]></Verse>
+	<Verse VerseID="38"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="39"><![CDATA[So that day (end of the world till judgment takes place), a human/mankind and nor a Jinn (will) be asked/questioned about his crime.]]></Verse>
+	<Verse VerseID="40"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="41"><![CDATA[The criminals/sinners (will) be known by their marks/identifications/expressions, so (they) will be taken by the foreheads/forehead`s hair (bangs), and the feet.]]></Verse>
+	<Verse VerseID="42"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="43"><![CDATA[This is Hell which the criminals/sinners lie/deny with it.]]></Verse>
+	<Verse VerseID="44"><![CDATA[They circle/walk around between it and between hot water/cold water/red hot coal blazing/glowing.]]></Verse>
+	<Verse VerseID="45"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="46"><![CDATA[And to who feared His Lord`s place/position , two treed gardens.]]></Verse>
+	<Verse VerseID="47"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="48"><![CDATA[(B) of (the two treed gardens) have branches.]]></Verse>
+	<Verse VerseID="49"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="50"><![CDATA[In them (B) (are) two water springs/wells, they (B) flow .]]></Verse>
+	<Verse VerseID="51"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="52"><![CDATA[In them (B) (are) from every/each fruits, a pair/couple/two kinds .]]></Verse>
+	<Verse VerseID="53"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="54"><![CDATA[Leaning/reclining on on spreads/beds its lining/interior (is) from brocade , and the two treed gardens` harvest (fruits is) near.]]></Verse>
+	<Verse VerseID="55"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="56"><![CDATA[In them (B) (are) confining the eyes, (they) were not touched (by) a human before them, and nor Jinn.]]></Verse>
+	<Verse VerseID="57"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="58"><![CDATA[As if/though they (F) are corundum/hardest mineral after diamond (rubies/sapphires/ topazes), and the corals.]]></Verse>
+	<Verse VerseID="59"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?398]]></Verse>
+	<Verse VerseID="60"><![CDATA[Is the goodness` reimbursement , except the goodness`?]]></Verse>
+	<Verse VerseID="61"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="62"><![CDATA[And from other than them (B) two treed gardens.]]></Verse>
+	<Verse VerseID="63"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="64"><![CDATA[(B) (are) blackish green and fragrant.]]></Verse>
+	<Verse VerseID="65"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="66"><![CDATA[In them (B) (are) two water springs/wells, (B) flowing/gushing .]]></Verse>
+	<Verse VerseID="67"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="68"><![CDATA[In them (B) (are) fruits, and palm trees, and pomegranate.]]></Verse>
+	<Verse VerseID="69"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="70"><![CDATA[In them (B) (are) very beautiful good/generous .]]></Verse>
+	<Verse VerseID="71"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="72"><![CDATA[Dilated pupils (very beautiful) confined/limited in the tents .]]></Verse>
+	<Verse VerseID="73"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="74"><![CDATA[(They) were not touched (by) a human before them, and nor Jinn.]]></Verse>
+	<Verse VerseID="75"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="76"><![CDATA[Leaning/relining on green carpets/pillows/silk and very beautiful fine carpets .]]></Verse>
+	<Verse VerseID="77"><![CDATA[So with which (of) your (B)`s (humans and Jinns) Lord`s blessings (do) you (B) deny/falsify ?]]></Verse>
+	<Verse VerseID="78"><![CDATA[Blessed (is) your Lord`s name, (owner) of the glory/splendor and the honour/generosity 399]]></Verse>
+</Chapter>

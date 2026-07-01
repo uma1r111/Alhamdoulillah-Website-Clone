@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="52" ChapterName="At-Tur">
+	<Verse VerseID="1"><![CDATA[Par At-Tur ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Et par un Livre écrit ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Sur un parchemin déployé ! ]]></Verse>
+	<Verse VerseID="4"><![CDATA[et par la Maison peuplée  ! ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Et par la Voûte élevée ! ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Et par la Mer portée à ébullition ! (au Jour dernier) ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Le châtiment de ton Seigneur aura lieu inévitablement. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Nul ne pourra le repousser. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Le jour où le ciel sera agité d'un tourbillonnement, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[et les montagnes se mettront en marche. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[Ce jour-là, malheur à ceux qui traitent (les signes d'Allah) de mensonges, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[ceux qui s'ébattent dans des discours frivoles ]]></Verse>
+	<Verse VerseID="13"><![CDATA[le jour où ils seront brutalement poussés au feu de l'Enfer : ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Voilà le feu que vous traitiez de mensonge. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Est-ce que cela est de la magie ? Ou bien ne voyez-vous pas clair ? ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Brûlez dedans ! Supportez ou ne supportez pas, ce sera égal pour vous : vous n'êtes rétribués que selon ce que vous faisiez. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Les pieux seront dans des Jardins et dans des délices, ]]></Verse>
+	<Verse VerseID="18"><![CDATA[se réjouissant de ce que leur Seigneur leur aura donné, et leur Seigneur les aura protégés du châtiment de la Fournaise. ]]></Verse>
+	<Verse VerseID="19"><![CDATA["En récompense de ce que vous faisiez, mangez et buvez en toute sérénité, ]]></Verse>
+	<Verse VerseID="20"><![CDATA[accoudés sur des lits bien rangés", et Nous leur ferons épouser des houris aux grands yeux noirs, ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Ceux qui auront cru et que leurs descendants auront suivis dans la foi, Nous ferons que leurs descendants les rejoignent. Et Nous ne diminuerons en rien le mérité de leurs oeuvres, chacun étant tenu responsable de ce qu'il aura acquis. ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Nous les pourvoirons abondamment des fruits et des viandes qu'ils désireront. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Là, ils se passeront les uns les autres une coupe qui ne provoquera ni vanité ni incrimination ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Et parmi eux circuleront des garçons à leur service, pareils à des perles bien conservées. ]]></Verse>
+	<Verse VerseID="25"><![CDATA[et ils se tourneront les uns vers les autres s'interrogeant ; ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Ils diront : "Nous vivions au milieu des nòtres dans la crainte [d'Allah] ; ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Puis Allah nous a favorisés et protégés du châtiment du Samum. ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Antérieurement, nous L'invoquions. C'est Lui certes, le Charitable, le Très Miséricordieux". ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Rappelle donc et par la grâce de ton Seigneur tu n'es ni un devin ni un possédé ; ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Ou bien ils disent : "C'est un poète ! Attendons pour lui le coup de la mort". ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Dis : "Attendez ! Je suis avec vous parmi ceux qui attendent". ]]></Verse>
+	<Verse VerseID="32"><![CDATA[Est-ce leur raison qui leur commande cela ? Ou sont-ils des gens outranciers ? ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Ou bien ils disent : "Il l'a inventé lui-même ?" Non... mais ils ne croient pas. ]]></Verse>
+	<Verse VerseID="34"><![CDATA[Eh bien, qu'ils produisent un récit pareil à lui (le Coran), s'ils sont véridiques. ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Ont-ils été créés à partir de rien ou sont-ils eux les créateurs ? ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Ou ont-ils créé les cieux et la terre ? Mais ils n'ont plutòt aucune conviction. ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Possèdent-ils les trésors de ton Seigneur ? Ou sont-ils eux les maîtres souverains ? ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Ont-ils une échelle d'où ils écoutent ? Que celui des leurs qui reste à l'écoute apporte une preuve évidente  ! ]]></Verse>
+	<Verse VerseID="39"><![CDATA[[Allah] : aurait-Il les filles, tandis que vous, les fils ? ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Ou leur demandes-tu un salaire, de sorte qu'ils soient grevés d'une lourde dette ? ]]></Verse>
+	<Verse VerseID="41"><![CDATA[Ou bien détiennent-ils l'Inconnaissable pour le mentionner par écrit ? ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Ou cherchent-ils un stratagème ? Mais ce sont ceux qui ont mécru qui sont victimes de leur propre stratagème. ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Ou ont-ils une autre divinité à part Allah ? Qu'Allah soit glorifié et purifié de tout ce qu'ils associent ! ]]></Verse>
+	<Verse VerseID="44"><![CDATA[Et s'ils voient tomber des fragments du ciel, ils disent : "Ce sont des nuages superposés". ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Laisse-les donc, jusqu'à ce qu'ils rencontrent leur jour où ils seront foudroyés, ]]></Verse>
+	<Verse VerseID="46"><![CDATA[le jour où leur ruse ne leur servira à rien, où ils ne seront pas secourus. ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Les injustes auront un châtiment préalable. Mais la plupart d'entre eux ne savent pas. ]]></Verse>
+	<Verse VerseID="48"><![CDATA[et supporte patiemment la décision de ton Seigneur. Car en vérité, tu es sous Nos yeux. Et célèbre la gloire de ton Seigneur quand tu te lèves ; ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Glorifie-Le une partie de la nuit et au déclin des étoiles. ]]></Verse>
+</Chapter>

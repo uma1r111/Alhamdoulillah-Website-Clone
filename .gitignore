@@ -1,0 +1,52 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Laravel framework generated files
+storage/framework/
+storage/logs/
+bootstrap/cache/
+public/storage
+storage/*.key
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Composer & NPM locks (keep composer.lock for apps, ignore for libraries)
+composer.lock
+package-lock.json
+yarn.lock
+
+# WordPress
+blog/wp-config.php
+blog/wp-content/uploads/
+blog/wp-content/upgrade/
+blog/wp-content/cache/
+blog/wp-content/backup-db/
+blog/.htaccess
+
+# Vim swap files
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+/public/hot
+/public/mix-manifest.json
+/public/js/
+/public/css/
+
+images/
+*/mp3/
+blog/wp-content/uploads/
+*.png
+*.jpg
+*.webp
+*.mp3
+*.ico
+*.jxr

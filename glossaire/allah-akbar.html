@@ -1,0 +1,93 @@
+<?php 
+$theme1 = "allah akbar"; 
+$theme2 = "allahou akbar"; 
+$theme3 = "allah wakbar"; 
+$theme4 = "allahu akbar"; 
+
+$signification = "<span style=\"color:darkred;\">Allah est le Plus Grand, Dieu est le Plus Grand. Il est au dessus de tout. C'est aussi l'expression par laquelle on débute la prière par exemple. On lève les mains vers l'arrière pour mettre tout ce bas-monde et ce qu'il contient derrière nous et se consacrer uniquement à Lui.</span>"; 
+
+$prononciation = "allahou akbar"; 
+$arabe = "<span style=\"font-size:12pt;\"><b>الله أكبر</b></span>"; 
+
+$temps1 = "<li>Lors de l'appel à la prière</li>";
+$temps2 = "<li>A différents moments durant la prière</li>";
+$temps3 = "<li>Quand on veut proclamer la grandeur d'Allah</li>";
+$temps4 = "<li>Quand on fait face à l'ennemi durant la guerre</li>";
+$temps5 = "<li>A tout moment pour faire du dhikr</li>";
+
+ ?>
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="/en/css/islam.css">
+
+<title>Que veut dire  « <?php echo $theme1;?> » ? Signification et Sens de « <?php echo $theme1;?> »</title>
+<meta name="description" content="Quel est le sens du mot « <?php echo $theme1;?> » ? Explication et signification du terme « <?php echo $theme2;?> », quand le dire et comment le prononcer correctement en arabe ?">
+
+
+</head>
+<body>
+
+<?php include("../inc/menu.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>Que veut dire « <?php echo $theme1;?> » ?</h1>
+
+<?php include("../inc/pub-content.php");?>
+
+<h2>Signification de « <?php echo $theme2;?> »</h2>
+
+<p>Cela veut dire : <?php echo $signification;?></p> 
+
+<p>Voici les principales orthographes de ce mot :</p>
+
+<ul>
+	<?php 
+	if (isset($theme1)) echo "<li>$theme1</li>";
+	if (isset($theme2)) echo "<li>$theme2</li>";
+	if (isset($theme3)) echo "<li>$theme3</li>";
+	if (isset($theme4)) echo "<li>$theme4</li>";
+	?>
+</ul>
+
+<h3>Comment prononcer « <?php echo $theme2;?> » ?</h3>
+
+<p>La prononciation exacte est <?php echo $prononciation;?>.
+
+<h3>Comment écrire « <?php echo $prononciation;?> » en arabe ?</h3>
+
+<p>Cela s'écrit : <?php echo $arabe;?></p>
+
+<h3>Quand dire « <?php echo $prononciation;?> » ?</h3>
+
+<ul>
+	<?php if (isset($temps1)) echo $temps1;?>
+	<?php if (isset($temps2)) echo $temps2;?>
+	<?php if (isset($temps3)) echo $temps3;?>
+	<?php if (isset($temps4)) echo $temps4;?>
+	<?php if (isset($temps5)) echo $temps5;?>
+</ul>
+
+<?php 
+include("../inc/share.php");
+include ("pages.php");
+?>
+
+</td>
+<td id="colonnes"><?php include("../inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("../inc/footer.php") ?>
+</body></html>

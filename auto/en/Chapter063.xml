@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="63" ChapterName="The Hypocrites">
+	<Verse VerseID="1"><![CDATA[If/when the hypocrites came to you, they said: "We testify/witness, that you are God`s messenger (E)." And God knows that you are His messenger (E), and God witnesses/testifies that truly the hypocrites (are) liars/deniers/ falsifiers (E).]]></Verse>
+	<Verse VerseID="2"><![CDATA[They took their rights/oaths (as) a cover (shield) so they prevented/obstructed from God`s way/path , that they truly are bad/evil/harmful what they were making/doing .]]></Verse>
+	<Verse VerseID="3"><![CDATA[That (is) because they (E) believed, then they disbelieved, so (it) was stamped/sealed on their hearts/minds , so they do not understand/learn .]]></Verse>
+	<Verse VerseID="4"><![CDATA[And if you saw them , their bodies pleases/marvels you, and if they say (talk), you hear/listen to their statement/word as if they are supported wood (logs), they think/suppose each/ every loud strong cry/torture raid is on (against) them, they are the enemy, so be warned/cautious (of) them , God fought them , (so) where/how (do) they be turned away ?]]></Verse>
+	<Verse VerseID="5"><![CDATA[And when/if (it) was said to them: "Come, God`s messenger asks for forgiveness for you." They twisted/turned/ bent their heads, and you saw them preventing/obstructing , and they are arrogant.]]></Verse>
+	<Verse VerseID="6"><![CDATA[(It is) equal/alike on (for) them (if) you asked for forgiveness for them, or you did not ask for forgiveness for them, God will never/not forgive for them, that truly God does not guide the nation, the debauchers .]]></Verse>
+	<Verse VerseID="7"><![CDATA[They are those who say: "Do not spend on whom (is) at God`s messenger, until they scatter/separate And to God (are) the skies`/space`s and the earth`s/Planet Earth`s safes/storages (treasures), and but the hypocrites do not understand/learn .]]></Verse>
+	<Verse VerseID="8"><![CDATA[They say: "If (E) we returned to the city/town, the more dignified/honoured will bring out (exile) the most humiliated/weakest ." And to God (is) the glory/might/power , and to His messenger, and to the believers, and but the hypocrites do not know.]]></Verse>
+	<Verse VerseID="9"><![CDATA[You, you those who believed, (let) not your properties/possessions/wealths and nor your children distract/preoccupy you from mentioning/remembering God, and who makes/does that, so those, they are the losers/misguided .]]></Verse>
+	<Verse VerseID="10"><![CDATA[And spend from what We provided for you, from before that the death/lifelessness comes (to) one of you, so he says: "My Lord, if only You delayed me to a near/close term/time, so I will give charity and I will be from correct, righteous."]]></Verse>
+	<Verse VerseID="11"><![CDATA[And God will never/not delay a self if its term/time came, and God (is) expert/experienced with what you make/do]]></Verse>
+</Chapter>

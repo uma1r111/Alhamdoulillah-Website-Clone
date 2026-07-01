@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="30" ChapterName="Les romains (Ar-Roum)">
+	<Verse VerseID="1"><![CDATA[Alif, Lam, Mim. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Les Romains ont été vaincus, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[dans le pays voisins, et après leur défaite ils seront les vainqueurs, ]]></Verse>
+	<Verse VerseID="4"><![CDATA[dans quelques années. A Allah appartient le commandement, au début et à la fin, et ce jour-là les Croyants se réjouiront ]]></Verse>
+	<Verse VerseID="5"><![CDATA[du secours d'Allah. Il secourt qui Il veut et Il est le Tout Puissant, le Tout Miséricordieux. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[C'est [là] la promesse d'Allah. Allah ne manque jamais à Sa promesse mais la plupart des gens ne savent pas. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Ils connaissent un aspect de la vie présente, tandis qu'ils sont inattentifs à l'au-delà. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[N'ont-ils pas médité en eux-mêmes ? Allah n'a créé les cieux et la terre et ce qui est entre eux, qu'à juste raison et pour un terme fixé. Beaucoup de gens cependant ne croient pas en la rencontre de leur Seigneur. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[N'ont-ils pas parcouru la terre pour voir ce qu'il est advenu de ceux qui ont vécu avant eux ? Ceux-là les surpassaient en puissance et avaient labouré et peuplé la terre bien plus qu'ils ne l'ont fait eux-mêmes. Leurs messagers leur vinrent avec des preuves évidentes. Ce n'est pas Allah qui leur fît du tort ; mais ils se firent du tort à eux- mêmes. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Puis, mauvaise fut la fin de ceux qui faisaient le mal, ayant traité de mensonges les versets d'Allah et les ayant raillés. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[C'est Allah qui commence la création ; ensuite Il la refait ; puis, vers Lui vous serez ramenés. ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Et le jour où l'Heure arrivera, les criminels seront frappés de désespoir. ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Et ils n'auront point d'intercesseurs parmi ceux qu'ils associaient [à Allah] et ils renieront même leurs divinités. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Le jour où l'Heure arrivera, ce jour-là ils se sépareront [les uns des autres]. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Ceux qui auront cru et accompli de bonnes oeuvres se réjouiront dans un jardin ; ]]></Verse>
+	<Verse VerseID="16"><![CDATA[et quant à ceux qui n'auront pas cru et auront traité de mensonges Nos signes ainsi que la rencontre de l'au-delà, ceux-là seront emmenés au châtiment. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Glorifiez Allah donc, soir et matin ! ]]></Verse>
+	<Verse VerseID="18"><![CDATA[A Lui toute louange dans les cieux et la terre, dans l'après-midi et au milieu de la journée. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Du mort, Il fait sortir le vivant, et du vivant, Il fait sortir le mort. Et Il redonne la vie à la terre après sa mort. Et c'est ainsi que l'on vous fera sortir (à la résurrection). ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Parmi Ses signes : Il vous a créés de terre, - puis, vous voilà des hommes qui se dispersent [dans le monde]-. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Et parmi Ses signes Il a créé de vous, pour vous, des épouses pour que vous viviez en tranquillité avec elles et Il a mis entre vous de l'affection et de la bonté. Il y a en cela des preuves pour des gens qui réfléchissent. ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Et parmi Ses signes la création des cieux et de la terre et la variété de vos idiomes et de vos couleurs. Il y a en cela des preuves pour les savants. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Et parmi Ses signes votre sommeil la nuit et le jour, et aussi votre quête de Sa grâce. Il y a en cela des preuves pour des gens qui entendent. ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Et parmi Ses signes Il vous montre l'éclaire avec crainte (de la foudre) et espoir (de la pluie), et fait descendre du ciel une eau avec laquelle Il redonne la vie à la terre après sa mort. Il y a en cela des preuves pour des gens qui raisonnent. ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Et parmi Ses signes le ciel et la terre sont maintenus par Son ordre ; ensuite lorsqu'Il vous appellera d'un appel, voilà que de la terre vous surgirez. ]]></Verse>
+	<Verse VerseID="26"><![CDATA[A Lui tous ceux qui sont dans les cieux et la terre : tous Lui sont entièrement soumis. ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Et c'est Lui qui commence la création puis la refait ; et cela Lui est plus facile. Il a la transcendance absolue dans les cieux et sur la terre. C'est Lui le Tout Puissant, le Sage. ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Il vous a cité une parabole de vous-mêmes : Avez-vous associé vos esclaves à ce que Nous Vous avons attribué en sorte que vous soyez tous égaux [en droit de propriété] et que vous les craignez [autant] que vous vous craignez mutuellement ? C'est ainsi que Nous exposons Nos versets pour des gens qui raisonnent. ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Ceux qui ont été injustes ont plutòt suivi leurs propres passions, sans savoir. Qui donc peut guider celui qu'Allah égare ? Et ils n'ont pas pour eux, de protecteur. ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Dirige tout ton être vers la religion exclusivement [pour Allah], telle est la nature qu'Allah a originellement donnée aux hommes - pas de changement à la création d'Allah -. Voilà la religion de droiture ; mais la plupart des gens ne savent pas. ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Revenez repentants vers Lui ; craignez-Le, accomplissez la Salat et ne soyez pas parmi les associateurs, ]]></Verse>
+	<Verse VerseID="32"><![CDATA[parmi ceux qui ont divisé leur religion et sont devenus des sectes, chaque parti exultant de ce qu'il détenait. ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Et quand un mal touche les gens, ils invoquent leur Seigneur en revenant à Lui repentants. Puis s'Il leur fait goûter de Sa part une miséricorde, voilà qu'une partie d'entre eux donnent à leur Seigneur des associés, ]]></Verse>
+	<Verse VerseID="34"><![CDATA[en sorte qu'ils deviennent ingrats envers ce que Nous leur avons donné. "Et jouissez donc. Vous saurez bientòt". ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Avons-Nous fait descendre sur eux une autorité (un Livre) telle qu'elle parle de ce qu'ils Lui associaient ? ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Et quand Nous faisons goûter une miséricorde aux gens, ils en exultent. Mais si un malheur les atteint à cause de ce que leurs propres mains ont préparé, voilà qu'ils désespèrent. ]]></Verse>
+	<Verse VerseID="37"><![CDATA[N'ont-ils pas vu qu'Allah dispense Ses dons ou les restreint à qui Il veut ? Il y a en cela des preuves pour des gens qui croient. ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Donne donc au proche parent son dû, ainsi qu'au pauvre, et au voyageur en détresse. Cela est meilleur pour ceux qui recherchent la face d'Allah (Sa satisfaction) ; et ce sont eux qui réussissent ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Tout ce que vous donnerez à usure pour augmenter vos biens au dépens des biens d'autrui ne les accroît pas auprès d'Allah, mais ce que vous donnez comme Zakat, tout en cherchant la Face d'Allah (Sa satisfaction)... Ceux-là verront [leurs récompenses] multipliées. ]]></Verse>
+	<Verse VerseID="40"><![CDATA[C'est Allah qui vous a créés et vous a nourris. Ensuite Il vous fera mourir, puis Il vous redonnera vie. Y en a-t-il parmi vos associés, qui fasse quoi que ce soit de tout cela ? Gloire à Lui ! Il transcende ce qu'on Lui associe. ]]></Verse>
+	<Verse VerseID="41"><![CDATA[La corruption est apparue sur la terre et dans la mer à cause de ce que les gens ont accompli de leurs propres mains ; afin qu'[Allah] leur fasse goûter une partie de ce qu'ils ont oeuvré ; peut-être reviendront-ils (vers Allah). ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Dis : "Parcourez la terre et regardez ce qu'il est advenu de ceux qui ont vécu avant. La plupart d'entre eux étaient des associateurs". ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Dirige tout ton être vers la religion de droiture, avant que ne vienne d'Allah un jour qu'on ne peut repousser. Ce jour-là [les gens] seront divisés : ]]></Verse>
+	<Verse VerseID="44"><![CDATA[Celui qui aura mécru subira [les conséquences] de son infidélité. Et quiconque aura oeuvré en bien... C'est pour eux-mêmes qu'ils préparent (leur avenir), ]]></Verse>
+	<Verse VerseID="45"><![CDATA[afin qu'[Allah] récompense par Sa grâce ceux qui croient et accomplissent les bonnes oeuvres. En vérité, Il n'aime pas les infidèles. ]]></Verse>
+	<Verse VerseID="46"><![CDATA[Parmi Ses signes, Il envoie les vents comme annonciateurs, pour vous faire goûter de Sa miséricorde et pour que le vaisseau vogue, par Son ordre, et que vous recherchiez de Sa grâce. Peut-être seriez-vous reconnaissants ! ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Nous avons effectivement envoyé avant toi des Messagers vers leurs peuples et ils leur apportèrent les preuves. Nous Nous vengeâmes de ceux qui commirent les crimes [de la négation] ; et c'était Notre devoir de secourir les croyants. ]]></Verse>
+	<Verse VerseID="48"><![CDATA[Allah, c'est Lui qui envoie les vents qui soulèvent des nuages ; puis Il les étend dans le ciel comme Il veut ; et Il les met en morceaux. Tu vois alors la pluie sortir de leurs profondeurs. Puis, lorsqu'Il atteint avec elle qui Il veut parmi Ses serviteurs, les voilà qui se réjouissent, ]]></Verse>
+	<Verse VerseID="49"><![CDATA[même s'ils étaient auparavant, avant qu'on ne l'ait fait descendre sur eux, désespérés. ]]></Verse>
+	<Verse VerseID="50"><![CDATA[Regarde donc les effets de la miséricorde d'Allah comment Il redonne la vie à la terre après sa mort. C'est Lui qui fait revivre les morts et Il est Omnipotent. ]]></Verse>
+	<Verse VerseID="51"><![CDATA[Et si Nous envoyons un vent et qu'ils voient jaunir [leur végétation], ils demeurent après cela ingrats (oubliant les bienfaits antérieurs). ]]></Verse>
+	<Verse VerseID="52"><![CDATA[En vérité, tu ne fais pas entendre les morts ; et tu ne fais pas entendre aux sourds l'appel, s'ils s'en vont en tournant le dos. ]]></Verse>
+	<Verse VerseID="53"><![CDATA[Tu n'es pas celui qui guide les aveugles hors de leur égarement. Tu ne fais entendre que ceux qui croient en Nos versets et qui sont alors entièrement soumis [musulmans]. ]]></Verse>
+	<Verse VerseID="54"><![CDATA[Allah, c'est Lui qui vous a créés faibles ; puis après la faiblesse, Il vous donne la force ; puis après la force, Il vous réduit à la faiblesse et à la vieillesse : Il crée ce qu'Il veut et c'est Lui l'Omniscient, l'Omnipotent. ]]></Verse>
+	<Verse VerseID="55"><![CDATA[Et le jour où l'Heure arrivera, les criminels jureront qu'ils n'ont demeuré qu'une heure. C'est ainsi qu'ils ont été détournés (de la vérité) ; ]]></Verse>
+	<Verse VerseID="56"><![CDATA[tandis que ceux à qui le savoir et la foi furent donnés diront : "Vous avez demeuré d'après le Décret d'Allah, jusqu'au Jour de la Résurrection, - voici le Jour de la Résurrection, - mais vous ne saviez point". ]]></Verse>
+	<Verse VerseID="57"><![CDATA[ce jour-là donc, les excuses ne seront pas utiles aux injustes et on ne leur demandera pas à chercher à plaire à [Allah]. ]]></Verse>
+	<Verse VerseID="58"><![CDATA[Et dans ce Coran, Nous avons certes cité, pour les gens, des exemples de toutes sortes. Et si tu leur apportes un prodige, ceux qui ne croient pas diront : "Certes, vous n'êtes que des imposteurs". ]]></Verse>
+	<Verse VerseID="59"><![CDATA[C'est ainsi qu'Allah scelle les coeurs de ceux qui ne savent pas. ]]></Verse>
+	<Verse VerseID="60"><![CDATA[Sois donc patient, car la promesse d'Allah est vérité. Et que ceux qui ne croient pas fermement ne t'ébranlent pas ! ]]></Verse>
+</Chapter>

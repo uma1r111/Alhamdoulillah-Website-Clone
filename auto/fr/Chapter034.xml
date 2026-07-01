@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="34" ChapterName="Saba">
+	<Verse VerseID="1"><![CDATA[Louange à Allah à qui appartient tout ce qui est dans les cieux et tout ce qui est sur la terre. Et louange à Lui dans l'au-delà. Et c'est Lui le Sage, le Parfaitement Connaisseur. ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Il sait qui pénètre en terre et qui en sort, ce qui descend du ciel et ce qui y remonte. Et c'est Lui le Miséricordieux, le Pardonneur. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Ceux qui ne croient pas disent : "L'Heure de nous viendra pas". Dis : "Par mon Seigneur ! Très certainement, elle vous viendra. [Mon Seigneur] le Connaisseur de l'Inconnaissable. Rien ne Lui échappe fût-il du poids d'un atome dans les cieux, comme sur la terre. Et rien n'existe de plus petit ni de plus grand, qui ne soit inscrit dans un Livre explicite. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[afin qu'Il récompense ceux qui croient et accomplissent les bonnes oeuvres. Pour ceux-ci, il y aura un pardon et un don généreux. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Et ceux qui s'efforcent de rendre vains Nos versets, ceux-là auront le châtiment d'un supplice douloureux. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[Et ceux à qui le savoir a été donné voient qu'on t'a fait descendre de la part de ton Seigneur est la vérité qui guide au chemin du Tout Puissant, du Digne de Louange. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[Et ceux qui ne croient pas dirent : "Voulez-vous que l'on vous montre un homme qui vous prédise que lorsque vous serez complètement désintégrés, vous reparaîtrez, sans nul doute, en une nouvelle création ? ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Invente-t-il un mensonge contre Allah ? ou bien est-il fou ?" [Non], mais ceux qui ne croient pas en l'au-delà sont voués au châtiment et à l'égarement lointain. ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Ne voient-ils donc pas ce qu'il y a comme ciel et comme terre devant et derrière eux ? Si Nous voulions, Nous ferions au la terre les engloutisse, ou que des morceaux du ciel tombent sur eux. Il y a en cela une preuve pour tout serviteur repentant. ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Nous avons certes accordé une grâce à David de notre part. Ô montagnes et oiseaux, répétez avec lui (les louanges d'Allah). Et pour lui, Nous avons amolli le fer. ]]></Verse>
+	<Verse VerseID="11"><![CDATA[(en lui disant) : "Fabrique des cottes de mailles complètes et mesure bien les mailles". Et faites le bien. Je suis Clairvoyant sur ce que vous faites. ]]></Verse>
+	<Verse VerseID="12"><![CDATA[Et à Salomon (Nous avons assujetti) le vent, dont le parcours du matin équivaut à un mois (de marche) et le parcours du soir, un mois aussi. Et pour lui nous avons fait couler la source de cuivre. Et parmi les djinns il y en a qui travaillaient sous ses ordres, par permission de son Seigneur. Quiconque d'entre eux, cependant, déviait de Notre ordre, Nous lui faisions goûter le châtiment de la fournaise. ]]></Verse>
+	<Verse VerseID="13"><![CDATA[Ils exécutaient pour lui ce qu'il voulait : sanctuaires, statues, plateaux comme des bassin et marmites bien ancrées. "Ô famille de David, oeuvrez par gratitude", alors qu'il y a peu de Mes serviteurs qui sont reconnaissants. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Puis, quand Nous décidâmes sa mort, il n'y eut pour les avertir de sa mort que "la bête de terre", qui rongea sa canne. Puis lorsqu'il s'écroula, il apparut de toute évidence aux djinns que s'ils savaient vraiment l'inconnu, ils ne seraient pas restés dans le supplice humiliant [de la servitude]. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Il y avait assurément, pour la tribu de Saba un Signe dans leurs habitats ; deux jardin, l'un à droit et l'autre à gauche. "Mangez de ce que votre Seigneur vous a attribué, et soyez Lui reconnaissants : une bonne contrée et un Seigneur Pardonneur". ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Mais ils se détournèrent. Nous déchaînâmes contre eux l'inondation du Barrage, et leur changeâmes leurs deux jardins en deux jardins aux fruits amers, tamaris et quelques jujubiers. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Ainsi les rétribuâmes Nous pour leur mécréance. Saurions-Nous sanctionner un autre que le mécréant ? ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Et Nous avions placé entre eux et les cités que Nous avions bénies, d'autres cités proéminentes, et Nous avions évalué les étapes de voyage entre elles. "Voyagez entre elles pendant des nuits et des jours, en sécurité". ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Puis ils dirent : "Seigneur, allonge les distances entre nos étapes", et ils se firent du tort à eux mêmes. Nous fîmes d'eux, donc, des sujets de légendes et les désintégrâmes totalement. Il y a en cela des avertissements pour tous grand endurant et grand reconnaissant. ]]></Verse>
+	<Verse VerseID="20"><![CDATA[Et Satan a très certainement rendu véridique sa conjecture à leur égard. Ils l'ont suivi donc, sauf un groupe parmi les croyants. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Et pourtant il n'avait sur eux aucun pouvoir si ce n'est que Nous voulions distinguer celui qui croyait en l'au-delà et celui qui doutait. Ton Seigneur, cependant, assure la sauvegarde de toute chose. ]]></Verse>
+	<Verse VerseID="22"><![CDATA[Dis : "Invoquez ceux qu'en dehors d'Allah vous prétendez [être des divinités]. Ils ne possèdent même pas le poids d'un atome, ni dans les cieux ni sur la terre. Ils n'ont jamais été associés à leur création et Il n'a personne parmi eux pour Le soutenir". ]]></Verse>
+	<Verse VerseID="23"><![CDATA[L'intercession auprès de Lui ne profite qu'à celui qui en faveur duquel Il la permet. Quand ensuite la frayeur se sera éloignée de leurs coeurs, ils diront  : "Qu'a dit votre Seigneur ?" Ils répondront : "La Vérité ; C'est Lui le Sublime, le Grand". ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Dis : "Qui vous nourrit du ciel et de la terre ?" Dis : "Allah. C'est nous ou bien vous qui sommes sur une bonne voie, ou dans un égarement manifeste". ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Dis : "Vous ne serez pas interrogés sur les crimes que nous avons commis, et nous ne serons pas interrogés sur ce que vous faites". ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Dis : "Notre Seigneur nous réunira, puis Il tranchera entre nous, avec la vérité, car c'est Lui le Grand Juge, l'Omniscient". ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Dis : "Montrez-moi ceux que vous Lui avez donnés comme associés. Eh bien, non ! C'est plutòt Lui, Allah, le Puissant, le Sage". ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Et Nous ne t'avons envoyé qu'en tant qu'annonciateur et avertisseur pour toute l'humanité. Mais la plupart des gens ne savent pas. ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Et ils disent : "A quand cette promesse, si vous êtes véridiques ?". ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Dis : "Le rendez-vous est pour un jour que vous ne saurez retarder d'une heure, ni avancer !". ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Et ceux qui avaient mécru dirent : "Jamais nous ne croirons à ce Coran ni à ce qui l'a précédé". Et si tu pouvais voir les injustes seront debout devant leur Seigneur, se renvoyant la parole les uns aux autres ! Ceux que l'on considérait comme faibles diront à ceux qui s'enorgueillissaient : "Sans vous, nous aurions certes été croyants". ]]></Verse>
+	<Verse VerseID="32"><![CDATA[Ceux qui s'enorgueillissaient diront à ceux qu'ils considéraient comme faibles : "Est-ce nous qui vous avons repoussés de la bonne direction après qu'elle vous fut venue ? Mais vous étiez plutòt des criminels". ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Et ceux que l'on considérait comme faibles diront à ceux qui s'enorgueillissaient : "C'était votre stratagème, plutòt, nuit et jours, de nous commander de ne pas croire en Allah et de Lui donner des égaux". Et ils cacheront leur regret quand ils verront le châtiment. Nous placerons des carcans aux cous de ceux qui ont mécru : les rétribuerait-on autrement que selon ce qu'ils oeuvraient ?" ]]></Verse>
+	<Verse VerseID="34"><![CDATA[Et Nous n'avons envoyé aucun avertisseur dans une cité sans que ses gens aisés n'aient dit : "Nous ne croyons pas au message avec lequel vous êtes envoyés". ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Et ils dirent : "Nous avons d'avantage de richesses et d'enfants et nous ne serons pas châtiés". ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Dis : "Mon Seigneur dispense avec largesse ou restreint Ses dons à qui Il veut. Mais la plupart des gens ne savent pas". ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Ni vos biens ni vos enfants ne vous rapprocherons à proximité de Nous. Sauf celui qui croit et oeuvre dans le bien. Ceux-là auront une double récompense pour ce qu'ils oeuvraient, tandis qu'ils seront en sécurités, aux étages supérieurs (du Paradis). ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Et quant à ceux qui s'efforcent à rendre Nos versets inefficient, ceux-là seront forcés de se présenter au châtiment. ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Dis : "Mon Seigneur dispense avec largesse ou restreint Ses dons à ce qui Il veut parmi Ses serviteurs. Et toute dépense que vous faites [dans le bien], Il la remplace, et c'est Lui le Meilleur des donateurs". ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Et un jour Il les rassemblera tous. Puis Il dira aux Anges : "Est-ce vous que ces gens-là adoraient ?". ]]></Verse>
+	<Verse VerseID="41"><![CDATA[Ils diront : "Gloire à Toi ! Tu es notre Allié en dehors d'eux. Ils adoraient plutòt les djinns, en qui la plupart d'entre eux croyaient. ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Ce jour-là donc, vous n'aurez aucun moyen pour profiter ou nuire les uns aux autres, tandis que Nous dirons aux injustes : "Goûtez au châtiment du Feu que vous traitiez de mensonge". ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Et quand Nos versets édifiants leur sont récités, ils disent : "Ce n'est là qu'un homme qui veut vous repousser de ce que vos ancêtres adoraient". Et ils disent : "Ceci (Le Coran) n'est qu'un mensonge inventé". Et ceux qui ne croient pas disent de la Vérité quand elle leur vient : "Ce n'est là qu'une magie évidente !". ]]></Verse>
+	<Verse VerseID="44"><![CDATA[[Pourtant] Nous ne leurs avons pas donné de livres à étudier. Et Nous ne leur avons envoyés avant toi aucun avertisseur. ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Ceux d'avant eux avaient [aussi] démenti (leurs messagers). [Les Mecquois] n'ont pas atteint le dixième de ce que Nous leur avons donné [en force et en richesse]. Ils traitaient Mes Messagers de menteurs. Et quelle réprobation fut la mienne ! ]]></Verse>
+	<Verse VerseID="46"><![CDATA[Dis : "Je vous exhorte seulement à une chose : que pour Allah vous vous leviez, par deux ou isolément, et qu'ensuite vous réfléchissiez. Votre compagnon (Muhammad) n'est nullement possédé : il n'est pour vous qu'un avertisseur annonçant un dur châtiment". ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Dis : "Ce que je vous demande comme salaire, c'est pour vous- mêmes. Car mon salaire n'incombe qu'à Allah. Il est Témoin de toute chose". ]]></Verse>
+	<Verse VerseID="48"><![CDATA[Dis : "Certes, mon Seigneur lance la Vérité, [à Ses messagers]. Il est Parfait Connaisseur des inconnaissables". ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Dis : "La Vérité [l'Islam] est venue. Et le Faux [la mécréance] ne peut rien commencer ni renouveler". ]]></Verse>
+	<Verse VerseID="50"><![CDATA[Dis : "Si je m'égare, je ne m'égare qu'à mes dépens ; tandis que si je me guide, alors c'est grâce à ce que Mon Seigneur m'a révèle, car Il est Audient et Proche". ]]></Verse>
+	<Verse VerseID="51"><![CDATA[Si tu voyais quand ils seront saisis de peur, - pas d'échappatoires pour eux, - et ils seront saisis de près ! ]]></Verse>
+	<Verse VerseID="52"><![CDATA[Ils diront alors : "Nous croyons en lui", - Mais comment atteindront-ils la foi de si loin ? ]]></Verse>
+	<Verse VerseID="53"><![CDATA[alors qu'auparavant ils y avaient effectivement mécru et ils offensent l'inconnu à partir d'un endroit éloignés  ! ]]></Verse>
+	<Verse VerseID="54"><![CDATA[On les empêchera d'atteindre ce qu'ils désirent, comme cela fut fait auparavant avec leurs semblables, car ils se trouvaient dans un doute profond. ]]></Verse>
+</Chapter>

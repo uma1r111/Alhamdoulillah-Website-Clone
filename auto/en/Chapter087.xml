@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="87" ChapterName="The Most High">
+	<Verse VerseID="1"><![CDATA[Praise/glorify your Lord`s name the highest/mightiest .]]></Verse>
+	<Verse VerseID="2"><![CDATA[Who created, so He straightened.]]></Verse>
+	<Verse VerseID="3"><![CDATA[And who predestined/evaluated , so He guided.]]></Verse>
+	<Verse VerseID="4"><![CDATA[And who brought out/made (to) emerge the pasture.]]></Verse>
+	<Verse VerseID="5"><![CDATA[So He made/created it rotten/spoiled (thin and dry) green/red with blackness.]]></Verse>
+	<Verse VerseID="6"><![CDATA[We will make you read, so do not forget.]]></Verse>
+	<Verse VerseID="7"><![CDATA[Except what God willed/wanted/intended, that He truly knows the declared/publicized and what hides.]]></Verse>
+	<Verse VerseID="8"><![CDATA[And We ease you to the ease/prosperity.]]></Verse>
+	<Verse VerseID="9"><![CDATA[So remind if the remembrance/reminder benefited.]]></Verse>
+	<Verse VerseID="10"><![CDATA[Who fears will remember/praise/glorify .]]></Verse>
+	<Verse VerseID="11"><![CDATA[And the most miserable/unhappy avoids/distances himself from it.]]></Verse>
+	<Verse VerseID="12"><![CDATA[Who roasts/suffers the fire , the greatest .]]></Verse>
+	<Verse VerseID="13"><![CDATA[Then he does not die in it and nor live.]]></Verse>
+	<Verse VerseID="14"><![CDATA[Who purified/corrected had succeeded/won.]]></Verse>
+	<Verse VerseID="15"><![CDATA[And mentioned/remembered his Lord`s name, so he prayed.]]></Verse>
+	<Verse VerseID="16"><![CDATA[But you prefer/choose the life the present/worldly life.]]></Verse>
+	<Verse VerseID="17"><![CDATA[And the end (other life is) better and more lasting (everlasting).]]></Verse>
+	<Verse VerseID="18"><![CDATA[That truly that (is) in (E) the written pages (Books/Scriptures) the first/beginning.]]></Verse>
+	<Verse VerseID="19"><![CDATA[Abraham`s and Moses` written pages (Books/Scriptures).]]></Verse>
+</Chapter>

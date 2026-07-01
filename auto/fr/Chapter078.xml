@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="78" ChapterName="La nouvelle (An-Naba)">
+	<Verse VerseID="1"><![CDATA[Sur quoi s'interrogent-ils mutuellement ? ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Sur la grande nouvelle, ]]></Verse>
+	<Verse VerseID="3"><![CDATA[à propos de laquelle ils divergent. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Eh bien non ! Ils sauront bientòt. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Encore une fois, non ! Ils sauront bientòt. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[N'avons-Nous pas fait de la terre une couche ? ]]></Verse>
+	<Verse VerseID="7"><![CDATA[et (placé) les montagnes comme des piquets ? ]]></Verse>
+	<Verse VerseID="8"><![CDATA[Nous vous avons créés en couples, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[et désigné votre sommeil pour votre repos, ]]></Verse>
+	<Verse VerseID="10"><![CDATA[et fait de la nuit un vêtement, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[et assigné le jour pour les affaires de la vie, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[et construit au-dessus de vous sept (cieux) renforcés, ]]></Verse>
+	<Verse VerseID="13"><![CDATA[et [y] avons placé une lampe (le soleil) très ardente, ]]></Verse>
+	<Verse VerseID="14"><![CDATA[et fait descendre des nuées une eau abondante ]]></Verse>
+	<Verse VerseID="15"><![CDATA[pour faire pousser par elle grains et plantes ]]></Verse>
+	<Verse VerseID="16"><![CDATA[et jardins luxuriants. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Le Jour de la Décision [du Jugement] a son terme fixé. ]]></Verse>
+	<Verse VerseID="18"><![CDATA[Le jour où l'on soufflera dans la Trompe, vous viendrez par troupes, ]]></Verse>
+	<Verse VerseID="19"><![CDATA[et le ciel sera ouvert et [présentera] des portes, ]]></Verse>
+	<Verse VerseID="20"><![CDATA[et les montagnes seront mises en marche et deviendront un mirage. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[L'Enfer demeure aux aguets ]]></Verse>
+	<Verse VerseID="22"><![CDATA[refuge pour les transgresseurs. ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Ils y demeureront pendant des siècles successifs. ]]></Verse>
+	<Verse VerseID="24"><![CDATA[Ils n'y goûteront ni fraîcheur ni breuvage, ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Hormis une eau bouillante et un pus ]]></Verse>
+	<Verse VerseID="26"><![CDATA[comme rétribution équitable. ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Car ils ne s'attendaient pas à rendre compte, ]]></Verse>
+	<Verse VerseID="28"><![CDATA[et traitaient de mensonges, continuellement, Nos versets ]]></Verse>
+	<Verse VerseID="29"><![CDATA[alors que Nous avons dénombré toutes choses en écrit. ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Goûtez-donc. Nous n'augmenterons pour vous que le châtiment ! ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Pour les pieux ce sera une réussite : ]]></Verse>
+	<Verse VerseID="32"><![CDATA[jardins et vignes, ]]></Verse>
+	<Verse VerseID="33"><![CDATA[et des (belle) aux seins arrondis, d'une égale jeunesse, ]]></Verse>
+	<Verse VerseID="34"><![CDATA[et coupes débordantes. ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Ils n'y entendront ni futilités ni mensonges. ]]></Verse>
+	<Verse VerseID="36"><![CDATA[A titre de récompense de ton Seigneur et à titre de don abondant ]]></Verse>
+	<Verse VerseID="37"><![CDATA[du Seigneur des cieux et de la terre et de ce qui existe entre eux, le Tout Miséricordieux ; ils n'osent nullement Lui adresser la parole. ]]></Verse>
+	<Verse VerseID="38"><![CDATA[Le jour où l'Esprit et les Anges se dresseront en rangs, nul ne saura parler, sauf celui à qui le Tout Miséricordieux aura accordé la permission, et qui dira la vérité. ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Ce jour-là est inéluctable. Que celui qui veut prenne donc refuge auprès de son Seigneur. ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Nous vous avons avertis d'un châtiment bien proche, le jour où l'homme verra ce que ses deux mains ont préparé ; et l'infidèle dira : "Hélas pour moi ! Comme j'aurais aimé n'être que poussière". ]]></Verse>
+</Chapter>

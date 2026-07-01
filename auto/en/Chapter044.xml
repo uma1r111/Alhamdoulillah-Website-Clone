@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="44" ChapterName="The Evident Smoke">
+	<Verse VerseID="1"><![CDATA[H M .]]></Verse>
+	<Verse VerseID="2"><![CDATA[And The Book , the clear/evident .]]></Verse>
+	<Verse VerseID="3"><![CDATA[That We, We descended it in a blessed night, that We, We were warners/givers of notice.]]></Verse>
+	<Verse VerseID="4"><![CDATA[In it every/each wise/judicious matter/affair is separated.]]></Verse>
+	<Verse VerseID="5"><![CDATA[A matter/affair/order/command from at Us, that We were senders/sending.]]></Verse>
+	<Verse VerseID="6"><![CDATA[Mercy from your Lord that He truly is the hearing/listening, the knowledgeable.]]></Verse>
+	<Verse VerseID="7"><![CDATA[The skies`/space`s and the earth`s/Planet Earth`s Lord and what (is) between them (B), if you were sure/certain.]]></Verse>
+	<Verse VerseID="8"><![CDATA[(There is) no God except Him, He revives/makes alive, and He makes die, your Lord and your fathers`/forefathers`, the first`s/beginners` Lord.]]></Verse>
+	<Verse VerseID="9"><![CDATA[But they are in doubt/suspicion playing/amusing .]]></Verse>
+	<Verse VerseID="10"><![CDATA[So observe/lie in wait, a day/time the sky/space comes with clear/evident smoke/fumes.]]></Verse>
+	<Verse VerseID="11"><![CDATA[It covers/afflicts the people, that is a painful torture.]]></Verse>
+	<Verse VerseID="12"><![CDATA[(They say): "Our Lord remove/uncover (relieve) from us the torture, that we are believing."]]></Verse>
+	<Verse VerseID="13"><![CDATA[From where/how the remembrance/reminder be for them, and a clear/evident messenger had come to them?]]></Verse>
+	<Verse VerseID="14"><![CDATA[Then they turned away from Him and they said: "Taught/instructed/informed, mad/insane."]]></Verse>
+	<Verse VerseID="15"><![CDATA[That We (are) removing/uncovering (relieving) the torture little, that you truly are returning.]]></Verse>
+	<Verse VerseID="16"><![CDATA[A day/time We violently destroy the violent attack , the greatest/biggest , that We truly are revenging/punishing.]]></Verse>
+	<Verse VerseID="17"><![CDATA[And We had tested/allured Pharaoh`s nation before them, and an honoured/generous messenger came to them.]]></Verse>
+	<Verse VerseID="18"><![CDATA[That (E) discharge/fulfill (give/pay) to me God`s worshippers/slaves , that I am for you a faithful/loyal messenger.]]></Verse>
+	<Verse VerseID="19"><![CDATA[And that (E) do not become high, mighty and dignified on God, that I am coming to you with a clear/evident proof/evidence .]]></Verse>
+	<Verse VerseID="20"><![CDATA[And that I, I seeked protection with my Lord and your Lord, that (E) you stone me.]]></Verse>
+	<Verse VerseID="21"><![CDATA[And if you do not believe to me, so separate/isolate yourselves from me.]]></Verse>
+	<Verse VerseID="22"><![CDATA[So he called his Lord: "That (E) those (are) a nation (of) criminals/sinners ."]]></Verse>
+	<Verse VerseID="23"><![CDATA[So you go/move with My worshippers/slaves at night, that you are being followed.]]></Verse>
+	<Verse VerseID="24"><![CDATA[And leave the sea/ocean strolling/walking slowly , that they truly are drowning/sinking soldiers/warriors.]]></Verse>
+	<Verse VerseID="25"><![CDATA[How many/much they left (behind) from treed gardens and water springs/wells?]]></Verse>
+	<Verse VerseID="26"><![CDATA[And plants/crops and an honoured/generous position/status ?]]></Verse>
+	<Verse VerseID="27"><![CDATA[And blessing/goodness they were in it joyful (eating fruit) ?]]></Verse>
+	<Verse VerseID="28"><![CDATA[Like that, and We made it be inherited (by) a nation (of) others .]]></Verse>
+	<Verse VerseID="29"><![CDATA[So the sky/space and the earth/Planet Earth did not weep (sadden) on them, and they were not given time/delayed .]]></Verse>
+	<Verse VerseID="30"><![CDATA[And We had saved/rescued Israel`s sons and daughters from the torture the humiliating/disgracing .]]></Verse>
+	<Verse VerseID="31"><![CDATA[From Pharaoh, that he truly was high and mighty from the wasters/extravagators .]]></Verse>
+	<Verse VerseID="32"><![CDATA[And We had chosen them on knowledge over the creations all together/(universes).]]></Verse>
+	<Verse VerseID="33"><![CDATA[And We gave/brought them from the verses/evidences what is in it a clear/evident test.]]></Verse>
+	<Verse VerseID="34"><![CDATA[That truly those say (E):]]></Verse>
+	<Verse VerseID="35"><![CDATA[That truly it is except our death/lifelessness the first/beginning, and we are not with being revived/resurrected.]]></Verse>
+	<Verse VerseID="36"><![CDATA[So come with our fathers/forefathers if you were truthful.]]></Verse>
+	<Verse VerseID="37"><![CDATA[Are they better or a nation of Tuba (could be from Yemen)/shade and those from before them? We made them die/destroyed them , that they truly were criminals/sinners.]]></Verse>
+	<Verse VerseID="38"><![CDATA[And We did not create the skies/space and the earth/Planet Earth and what (is) between them (B) playing/amusing .]]></Verse>
+	<Verse VerseID="39"><![CDATA[We did not create them (B) except with the truth , and but most of them do not know.]]></Verse>
+	<Verse VerseID="40"><![CDATA[That truly the Judgment Day/Resurrection Day (is) their appointed time all/all together.]]></Verse>
+	<Verse VerseID="41"><![CDATA[A day/time (a) master/ally does not enrich/suffice (replace) from (a) master/ally a thing, and nor they be given victory/aid.]]></Verse>
+	<Verse VerseID="42"><![CDATA[Except whom God had mercy upon (him), that He truly, He is the glorious/mighty , the merciful .]]></Verse>
+	<Verse VerseID="43"><![CDATA[That truly the deadly food`s tree.]]></Verse>
+	<Verse VerseID="44"><![CDATA[(Is) the sinner`s/criminal`s food/feeding.]]></Verse>
+	<Verse VerseID="45"><![CDATA[As/like the dead`s pus/melted metals , (it) boils in the bellies/insides.]]></Verse>
+	<Verse VerseID="46"><![CDATA[As the hot water`s/red hot coal`s boiling.]]></Verse>
+	<Verse VerseID="47"><![CDATA[Take/punish him so pull or drag him violently to the Hell`s middle .]]></Verse>
+	<Verse VerseID="48"><![CDATA[Then pour from above his head the hot water`s/red hot coal`s torture.]]></Verse>
+	<Verse VerseID="49"><![CDATA[Taste/experience, that you are, you are the glorious/mighty , the honored/generous .]]></Verse>
+	<Verse VerseID="50"><![CDATA[That truly that (is) what you were with it doubting/arguing.]]></Verse>
+	<Verse VerseID="51"><![CDATA[That truly the fearing and obeying (are) in a secure/safe position/status .]]></Verse>
+	<Verse VerseID="52"><![CDATA[In treed gardens/paradises and water springs/wells.]]></Verse>
+	<Verse VerseID="53"><![CDATA[They dress from sarcenet (a certain type of silk or brocade), and brocade (silk and gold fabric), facing each other.]]></Verse>
+	<Verse VerseID="54"><![CDATA[As/like that, and We got them married with (spouses of) eyes with intense blackness of pupils and whiteness (beautifully contrasted).]]></Verse>
+	<Verse VerseID="55"><![CDATA[They call in it with all fruits safe/secure .]]></Verse>
+	<Verse VerseID="56"><![CDATA[They do not taste/experience in it the death/lifelessness except the first death, and He protected them (from) the Hell`s torture.]]></Verse>
+	<Verse VerseID="57"><![CDATA[Grace/favour from you Lord, that (is) the success/triumph , the great.364]]></Verse>
+	<Verse VerseID="58"><![CDATA[So We eased it/We made it flexible with your tongue/language, maybe/perhaps they mention/remember .]]></Verse>
+	<Verse VerseID="59"><![CDATA[So observe/lie in wait , that they truly are observing/being made to observe 365]]></Verse>
+</Chapter>

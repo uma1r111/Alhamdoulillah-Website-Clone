@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+
+<Chapter ChapterID="68" ChapterName="La plume (Al-Qalam)">
+	<Verse VerseID="1"><![CDATA[Noun. Par la plume et ce qu'ils écrivent ! ]]></Verse>
+	<Verse VerseID="2"><![CDATA[Tu (Muhammad) n'est pas, par la grâce de ton Seigneur, un possédé. ]]></Verse>
+	<Verse VerseID="3"><![CDATA[Et il y aura pour toi certes, une récompense jamais interrompue. ]]></Verse>
+	<Verse VerseID="4"><![CDATA[Et tu es certes, d'une moralité imminente. ]]></Verse>
+	<Verse VerseID="5"><![CDATA[Tu verras et ils verront. ]]></Verse>
+	<Verse VerseID="6"><![CDATA[qui d'entre vous a perdu la raison. ]]></Verse>
+	<Verse VerseID="7"><![CDATA[C'est ton Seigneur qui connaît mieux ceux qui s'égarent de Son chemin, et il connaît mieux ceux qui suivent la bonne voie. ]]></Verse>
+	<Verse VerseID="8"><![CDATA[N'obéis pas à ceux qui crient en mensonge, ]]></Verse>
+	<Verse VerseID="9"><![CDATA[Ils aimeraient bien que tu transiges avec eux afin qu'ils transigent avec toi ]]></Verse>
+	<Verse VerseID="10"><![CDATA[Et n'obéis à aucun grand jureur, méprisable, ]]></Verse>
+	<Verse VerseID="11"><![CDATA[grand diffamateur, grand colporteur de médisance, ]]></Verse>
+	<Verse VerseID="12"><![CDATA[grand empêcheur du bien, transgresseur, grand pécheur, ]]></Verse>
+	<Verse VerseID="13"><![CDATA[au coeur dur, et en plus de cela bâtard. ]]></Verse>
+	<Verse VerseID="14"><![CDATA[Même s'il est doté de richesses et (de nombreux) enfants. ]]></Verse>
+	<Verse VerseID="15"><![CDATA[Quand Nos versets lui sont récités, il dit : "Des contes d'anciens". ]]></Verse>
+	<Verse VerseID="16"><![CDATA[Nous le marquerons sur le museau [nez]. ]]></Verse>
+	<Verse VerseID="17"><![CDATA[Nous les avons éprouvés comme Nous avons éprouvés les propriétaires du verger qui avaient juré d'en faire la récolte au matin, ]]></Verse>
+	<Verse VerseID="18"><![CDATA[sans dire : "Si Allah le veut".. ]]></Verse>
+	<Verse VerseID="19"><![CDATA[Une calamité de la part de ton Seigneur tomba dessus pendant qu'ils dormaient, ]]></Verse>
+	<Verse VerseID="20"><![CDATA[et le matin, ce fut comme si tout avait été rasé. ]]></Verse>
+	<Verse VerseID="21"><![CDATA[Le [lendemain] matin, ils s'appelèrent les uns les autres : ]]></Verse>
+	<Verse VerseID="22"><![CDATA["Partez tòt à votre champ si vous voulez le récolter". ]]></Verse>
+	<Verse VerseID="23"><![CDATA[Ils allèrent donc, tout en parlent entre eux à vois basse : ]]></Verse>
+	<Verse VerseID="24"><![CDATA["Ne laissez aucun pauvre y entrer aujourd'hui". ]]></Verse>
+	<Verse VerseID="25"><![CDATA[Ils partirent de bonne heure décidés à user d'avarice [envers les pauvres], convaincus que cela était en leur pouvoir. ]]></Verse>
+	<Verse VerseID="26"><![CDATA[Puis, quand ils le virent [le jardin], ils dirent : "vraiment, nous avons perdus notre chemin, ]]></Verse>
+	<Verse VerseID="27"><![CDATA[Ou plutòt nous somme frustrés". ]]></Verse>
+	<Verse VerseID="28"><![CDATA[Le plus juste d'entre eux dit : "Ne vous avais-je pas dit : Si seulement vous avez rendu gloire à Allah !" ]]></Verse>
+	<Verse VerseID="29"><![CDATA[Ils dirent : "Gloire à notre Seigneur ! Oui, nous avons été injustes". ]]></Verse>
+	<Verse VerseID="30"><![CDATA[Puis ils s'adressèrent les uns aux autres, se faisant des reproches. ]]></Verse>
+	<Verse VerseID="31"><![CDATA[Ils dirent : "Malheur à nous ! Nous avons été des rebelles. ]]></Verse>
+	<Verse VerseID="32"><![CDATA[Nous souhaitons que notre Seigneur nous le remplace par quelque chose de meilleur. Nous désirons nous rapprocher de notre Seigneur". ]]></Verse>
+	<Verse VerseID="33"><![CDATA[Tel fut le châtiment ; et le châtiment de l'au-delà est plus grand encore, si seulement ils savaient ! ]]></Verse>
+	<Verse VerseID="34"><![CDATA[Les pieux auront auprès de leur Seigneur les jardins de délice. ]]></Verse>
+	<Verse VerseID="35"><![CDATA[Traiterons-Nous les soumis [à Allah] à la manière des criminels ? ]]></Verse>
+	<Verse VerseID="36"><![CDATA[Qu'avez-vous ? Comment jugez-vous ? ]]></Verse>
+	<Verse VerseID="37"><![CDATA[Ou bien avez-vous un Livre dans lequel vous apprenez ]]></Verse>
+	<Verse VerseID="38"><![CDATA[qu'en vérité vous obtiendrez tout ce que vous désirez ? ]]></Verse>
+	<Verse VerseID="39"><![CDATA[Ou bien est-ce que vous avez obtenu de Nous des serments valables jusqu'au Jour de la Résurrection, Nous engageant à vous donner ce que vous décidez ? ]]></Verse>
+	<Verse VerseID="40"><![CDATA[Demande-leur qui d'entre eux en est garant ? ]]></Verse>
+	<Verse VerseID="41"><![CDATA[Ou encore, est-ce qu'ils ont des associés ? Eh bien, qu'ils fassent venir leur associés s'ils sont véridiques ! ]]></Verse>
+	<Verse VerseID="42"><![CDATA[Le jour où ils affronteront les horreurs [du Jugement] et où ils seront appelés à la Prosternation mais ils ne le pourront pas. ]]></Verse>
+	<Verse VerseID="43"><![CDATA[Leurs regards seront abaissés, et l'avilissement les couvrira. Or, ils étaient appelés à la Prosternation au temps où ils étaient sains et saufs !... ]]></Verse>
+	<Verse VerseID="44"><![CDATA[Laisse-Moi donc avec quiconque traite de mensonge ce discours ; Nous allons les mener graduellement par où ils ne savent pas ! ]]></Verse>
+	<Verse VerseID="45"><![CDATA[Et Je leur accorde un délai, car Mon stratagème est sûr ! ]]></Verse>
+	<Verse VerseID="46"><![CDATA[Ou bien est-ce que tu leur demandes un salaire, les accablant ainsi d'une lourde dette ? ]]></Verse>
+	<Verse VerseID="47"><![CDATA[Ou savent-ils l'Inconnaissable et c'est de là qu'ils écrivent [leurs mensonges] ? ]]></Verse>
+	<Verse VerseID="48"><![CDATA[Endure avec patience la sentence de ton Seigneur, et ne soit pas comme l'homme au Poisson (Jonas) qui appela (Allah) dans sa grande angoisse. ]]></Verse>
+	<Verse VerseID="49"><![CDATA[Si un bienfait de son Seigneur ne l'avait pas atteint, il aurait été rejeté honni sur une terre déserte, ]]></Verse>
+	<Verse VerseID="50"><![CDATA[Puis son Seigneur l'élut et le désigna au nombre des gens de bien. ]]></Verse>
+	<Verse VerseID="51"><![CDATA[Peu s'en faut que ceux qui mécroient ne te transpercent par leurs regards, quand ils entendent le Coran, ils disent : "Il est certes fou !". ]]></Verse>
+	<Verse VerseID="52"><![CDATA[Et ce n'est qu'un Rappel, adressé aux mondes !. ]]></Verse>
+</Chapter>

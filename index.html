@@ -1,0 +1,119 @@
+<?php include("inc/coranic.php");
+include("inc/doctype.php") ?>
+
+<title>Islam Religion - Site Islamique, Allah, le Coran, les Prophètes</title>
+<meta name="description" content="Islam - Site islamique, apprendre l'islam et ses piliers, avoir la foi, croire en Allah, au Coran, suivre la Sunna du Prophète salla Allahou 'alayhi wa sallam">
+
+</head>
+<body>
+
+<?php include("inc/menu.php") ?>
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<span class="h1">Actualité de La Louange</span>
+
+<p>Toute la rédaction de <i>La Louange</i> vous souhaite la bienvenue sur ce site dédié à l'islam, la religion musulmane et sa communauté francophone et internationale.</p>
+
+<?php  require_once( dirname(__FILE__) . '/blog/wp-load.php' );
+			
+			function wpdocs_custom_excerpt_length( $length ) {
+			return 50;
+			}
+			add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+			
+			
+			// Start the Loop.
+			
+			
+			$wp_query = new WP_Query(); $wp_query->query('posts_per_page=3' . '&paged='.$paged);
+		while ($wp_query->have_posts()) : $wp_query->the_post(); 
+
+			$tourne = 0;
+			
+			if ($tourne < 5) {
+			
+		$titre = get_the_title();
+		$linko = get_permalink();
+		$lien = substr($linko, 31);
+		$perma = basename(get_permalink());
+		$nom = substr($perma, 0, -5);
+		$altag = str_replace("-", " ", $nom);
+		$fileimage = "/blog/images/small/$nom.webp"; 
+
+echo "<a href=\"$lien\"><img class=\"lazy\" style=\"vertical-align:top; padding-left:15px; padding-top:20px; padding-right: 15px; padding-bottom:0px; width:250px; height:150px; float:left;\" alt=\"$altag\" data-src=\"$fileimage\" /></a><p style=\"font-size:15pt; font-family:trebuchet ms; margin-bottom:10px;\"><b><u><a href=\"$lien\">$titre</a></u></b></p>";
+the_excerpt(); 
+			// End the loop.
+			$tourne++;}
+			endwhile;
+
+
+			get_sidebar( 'blog/content-bottom' ); ?>
+			
+			<br>
+			
+			
+<h1>Islam</h1>			
+			
+
+<p>Le mot islam signifie "soumission" ou plutôt "remise" à la volonté de Dieu. Il dérive de la racine « salam », qui signifie paix. En arabe, un musulman se dit mouslim, c'est à dire soumis à son Seigneur. Dans le Coran, Allah nous indique que le seul but pour lequel il a créé l'humanité est de l'adorer. L'islam reconnaît que l'humanité a le libre choix d'obéir ou de désobéir à Dieu. Cela dit, nous serons tous jugés devant Dieu le Jour du Jugement pour les choix que nous faisons dans cette vie.</p>
+
+<h2>C'est quoi l'Islam ?</h2>
+
+<p>L'islam est un mode de vie naturel qui incite à bien se comporter, aussi bien avec Allah qu'avec Ses créatures, qu'ils soient humains, animaux, végétation ou toute forme de vie. L'Islam enseigne que c'est par l'accomplissement de bonnes actions et la recherche de l'agrément divin que les âmes trouvent le vrai bonheur et la paix.</p>
+
+<p>L'islam donne une idée logique et simple de Dieu. Allah est parfait. Il n'est pas un homme ni un fils d'homme ni une idole ou une trinité, ni limité ni créé. Il est unique et à lui appartient toutes les bonnes qualités. En islam, il n'y a pas de médiateur ou d'intermédiaire entre nous et Dieu. Chacun peut prier son Seigneur directement. Allah pardonne toujours, peu importe les péchés commis, si on se repent avant la mort.</p>
+
+<h3>Que dit l'islam sur les Prophètes ?</h3>
+
+<p>Allah a envoyé des <a href="prophetes/">prophètes</a> pour enseigner à l'humanité comment l'adorer. À commencer par Adam, y compris Noé, Abraham, Moïse, Jésus et le dernier des messagers, Mouhammed <span class="respect">(que la paix soit sur eux tous)</span>. La position islamique est que tous ces prophètes sont venus avec le même message, qu'il n'y a aucune divinité digne de culte, si ce n'est un Dieu Unique. L'Islam accepte tous les messagers de Dieu, environ 124 0000. Tous les prophètes sont aimés et il est interdit de nier l'un d'entre eux : Abraham, Jésus, Noé, Moïse...</p>
+
+<h3>Que dit l'islam sur l'âme ?</h3>
+
+<p>L'Islam accorde une grande importance à la croyance que l'âme permet la vie à un corps humain. De même, en son absence, le corps humain meurt et se désintègre. Cependant, l'âme est éternelle et retournera à son nouveau corps le jour de la Résurrection, quand Allah rassemblera tout le monde pour répondre de leurs actes sur la terre. L'Islam encourage l'individu à se concentrer sur le maintien de l'âme saine, à travers le rappel, l'obéissance et le culte de Dieu.</p>
+
+<p>L'adoration inclut tout acte qui plaît à Dieu. Toutes les bonnes actions sont des adorations comme sourire, être sincère, dire une bonne parole, traiter sa conjointe avec douceur, tout cela est grandement récompensé par Dieu. A l'opposé, tout acte qui ne plaît pas à Dieu est un péché comme parler mal des gens, tricher, frauder, mentir, blesser des innocents, nuire à l'environnement. L'Islam est un mode de vie qui organise chaque aspect de la vie. Il propose des solutions et des directives divines aux problèmes de la vie.</p>
+
+
+
+
+<h3>Site sur l'islam</h3>
+
+<p>Si ce site sur l'islam contient quelque chose qui contredit ce qu'Allah a dit, ou ce que Son Messager <span class="respect">(sallallahou 'alayhi wa sallam)</span> a dit, fait ou toléré, ou un principe établi au consensus, il s'agit d'une erreur de ma part et ceci est à délaisser.</p>
+
+<p>Al hamdoulillah,</p>
+
+<p>C'est Allah que nous louons, nous Lui demandons aide et pardon, et nous Lui demandons de nous protéger contre le mal que nous faisons à nous-mêmes et contre les mauvaises actions que nous pouvons commettre. Celui qu'Allah met dans la bonne voie, nul ne peut l'égarer ; celui qu'Allah
+égare, nul ne peut le remettre dans la bonne voie.</p>
+
+<p style="text-align: right;"><img class="lazy" alt="Site Islam" data-src="images/coran/3_102.png"></p>
+
+<p><b>{</b> Ô vous qui croyez ! Craignez Allah comme Il doit être craint. Et ne mourez qu'en pleine soumission. <b>}</b>
+<span class="coran">[Sourate 3 - Verset 102]</span></p>
+
+<p style="text-align: right;"><img class="lazy" alt="Islam" data-src="images/coran/4_1.png"></p>
+
+<p><b>{</b> Ô hommes ! Craignez votre Seigneur qui vous a créés d'un seul être, et a créé de celui-ci sont épouse , et qui de ces deux là a fait répandre (sur la terre) beaucoup d'hommes et de femmes. Craignez Allah au nom duquel vous vous implorez les uns les autres, et craignez de rompre les liens du sang. Certes Allah vous observe parfaitement. <b>}</b> <span class="coran">[Sourate 4 - Verset 1]</span></p>
+
+<p style="text-align: right;"><img class="lazy" alt="Site sur l'Islam" data-src="images/coran/33_70.png"><img class="lazy" alt="Site sur l'Islam" data-src="images/coran/33_71.png"></p>
+
+<p><b>{</b> Ô vous qui croyez ! Craignez Allah et parlez avec droiture. Ainsi Il améliorera vos actions et vous pardonnera vos péchés. Quiconque obéit à Allah et à Son messager obtientra certes un énorme succès. <b>}</b> <span class="coran">[Sourate 33 - Verset 70-71]</span></p>
+
+<p>La parole la plus véridique est celle d'Allah et la meilleure voie est celle de Mouhammed <span class="respect">(salla Allahou 'alayhi sallam)</span>. La pire des choses est la création nouvelle dans la religion (mouhdatha), toute création nouvelle est une innovation (bid'a), toute innovation est égarement, et tout égarement mène en Enfer.</p>
+
+<p>J'implore Allah, le Très-Haut, le Généreux, Pardonneur des péchés, Accueillant au repetentir, Terrible en Sa punition, de passer sur nos fautes par Sa grâce et Sa générosité et de mettre ce site dans la balance de nos bonnes actions, le Jour où ni les biens, ni les enfants ne serviront à rien, sauf celui qui vient à Allah avec un coeur sain.</p>
+
+<p>Qu'Allah prie sur Son serviteur et envoyé Mouhammed <span class="respect">(sallallahou 'alayhi wa sallam)</span> et lui donne bénédiction et paix, ainsi que les membres de sa famille et ses compagnons. As salamou 'alaykoum wa rahmatoullahi wa barakatouh. Que la Paix, la Miséricorde d'Allah et Sa bénédiction soit sur vous.</p>
+
+<br>
+
+</td>
+<td id="colonnes"><?php include("inc/droite.php") ?></td>
+</tr>
+</tbody>
+</table>
+<?php include("inc/footer.php") ?>
+</body></html>

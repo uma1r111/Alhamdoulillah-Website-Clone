@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+<title>Ramadan Calendar 2019/1440 - Imsak and Iftar Ramadan Timings</title>
+
+<meta name="description" content="All the timetables for the month of Ramadan in this calendar with the hours of prayer according to different angles of calculation, imsak and iftar."/>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/en/css/islam.css"> 
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9535111-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- Placez cet appel d'affichage à l'endroit approprié. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'fr'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</head>
+
+<body>
+
+<?php include("../../inc/haut.php");?>
+
+<table id="global">
+<tbody>
+<tr>
+
+<td id="contenu">
+
+<h1>Ramadan Calendar</h1>
+
+<?php include("../../../inc/pub-content.php");?>
+
+<p style="padding-top:20px;">Timetable Ramadan > <strong>Index</strong></p>
+
+<h2>Dates of Ramadan 2019 - 1440</h2>
+
+<p>This year, the month of Ramadan 2019 will begin on monday 6 May insha Allah. According to astronomical calculations, this month of youth will count 29 days. That said, it may be that we get to fast 30 days, wherever the month of Ramadan begins on sunday 5 May. The feast of aid el fitr will take place on thursday 4 June, or friday 5 June insha Allah. Below is a summary of the start and end dates of Ramadan as well as the important moments of this blessed month.</p>
+
+<p><b>When does Ramadan begin this year ?</b></p>
+
+<ul style="margin-left:-5px;">
+<li>Start : monday 6 May 2019</li>
+<li>End (aid el fitr) : thursday 4 June 2019</li>
+<li>Last 10 days : from saturday 25 May </li>
+<li>First night of the last 10 days : friday 24 May (evening) </li>
+<li>Odd nights : sat. 25, mon. 27, wed. 29, friday 31 and sunday 2 June (evenings) </li>
+</ul>
+
+<p><b>Imsak, iftar, breaking the fast</b></p>
+
+<p>On our calendars, there is no Imsak column. This choice follows the responses of scholars on this issue, as al 'Outheymine and Albani to name but one. It is therefore permissible to eat until the call to prayer of al fajr. No need to abstain 10 or 15 min before for fear of eating and getting surprised by the adhan. On the contrary, the longer you delay the souhour, the better. As for the rupture of siyam Ramadan (and outside), it is the reverse, as soon as you break the siyam, the better it will be. It is therefore best to avoid praying al maghrib before the time of the iftar. The logical order is to break the fasting by dates, water or milk, to pray and then to eat.</p>
+
+<center><div style="width:100%; display:block; height:5px; background-color:slategray; margin:0px;"></div></center>
+	
+<h3>Ramadan Timetable</h3>
+
+<?php include("../../inc/share.php");?>
+	
+<p>The duration of daily fasting depends on the number of hours between fajr and sunset (maghrib). In summer, the days are longer, so the state of fasting lasts longer. On the other hand, the nights are very short. Conversely in winter, fasting Ramadan is very easy, while night watches last longer.</p>
+
+<p>Here are the different countries for which we propose the calendar of the month of Ramadhan. Ramadan calendars are sorted by continent. Click on your country and choose your city. Then you can adjust the settings if necessary, such as changing the calculation angle of fajr or isha according to your location.</p>
+
+
+ <?php
+
+$VilleLat = 21.42664;
+$VilleLong = 39.82563;
+ 
+ $arr = array("europe", "asia", "africa", "north-america", "south-america", "oceania", "central-america", "caribbean");
+	
+	foreach ($arr as $variable){
+
+	$link = ucfirst(str_replace("-", " ", strtolower($variable)));
+	
+	echo " 
+	
+	<div style=\"width:100%; background-color:lightgray;\"><h3><u><a href=\"$variable\">Ramadan Calendar $link</a></u></h3></div>
+	
+	<table style=\"padding:0px; margin:0px;\"><tr><td style=\"padding:0px; margin:0px;\"><ul style=\"padding-top:0px; margin-top:0px;\">
+	
+	";
+	
+	$link = str_replace(" ", "-", strtolower($variable));
+ 
+if ($dir = opendir("$variable")) {
+  while (false !== ($file = readdir($dir))) { 
+  if ($file !== 'index.html' && $file !== '.' && $file !== '..') {
+	  $filedo = str_replace("-", " ", $file);
+	  $fileda = str_replace("democratic", "D.", $filedo);
+	  $filed = str_replace("and the", "", $fileda);
+
+$exclude = array('et', 'du');
+$words = explode(' ', $filed);
+foreach($words as $key => $word) {
+    if(in_array($word, $exclude)) {
+        continue;
+    }
+    $words[$key] = ucfirst($word);
+}
+$list = implode(' ', $words);	 
+	  
+	  echo "<li style=\"line-height:250%; margin-left:-15px; list-style-type:none; width: 270px; float: left;\"><img style=\"padding:10px; height:33px; width:45px; vertical-align:middle\"; src=\"/en/prayer-times/flags/$file.GIF\"><a href=\"$variable/$file\">$list</a></li>"; 
+	  
+	}
+	
+	
+  }
+  closedir($dir);
+}
+
+
+echo "</ul></td></tr></table>";
+ 
+	}
+?>
+<br>
+
+<h4 style="margin-left:15px;">Ramadan in Europe</h4>
+
+<p>This year, the Nordic countries will have the longest fasting days. Denmark will have 21 hours of fasting, and Sweden, Iceland and Norway 20 hours of fasting. Muslims in the Netherlands and Belgium will be able to fast for 18 hours, while those who observe Ramadan in Spain, France or Germany will fast on average for 16 hours.</p>
+
+<h4 style="margin-left: 15px;"> Ramadan in Africa and the Middle East</h4>
+
+<p>The Middle East and North Africa region will experience slightly shorter hours of fasting than those in Europe. The day of Ramadan lasts from 14 to 15 hours in Kuwait, Iraq, Jordan, Algeria, Morocco, Libya and Sudan, for 15 hours in the UAE and Saudi Arabia.</p>
+
+<h4 style="margin-left: 15px;"> Ramadan in Asia and Oceania</h4>
+
+<p>In Asia, most Muslims will fast for 14 to 16 hours. Pakistan and Bangladesh 15 hours, while India will fast 14 hours. The fasting period of Australia is short with only 11 hours.</p>
+
+<h4 style="margin-left: 15px;"> Ramadan in North America / South and the Caribbean</h4>
+
+<p>Muslims in the United States and Canada will fast for 16 to 19 hours. In Brazil, it will be much shorter with 11 hours, and even less for the Argentineans and Chileans with 9:30, the fastest fasting time of Ramadan.</p>
+
+<br>
+
+</td>
+
+<td id="colonnes"><?php include("../../inc/droite.php");?></td>
+
+</tr>
+</tbody>
+</table>
+
+<?php include("../../inc/footer.php");?>
+
+</body></html>

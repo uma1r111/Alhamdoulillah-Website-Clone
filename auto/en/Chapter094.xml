@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="94" ChapterName="The Expansion">
+	<Verse VerseID="1"><![CDATA[Did We not delight/expand your chest (innermost)?]]></Verse>
+	<Verse VerseID="2"><![CDATA[And We raised from you your sin/load/burden .]]></Verse>
+	<Verse VerseID="3"><![CDATA[Which weighed heavily (on)/burdened your back.]]></Verse>
+	<Verse VerseID="4"><![CDATA[And We raised for you your memory/reputation .]]></Verse>
+	<Verse VerseID="5"><![CDATA[So that truly with the difficulty/hardship (is) ease/flexibility.]]></Verse>
+	<Verse VerseID="6"><![CDATA[That truly with the difficulty/hardship (is) ease/flexibility.]]></Verse>
+	<Verse VerseID="7"><![CDATA[So when/if you finished/ended/completed , so work hard/fatigue.]]></Verse>
+	<Verse VerseID="8"><![CDATA[And to your Lord, so wish/desire.]]></Verse>
+</Chapter>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="19" ChapterName="Marium">
+	<Verse VerseID="1"><![CDATA[K H Y EN S/C .]]></Verse>
+	<Verse VerseID="2"><![CDATA[Your Lord`s mercy mention (on) His worshipper/slave Zachary/Zacharias .]]></Verse>
+	<Verse VerseID="3"><![CDATA[When he called/cried (to) his Lord a hidden/secret call/cry.]]></Verse>
+	<Verse VerseID="4"><![CDATA[He said: "My Lord that I, the bones weakened/enfeebled from me, and the hair turned white or gray and my Lord I was not miserable/unhappy with calling you."]]></Verse>
+	<Verse VerseID="5"><![CDATA[And that I, I feared the followers/dependents from behind/beyond me, and my woman (wife) was infertile to grant/present for me from at you a follower/friend .]]></Verse>
+	<Verse VerseID="6"><![CDATA[(He) inherits me and (he) inherits from Jacob`s family, and my Lord make him accepted/approved/satisfied .]]></Verse>
+	<Verse VerseID="7"><![CDATA[You Zacharias/Zachary , that We, We announce good news to you with a boy , his name (is) John/Yahya , We did not make for him from before (an) equivalent/equivalent in height/position .]]></Verse>
+	<Verse VerseID="8"><![CDATA[He said: "My Lord that how (could there) be for me a boy and my woman (wife) was infertile and I had reached from the old age exceeding the limit?"]]></Verse>
+	<Verse VerseID="9"><![CDATA[He said: "Like that." Your Lord said: "It is on Me easy/light , and I had created you from before, and you were not a thing."]]></Verse>
+	<Verse VerseID="10"><![CDATA[He said: "My Lord, make/put for me a sign/evidence." He said: "Your sign/evidence (is) that you do not converse/talk (to) the people three nights straight ."]]></Verse>
+	<Verse VerseID="11"><![CDATA[So he emerged on (to) his nation, from the center of the assembly/the prayers` niche , so he inspired/transmitted/signaled to them that praise/glorify (at) daybreaks/early mornings and evenings/first darkness/dinnertime.]]></Verse>
+	<Verse VerseID="12"><![CDATA[You John/Yahya, take The Book with power/strength, and We gave/brought him the judgment/rule (as) a boy/child/infant.]]></Verse>
+	<Verse VerseID="13"><![CDATA[And compassion/kindness from at Us, and purification/correction and he was fearing and obeying.]]></Verse>
+	<Verse VerseID="14"><![CDATA[And righteous/obedient with his parents, and he was not a disobedient tyrant/rebel .]]></Verse>
+	<Verse VerseID="15"><![CDATA[And security/peace on him (on the) day he was born and (the) day he dies, and (the) day he be sent/resurrected/revived alive.]]></Verse>
+	<Verse VerseID="16"><![CDATA[And remember/mention in The Book Mary when she distantly isolated herself from her family/relation (to) an easterly/eastern place/position.]]></Verse>
+	<Verse VerseID="17"><![CDATA[So she took from other than them a divider/protection , so We sent to her Our Soul/Spirit , so he simulated/represented to her (as an) upright/average human.]]></Verse>
+	<Verse VerseID="18"><![CDATA[She said: "That I, I seek protection by the merciful from you, if you were fearing and obeying."]]></Verse>
+	<Verse VerseID="19"><![CDATA[He said: "Truly I am your Lord`s messenger to grant/present for you a pure/righteous boy ."]]></Verse>
+	<Verse VerseID="20"><![CDATA[She said: "How/from where (there) be for me a boy and (a) human has not touched me, and I was not afornicatress/adulteress/prostitute ?]]></Verse>
+	<Verse VerseID="21"><![CDATA[He said: "`Like that,` said your Lord, it is on Me easy/light , and to make/put him (as) a sign/evidence to the people, and mercy from Us, and (it was) a matter/command accomplished/ executed .`"]]></Verse>
+	<Verse VerseID="22"><![CDATA[So she was pregnant (with) him so she distantly isolated herself with him (to) a far/remote place/position.]]></Verse>
+	<Verse VerseID="23"><![CDATA[So the labour/childbirth came to her to (at) the palm tree`s trunk/stem, she said: "Oh I wish I would have died before this and I was forgotten (and long) forgotten."]]></Verse>
+	<Verse VerseID="24"><![CDATA[So he (Jesus) called her from below/beneath her: "That do not be sad/grieving, your Lord had put below/beneath you a stream/clearance of a burden/generosity ."]]></Verse>
+	<Verse VerseID="25"><![CDATA[And shake/move to(wards) you with the palm tree`s trunk/stem, it causes freshly harvested/gathered ripe/moist (dates) to fall/drop repeatedly on you.]]></Verse>
+	<Verse VerseID="26"><![CDATA[So eat and drink and be delighted/satisfied eye(s) (delight your eyes), so when you see anyone from the human, so say: `That I made a duty/vow (on myself) to the merciful, a fast , so I will not converse/speak the day/today (to) a human .`]]></Verse>
+	<Verse VerseID="27"><![CDATA[So she came with him (to) her nation carrying him , they said: "You Mary, you had come (with) a strange and confusing thing."]]></Verse>
+	<Verse VerseID="28"><![CDATA[You Aaron`s sister, your father was not (a) human/man of bad/evil , and your mother was not an fornicatress/adulteress/prostitute.]]></Verse>
+	<Verse VerseID="29"><![CDATA[So she pointed/indicated to him, they said: "How (do) we converse/speak (to) whom was in the crib/cradle a boy/child/infant?"]]></Verse>
+	<Verse VerseID="30"><![CDATA[He said: "That I am God`s worshipper/slave, He gave/brought me The Book and He made me a prophet."]]></Verse>
+	<Verse VerseID="31"><![CDATA[And He made me blessed, wherever I was/am, and He directed/commanded me with the prayers and the charity/purification as long as I continued/lasted alive.]]></Verse>
+	<Verse VerseID="32"><![CDATA[And charitable/obedient with my mother, and He did not make me a miserable/unhappy tyrant/rebel .]]></Verse>
+	<Verse VerseID="33"><![CDATA[And the security/peace (was) on me (on the) day I was born, and (the) day I die, and (the) day I be sent/resurrected/revived alive.]]></Verse>
+	<Verse VerseID="34"><![CDATA[That (was) Jesus Mary`s son, the correct/real saying/opinion and belief which they (are) doubting/arguing in it.]]></Verse>
+	<Verse VerseID="35"><![CDATA[(It) was not to God that (He) take from a child/children (son), His praise/glory, if He ordered/executed amatter/command , so but He says to it: "Be, so it becomes."]]></Verse>
+	<Verse VerseID="36"><![CDATA[And that God (is) my Lord and your Lord, so worship Him, that (is) a straight/direct road/way.]]></Verse>
+	<Verse VerseID="37"><![CDATA[So the groups/parties differed/disagreed/disputed from between them, so grief/distress to those who disbelieved from an assembly of a great day.]]></Verse>
+	<Verse VerseID="38"><![CDATA[Make (to) hear/listen with them, and make to see/understand , a day they come to Us, but the unjust/oppressive today (are) in evident misguidance.211]]></Verse>
+	<Verse VerseID="39"><![CDATA[And warn/give them notice (of) the Grief`s Day/Resurrection Day, when the matter/affair was accomplished/carried out , and they are in negligence/disregard, and they are not believing.]]></Verse>
+	<Verse VerseID="40"><![CDATA[That We, We inhabit the earth/Planet Earth, and who (is) on it, and to Us they return.]]></Verse>
+	<Verse VerseID="41"><![CDATA[And remember/mention in The Book Abraham, that he truly was an always very truthful prophet.]]></Verse>
+	<Verse VerseID="42"><![CDATA[When he said to his father: "You my father, for what (do) you worship what does not hear/listen, and nor see/understand , and nor enrich/suffice from you a thing?"]]></Verse>
+	<Verse VerseID="43"><![CDATA[You my father, that I, (it) had come to me from the knowledge, what did not come to you, so follow me, I guide you a straight/level road/way.]]></Verse>
+	<Verse VerseID="44"><![CDATA[You my father, do not worship the devil, that the devil was/is to the merciful disobedient.]]></Verse>
+	<Verse VerseID="45"><![CDATA[You my father, that I fear that torture touches you from the merciful, so you be to the devil an ally/follower .]]></Verse>
+	<Verse VerseID="46"><![CDATA[He said: "Are you shunning/turning away from my gods, you Abraham? If (E) you do not end/terminate/stop, I will stone you, and leave/distance me a long/life time."]]></Verse>
+	<Verse VerseID="47"><![CDATA[He said: "Security/peace on you, I will ask for forgiveness for you (from) my Lord, that He truly (was) with me generous/blessing ."]]></Verse>
+	<Verse VerseID="48"><![CDATA[And I separate/isolate myself from you and what you call from other than God, and I call my Lord, maybe/perhaps that I not be with my Lord`s call/prayer miserable/unhappy.]]></Verse>
+	<Verse VerseID="49"><![CDATA[So when he separated/isolated himself from them, and what they call from other than God, We granted for him Issac , and Jacob and each/all, We made a prophet.]]></Verse>
+	<Verse VerseID="50"><![CDATA[And We granted for them from Our mercy, and We made for them (a) truthful high and mighty/dignified tongue/language/speech.]]></Verse>
+	<Verse VerseID="51"><![CDATA[And remember/mention in The Book Moses, that he truly was faithful/loyal/devoted and (he) was a messenger, a prophet.]]></Verse>
+	<Verse VerseID="52"><![CDATA[And We called him from the mountain`s side/direction, the right (side), and We neared/approached him secretly conversing.]]></Verse>
+	<Verse VerseID="53"><![CDATA[And We granted for him from Our mercy his brother Aaron, a prophet.]]></Verse>
+	<Verse VerseID="54"><![CDATA[And remember/mention in The Book Ishmael , that he truly was truthful (in) the promise, and was a messenger, a prophet.]]></Verse>
+	<Verse VerseID="55"><![CDATA[And (he) was ordering/commanding his family/people with the prayers and the charity/purification, and (he) was at his Lord accepted/approved.]]></Verse>
+	<Verse VerseID="56"><![CDATA[And remember/mention in The Book Idris, that he truly was always very truthful, and a prophet.]]></Verse>
+	<Verse VerseID="57"><![CDATA[And We raised him a high and mighty/dignified place/position.]]></Verse>
+	<Verse VerseID="58"><![CDATA[Those are those who God blessed/praised on them from the prophets from Adam`s descendants; and from who We carried with Noah, , and from Abraham`s and Ishmael`s descendants, and from who We guided and We chose/purified, if the merciful`s verses/evidences are read/recited on them they fell down prostrating and weeping .]]></Verse>
+	<Verse VerseID="59"><![CDATA[So succeeded/followed from after them a succession , they lost/wasted/destroyed the prayers, and they212followed the lusts/desires/cravings, so they will/shall meet/find misguidance/failure .]]></Verse>
+	<Verse VerseID="60"><![CDATA[Except who repented and believed and made/did correct/righteous deeds, so those, they enter the Paradise, and they are not being caused injustice to/oppressed a thing.]]></Verse>
+	<Verse VerseID="61"><![CDATA[Treed gardens/paradises (as) eternal residence which the merciful promises His worshippers/slaves with the unseen/hidden , that He truly, His promise was/is coming (E).]]></Verse>
+	<Verse VerseID="62"><![CDATA[They do not hear/listen in it nonsense/senseless talk , except (a) greeting/safety/peace and for them, (is) their provision in it (at) daybreaks/early mornings and (at) evening/first darkness/dinnertime.]]></Verse>
+	<Verse VerseID="63"><![CDATA[That (is) the paradise which We make inherit (to) who was fearing and obeying from Our worshippers/slaves.]]></Verse>
+	<Verse VerseID="64"><![CDATA[And We do not descend except with your Lord`s order/command, for Him what (is) between Our hands, and what (is) behind Us, and what (is) between that, and your Lord was not frequently forgetting.]]></Verse>
+	<Verse VerseID="65"><![CDATA[The skies`/space`s and the earth`s/Planet Earth`s and what (is) between them (B)`s Lord, so worship Him, and endure patience to His worshipping, do you know (an) equivalent to Him?"]]></Verse>
+	<Verse VerseID="66"><![CDATA[And the human/mankind says: "Is (it that) if I died, I will/shall (E) be brought out alive! ."(expression of wonderment).]]></Verse>
+	<Verse VerseID="67"><![CDATA[Or does not the human remember that We created him from before and (he) was not a thing?]]></Verse>
+	<Verse VerseID="68"><![CDATA[So by your Lord We will gather them (E), and the devils, then We will present/bring them (E) around Hell kneeling/standing on (their) toes.]]></Verse>
+	<Verse VerseID="69"><![CDATA[Then We will remove (E) from every group/party which of them (is) stronger arrogant/disobedience on (to) the merciful.]]></Verse>
+	<Verse VerseID="70"><![CDATA[Then We are (E) more knowledgeable with (about) those who, they are more worthy/deserving roasting/suffering/burning with (in) it (Hell).]]></Verse>
+	<Verse VerseID="71"><![CDATA[And that from you (there is not) except (who is) nearing/approaching it , (that) was on (by) your Lord decidedly/positively ordered/executed .]]></Verse>
+	<Verse VerseID="72"><![CDATA[Then We save/rescue those who feared and obeyed, and We leave (disregard) the unjust/oppressors in it kneeling/standing on (their) toes.]]></Verse>
+	<Verse VerseID="73"><![CDATA[And when Our evidences/verses evidences are read/recited on (to) them, those who disbelieved said to those who believed: "Which (of) the two groups/parties/flocks is (in) better residence and best gathering/assembly/club?"]]></Verse>
+	<Verse VerseID="74"><![CDATA[And how many We destroyed from before them from people of one era/generation/century? They are better home effects/money and appearance/pleasant appearance.]]></Verse>
+	<Verse VerseID="75"><![CDATA[Say: "Who was in the misguidance, so the merciful will extend/spread (E) for him extension/spreading until when they saw/understood what they are being promised, either the torture, and either the Hour/Resurrection , so they will know who he is worst (in) a place/position, and weaker soldiers/warriors."]]></Verse>
+	<Verse VerseID="76"><![CDATA[And God increases those who were guided (in) guidance, and the remainders the correct/righteous deeds (are) better at your Lord a replacement/compensation and better (in) a return.]]></Verse>
+	<Verse VerseID="77"><![CDATA[So did you see/understand who disbelieved with Our evidences/verses, and said: "I will be given213property/possession/wealth and children ?"]]></Verse>
+	<Verse VerseID="78"><![CDATA[Has he seen/been informed (of) the unseen/absent , or he took/received at the merciful a promise/contract ?]]></Verse>
+	<Verse VerseID="79"><![CDATA[No but, We will write/dictate what he says, and We extend/spread to him from the torture extension/spreading.]]></Verse>
+	<Verse VerseID="80"><![CDATA[And We make him inherit what he says, and he comes to Us singly/alone.]]></Verse>
+	<Verse VerseID="81"><![CDATA[And they took/received from other than God gods, to be for them glory/might/honour .]]></Verse>
+	<Verse VerseID="82"><![CDATA[No but they will disbelieve with their worshipping, and they (are) on them adversaries/opponents .]]></Verse>
+	<Verse VerseID="83"><![CDATA[Do you not see/understand that We sent the devils on (to) the disbelievers, they penetrate their minds/influence them penetration of their minds/influence.]]></Verse>
+	<Verse VerseID="84"><![CDATA[So do not hurry/hasten/rush on them, but We count for them counting.]]></Verse>
+	<Verse VerseID="85"><![CDATA[A day We gather the fearing and obeying to the merciful (as) a delegation of dignitaries.]]></Verse>
+	<Verse VerseID="86"><![CDATA[And We drive (herd) the criminals/sinners to Hell successively in groups.]]></Verse>
+	<Verse VerseID="87"><![CDATA[They do not own/possess the mediation, except who took/received at the merciful a promise/contract .]]></Verse>
+	<Verse VerseID="88"><![CDATA[And they said: "The merciful took/received a child (son)."]]></Verse>
+	<Verse VerseID="89"><![CDATA[You had come (with) a blasphemous/disastrous thing.]]></Verse>
+	<Verse VerseID="90"><![CDATA[The skies/space are about to/almost split/crack/cleave from it, and the earth/Planet Earth splits/cracks open ,and the mountains fall down (in) demolition and breaking down into pieces violently with noise.]]></Verse>
+	<Verse VerseID="91"><![CDATA[That (E) they called to the merciful a child (son).]]></Verse>
+	<Verse VerseID="92"><![CDATA[And (it) would not (be) to the merciful that He takes a child (son).]]></Verse>
+	<Verse VerseID="93"><![CDATA[That every/each whom (is) in the skies/space and the earth/Planet Earth except is coming (E) (to) the merciful (as) a worshipper/slave .]]></Verse>
+	<Verse VerseID="94"><![CDATA[He had counted/completed them and He counted them counting.]]></Verse>
+	<Verse VerseID="95"><![CDATA[And all of them are coming to Him (in) the Resurrection Day singly/alone/one.]]></Verse>
+	<Verse VerseID="96"><![CDATA[That those who believed and made/did the correct/righteous deeds, the merciful will make/create for them love/affection.]]></Verse>
+	<Verse VerseID="97"><![CDATA[So but We eased it with your tongue/language, to announce good news with it (to) the fearing and obeying, and warn/give notice with it (to) a nation (in) harsh/violent dispute]]></Verse>
+	<Verse VerseID="98"><![CDATA[And how many before them We destroyed from people of one era/generation/century, do you sense/feel from them from anyone, or hear for them (a) low voice/whisper/faint sound?214]]></Verse>
+</Chapter>

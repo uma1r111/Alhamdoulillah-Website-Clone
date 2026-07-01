@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="53" ChapterName="The Star">
+	<Verse VerseID="1"><![CDATA[By/and the star/planet if (it) fell/dropped .]]></Verse>
+	<Verse VerseID="2"><![CDATA[Your companion/friend did not become misguided/lost , and did not become misguided/failed .]]></Verse>
+	<Verse VerseID="3"><![CDATA[And (your friend) does not speak/clarify from the self attraction for desire .]]></Verse>
+	<Verse VerseID="4"><![CDATA[That truly it is except inspiration/revelation (that) is being inspired/revealed .]]></Verse>
+	<Verse VerseID="5"><![CDATA[The powers`/strength`s strong (severe) taught/instructed him.]]></Verse>
+	<Verse VerseID="6"><![CDATA[(Owner) of strength/wisdom , so he/He straightened/leveled.]]></Verse>
+	<Verse VerseID="7"><![CDATA[And he/He (is) at/by the highest horizon/direction.]]></Verse>
+	<Verse VerseID="8"><![CDATA[Then he neared, so he lowered/dropped.]]></Verse>
+	<Verse VerseID="9"><![CDATA[So he was (a) short measure of length (of) two arm`s/bow`s (lengths) or nearer .]]></Verse>
+	<Verse VerseID="10"><![CDATA[So he/He inspired/revealed to His worshipper/slave/servant what He inspired/revealed.]]></Verse>
+	<Verse VerseID="11"><![CDATA[The heart did not lie/falsify what he/it saw/understood.]]></Verse>
+	<Verse VerseID="12"><![CDATA[So do you argue/discuss with him on what he sees/understands?]]></Verse>
+	<Verse VerseID="13"><![CDATA[And he had (E) seen/understood him another/other one descent.]]></Verse>
+	<Verse VerseID="14"><![CDATA[At the lote-tree (at) the ultimate/absolute end .]]></Verse>
+	<Verse VerseID="15"><![CDATA[At it (is) the shelter`s/refuge`s treed garden/paradise.]]></Verse>
+	<Verse VerseID="16"><![CDATA[When what covers/darkens covers/darkens the lote-tree.]]></Verse>
+	<Verse VerseID="17"><![CDATA[The eye sight/knowledge did not deviate/turn away, and (it) did not exceed the limit.]]></Verse>
+	<Verse VerseID="18"><![CDATA[He had (E) seen/understood from his Lord`s greatest/magnified evidences/signs .]]></Verse>
+	<Verse VerseID="19"><![CDATA[Did you see/understand Allata/Hashtaroot (most famous idol goddess in pre-Islamic ignorance) and Elozza (idol statue)?]]></Verse>
+	<Verse VerseID="20"><![CDATA[And Manat , the third the other?]]></Verse>
+	<Verse VerseID="21"><![CDATA[Are for you the male and for Him the female?]]></Verse>
+	<Verse VerseID="22"><![CDATA[That (is) then unjust apportionment/division .]]></Verse>
+	<Verse VerseID="23"><![CDATA[That truly it is except names, you named it, you and your fathers/forefathers, God did not descend with it from a proof/evidence , that truly they follow except the doubt/suspicion , and what the selves desire/attract , and the guidance had (E) come to them from their Lord.]]></Verse>
+	<Verse VerseID="24"><![CDATA[Or (is it) to the human/mankind what he wished/desired?]]></Verse>
+	<Verse VerseID="25"><![CDATA[So to God (is) the end (other life) and the first/beginning.]]></Verse>
+	<Verse VerseID="26"><![CDATA[And how many from (an) angel (is) in the skies/space, their mediation does not enrich/suffice a thing except from after that God permits/allows to whom He wills/wants/intends, and He accepts/approves.]]></Verse>
+	<Verse VerseID="27"><![CDATA[That truly those who do not believe with (in) the end (other life) they name (E) the angels the female`s naming.]]></Verse>
+	<Verse VerseID="28"><![CDATA[And (there is) no knowledge for them with it, that truly they follow except the doubt/suspicion , and that truly the doubt/suspicion does not enrich/suffice from the truth a thing.]]></Verse>
+	<Verse VerseID="29"><![CDATA[So turn away from who turned away from mentioning/remembering Us , and he did not want/intend except the life the present/worldly life .]]></Verse>
+	<Verse VerseID="30"><![CDATA[That (is) their capacity/limit from the knowledge, that truly your Lord, He is more knowledgeable with who was misguided from His way/path , and He is more knowledgeable with who was guided.]]></Verse>
+	<Verse VerseID="31"><![CDATA[And to God what (is) in the skies/space and what (is) in the earth/Planet Earth, to reimburse those who did bad/evil because (of) what they made/did , and reimburse those who did good with the best/goodness .]]></Verse>
+	<Verse VerseID="32"><![CDATA[Those who avoid/distance themselves (from) the sin`s/crime`s greatest/biggest and the enormous/atrocious deeds , except the minor sins , that truly your Lord (is) rich/spread (in) the forgiveness, He is more knowledgeable with (of) you, when He created/originated you from the earth/Planet Earth and when you are embryos/fetuses/hidden in your mother`s bellies/insides, so do not commend/claim righteousness (for) yourselves, He is more knowledgeable with who feared and obeyed.]]></Verse>
+	<Verse VerseID="33"><![CDATA[So did you see/understand who turned away?]]></Verse>
+	<Verse VerseID="34"><![CDATA[And gave little and skimped/stinged?]]></Verse>
+	<Verse VerseID="35"><![CDATA[Is it at him the unseen`s/absents knowledge so he sees/understands ?]]></Verse>
+	<Verse VerseID="36"><![CDATA[Or he did not get informed with what (is) in Moses` sheets/pages (scriptures) ?]]></Verse>
+	<Verse VerseID="37"><![CDATA[And Abraham who fulfilled/completed.]]></Verse>
+	<Verse VerseID="38"><![CDATA[That no sinner/burdener bears/carries another`s sin/burden .]]></Verse>
+	<Verse VerseID="39"><![CDATA[And that (E) (there is) not to the human except what he strived/endeavored .]]></Verse>
+	<Verse VerseID="40"><![CDATA[And that (E) his striving/endeavor will be seen.]]></Verse>
+	<Verse VerseID="41"><![CDATA[Then he (will) be reimbursed the reimbursement , the most fulfilling/completing.]]></Verse>
+	<Verse VerseID="42"><![CDATA[And that truly to your Lord (is) the ultimate/absolute end.]]></Verse>
+	<Verse VerseID="43"><![CDATA[And that He made laugh,and He made to weep .]]></Verse>
+	<Verse VerseID="44"><![CDATA[And that He made to die , and He revived/gave life .]]></Verse>
+	<Verse VerseID="45"><![CDATA[And that He created the pairs/couples , the male and the female.]]></Verse>
+	<Verse VerseID="46"><![CDATA[From a drop/males or female`s secretion , if/when (it be) ejaculated/discharged semen/sperm.]]></Verse>
+	<Verse VerseID="47"><![CDATA[And that on Him (is) the creation , the other.]]></Verse>
+	<Verse VerseID="48"><![CDATA[And that He, He enriched/sufficed , and He made content/satisfied .]]></Verse>
+	<Verse VerseID="49"><![CDATA[And that He is the star`s (dog star`s) Lord .]]></Verse>
+	<Verse VerseID="50"><![CDATA[And that He destroyed Aad the first/beginning.]]></Verse>
+	<Verse VerseID="51"><![CDATA[And Thamud , so none (were) left/protected .]]></Verse>
+	<Verse VerseID="52"><![CDATA[And Noah`s nation from before, that they truly were, they (were) more unjust/oppressive, and more tyrant/arrogant .]]></Verse>
+	<Verse VerseID="53"><![CDATA[And the overturned/destroyed (city was) more dropping/tumbling down .]]></Verse>
+	<Verse VerseID="54"><![CDATA[So covered/came upon it what covers .]]></Verse>
+	<Verse VerseID="55"><![CDATA[So with which (of) your Lord`s blessings (do) you argue/discuss?392]]></Verse>
+	<Verse VerseID="56"><![CDATA[That (is) a warning/notice from the warnings/notices , the first/beginning.]]></Verse>
+	<Verse VerseID="57"><![CDATA[The Resurrection approached/neared.]]></Verse>
+	<Verse VerseID="58"><![CDATA[(There is) not a remover/uncoverer (reliever) for it from other than God.]]></Verse>
+	<Verse VerseID="59"><![CDATA[Is it from this the information/speech you wonder/surprise ?]]></Verse>
+	<Verse VerseID="60"><![CDATA[And you laugh/wonder, and you do not weep ?]]></Verse>
+	<Verse VerseID="61"><![CDATA[And you are astonished singing/arrogant ?]]></Verse>
+	<Verse VerseID="62"><![CDATA[So prostrate to God and worship.393]]></Verse>
+</Chapter>

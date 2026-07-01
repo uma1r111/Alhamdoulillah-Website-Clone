@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="114" ChapterName="The Men">
+	<Verse VerseID="1"><![CDATA[Say: "I seek protection with/by the people`s Lord/master/owner."]]></Verse>
+	<Verse VerseID="2"><![CDATA[The people`s king/owner/possessor .]]></Verse>
+	<Verse VerseID="3"><![CDATA[The people`s God.]]></Verse>
+	<Verse VerseID="4"><![CDATA[From bad/evil/harm (of) the inspirer and talker/giver of evil suggestions and temptations (whisperer of evil influences), the devil .]]></Verse>
+	<Verse VerseID="5"><![CDATA[Who inspires and talks/gives evil suggestions and temptations in the people`s chests (innermosts).]]></Verse>
+	<Verse VerseID="6"><![CDATA[From the Jinns and the people.]]></Verse>
+</Chapter>

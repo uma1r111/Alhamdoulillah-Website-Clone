@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="56" ChapterName="The Great Event">
+	<Verse VerseID="1"><![CDATA[When/if the battle/Resurrection/event fell/happened .]]></Verse>
+	<Verse VerseID="2"><![CDATA[(There) is not to its falling/happening a liar/deniance/falsehood.]]></Verse>
+	<Verse VerseID="3"><![CDATA[Lowering/reducing, raising/removing away.]]></Verse>
+	<Verse VerseID="4"><![CDATA[When/if the earth/Planet Earth trembled and quaked , trembling and quaking .]]></Verse>
+	<Verse VerseID="5"><![CDATA[And the mountains was crumbled/scattered , crumbling/scattering .]]></Verse>
+	<Verse VerseID="6"><![CDATA[So it was dust scattered/distributed .]]></Verse>
+	<Verse VerseID="7"><![CDATA[And you were three kinds .]]></Verse>
+	<Verse VerseID="8"><![CDATA[So owners/company/friends (of) the blessing/right (hand), (are) owners/company/friends (of) the blessing/right (hand)!]]></Verse>
+	<Verse VerseID="9"><![CDATA[And owners/company/friends (of) the bad omen/left side/misfortune , (are) owners/company/ friends (of) the bad/omen/left side/misfortune .]]></Verse>
+	<Verse VerseID="10"><![CDATA[And the racing/surpassing , (are) the racing/surpassing .]]></Verse>
+	<Verse VerseID="11"><![CDATA[Those are the neared/closer.]]></Verse>
+	<Verse VerseID="12"><![CDATA[In treed gardens/paradises (of) the comfort and ease .]]></Verse>
+	<Verse VerseID="13"><![CDATA[A group from the first/beginners.]]></Verse>
+	<Verse VerseID="14"><![CDATA[And little/few from the others/lasts .]]></Verse>
+	<Verse VerseID="15"><![CDATA[On royal beds/sofas lightly woven .]]></Verse>
+	<Verse VerseID="16"><![CDATA[Leaning/reclining on it, facing each other.]]></Verse>
+	<Verse VerseID="17"><![CDATA[Immortal/eternal children/boys circle/walk around on them.]]></Verse>
+	<Verse VerseID="18"><![CDATA[With cups and jugs and a cup/wine flowing easily and plentifully.]]></Verse>
+	<Verse VerseID="19"><![CDATA[They do not get headache from it, and nor they be drunk/exhausted .]]></Verse>
+	<Verse VerseID="20"><![CDATA[And fruits from what they prefer/choose.]]></Verse>
+	<Verse VerseID="21"><![CDATA[And bird`s meat from what they desire .]]></Verse>
+	<Verse VerseID="22"><![CDATA[And eyes with intense blackness of pupils and whiteness (beautifully contrasted).]]></Verse>
+	<Verse VerseID="23"><![CDATA[As/like similar/equal (to) the pearls, the covered/protected.]]></Verse>
+	<Verse VerseID="24"><![CDATA[Reimbursement because (of) what they were making/doing .]]></Verse>
+	<Verse VerseID="25"><![CDATA[They do not hear/listen (to) nonsense/senseless talk in it, and nor sinning/committing crimes.]]></Verse>
+	<Verse VerseID="26"><![CDATA[Except little : "Greeting/peace ." (And): "Greeting/peace ."]]></Verse>
+	<Verse VerseID="27"><![CDATA[And the right (hand`s) owners/company/friends, (are) the right (hand`s) owners/company/friends! .]]></Verse>
+	<Verse VerseID="28"><![CDATA[In bent over/thornless/ripe sedre/a lote tree.]]></Verse>
+	<Verse VerseID="29"><![CDATA[And acacia/bananas , neatly piled over each other .]]></Verse>
+	<Verse VerseID="30"><![CDATA[And shade expanded/spread.]]></Verse>
+	<Verse VerseID="31"><![CDATA[And poured continuously water .]]></Verse>
+	<Verse VerseID="32"><![CDATA[And many/much fruits.]]></Verse>
+	<Verse VerseID="33"><![CDATA[Not cut off/severed , and nor prohibited/forbidden .]]></Verse>
+	<Verse VerseID="34"><![CDATA[And raised spreads/beds.]]></Verse>
+	<Verse VerseID="35"><![CDATA[We (E) created/originated them (F) creation/origination .]]></Verse>
+	<Verse VerseID="36"><![CDATA[So We created/made them (F) first borns/virgins.]]></Verse>
+	<Verse VerseID="37"><![CDATA[Humorous (amusing) same age/not aging.]]></Verse>
+	<Verse VerseID="38"><![CDATA[To the right (hand`s) owners/friends/company.]]></Verse>
+	<Verse VerseID="39"><![CDATA[A group from the first/beginners.]]></Verse>
+	<Verse VerseID="40"><![CDATA[And a group from the others/lasts .]]></Verse>
+	<Verse VerseID="41"><![CDATA[And the left (hand`s) owners/friends/company, (are) the left (hand`s) owners/friends/company ! .]]></Verse>
+	<Verse VerseID="42"><![CDATA[In severe hot wind , and hot water/red hot coal .]]></Verse>
+	<Verse VerseID="43"><![CDATA[And shade from black smoke .]]></Verse>
+	<Verse VerseID="44"><![CDATA[Not cool/cold, and nor hospitable/kind .]]></Verse>
+	<Verse VerseID="45"><![CDATA[That they truly were before that luxuriated, ungrateful and arrogant.]]></Verse>
+	<Verse VerseID="46"><![CDATA[And they were persisting/insisting on the sin the great.]]></Verse>
+	<Verse VerseID="47"><![CDATA[And they were saying: "Is (it that) if we died, and we were dust/earth and bones, are we being resurrected/revived?"]]></Verse>
+	<Verse VerseID="48"><![CDATA[Or (are) our fathers the first/beginners?]]></Verse>
+	<Verse VerseID="49"><![CDATA[Say: "That truly the first/beginners and the lasts/others ."]]></Verse>
+	<Verse VerseID="50"><![CDATA[Are being gathered/collected (E) to a known day`s appointed time .]]></Verse>
+	<Verse VerseID="51"><![CDATA[Then, that you are, you the misguided, the liars/deniers/falsifiers.]]></Verse>
+	<Verse VerseID="52"><![CDATA[Eating exaggerated/gluttons (E) from trees from deadly food.]]></Verse>
+	<Verse VerseID="53"><![CDATA[So you are filling from it the bellies/insides.]]></Verse>
+	<Verse VerseID="54"><![CDATA[So you are drinking on it from the hot water/red hot coal.]]></Verse>
+	<Verse VerseID="55"><![CDATA[So you are drinking the extreme thirst`s drink .]]></Verse>
+	<Verse VerseID="56"><![CDATA[That (is) their places of descent (on) the Judgment Day/Resurrection Day .]]></Verse>
+	<Verse VerseID="57"><![CDATA[We created you, so if only you believe Me.]]></Verse>
+	<Verse VerseID="58"><![CDATA[Did you see/understand what you ejaculate/discharge semen/sperm?]]></Verse>
+	<Verse VerseID="59"><![CDATA[Do you create it? Or We are the creators?]]></Verse>
+	<Verse VerseID="60"><![CDATA[We predestined between you the death/lifelessness, and We are not with being surpassed/preceded .]]></Verse>
+	<Verse VerseID="61"><![CDATA[On that We exchange/replace similar/equal to you, and We create/originate you in what you do not know.]]></Verse>
+	<Verse VerseID="62"><![CDATA[And you had (E) known the creation/origination , the first/beginning, so if only you mention/remember ?]]></Verse>
+	<Verse VerseID="63"><![CDATA[Did you see/understand what you cultivate/plant ?]]></Verse>
+	<Verse VerseID="64"><![CDATA[Do you sow/seed/cultivate it ? Or We are the sowers/seeders/cultivators?401]]></Verse>
+	<Verse VerseID="65"><![CDATA[If We willed/wanted We would have made it debris/crumbs , so you continued/remained regretting/wondering.]]></Verse>
+	<Verse VerseID="66"><![CDATA[That We, We are in burdensome debt/loss (E) .]]></Verse>
+	<Verse VerseID="67"><![CDATA[But We are deprived.]]></Verse>
+	<Verse VerseID="68"><![CDATA[Did you see/understand the water which you drink?]]></Verse>
+	<Verse VerseID="69"><![CDATA[Did you descend it from the rain/clouds ? Or We are the descenders?]]></Verse>
+	<Verse VerseID="70"><![CDATA[If We will/want We made it salty and bitter, so if only you thank/be grateful.]]></Verse>
+	<Verse VerseID="71"><![CDATA[Did you see/understand the fire which you strike/ignite?]]></Verse>
+	<Verse VerseID="72"><![CDATA[Did you create its trees? Or We are the creators/originators ?]]></Verse>
+	<Verse VerseID="73"><![CDATA[We made it a reminder and a long life/enjoyment to the hungry/starving .]]></Verse>
+	<Verse VerseID="74"><![CDATA[So praise/glorify with your Lord`s name, the great.]]></Verse>
+	<Verse VerseID="75"><![CDATA[So I do not (many translations disagree on the use of the negative in this verse it could possibly mean emphasis) swear/make oath with the stars`/planets` positions .]]></Verse>
+	<Verse VerseID="76"><![CDATA[And that it truly is an oath (E), if you know (it is) great.]]></Verse>
+	<Verse VerseID="77"><![CDATA[That it truly (is) a Koran (E) , honoured .]]></Verse>
+	<Verse VerseID="78"><![CDATA[In a Book , protected/covered.]]></Verse>
+	<Verse VerseID="79"><![CDATA[None touches it except the pure/clean .]]></Verse>
+	<Verse VerseID="80"><![CDATA[Descant from the creations all together`s/(universes`) Lord.]]></Verse>
+	<Verse VerseID="81"><![CDATA[So is it with this, the information/speech, you are greasing/cheating ?]]></Verse>
+	<Verse VerseID="82"><![CDATA[And you make/put your provision that you are lying/denying .]]></Verse>
+	<Verse VerseID="83"><![CDATA[So if only that the throat/pharynx (the death) reached.]]></Verse>
+	<Verse VerseID="84"><![CDATA[And you are at that time looking/watching .]]></Verse>
+	<Verse VerseID="85"><![CDATA[And We are nearer/closer to it than you, and but you do not see/understand .]]></Verse>
+	<Verse VerseID="86"><![CDATA[So if only if you were not indebted.]]></Verse>
+	<Verse VerseID="87"><![CDATA[You return it (the life), if you were truthful.]]></Verse>
+	<Verse VerseID="88"><![CDATA[So but if he was from the neared/closer.]]></Verse>
+	<Verse VerseID="89"><![CDATA[So a happiness/rest/mercy, and basil/fragrant plants, and treed gardens/paradises, and comfort and ease (is for him).]]></Verse>
+	<Verse VerseID="90"><![CDATA[But/as for if (he) was from the right (hand`s) owners/company/friends.]]></Verse>
+	<Verse VerseID="91"><![CDATA[So greeting/peace (is) for you from the right (hands`) owners/company/friends.]]></Verse>
+	<Verse VerseID="92"><![CDATA[And but/as for if (he) was from the liars/deniers/falsifiers, the misguided.]]></Verse>
+	<Verse VerseID="93"><![CDATA[So a place of descent from hot water/red hot coal .]]></Verse>
+	<Verse VerseID="94"><![CDATA[And Hell`s roasting/suffering .]]></Verse>
+	<Verse VerseID="95"><![CDATA[That truly that it is (E) true , the assurance/certainty.]]></Verse>
+	<Verse VerseID="96"><![CDATA[So praise/glorify with your Lord`s name, the great.402]]></Verse>
+</Chapter>

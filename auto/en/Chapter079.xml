@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 24 March 2020 02:10 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="79" ChapterName="Those Who Pull Out">
+	<Verse VerseID="1"><![CDATA[And/by the strangers/life extractors , exaggerating/absorbing (violently) .]]></Verse>
+	<Verse VerseID="2"><![CDATA[And/by the active/pullers , actively/pulling .]]></Verse>
+	<Verse VerseID="3"><![CDATA[And/by the ships/stars/fast (could be angels), tending to the livelihood/floating .]]></Verse>
+	<Verse VerseID="4"><![CDATA[So the racing/surpassing/preceding, racing/surpassing/preceding.]]></Verse>
+	<Verse VerseID="5"><![CDATA[So the regulators/arrangers/planners (of) a matter/affair/order/command.]]></Verse>
+	<Verse VerseID="6"><![CDATA[A day/time the first blow of the horn trembles and shakes/agitates .]]></Verse>
+	<Verse VerseID="7"><![CDATA[The followed closely behind follows it.]]></Verse>
+	<Verse VerseID="8"><![CDATA[Hearts (on) that day (are) palpitating/pounding .]]></Verse>
+	<Verse VerseID="9"><![CDATA[Its eyesight/understanding (is) humble/submissive .]]></Verse>
+	<Verse VerseID="10"><![CDATA[They say: "Are we returning (E) in the first creation ?"]]></Verse>
+	<Verse VerseID="11"><![CDATA[Is (it that) if we were decayed/decomposed bones.]]></Verse>
+	<Verse VerseID="12"><![CDATA[They said: "That is then a loosing repetition ."]]></Verse>
+	<Verse VerseID="13"><![CDATA[So but it is one deterrent/cry to drive out .]]></Verse>
+	<Verse VerseID="14"><![CDATA[So then they are at the Earth`s surface .]]></Verse>
+	<Verse VerseID="15"><![CDATA[Did Moses` information/speech come to you?]]></Verse>
+	<Verse VerseID="16"><![CDATA[When His Lord called him at the Valley the Holy/Sanctified Tuwan/concealed/folded within :]]></Verse>
+	<Verse VerseID="17"><![CDATA[Go to Pharaoh, that he truly exceeded the limit/tyrannized .]]></Verse>
+	<Verse VerseID="18"><![CDATA[So say: `Is there for you that (E) you purify/become righteous ?`]]></Verse>
+	<Verse VerseID="19"><![CDATA[`And I guide you to your Lord so you fear.`]]></Verse>
+	<Verse VerseID="20"><![CDATA[So he showed him/made him understand the verse/evidence/sign, the greatest/biggest .]]></Verse>
+	<Verse VerseID="21"><![CDATA[So he denied/falsified , and he disobeyed.]]></Verse>
+	<Verse VerseID="22"><![CDATA[Then he gave his back/ended/passed hastening .]]></Verse>
+	<Verse VerseID="23"><![CDATA[So he gathered, so he called.]]></Verse>
+	<Verse VerseID="24"><![CDATA[So he said: "I am your lord the highest/mightiest ."]]></Verse>
+	<Verse VerseID="25"><![CDATA[So God punished/took him (the) severe exemplary punishment (of) the end (other life) and the first/beginning.]]></Verse>
+	<Verse VerseID="26"><![CDATA[That truly in that (is) an example/warning (E) to who fears.]]></Verse>
+	<Verse VerseID="27"><![CDATA[Are you (a) stronger creation or the sky/space (which) He built/constructed it?]]></Verse>
+	<Verse VerseID="28"><![CDATA[He raised its height/thickness, so He straightened it.]]></Verse>
+	<Verse VerseID="29"><![CDATA[And He darkened its night, and He brought out its day break .]]></Verse>
+	<Verse VerseID="30"><![CDATA[And the earth/Planet Earth after that He blew and stretched/spread it.]]></Verse>
+	<Verse VerseID="31"><![CDATA[He brought out from it its water and its pasture.]]></Verse>
+	<Verse VerseID="32"><![CDATA[And the mountains , He anchored it/fixed it firmly.]]></Verse>
+	<Verse VerseID="33"><![CDATA[Enjoyment for you and for your camels/livestock.]]></Verse>
+	<Verse VerseID="34"><![CDATA[So if/when the Calamity/Greatest Disaster/Resurrection Day the greatest came.]]></Verse>
+	<Verse VerseID="35"><![CDATA[A day/time the human/mankind remembers/recites what he strived/endeavored .]]></Verse>
+	<Verse VerseID="36"><![CDATA[And the Hell was made to emerge to who sees/understands.]]></Verse>
+	<Verse VerseID="37"><![CDATA[So but who exceeded the limit/tyrannized/became arrogant.]]></Verse>
+	<Verse VerseID="38"><![CDATA[And preferred/chose the life the present/worldly life.]]></Verse>
+	<Verse VerseID="39"><![CDATA[So then the Hell , it is the shelter/refuge.]]></Verse>
+	<Verse VerseID="40"><![CDATA[And but who feared his Lord`s position/status and he forbid/prevented the self from the self attraction for desire .]]></Verse>
+	<Verse VerseID="41"><![CDATA[So then the Paradise/treed garden, it is the shelter/refuge.]]></Verse>
+	<Verse VerseID="42"><![CDATA[They ask/question you about the Hour/Resurrection when (is) its landing ?]]></Verse>
+	<Verse VerseID="43"><![CDATA[In what you are from mentioning/remembering it (what do you know about it or its time)?]]></Verse>
+	<Verse VerseID="44"><![CDATA[To your Lord (is) its ultimate/absolute end.]]></Verse>
+	<Verse VerseID="45"><![CDATA[Truly/but you are a warner/giver of notice (to) who fears it.]]></Verse>
+	<Verse VerseID="46"><![CDATA[As if they are, a day/time they see it, they did not stay/remain/wait (in their graves) except an evening or its daybreak/forenoon 456]]></Verse>
+</Chapter>
