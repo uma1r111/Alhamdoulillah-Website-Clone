@@ -26,7 +26,7 @@ $page12 = substr($url, 0, 12);
 
 if ($page0 == '/index.html') $class0 = 'class="active"';
 if ($page1 == '/horaires-prieres') $class1 = 'class="active"';
-if ($page2 == '/calendrier-musulman.html') $class2 = 'class="active"';
+if ($page2 == '/calendrier-musulman.html') $class2 = 'class="ac tive"';
 if ($page3 == '/coran/lire') $class3 = 'class="active"';
 if ($page4 == '/coran/mp3') $class4 = 'class="active"';
 if ($page6 == '/sermons-vendredi') $class6 = 'class="active"';
