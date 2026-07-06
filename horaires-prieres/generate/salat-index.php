@@ -5,7 +5,7 @@ $VilleLong = 39.82563;
 
 		$count=0;
 
-		for ($i=1; $i<=2400; $i++) 
+		for ($i=1; $i<=2247; $i++) 
 	{
 		${'country'.$i} = getSuraData($i, 'country');
 		${'continent'.$i} = getSuraData($i, 'continent');

@@ -13,7 +13,8 @@
         xml_parse_into_struct($parser, $quranData, $values, $index);
         xml_parser_free($parser);
 
-		        for ($i=1; $i<=2400; $i++) 
+		        $total = count($index['SURA']);
+        for ($i=1; $i<=$total; $i++) 
         {
             $j = $index['SURA'][$i-1];
             foreach ($dataItems as $item)

@@ -18,40 +18,32 @@ include("inc/doctype.php") ?>
 
 <p>Toute la rédaction de <i>La Louange</i> vous souhaite la bienvenue sur ce site dédié à l'islam, la religion musulmane et sa communauté francophone et internationale.</p>
 
-<?php  require_once( dirname(__FILE__) . '/blog/wp-load.php' );
-			
-			function wpdocs_custom_excerpt_length( $length ) {
-			return 50;
-			}
-			add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
-			
-			
-			// Start the Loop.
-			
-			
-			$wp_query = new WP_Query(); $wp_query->query('posts_per_page=3' . '&paged='.$paged);
-		while ($wp_query->have_posts()) : $wp_query->the_post(); 
-
+<?php
+try {
+	@require_once( dirname(__FILE__) . '/blog/wp-load.php' );
+	if (function_exists('add_filter')) {
+		function wpdocs_custom_excerpt_length( $length ) { return 50; }
+		add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+		$wp_query = new WP_Query();
+		$wp_query->query('posts_per_page=3' . '&paged='.$paged);
+		while ($wp_query->have_posts()) : $wp_query->the_post();
 			$tourne = 0;
-			
 			if ($tourne < 5) {
-			
-		$titre = get_the_title();
-		$linko = get_permalink();
-		$lien = substr($linko, 31);
-		$perma = basename(get_permalink());
-		$nom = substr($perma, 0, -5);
-		$altag = str_replace("-", " ", $nom);
-		$fileimage = "/blog/images/small/$nom.webp"; 
-
-echo "<a href=\"$lien\"><img class=\"lazy\" style=\"vertical-align:top; padding-left:15px; padding-top:20px; padding-right: 15px; padding-bottom:0px; width:250px; height:150px; float:left;\" alt=\"$altag\" data-src=\"$fileimage\" /></a><p style=\"font-size:15pt; font-family:trebuchet ms; margin-bottom:10px;\"><b><u><a href=\"$lien\">$titre</a></u></b></p>";
-the_excerpt(); 
-			// End the loop.
-			$tourne++;}
-			endwhile;
-
-
-			get_sidebar( 'blog/content-bottom' ); ?>
+				$titre = get_the_title();
+				$linko = get_permalink();
+				$lien = substr($linko, 31);
+				$perma = basename(get_permalink());
+				$nom = substr($perma, 0, -5);
+				$altag = str_replace("-", " ", $nom);
+				$fileimage = "/blog/images/small/$nom.webp";
+				echo "<a href=\"$lien\"><img class=\"lazy\" style=\"vertical-align:top; padding-left:15px; padding-top:20px; padding-right: 15px; padding-bottom:0px; width:250px; height:150px; float:left;\" alt=\"$altag\" data-src=\"$fileimage\" /></a><p style=\"font-size:15pt; font-family:trebuchet ms; margin-bottom:10px;\"><b><u><a href=\"$lien\">$titre</a></u></b></p>";
+				the_excerpt();
+				$tourne++;}
+		endwhile;
+		get_sidebar( 'blog/content-bottom' );
+	}
+} catch (Exception $e) { /* no local DB, skip blog posts */ }
+?>
 			
 			<br>
 			
