@@ -1,38 +1,25 @@
-<!-- START FIGMA MATCHED SIDEBAR BANNER -->
-<div class="migration-sidebar-banner" style="width: 100%; max-width: 340px; background: #6f22d8 linear-gradient(185deg, #6f22d8 0%, #4a148c 100%); border-radius: 12px; box-sizing: border-box; padding: 25px 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin-bottom: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); position: relative; overflow: hidden;">
+<div class="migration-sidebar-banner" style="width: 100%; max-width: 340px; min-height: 480px; border-radius: 16px; box-sizing: border-box; padding: 35px 20px 0 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin-bottom: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); position: relative; overflow: hidden; background-image: url('/images/banners/rightside/Background_Design.png'), url('/images/banners/rightside/Purple_Gradient.png'); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: cover, cover; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
     
-    <!-- Phone Mockup Graphic Layer -->
-    <div style="width: 140px; height: 160px; margin: 0 auto 15px auto; position: relative;">
-        <img src="/images/banners/popup-app-mockup.png" alt="App Preview" style="width: 100%; height: auto; object-fit: contain; filter: drop-shadow(0px 8px 12px rgba(0,0,0,0.3));">
-    </div>
+    <div style="width: 100%; z-index: 3; position: relative; display: flex; flex-direction: column; align-items: center; text-align: center;">
+        
+        <h3 style="margin: 0 0 12px 0; padding: 0; font-size: 24px; color: #ffffff; font-weight: 700; letter-spacing: -0.5px; line-height: 1.2; text-align: center; width: 100%; display: block;">
+            Faith at Your Fingertips
+        </h3>
+        
+        <p style="margin: 0 0 20px 0; padding: 0 5px; font-size: 12.5px; color: rgba(255, 255, 255, 0.85); line-height: 1.5; font-weight: 400; text-align: center; width: 100%; display: block;">
+            Read the Quran, explore authentic Hadith, make dhikr, and strengthen your daily worship with one beautifully designed app.
+        </p>
 
-    <!-- Typography matching image_879cc9.png -->
-    <h3 style="margin: 0 0 6px 0; font-size: 19px; color: #ffffff; font-weight: 700; letter-spacing: -0.3px; line-height: 1.2;">
-        Download Al-hamdoulillah App
-    </h3>
-    <p style="margin: 0 0 18px 0; font-size: 11px; color: rgba(255, 255, 255, 0.75); line-height: 1.4;">
-        Get access to Quran, Hadith, and Islamic content on your device
-    </p>
-
-    <!-- App Store Redirection Badges -->
-    <div style="display: flex; justify-content: center; gap: 8px; flex-wrap: wrap;">
-        <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #000000; border: 1px solid rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 4px; text-decoration: none; display: flex; align-items: center; gap: 5px; width: 115px; box-sizing: border-box;">
-            <span style="font-size: 14px; line-height: 1;">🤖</span>
-            <div style="text-align: left; font-family: sans-serif;">
-                <div style="font-size: 6px; color: #ffffff; text-transform: uppercase; white-space: nowrap;">GET IT ON</div>
-                <div style="font-size: 9px; color: #ffffff; font-weight: bold; line-height: 1; white-space: nowrap;">Google Play</div>
-            </div>
-        </a>
-        <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #000000; border: 1px solid rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 4px; text-decoration: none; display: flex; align-items: center; gap: 5px; width: 115px; box-sizing: border-box;">
-            <span style="font-size: 14px; line-height: 1;">🍏</span>
-            <div style="text-align: left; font-family: sans-serif;">
-                <div style="font-size: 6px; color: #ffffff; text-transform: uppercase; white-space: nowrap;">Download on the</div>
-                <div style="font-size: 9px; color: #ffffff; font-weight: bold; line-height: 1; white-space: nowrap;">App Store</div>
-            </div>
+        <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #ffffff; color: #2e0f6c; font-size: 13.5px; font-weight: 600; padding: 10px 24px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); text-align: center; transition: background-color 0.2s, transform 0.2s; border: 1px solid rgba(255,255,255,0.1);" onmouseover="this.style.backgroundColor='#f8f9fa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.transform='translateY(0)';">
+            Learn More
         </a>
     </div>
+
+    <div style="width: 100%; display: flex; justify-content: center; align-items: flex-end; position: relative; z-index: 1; margin-top: 15px; height: 250px; overflow: hidden; pointer-events: none;">
+        <img src="/images/banners/rightside/Iphones.png" alt="App Preview Interface Mockups" style="width: 105%; max-width: 290px; height: auto; display: block; vertical-align: bottom; margin-bottom: 0;">
+    </div>
+
 </div>
-<!-- END FIGMA MATCHED SIDEBAR BANNER -->
 
 <center>
 <div style="border-bottom:1px solid gray; margin-bottom:15px;  padding:5px; background-color:white; text-align:center; border-radius:3px;">         

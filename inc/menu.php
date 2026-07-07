@@ -127,76 +127,93 @@ data-ad-slot="7226757905"></ins>
 <!-- ================================================================= -->
 <!-- 1. GLOBAL TRAFFIC DIVERSION LEADERBOARD BANNER                    -->
 <!-- ================================================================= -->
-<div class="migration-leaderboard-card" style="width: 100%; max-width: 1100px; margin: 15px auto; background: #6f22d8 linear-gradient(135deg, #1b2e4b 0%, #6f22d8 50%, #4a148c 100%); border-radius: 12px; box-sizing: border-box; padding: 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 4px 15px rgba(0,0,0,0.2); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px;">
-    
-    <!-- Left Column: Marketing Copy Details -->
-    <div style="text-align: left; padding-left: 10px; flex: 1; min-width: 280px;">
-        <h3 style="margin: 0 0 4px 0; font-size: 20px; color: #ffffff; font-weight: 700; letter-spacing: -0.3px;">
-            Discover Our Brand New Version! ✨
-        </h3>
-        <p style="margin: 0; font-size: 13px; color: rgba(255, 255, 255, 0.8); line-height: 1.4;">
-            Enjoy a highly optimized modern design, faster loading speeds, and advanced Islamic features.
-        </p>
-    </div>
+<div class="migration-leaderboard-wrapper" style="width: 100%; max-width: 1100px; margin: 15px auto; padding: 0 10px; box-sizing: border-box;">
+    <div style="display: block; position: relative; width: 100%; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2); background-image: url('/images/banners/background_design.jpg'), url('/images/banners/background_design.png'), url('/images/banners/purple_gradient.jpg'), url('/images/banners/purple_gradient.png'), linear-gradient(180deg, #e3ddf7 0%, #cbd2f6 100%); background-repeat: repeat-x, repeat-x, no-repeat, no-repeat, no-repeat; background-position: center center, center center, center center, center center, center center; background-size: auto 100%, auto 100%, cover, cover, cover; display: flex; align-items: center; justify-content: center; min-height: 150px; padding: 20px 0; box-sizing: border-box;">
+        
+        <div style="position: absolute; top: 0; left: 20px; z-index: 2; height: 100%;" class="banner-lantern-left">
+            <img src="/images/banners/lantern.png" alt="Lantern Decor" style="height: 145px; width: auto; display: block;">
+        </div>
 
-    <!-- Right Column: Interactive Destination Link -->
-    <div style="padding-right: 10px;">
-        <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #ffffff; color: #6f22d8; padding: 12px 24px; font-size: 14px; font-weight: 700; text-decoration: none; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); transition: transform 0.2s, background-color 0.2s;" onmouseover="this.style.backgroundColor='#f3e5f5'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.transform='translateY(0)';">
-            Explore New Site
-        </a>
+        <div style="max-width: 65%; text-align: center; padding: 0 10px; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; box-sizing: border-box;">
+            
+            <h2 style="margin: 0 0 6px 0; padding: 0; font-size: 36px; font-weight: 700; color: #2e0f6c; line-height: 1.15; letter-spacing: -0.5px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+                Carry Islam With You
+            </h2>
+            
+            <p style="margin: 0 0 15px 0; padding: 0; font-size: 13.5px; font-weight: 400; color: #565656; line-height: 1.4; max-width: 580px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+                Access the Quran, Hadith, Tasbeeh, Duas, and powerful Islamic tools designed to help you stay connected to your faith every day.
+            </p>
+            
+            <div style="position: relative; display: inline-block;">
+                <img src="/images/banners/Download_Buttons.png" alt="Download on Play Store and App Store" usemap="#leaderboard-download-map" style="height: 40px; width: auto; display: block; border: none;">
+                
+                <map name="leaderboard-download-map">
+                    <area shape="rect" coords="0,0,170,40" href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" alt="Go to Google Play">
+                    <area shape="rect" coords="171,0,340,40" href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" alt="Go to App Store">
+                </map>
+            </div>
+
+        </div>
+
+        <div style="position: absolute; top: 0; right: 20px; z-index: 2; height: 100%;" class="banner-lantern-right">
+            <img src="/images/banners/lantern.png" alt="Lantern Decor" style="height: 145px; width: auto; display: block; transform: scaleX(-1);">
+        </div>
+
     </div>
 </div>
 
+<style>
+@media (max-width: 768px) {
+    .banner-lantern-left, .banner-lantern-right {
+        display: none !important;
+    }
+    .migration-leaderboard-wrapper h2 {
+        font-size: 26px !important;
+    }
+    .migration-leaderboard-wrapper p {
+        font-size: 12px !important;
+    }
+}
+</style>
 
 <!-- ================================================================= -->
 <!-- 2. TRAFFIC DIVERSION MODAL POPUP                                  -->
 <!-- ================================================================= -->
 <div id="migrationModal" style="display: none; position: fixed; z-index: 999999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.85); align-items: center; justify-content: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; padding: 20px; box-sizing: border-box;">
-    <div style="background-color: #12141c; background-image: radial-gradient(circle at top right, rgba(111, 34, 216, 0.15), transparent 60%); width: 100%; max-width: 750px; min-height: 420px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.08); overflow: hidden; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); position: relative; display: flex; flex-direction: row; animation: modalSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1); box-sizing: border-box;">
+    
+    <div style="width: 100%; max-width: 520px; height: 520px; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); position: relative; box-sizing: border-box; background-image: url('images/banners/popup/Backround_Design.png'), url('images/banners/popup/Purple_Gradient.png'); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: cover, cover; animation: modalSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);">
         
-        <!-- Close Button -->
-        <button onclick="closeMigrationModal()" style="position: absolute; top: 15px; right: 20px; background: none; border: none; font-size: 28px; color: rgba(255,255,255,0.4); cursor: pointer; line-height: 1; z-index: 10; transition: color 0.2s;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='rgba(255,255,255,0.4)'">&times;</button>
+        <button onclick="closeMigrationModal()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; cursor: pointer; z-index: 10; padding: 0; width: 32px; height: 32px; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <img src="images/banners/popup/Cancel_Button.png" alt="Close" style="width: 100%; height: 100%; display: block;">
+        </button>
         
-        <!-- Left Column: Copy Content and Call to Actions -->
-        <div style="flex: 1.2; padding: 45px 30px 45px 45px; display: flex; flex-direction: column; justify-content: center; text-align: left; z-index: 2; box-sizing: border-box;">
-            <h2 style="margin: 0 0 16px 0; font-size: 34px; font-weight: 800; color: #6f22d8; line-height: 1.2; letter-spacing: -0.5px;">
-                Join Thousands of Muslims
+        <div style="width: 100%; padding: 45px 40px 0 45px; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; z-index: 3; position: relative; box-sizing: border-box;">
+            
+            <h2 style="margin: 0 0 10px 0; padding: 0; font-size: 32px; font-weight: 700; color: #2e0f6c; line-height: 1.15; letter-spacing: -0.8px; text-align: left; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+                Join Thousands<br>of Muslims
             </h2>
-            <p style="margin: 0 0 32px 0; font-size: 15px; color: #a0a5b5; line-height: 1.6; font-weight: 400; max-width: 380px;">
+            
+            <p style="margin: 0 0 20px 0; padding: 0; font-size: 14px; font-weight: 400; color: #565656; line-height: 1.45; max-width: 310px; text-align: left; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
                 Become part of a growing global community using Alhamdulillah to learn, reflect, and build stronger Islamic habits.
             </p>
-            <div style="display: flex; gap: 14px; flex-wrap: wrap;">
-                <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="background-color: #6f22d8; color: #ffffff; padding: 12px 24px; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px; transition: background 0.2s; box-shadow: 0 4px 12px rgba(111, 34, 216, 0.35); text-align: center;" onmouseover="this.style.backgroundColor='#5b1ab8'" onmouseout="this.style.backgroundColor='#6f22d8'">
+            
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center; z-index: 4;">
+                <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #6c17cc; color: #ffffff; font-size: 12.5px; font-weight: 600; padding: 9px 18px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 10px rgba(108, 23, 204, 0.15); text-align: center; transition: background-color 0.2s, transform 0.2s;" onmouseover="this.style.backgroundColor='#5710aa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#6c17cc'; this.style.transform='translateY(0)';">
                     Explore Features
                 </a>
-                <!-- Fixed Destination Link Below -->
-                <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="background-color: #ffffff; color: #12141c; padding: 12px 24px; font-size: 14px; font-weight: 600; text-decoration: none; border-radius: 8px; transition: opacity 0.2s; text-align: center; border: 1px solid rgba(255,255,255,0.1);" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
+                
+                <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #ffffff; color: #2e0f6c; font-size: 12.5px; font-weight: 600; padding: 9px 18px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04); text-align: center; border: 1px solid rgba(0,0,0,0.05); transition: background-color 0.2s, transform 0.2s;" onmouseover="this.style.backgroundColor='#f8f9fa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.transform='translateY(0)';">
                     Learn More
                 </a>
             </div>
         </div>
         
-        <!-- Right Column: App Mockup Graphics Space -->
-        <div style="flex: 0.8; position: relative; display: flex; align-items: flex-end; justify-content: center; overflow: hidden; background-color: rgba(0,0,0,0.15); box-sizing: border-box; min-width: 260px;" class="modal-graphics-column">
-            <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: block; width: 100%; height: 100%; z-index: 1;">
-                <div style="position: absolute; bottom: -60px; right: -20px; width: 320px; height: 380px; background: url('/images/banners/popup-app-mockup.png') no-repeat bottom right; background-size: contain;"></div>
-            </a>
-            <div style="position: absolute; bottom: -50px; right: -50px; width: 200px; height: 200px; background-color: #6f22d8; filter: blur(70px); opacity: 0.25; border-radius: 50%;"></div>
+        <div style="position: absolute; bottom: -5px; right: -5px; width: 100%; max-width: 390px; z-index: 1; pointer-events: none;">
+            <img src="images/banners/popup/Iphones.png" alt="App Screens Preview" style="width: 100%; height: auto; display: block;">
         </div>
+
     </div>
 </div>
-
-<style>
-@keyframes modalSlideUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-@media (max-width: 680px) {
-    #migrationModal > div { flex-direction: column !important; min-height: auto !important; max-width: 420px !important; }
-    .modal-graphics-column { display: none !important; }
-    #migrationModal > div > div:first-child { padding: 40px 25px !important; }
-}
-</style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -212,4 +229,3 @@ function closeMigrationModal() {
     sessionStorage.setItem("migrationModalDismissed", "true");
 }
 </script>
-<!-- END TRAFFIC DIVERSION MODAL POPUP -->
