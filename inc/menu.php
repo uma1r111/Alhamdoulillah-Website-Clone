@@ -1,5 +1,39 @@
 <?php
 
+if (!isset($test)) $test = $_SERVER['REQUEST_URI'];
+
+$lang = 'fr';
+if (strstr($test, '/en/')) $lang = 'en';
+if (strstr($test, '/ar/')) $lang = 'ar';
+
+$banner_translations = [
+    'fr' => [
+        'headline'       => 'Portez l\'Islam avec vous',
+        'subtext'        => 'Accédez au Coran, aux Hadiths, au Tasbeeh, aux Douas et à de puissants outils islamiques pour rester connecté à votre foi chaque jour.',
+        'btn_primary'    => 'Découvrir',
+        'btn_secondary'  => 'En savoir plus',
+        'modal_headline' => 'Rejoignez des milliers<br>de Musulmans',
+        'modal_subtext'  => 'Rejoignez une communauté mondiale grandissante utilisant Alhamdulillah pour apprendre et renforcer ses habitudes islamiques.',
+    ],
+    'en' => [
+        'headline'       => 'Carry Islam With You',
+        'subtext'        => 'Access the Quran, Hadith, Tasbeeh, Duas, and powerful Islamic tools designed to help you stay connected to your faith every day.',
+        'btn_primary'    => 'Explore Features',
+        'btn_secondary'  => 'Learn More',
+        'modal_headline' => 'Join Thousands<br>of Muslims',
+        'modal_subtext'  => 'Become part of a growing global community using Alhamdulillah to learn, reflect, and build stronger Islamic habits.',
+    ],
+    'ar' => [
+        'headline'       => 'احمل الإسلام معك',
+        'subtext'        => 'الوصول إلى القرآن والحديث والتسبيح والأدعية وأدوات إسلامية قوية.',
+        'btn_primary'    => 'استكشف',
+        'btn_secondary'  => 'اعرف المزيد',
+        'modal_headline' => 'انضم إلى آلاف<br>المسلمين',
+        'modal_subtext'  => 'كن جزءاً من مجتمع عالمي متنامٍ يستخدم الحمد لله للتعلم وبناء عادات إسلامية أقوى.',
+    ],
+];
+$t = $banner_translations[$lang];
+
 if (stristr($test, "actualite") == true) $dac = "oui";
 if (stristr($test, "islamophobie") == true) $dac = "oui";
 if ($dac !== "oui") echo "<meta name=\"Googlebot-News\" content=\"noindex\">"; 
@@ -137,11 +171,11 @@ data-ad-slot="7226757905"></ins>
         <div style="max-width: 65%; text-align: center; padding: 0 10px; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; box-sizing: border-box;">
             
             <h2 style="margin: 0 0 6px 0; padding: 0; font-size: 36px; font-weight: 700; color: #2e0f6c; line-height: 1.15; letter-spacing: -0.5px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-                Carry Islam With You
+                <?= $t['headline'] ?>
             </h2>
             
             <p style="margin: 0 0 15px 0; padding: 0; font-size: 13.5px; font-weight: 400; color: #565656; line-height: 1.4; max-width: 580px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
-                Access the Quran, Hadith, Tasbeeh, Duas, and powerful Islamic tools designed to help you stay connected to your faith every day.
+                <?= $t['subtext'] ?>
             </p>
             
             <div style="position: relative; display: inline-block;">
@@ -190,20 +224,20 @@ data-ad-slot="7226757905"></ins>
         <div style="width: 100%; padding: 45px 40px 0 45px; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; z-index: 3; position: relative; box-sizing: border-box;">
             
             <h2 style="margin: 0 0 10px 0; padding: 0; font-size: 32px; font-weight: 700; color: #2e0f6c; line-height: 1.15; letter-spacing: -0.8px; text-align: left; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
-                Join Thousands<br>of Muslims
+                <?= $t['modal_headline'] ?>
             </h2>
             
             <p style="margin: 0 0 20px 0; padding: 0; font-size: 14px; font-weight: 400; color: #565656; line-height: 1.45; max-width: 310px; text-align: left; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
-                Become part of a growing global community using Alhamdulillah to learn, reflect, and build stronger Islamic habits.
+                <?= $t['modal_subtext'] ?>
             </p>
             
             <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center; z-index: 4;">
                 <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #6c17cc; color: #ffffff; font-size: 12.5px; font-weight: 600; padding: 9px 18px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 10px rgba(108, 23, 204, 0.15); text-align: center; transition: background-color 0.2s, transform 0.2s;" onmouseover="this.style.backgroundColor='#5710aa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#6c17cc'; this.style.transform='translateY(0)';">
-                    Explore Features
+                    <?= $t['btn_primary'] ?>
                 </a>
                 
                 <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #ffffff; color: #2e0f6c; font-size: 12.5px; font-weight: 600; padding: 9px 18px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04); text-align: center; border: 1px solid rgba(0,0,0,0.05); transition: background-color 0.2s, transform 0.2s;" onmouseover="this.style.backgroundColor='#f8f9fa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.transform='translateY(0)';">
-                    Learn More
+                    <?= $t['btn_secondary'] ?>
                 </a>
             </div>
         </div>
