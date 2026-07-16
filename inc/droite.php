@@ -51,22 +51,7 @@ $td = $banner_translations_droite[$lang];
 <div style="border-bottom:1px solid gray; margin-bottom:15px;  padding:5px; background-color:white; text-align:center; border-radius:3px;">         
         <?php 
             
-            include_once ("hijri.php");
-            
-            $d = new uCakl;     
-
-            $d->setLang("fr");
-            echo "<b>" . $d->date("l j F")."</b><br>\n";
-            $d->setLang("ar");
-            echo $d->date("l j F");
-
-            ?>
-        </div>
-<center>
-<div style="border-bottom:1px solid gray; margin-bottom:15px;  padding:5px; background-color:white; text-align:center; border-radius:3px;">         
-        <?php 
-            
-            include_once ("hijri.php");
+            include_once __DIR__ . '/hijri.php';
             
             $d = new uCakl;     
 
