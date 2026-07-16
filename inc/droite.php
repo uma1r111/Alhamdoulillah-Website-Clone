@@ -36,7 +36,7 @@ $td = $banner_translations_droite[$lang];
             <?= $td['sidebar_subtext'] ?>
         </p>
 
-        <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #ffffff; color: #2e0f6c; font-size: 13.5px; font-weight: 600; padding: 10px 24px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); text-align: center; transition: background-color 0.2s, transform 0.2s; border: 1px solid rgba(255,255,255,0.1);" onmouseover="this.style.backgroundColor='#f8f9fa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.transform='translateY(0)';">
+        <a href="<?= URL_LEARN_MORE ?>" target="_blank" style="display: inline-block; background-color: #ffffff; color: #2e0f6c; font-size: 13.5px; font-weight: 600; padding: 10px 24px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); text-align: center; transition: background-color 0.2s, transform 0.2s; border: 1px solid rgba(255,255,255,0.1);" onmouseover="this.style.backgroundColor='#f8f9fa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.transform='translateY(0)';">
             <?= $td['btn_secondary'] ?>
         </a>
     </div>

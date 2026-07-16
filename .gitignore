@@ -27,6 +27,9 @@ blog/wp-content/cache/
 blog/wp-content/backup-db/
 blog/.htaccess
 
+# Local config
+inc/config.php
+
 # Vim swap files
 *.swp
 *.swo

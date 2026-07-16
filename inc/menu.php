@@ -7,6 +7,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 if (!isset($test)) $test = $_SERVER['REQUEST_URI'];
 
+if (!defined('URL_PLAY_STORE')) require_once __DIR__ . '/config.php';
+
 $lang = 'fr';
 if (strstr($test, '/en/')) $lang = 'en';
 if (strstr($test, '/ar/')) $lang = 'ar';
@@ -183,13 +185,13 @@ data-ad-slot="7226757905"></ins>
                 <?= $t['subtext'] ?>
             </p>
             
-            <div style="position: relative; display: inline-block;">
-                <img src="/images/banners/Download_Buttons.png" alt="Download on Play Store and App Store" usemap="#leaderboard-download-map" style="height: 40px; width: auto; display: block; border: none;">
-                
-                <map name="leaderboard-download-map">
-                    <area shape="rect" coords="0,0,170,40" href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" alt="Go to Google Play">
-                    <area shape="rect" coords="171,0,340,40" href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" alt="Go to App Store">
-                </map>
+            <div style="display: flex; gap: 10px; align-items: center; justify-content: center; flex-wrap: wrap;">
+                <a href="<?= URL_PLAY_STORE ?>" target="_blank">
+                    <img src="/images/banners/Google.png" alt="Get it on Google Play" style="height: 40px; width: auto; display: block; border: none;">
+                </a>
+                <a href="<?= URL_APP_STORE ?>" target="_blank">
+                    <img src="/images/banners/Apple.png" alt="Download on the App Store" style="height: 40px; width: auto; display: block; border: none;">
+                </a>
             </div>
 
         </div>
@@ -237,11 +239,11 @@ data-ad-slot="7226757905"></ins>
             </p>
             
             <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center; z-index: 4;">
-                <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #6c17cc; color: #ffffff; font-size: 12.5px; font-weight: 600; padding: 9px 18px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 10px rgba(108, 23, 204, 0.15); text-align: center; transition: background-color 0.2s, transform 0.2s;" onmouseover="this.style.backgroundColor='#5710aa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#6c17cc'; this.style.transform='translateY(0)';">
+                <a href="<?= URL_LEARN_MORE ?>" target="_blank" style="display: inline-block; background-color: #6c17cc; color: #ffffff; font-size: 12.5px; font-weight: 600; padding: 9px 18px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 10px rgba(108, 23, 204, 0.15); text-align: center; transition: background-color 0.2s, transform 0.2s;" onmouseover="this.style.backgroundColor='#5710aa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#6c17cc'; this.style.transform='translateY(0)';">
                     <?= $t['btn_primary'] ?>
                 </a>
                 
-                <a href="https://al-hamdoulillah.imperiuminnovations.org/" target="_blank" style="display: inline-block; background-color: #ffffff; color: #2e0f6c; font-size: 12.5px; font-weight: 600; padding: 9px 18px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04); text-align: center; border: 1px solid rgba(0,0,0,0.05); transition: background-color 0.2s, transform 0.2s;" onmouseover="this.style.backgroundColor='#f8f9fa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.transform='translateY(0)';">
+                <a href="<?= URL_LEARN_MORE ?>" target="_blank" style="display: inline-block; background-color: #ffffff; color: #2e0f6c; font-size: 12.5px; font-weight: 600; padding: 9px 18px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04); text-align: center; border: 1px solid rgba(0,0,0,0.05); transition: background-color 0.2s, transform 0.2s;" onmouseover="this.style.backgroundColor='#f8f9fa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.transform='translateY(0)';">
                     <?= $t['btn_secondary'] ?>
                 </a>
             </div>
