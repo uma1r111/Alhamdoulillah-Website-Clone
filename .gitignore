@@ -28,7 +28,7 @@ blog/wp-content/backup-db/
 blog/.htaccess
 
 # Local config
-inc/config.php
+# inc/config.php
 
 # Vim swap files
 *.swp
@@ -44,12 +44,12 @@ Thumbs.db
 /public/js/
 /public/css/
 
-images/
+# images/
 */mp3/
 blog/wp-content/uploads/
-*.png
-*.jpg
-*.webp
+# *.png
+# *.jpg
+# *.webp
 *.mp3
 *.ico
 *.jxr
