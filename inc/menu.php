@@ -149,11 +149,6 @@ function myFunction() {
 
 		
 <center>
-<?php if (IS_LOCAL): ?>
-<div style="width:728px; height:90px; background-color:#e8e8e8; border:2px dashed #aaaaaa; display:flex; align-items:center; justify-content:center; margin:0 auto; box-sizing:border-box;">
-    <span style="font-size:13px; color:#888888; font-family:sans-serif;">Ad Placeholder — 728×90 Leaderboard</span>
-</div>
-<?php else: ?>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7774762967038154" crossorigin="anonymous"></script>
 <!-- AllHamdulillah top header ad -->
 <ins class="adsbygoogle example_responsive_1"
@@ -163,7 +158,6 @@ data-ad-slot="7226757905"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<?php endif; ?>
 </center>
 
 <!-- ================================================================= -->

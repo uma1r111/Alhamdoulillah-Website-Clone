@@ -49,12 +49,6 @@ $td = $banner_translations_droite[$lang];
 
 <center>
 
-<?php $is_local_sidebar = in_array($_SERVER['HTTP_HOST'], ['localhost', 'alhamdoulillah.local', '127.0.0.1']); ?>
-<?php if ($is_local_sidebar): ?>
-<div style="width:300px; height:250px; background-color:#e8e8e8; border:2px dashed #aaaaaa; display:flex; align-items:center; justify-content:center; margin:0 auto 15px auto; box-sizing:border-box;">
-    <span style="font-size:13px; color:#888888; font-family:sans-serif;">Google AdSense — 300×250 Sidebar</span>
-</div>
-<?php else: ?>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7774762967038154"
 crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
@@ -66,7 +60,6 @@ data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<?php endif; ?>
 
 <?php 
 $hijri_script = __DIR__ . '/hijri.php';
