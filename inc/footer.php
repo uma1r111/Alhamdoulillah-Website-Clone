@@ -70,63 +70,6 @@ window.cookieconsent.initialise({
 })});
 </script>
 
-<!-- START MIGRATION POPUP MODAL -->
-<div id="migrationModal" style="display:none; position:fixed; z-index:999999; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.85); font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; padding:20px; box-sizing:border-box;">
-
-    <div style="background-color:#12141c; background-image:radial-gradient(circle at top right, rgba(111,34,216,0.15), transparent 60%); width:100%; max-width:750px; min-height:420px; border-radius:16px; border:1px solid rgba(255,255,255,0.08); overflow:hidden; box-shadow:0 20px 50px rgba(0,0,0,0.5); position:relative; display:flex; flex-direction:row; animation:modalSlideUp 0.4s cubic-bezier(0.16,1,0.3,1); box-sizing:border-box;">
-
-        <button onclick="closeMigrationModal()" style="position:absolute; top:15px; right:20px; background:none; border:none; font-size:28px; color:rgba(255,255,255,0.4); cursor:pointer; line-height:1; z-index:10;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='rgba(255,255,255,0.4)'">&times;</button>
-
-        <div style="flex:1.2; padding:45px 30px 45px 45px; display:flex; flex-direction:column; justify-content:center; text-align:left; z-index:2; box-sizing:border-box;">
-            <h2 style="margin:0 0 16px 0; font-size:34px; font-weight:800; color:#6f22d8; line-height:1.2; letter-spacing:-0.5px;">Join Thousands of Muslims</h2>
-            <p style="margin:0 0 32px 0; font-size:15px; color:#a0a5b5; line-height:1.6; max-width:380px;">Become part of a growing global community using Alhamdulillah to learn, reflect, and build stronger Islamic habits.</p>
-            <div style="display:flex; gap:14px; flex-wrap:wrap;">
-                <a href="https://new.al-hamdoulillah.com" target="_blank" style="background-color:#6f22d8; color:#ffffff; padding:12px 24px; font-size:14px; font-weight:600; text-decoration:none; border-radius:8px; box-shadow:0 4px 12px rgba(111,34,216,0.35); text-align:center;" onmouseover="this.style.backgroundColor='#5b1ab8'" onmouseout="this.style.backgroundColor='#6f22d8'">Explore Features</a>
-                <a href="https://new.al-hamdoulillah.com/about" target="_blank" style="background-color:#ffffff; color:#12141c; padding:12px 24px; font-size:14px; font-weight:600; text-decoration:none; border-radius:8px; border:1px solid rgba(255,255,255,0.1); text-align:center;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">Learn More</a>
-            </div>
-        </div>
-
-        <div style="flex:0.8; position:relative; display:flex; align-items:flex-end; justify-content:center; overflow:hidden; background-color:rgba(0,0,0,0.15); box-sizing:border-box; min-width:260px;" class="modal-graphics-col">
-            <div style="position:absolute; bottom:-60px; right:-20px; width:320px; height:380px; background:url('/images/banners/popup-app-mockup.png') no-repeat bottom right; background-size:contain; z-index:1;"></div>
-            <div style="position:absolute; bottom:-50px; right:-50px; width:200px; height:200px; background-color:#6f22d8; filter:blur(70px); opacity:0.25; border-radius:50%;"></div>
-        </div>
-
-    </div>
-</div>
-
-<style>
-@keyframes modalSlideUp {
-    from { opacity:0; transform:translateY(30px); }
-    to   { opacity:1; transform:translateY(0); }
-}
-#migrationModal.active {
-    display:flex !important;
-    align-items:center;
-    justify-content:center;
-}
-@media (max-width:680px) {
-    #migrationModal > div { flex-direction:column !important; min-height:auto !important; max-width:420px !important; }
-    .modal-graphics-col  { display:none !important; }
-    #migrationModal > div > div:first-of-type { padding:35px 25px !important; }
-}
-</style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    if (!sessionStorage.getItem("migrationModalDismissed")) {
-        setTimeout(function() {
-            var m = document.getElementById("migrationModal");
-            m.classList.add("active");
-        }, 1200);
-    }
-});
-function closeMigrationModal() {
-    document.getElementById("migrationModal").classList.remove("active");
-    sessionStorage.setItem("migrationModalDismissed", "true");
-}
-</script>
-<!-- END MIGRATION POPUP MODAL -->
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var lazyloadImages;    
