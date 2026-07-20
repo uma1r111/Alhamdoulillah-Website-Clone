@@ -149,10 +149,12 @@ function myFunction() {
 
 		
 <center>
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7774762967038154"
-crossorigin="anonymous"></script>
+<?php if (IS_LOCAL): ?>
+<div style="width:728px; height:90px; background-color:#e8e8e8; border:2px dashed #aaaaaa; display:flex; align-items:center; justify-content:center; margin:0 auto; box-sizing:border-box;">
+    <span style="font-size:13px; color:#888888; font-family:sans-serif;">Ad Placeholder — 728×90 Leaderboard</span>
+</div>
+<?php else: ?>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7774762967038154" crossorigin="anonymous"></script>
 <!-- AllHamdulillah top header ad -->
 <ins class="adsbygoogle example_responsive_1"
 style="display:inline-block"
@@ -161,8 +163,7 @@ data-ad-slot="7226757905"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-</center>
+<?php endif; ?>
 </center>
 
 <!-- ================================================================= -->
@@ -243,7 +244,7 @@ data-ad-slot="7226757905"></ins>
                     <?= $t['btn_primary'] ?>
                 </a>
                 
-                <a href="<?= URL_LEARN_MORE ?>" target="_blank" style="display: inline-block; background-color: #ffffff; color: #2e0f6c; font-size: 12.5px; font-weight: 600; padding: 9px 18px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04); text-align: center; border: 1px solid rgba(0,0,0,0.05); transition: background-color 0.2s, transform 0.2s;" onmouseover="this.style.backgroundColor='#f8f9fa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.transform='translateY(0)';">
+                <a href="<?= URL_LEARN_MORE_FEATURES ?>" target="_blank" style="display: inline-block; background-color: #ffffff; color: #2e0f6c; font-size: 12.5px; font-weight: 600; padding: 9px 18px; border-radius: 8px; text-decoration: none; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04); text-align: center; border: 1px solid rgba(0,0,0,0.05); transition: background-color 0.2s, transform 0.2s;" onmouseover="this.style.backgroundColor='#f8f9fa'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#ffffff'; this.style.transform='translateY(0)';">
                     <?= $t['btn_secondary'] ?>
                 </a>
             </div>
