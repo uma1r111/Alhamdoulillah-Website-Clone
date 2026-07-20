@@ -164,7 +164,7 @@ data-ad-slot="7226757905"></ins>
 <!-- 1. GLOBAL TRAFFIC DIVERSION LEADERBOARD BANNER                    -->
 <!-- ================================================================= -->
 <div class="migration-leaderboard-wrapper" style="width: 100%; max-width: 1100px; margin: 15px auto; padding: 0 10px; box-sizing: border-box;">
-    <div style="display: block; position: relative; width: 100%; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2); background-image: url('/images/banners/background_design.jpg'), url('/images/banners/background_design.png'), url('/images/banners/purple_gradient.jpg'), url('/images/banners/purple_gradient.png'), linear-gradient(180deg, #e3ddf7 0%, #cbd2f6 100%); background-repeat: repeat-x, repeat-x, no-repeat, no-repeat, no-repeat; background-position: center center, center center, center center, center center, center center; background-size: auto 100%, auto 100%, cover, cover, cover; display: flex; align-items: center; justify-content: center; min-height: 150px; padding: 20px 0; box-sizing: border-box;">
+    <div style="display: block; position: relative; width: 100%; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2); background-image: url('/images/banners/background_design.jpg'), url('/images/banners/background_design.png'), linear-gradient(180deg, #E4D8FF 0%, #AFC7FF 100%); background-repeat: repeat-x, repeat-x, no-repeat; background-position: center center, center center, center center; background-size: auto 100%, auto 100%, cover; display: flex; align-items: center; justify-content: center; min-height: 150px; padding: 20px 0; box-sizing: border-box;">
         
         <div style="position: absolute; top: 0; left: 20px; z-index: 2; height: 100%;" class="banner-lantern-left">
             <img src="/images/banners/lantern.png" alt="Lantern Decor" style="height: 145px; width: auto; display: block;">
@@ -181,11 +181,13 @@ data-ad-slot="7226757905"></ins>
             </p>
             
             <div style="display: flex; gap: 10px; align-items: center; justify-content: center; flex-wrap: wrap;">
-                <a href="<?= URL_PLAY_STORE ?>" target="_blank">
-                    <img src="/images/banners/Google.png" alt="Get it on Google Play" style="height: 40px; width: auto; display: block; border: none;">
+                <a href="<?= URL_PLAY_STORE ?>" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; gap: 6.56px; width: 113.82432556152344px; height: 23.193359375px; padding: 4.38px 13.13px 4.81px 13.13px; border-radius: 2.19px; border: 0; background: #ffffff; color: #252525; text-decoration: none; box-shadow: none; box-sizing: border-box; transition: transform 0.2s, background-color 0.2s; font-family: Cabin, sans-serif; font-size: 8.75px; font-weight: 400; font-style: normal; line-height: 130%; letter-spacing: 0%; text-align: center; opacity: 1; white-space: nowrap;" onmouseover="this.style.transform='translateY(-1px)'; this.style.backgroundColor='#f8f9fa';" onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='#ffffff';">
+                    <img src="/images/banners/playstore.svg" alt="Google Play" style="width: 12px; height: 12px; display: block; border: none; flex: 0 0 auto;">
+                    <span>Go to Google Play</span>
                 </a>
-                <a href="<?= URL_APP_STORE ?>" target="_blank">
-                    <img src="/images/banners/Apple.png" alt="Download on the App Store" style="height: 40px; width: auto; display: block; border: none;">
+                <a href="<?= URL_APP_STORE ?>" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; gap: 6.56px; width: 113.82432556152344px; height: 23.193359375px; padding: 4.38px 13.13px 4.81px 13.13px; border-radius: 2.19px; border: 0; background: #ffffff; color: #252525; text-decoration: none; box-shadow: none; box-sizing: border-box; transition: transform 0.2s, background-color 0.2s; font-family: Cabin, sans-serif; font-size: 8.75px; font-weight: 400; font-style: normal; line-height: 130%; letter-spacing: 0%; text-align: center; opacity: 1; white-space: nowrap;" onmouseover="this.style.transform='translateY(-1px)'; this.style.backgroundColor='#f8f9fa';" onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='#ffffff';">
+                    <img src="/images/banners/Apple.svg" alt="App Store" style="width: 12px; height: 12px; display: block; border: none; flex: 0 0 auto;">
+                    <span>Go to App Store</span>
                 </a>
             </div>
 
@@ -217,10 +219,10 @@ data-ad-slot="7226757905"></ins>
 <!-- ================================================================= -->
 <div id="migrationModal" style="display: none; position: fixed; z-index: 999999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.85); align-items: center; justify-content: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; padding: 20px; box-sizing: border-box;">
     
-    <div style="width: 100%; max-width: 520px; height: 520px; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); position: relative; box-sizing: border-box; background-image: url('images/banners/popup/Backround_Design.png'), url('images/banners/popup/Purple_Gradient.png'); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: cover, cover; animation: modalSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);">
+    <div style="width: 100%; max-width: 520px; height: 520px; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); position: relative; box-sizing: border-box; background-image: url('images/banners/popup/Backround_Design.png'), linear-gradient(180deg, #E4D8FF 0%, #AFC7FF 100%); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: cover, cover; animation: modalSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);">
         
-        <button onclick="closeMigrationModal()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; cursor: pointer; z-index: 10; padding: 0; width: 32px; height: 32px; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-            <img src="images/banners/popup/Cancel_Button.png" alt="Close" style="width: 100%; height: 100%; display: block;">
+        <button onclick="closeMigrationModal()" aria-label="Close modal" style="position: absolute; top: 15px; right: 15px; width: 34px; height: 34px; border: none; border-radius: 50%; background: rgba(255, 255, 255, 0.92); color: #888888; cursor: pointer; z-index: 10; padding: 0; display: flex; align-items: center; justify-content: center; font-size: 26px; line-height: 1; font-weight: 700; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12); transition: transform 0.2s, background-color 0.2s;" onmouseover="this.style.transform='scale(1.05)'; this.style.backgroundColor='rgba(255, 255, 255, 1)';" onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='rgba(255, 255, 255, 0.92)';">
+            &times;
         </button>
         
         <div style="width: 100%; padding: 45px 40px 0 45px; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; z-index: 3; position: relative; box-sizing: border-box;">

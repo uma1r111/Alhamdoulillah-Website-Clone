@@ -24,7 +24,7 @@ $banner_translations_droite = [
 ];
 $td = $banner_translations_droite[$lang];
 ?>
-<div class="migration-sidebar-banner" style="width: 100%; max-width: 340px; min-height: 480px; border-radius: 16px; box-sizing: border-box; padding: 35px 20px 0 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin-bottom: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); position: relative; overflow: hidden; background-image: url('/images/banners/rightside/Background_Design.png'), url('/images/banners/rightside/Purple_Gradient.png'); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: cover, cover; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
+<div class="migration-sidebar-banner" style="width: 100%; max-width: 340px; min-height: 480px; border-radius: 16px; box-sizing: border-box; padding: 35px 20px 0 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin-bottom: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); position: relative; overflow: hidden; background-image: url('/images/banners/rightside/Background_Design.png'), linear-gradient(180deg, #693CD7 0%, #3E74F1 100%); background-repeat: no-repeat, no-repeat; background-position: center center, center center; background-size: cover, cover; display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
     
     <div style="width: 100%; z-index: 3; position: relative; display: flex; flex-direction: column; align-items: center; text-align: center;">
         
